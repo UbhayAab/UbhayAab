@@ -1,4 +1,4 @@
-﻿name: rebuild profile
+name: rebuild profile
 
 on:
   schedule:
