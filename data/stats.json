@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-09T09:42:20.027Z",
+  "generatedAt": "2026-08-09T09:45:07.461Z",
   "generatedBy": "scripts/gen-stats.mjs",
-  "graphqlCost": 7,
-  "runId": 0,
+  "graphqlCost": 5,
+  "runId": 3,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -14,17 +14,17 @@
   },
   "repos": {
     "total": 37,
-    "public": 25,
+    "public": 26,
     "private": 12,
     "stars": 0,
     "diskKB": 3405815,
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 382,
-    "commits": 364,
-    "repositoriesCreated": 18,
-    "activeDays": 64,
+    "lastYear": 386,
+    "commits": 367,
+    "repositoriesCreated": 19,
+    "activeDays": 67,
     "trackedDays": 365,
     "busiestDay": {
       "date": "2026-07-25",
@@ -460,7 +460,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "commits": 126,
-      "topics": []
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -474,7 +475,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "commits": 119,
-      "topics": []
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
     },
     {
       "name": "public-complaint-hub",
@@ -488,7 +490,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "commits": 102,
-      "topics": []
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
     },
     {
       "name": "glance",
@@ -502,7 +505,8 @@
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "commits": 28,
-      "topics": []
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
     },
     {
       "name": "EyeTracker",
@@ -561,6 +565,20 @@
       "topics": []
     },
     {
+      "name": "MeeshoLod",
+      "url": "https://github.com/UbhayAab/MeeshoLod",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 275,
+      "pushedAt": "2026-07-08T14:45:20Z",
+      "createdAt": "2026-07-08T08:38:01Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 21,
+      "topics": []
+    },
+    {
       "name": "hearth",
       "url": "https://github.com/UbhayAab/hearth",
       "description": null,
@@ -572,7 +590,8 @@
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "commits": 21,
-      "topics": []
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
     },
     {
       "name": "continuity",
@@ -586,21 +605,8 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "commits": 21,
-      "topics": []
-    },
-    {
-      "name": "MeeshoLod",
-      "url": "https://github.com/UbhayAab/MeeshoLod",
-      "description": null,
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 275,
-      "pushedAt": "2026-07-08T14:45:20Z",
-      "createdAt": "2026-07-08T08:38:01Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 21,
-      "topics": []
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
     },
     {
       "name": "soop",
@@ -628,7 +634,8 @@
       "language": "TypeScript",
       "languageColor": "#3178c6",
       "commits": 11,
-      "topics": []
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
     },
     {
       "name": "EggAplha",
@@ -743,6 +750,23 @@
       "topics": []
     },
     {
+      "name": "UbhayAab",
+      "url": "https://github.com/UbhayAab/UbhayAab",
+      "description": "Config files for my GitHub profile.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 0,
+      "pushedAt": "2026-08-09T09:44:52Z",
+      "createdAt": "2021-03-24T23:51:31Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 2,
+      "topics": [
+        "config",
+        "github-config"
+      ]
+    },
+    {
       "name": "AyuSSm",
       "url": "https://github.com/UbhayAab/AyuSSm",
       "description": null,
@@ -771,72 +795,16 @@
       "topics": []
     },
     {
-      "name": "llama.cpp-ubhay",
-      "url": "https://github.com/UbhayAab/llama.cpp-ubhay",
-      "description": "Personal clone of ggml-org/llama.cpp for upstreaming Gemma4 PLE port (upstream tracked as 'upstream' remote)",
-      "isPrivate": true,
+      "name": "UbhayAab.github.io",
+      "url": "https://github.com/UbhayAab/UbhayAab.github.io",
+      "description": "Landing page. Hand-rolled WebGL2, five playable games, every number measured.",
+      "isPrivate": false,
       "stars": 0,
-      "diskKB": 32460,
-      "pushedAt": "2026-06-01T09:34:35Z",
-      "createdAt": "2026-05-16T20:20:10Z",
-      "language": "C++",
-      "languageColor": "#f34b7d",
-      "commits": 1,
-      "topics": []
-    },
-    {
-      "name": "cleanedemails",
-      "url": "https://github.com/UbhayAab/cleanedemails",
-      "description": "Two-tier email cleaning pipeline: Gemini Flash classifies, Gemini Pro / DeepSeek + DuckDuckGo researches the rest",
-      "isPrivate": true,
-      "stars": 0,
-      "diskKB": 32,
-      "pushedAt": "2026-05-16T20:19:43Z",
-      "createdAt": "2026-05-16T20:19:41Z",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "commits": 1,
-      "topics": []
-    },
-    {
-      "name": "Ollama-gemma4",
-      "url": "https://github.com/UbhayAab/Ollama-gemma4",
-      "description": "Local Gemma4 PLE benchmarking with llama.cpp on RTX 5060; capture_oracle + bench scripts",
-      "isPrivate": true,
-      "stars": 0,
-      "diskKB": 21,
-      "pushedAt": "2026-05-16T20:19:16Z",
-      "createdAt": "2026-05-16T20:19:13Z",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "commits": 1,
-      "topics": []
-    },
-    {
-      "name": "Midjourney-bot",
-      "url": "https://github.com/UbhayAab/Midjourney-bot",
-      "description": "Discord-driven Midjourney automation: prompt batching, downloader, prompt matrix generator",
-      "isPrivate": true,
-      "stars": 0,
-      "diskKB": 15,
-      "pushedAt": "2026-05-16T20:18:55Z",
-      "createdAt": "2026-05-16T20:18:52Z",
-      "language": "Python",
-      "languageColor": "#3572A5",
-      "commits": 1,
-      "topics": []
-    },
-    {
-      "name": "KDP-bot",
-      "url": "https://github.com/UbhayAab/KDP-bot",
-      "description": null,
-      "isPrivate": true,
-      "stars": 0,
-      "diskKB": 183,
-      "pushedAt": "2026-05-16T20:18:40Z",
-      "createdAt": "2026-05-04T15:11:16Z",
-      "language": "Python",
-      "languageColor": "#3572A5",
+      "diskKB": 0,
+      "pushedAt": "2026-08-09T09:42:53Z",
+      "createdAt": "2026-08-09T09:42:49Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
       "commits": 1,
       "topics": []
     },
@@ -883,6 +851,81 @@
       "topics": []
     },
     {
+      "name": "llama.cpp-ubhay",
+      "url": "https://github.com/UbhayAab/llama.cpp-ubhay",
+      "description": "Personal clone of ggml-org/llama.cpp for upstreaming Gemma4 PLE port (upstream tracked as 'upstream' remote)",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 32460,
+      "pushedAt": "2026-06-01T09:34:35Z",
+      "createdAt": "2026-05-16T20:20:10Z",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "commits": 1,
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
+    },
+    {
+      "name": "cleanedemails",
+      "url": "https://github.com/UbhayAab/cleanedemails",
+      "description": "Two-tier email cleaning pipeline: Gemini Flash classifies, Gemini Pro / DeepSeek + DuckDuckGo researches the rest",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 32,
+      "pushedAt": "2026-05-16T20:19:43Z",
+      "createdAt": "2026-05-16T20:19:41Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
+    },
+    {
+      "name": "Ollama-gemma4",
+      "url": "https://github.com/UbhayAab/Ollama-gemma4",
+      "description": "Local Gemma4 PLE benchmarking with llama.cpp on RTX 5060; capture_oracle + bench scripts",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 21,
+      "pushedAt": "2026-05-16T20:19:16Z",
+      "createdAt": "2026-05-16T20:19:13Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
+    },
+    {
+      "name": "Midjourney-bot",
+      "url": "https://github.com/UbhayAab/Midjourney-bot",
+      "description": "Discord-driven Midjourney automation: prompt batching, downloader, prompt matrix generator",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 15,
+      "pushedAt": "2026-05-16T20:18:55Z",
+      "createdAt": "2026-05-16T20:18:52Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
+    },
+    {
+      "name": "KDP-bot",
+      "url": "https://github.com/UbhayAab/KDP-bot",
+      "description": null,
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 183,
+      "pushedAt": "2026-05-16T20:18:40Z",
+      "createdAt": "2026-05-04T15:11:16Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": [],
+      "staleSince": "2026-08-09T09:42:20.027Z"
+    },
+    {
       "name": "Patient-Navigator",
       "url": "https://github.com/UbhayAab/Patient-Navigator",
       "description": "JCF",
@@ -909,88 +952,36 @@
       "languageColor": null,
       "commits": 0,
       "topics": []
-    },
-    {
-      "name": "UbhayAab",
-      "url": "https://github.com/UbhayAab/UbhayAab",
-      "description": "Config files for my GitHub profile.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 0,
-      "pushedAt": "2021-03-24T23:51:32Z",
-      "createdAt": "2021-03-24T23:51:31Z",
-      "language": null,
-      "languageColor": null,
-      "commits": 0,
-      "topics": [
-        "config",
-        "github-config"
-      ]
     }
   ],
   "latestCommit": {
-    "repo": "glance",
-    "message": "You can type in it now: a starting cursor, and room past the end",
-    "at": "2026-08-09T09:04:32Z",
-    "ago": "38 minutes ago",
-    "oid": "c3baee4"
+    "repo": "UbhayAab",
+    "message": "Never let a narrow token delete the profile",
+    "at": "2026-08-09T09:44:50Z",
+    "ago": "just now",
+    "oid": "a619c91"
   },
   "recentCommits": [
     {
-      "repo": "glance",
-      "message": "You can type in it now: a starting cursor, and room past the end",
-      "at": "2026-08-09T09:04:32Z",
-      "ago": "38 minutes ago",
-      "oid": "c3baee4"
+      "repo": "UbhayAab",
+      "message": "Never let a narrow token delete the profile",
+      "at": "2026-08-09T09:44:50Z",
+      "ago": "just now",
+      "oid": "a619c91"
     },
     {
-      "repo": "glance",
-      "message": "A real calculation engine: dependency graph, cycles, iterative calcul…",
-      "at": "2026-08-09T08:41:50Z",
-      "ago": "1 hours ago",
-      "oid": "6137ffc"
+      "repo": "UbhayAab.github.io",
+      "message": "Landing page: WebGL2 hero, five games, no framework",
+      "at": "2026-08-09T09:42:49Z",
+      "ago": "2 minutes ago",
+      "oid": "8392f65"
     },
     {
-      "repo": "glance",
-      "message": "Ctrl+A selects the sheet, and Shift extends with every navigation key",
-      "at": "2026-08-09T08:11:58Z",
-      "ago": "2 hours ago",
-      "oid": "74adba6"
-    },
-    {
-      "repo": "glance",
-      "message": "Conditional formatting on date columns, and say when formulas are una…",
-      "at": "2026-08-09T07:43:50Z",
-      "ago": "2 hours ago",
-      "oid": "bba0974"
-    },
-    {
-      "repo": "glance",
-      "message": "Copy a range as a table, not as tab-separated soup",
-      "at": "2026-08-09T07:42:38Z",
-      "ago": "2 hours ago",
-      "oid": "f89c526"
-    },
-    {
-      "repo": "glance",
-      "message": "Fix what the reviewers found in the footer, and one long-standing pai…",
-      "at": "2026-08-09T07:36:33Z",
-      "ago": "2 hours ago",
-      "oid": "385e201"
-    },
-    {
-      "repo": "glance",
-      "message": "Type badges on workbook columns",
-      "at": "2026-08-09T07:30:50Z",
-      "ago": "2 hours ago",
-      "oid": "215a7a7"
-    },
-    {
-      "repo": "glance",
-      "message": "Column footer totals, select-all, column profiling for XLSX, stats panel",
-      "at": "2026-08-09T07:28:13Z",
-      "ago": "2 hours ago",
-      "oid": "30689b2"
+      "repo": "UbhayAab",
+      "message": "Self-generating profile README",
+      "at": "2026-08-09T09:42:21Z",
+      "ago": "3 minutes ago",
+      "oid": "0e1c08a"
     },
     {
       "repo": "soop",
@@ -1000,25 +991,60 @@
       "oid": "d4fb60a"
     },
     {
-      "repo": "glance",
-      "message": "One coercion rule, and the toggles that did nothing",
-      "at": "2026-08-09T06:43:50Z",
-      "ago": "3 hours ago",
-      "oid": "46327c6"
+      "repo": "trackerz",
+      "message": "Four of the thirty numbers in the micros panel were measurements",
+      "at": "2026-08-08T19:57:08Z",
+      "ago": "14 hours ago",
+      "oid": "a55e1eb"
     },
     {
-      "repo": "glance",
-      "message": "Read numbers stored as text, and exclude hidden rows",
-      "at": "2026-08-09T06:30:33Z",
-      "ago": "3 hours ago",
-      "oid": "1a08f24"
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-09",
+      "at": "2026-08-08T19:47:34Z",
+      "ago": "14 hours ago",
+      "oid": "ca61ed5"
     },
     {
-      "repo": "glance",
-      "message": "Selection statistics: Sum, Average, Min, Max and Count, in both grids",
-      "at": "2026-08-09T06:25:08Z",
-      "ago": "3 hours ago",
-      "oid": "8d5fa4b"
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-09",
+      "at": "2026-08-08T19:43:02Z",
+      "ago": "14 hours ago",
+      "oid": "aed5522"
+    },
+    {
+      "repo": "trackerz",
+      "message": "The target it told you every morning was never the one it graded you …",
+      "at": "2026-08-08T19:41:35Z",
+      "ago": "14 hours ago",
+      "oid": "bd53157"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-09",
+      "at": "2026-08-08T19:27:53Z",
+      "ago": "14 hours ago",
+      "oid": "ead1d33"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-08",
+      "at": "2026-08-08T15:56:38Z",
+      "ago": "18 hours ago",
+      "oid": "6f0e896"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-08",
+      "at": "2026-08-08T15:54:20Z",
+      "ago": "18 hours ago",
+      "oid": "b31e5fa"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-08",
+      "at": "2026-08-08T15:48:26Z",
+      "ago": "18 hours ago",
+      "oid": "9286980"
     }
   ],
   "calendar": [
@@ -1788,11 +1814,11 @@
     },
     {
       "date": "2026-02-17",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-02-18",
-      "count": 10
+      "count": 9
     },
     {
       "date": "2026-02-19",
@@ -1804,11 +1830,11 @@
     },
     {
       "date": "2026-02-21",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-02-22",
-      "count": 2
+      "count": 1
     },
     {
       "date": "2026-02-23",
@@ -2428,11 +2454,11 @@
     },
     {
       "date": "2026-07-27",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-07-28",
-      "count": 12
+      "count": 11
     },
     {
       "date": "2026-07-29",
@@ -2480,8 +2506,27 @@
     },
     {
       "date": "2026-08-09",
-      "count": 5
+      "count": 9
     }
   ],
-  "elapsedMs": 8652
+  "elapsedMs": 6017,
+  "partialVisibility": {
+    "missingCount": 12,
+    "missingNames": [
+      "kdp-ads-brain",
+      "illustrated-book-content-engine",
+      "public-complaint-hub",
+      "glance",
+      "hearth",
+      "continuity",
+      "carcinome_wp",
+      "llama.cpp-ubhay",
+      "cleanedemails",
+      "Ollama-gemma4",
+      "Midjourney-bot",
+      "KDP-bot"
+    ],
+    "lastFullRun": "2026-08-09T09:42:20.027Z",
+    "reason": "the token used for this run cannot see these repositories"
+  }
 }
