@@ -1,0 +1,2487 @@
+{
+  "generatedAt": "2026-08-09T09:42:20.027Z",
+  "generatedBy": "scripts/gen-stats.mjs",
+  "graphqlCost": 7,
+  "runId": 0,
+  "tz": "Asia/Kolkata",
+  "profile": {
+    "login": "UbhayAab",
+    "name": null,
+    "createdAt": "2020-10-18T03:31:03Z",
+    "accountAgeDays": 2121,
+    "followers": 1,
+    "following": 0
+  },
+  "repos": {
+    "total": 37,
+    "public": 25,
+    "private": 12,
+    "stars": 0,
+    "diskKB": 3405815,
+    "totalCommits": 1536
+  },
+  "contributions": {
+    "lastYear": 382,
+    "commits": 364,
+    "repositoriesCreated": 18,
+    "activeDays": 64,
+    "trackedDays": 365,
+    "busiestDay": {
+      "date": "2026-07-25",
+      "contributionCount": 26,
+      "weekday": 6
+    },
+    "longestStreak": 9,
+    "currentStreak": 6
+  },
+  "languages": [
+    {
+      "name": "C++",
+      "color": "#f34b7d",
+      "bytes": 15141759,
+      "repos": 1,
+      "pct": 28.968241084954613
+    },
+    {
+      "name": "JavaScript",
+      "color": "#f1e05a",
+      "bytes": 13875936,
+      "repos": 19,
+      "pct": 26.546549798302877
+    },
+    {
+      "name": "Python",
+      "color": "#3572A5",
+      "bytes": 5385539,
+      "repos": 15,
+      "pct": 10.303267415920791
+    },
+    {
+      "name": "TypeScript",
+      "color": "#3178c6",
+      "bytes": 4950783,
+      "repos": 8,
+      "pct": 9.471520151872372
+    },
+    {
+      "name": "C",
+      "color": "#555555",
+      "bytes": 3562944,
+      "repos": 1,
+      "pct": 6.816395688518918
+    },
+    {
+      "name": "PLpgSQL",
+      "color": "#336790",
+      "bytes": 2001102,
+      "repos": 5,
+      "pct": 3.8283798580855
+    },
+    {
+      "name": "CSS",
+      "color": "#663399",
+      "bytes": 1830202,
+      "repos": 19,
+      "pct": 3.501424951365697
+    },
+    {
+      "name": "HTML",
+      "color": "#e34c26",
+      "bytes": 1590526,
+      "repos": 22,
+      "pct": 3.042892217468824
+    },
+    {
+      "name": "Cuda",
+      "color": "#3A4E3A",
+      "bytes": 1584045,
+      "repos": 1,
+      "pct": 3.0304931844059153
+    },
+    {
+      "name": "Svelte",
+      "color": "#ff3e00",
+      "bytes": 606933,
+      "repos": 1,
+      "pct": 1.1611452451736128
+    },
+    {
+      "name": "Metal",
+      "color": "#8f14e9",
+      "bytes": 448381,
+      "repos": 1,
+      "pct": 0.857813739203816
+    },
+    {
+      "name": "Jinja",
+      "color": "#a52a22",
+      "bytes": 329885,
+      "repos": 1,
+      "pct": 0.6311148004871991
+    },
+    {
+      "name": "GLSL",
+      "color": "#5686a5",
+      "bytes": 319549,
+      "repos": 2,
+      "pct": 0.6113406289491308
+    },
+    {
+      "name": "Java",
+      "color": "#b07219",
+      "bytes": 244504,
+      "repos": 3,
+      "pct": 0.46776935349689175
+    },
+    {
+      "name": "Jupyter Notebook",
+      "color": "#DA5B0B",
+      "bytes": 244255,
+      "repos": 1,
+      "pct": 0.46729298268487757
+    },
+    {
+      "name": "Kotlin",
+      "color": "#A97BFF",
+      "bytes": 116909,
+      "repos": 2,
+      "pct": 0.22366279221594787
+    },
+    {
+      "name": "MDX",
+      "color": "#fcb32c",
+      "bytes": 19036,
+      "repos": 1,
+      "pct": 0.03641845292169794
+    },
+    {
+      "name": "PowerShell",
+      "color": "#012456",
+      "bytes": 7501,
+      "repos": 1,
+      "pct": 0.014350431569954624
+    },
+    {
+      "name": "NSIS",
+      "color": null,
+      "bytes": 6195,
+      "repos": 1,
+      "pct": 0.01185187622661897
+    },
+    {
+      "name": "Dockerfile",
+      "color": "#384d54",
+      "bytes": 2941,
+      "repos": 2,
+      "pct": 0.005626532361983275
+    },
+    {
+      "name": "Nix",
+      "color": "#7e7eff",
+      "bytes": 1280,
+      "repos": 1,
+      "pct": 0.002448813812763887
+    }
+  ],
+  "languageTotalBytes": 52270205,
+  "rhythm": {
+    "cells": [
+      [
+        9,
+        26,
+        19,
+        10,
+        8,
+        4,
+        0,
+        0,
+        3,
+        3,
+        6,
+        8,
+        13,
+        9,
+        7,
+        1,
+        2,
+        4,
+        5,
+        0,
+        3,
+        1,
+        6,
+        1
+      ],
+      [
+        0,
+        3,
+        2,
+        1,
+        6,
+        6,
+        9,
+        5,
+        7,
+        7,
+        3,
+        2,
+        1,
+        0,
+        4,
+        7,
+        1,
+        1,
+        2,
+        0,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        2,
+        4,
+        0,
+        3,
+        4,
+        16,
+        19,
+        2,
+        2,
+        0,
+        4,
+        7,
+        7,
+        3,
+        3,
+        0,
+        2,
+        4,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        4,
+        0,
+        0,
+        5,
+        7,
+        18,
+        13,
+        9,
+        13,
+        8,
+        3,
+        7,
+        8,
+        8
+      ],
+      [
+        9,
+        3,
+        5,
+        1,
+        6,
+        2,
+        9,
+        7,
+        10,
+        11,
+        8,
+        10,
+        0,
+        5,
+        0,
+        1,
+        2,
+        4,
+        0,
+        0,
+        0,
+        5,
+        10,
+        4
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        1,
+        0,
+        18,
+        11,
+        8,
+        2,
+        1,
+        2,
+        5,
+        0,
+        6,
+        1,
+        0,
+        3,
+        6,
+        15,
+        18
+      ],
+      [
+        15,
+        11,
+        1,
+        4,
+        6,
+        2,
+        3,
+        2,
+        4,
+        9,
+        4,
+        12,
+        9,
+        6,
+        7,
+        19,
+        12,
+        26,
+        26,
+        6,
+        23,
+        8,
+        25,
+        5
+      ]
+    ],
+    "max": 26,
+    "sampled": 882,
+    "tz": "Asia/Kolkata",
+    "peak": {
+      "weekday": 0,
+      "hour": 1,
+      "count": 26
+    },
+    "byHour": [
+      35,
+      45,
+      30,
+      18,
+      30,
+      14,
+      32,
+      21,
+      41,
+      69,
+      38,
+      42,
+      25,
+      30,
+      34,
+      58,
+      33,
+      53,
+      47,
+      16,
+      40,
+      29,
+      65,
+      37
+    ],
+    "nightShare": 0.23696145124716553
+  },
+  "topRepos": [
+    {
+      "name": "Priyanka_joshi",
+      "url": "https://github.com/UbhayAab/Priyanka_joshi",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 291867,
+      "pushedAt": "2025-03-27T17:22:44Z",
+      "createdAt": "2025-03-27T16:13:20Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 628,
+      "topics": []
+    },
+    {
+      "name": "JCF",
+      "url": "https://github.com/UbhayAab/JCF",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 195496,
+      "pushedAt": "2026-08-08T12:59:53Z",
+      "createdAt": "2026-03-16T14:42:06Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 149,
+      "topics": []
+    },
+    {
+      "name": "trackerz",
+      "url": "https://github.com/UbhayAab/trackerz",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 18608,
+      "pushedAt": "2026-08-08T19:57:08Z",
+      "createdAt": "2026-05-11T10:18:29Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 130,
+      "topics": []
+    },
+    {
+      "name": "kdp-ads-brain",
+      "url": "https://github.com/UbhayAab/kdp-ads-brain",
+      "description": "Amazon Ads automation and daily catalogue brain for KDP books",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 15616,
+      "pushedAt": "2026-08-08T12:58:56Z",
+      "createdAt": "2026-07-27T22:31:43Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 126,
+      "topics": []
+    },
+    {
+      "name": "illustrated-book-content-engine",
+      "url": "https://github.com/UbhayAab/illustrated-book-content-engine",
+      "description": "Illustrated book content engine for AI storybook production and Canva handoff.",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 2399863,
+      "pushedAt": "2026-08-03T16:54:51Z",
+      "createdAt": "2026-05-31T10:37:50Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 119,
+      "topics": []
+    },
+    {
+      "name": "public-complaint-hub",
+      "url": "https://github.com/UbhayAab/public-complaint-hub",
+      "description": null,
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 602,
+      "pushedAt": "2025-04-13T10:40:20Z",
+      "createdAt": "2025-04-14T14:02:35Z",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "commits": 102,
+      "topics": []
+    },
+    {
+      "name": "glance",
+      "url": "https://github.com/UbhayAab/glance",
+      "description": "An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Windows 11",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 10330,
+      "pushedAt": "2026-08-09T09:04:34Z",
+      "createdAt": "2026-08-04T03:17:37Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 28,
+      "topics": []
+    },
+    {
+      "name": "EyeTracker",
+      "url": "https://github.com/UbhayAab/EyeTracker",
+      "description": "Tried something",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 108261,
+      "pushedAt": "2026-02-21T21:55:24Z",
+      "createdAt": "2026-02-21T21:53:29Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 27,
+      "topics": []
+    },
+    {
+      "name": "kdp-ads-dashboard",
+      "url": "https://github.com/UbhayAab/kdp-ads-dashboard",
+      "description": "KDP ads dashboard",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 231,
+      "pushedAt": "2026-08-08T19:47:35Z",
+      "createdAt": "2026-07-28T01:25:51Z",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "commits": 26,
+      "topics": []
+    },
+    {
+      "name": "hearth-web",
+      "url": "https://github.com/UbhayAab/hearth-web",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 646,
+      "pushedAt": "2026-07-27T23:08:15Z",
+      "createdAt": "2026-07-24T05:34:10Z",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "commits": 26,
+      "topics": []
+    },
+    {
+      "name": "kpicomp",
+      "url": "https://github.com/UbhayAab/kpicomp",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 217,
+      "pushedAt": "2025-09-05T05:30:12Z",
+      "createdAt": "2025-09-05T04:49:38Z",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "commits": 25,
+      "topics": []
+    },
+    {
+      "name": "hearth",
+      "url": "https://github.com/UbhayAab/hearth",
+      "description": null,
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 119427,
+      "pushedAt": "2026-07-28T01:31:23Z",
+      "createdAt": "2026-07-23T19:17:25Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 21,
+      "topics": []
+    },
+    {
+      "name": "continuity",
+      "url": "https://github.com/UbhayAab/continuity",
+      "description": null,
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 207,
+      "pushedAt": "2026-07-18T20:44:06Z",
+      "createdAt": "2026-07-10T17:27:50Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 21,
+      "topics": []
+    },
+    {
+      "name": "MeeshoLod",
+      "url": "https://github.com/UbhayAab/MeeshoLod",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 275,
+      "pushedAt": "2026-07-08T14:45:20Z",
+      "createdAt": "2026-07-08T08:38:01Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 21,
+      "topics": []
+    },
+    {
+      "name": "soop",
+      "url": "https://github.com/UbhayAab/soop",
+      "description": "Soop - invite-only team chat. A Redtree product.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 826,
+      "pushedAt": "2026-08-09T08:58:13Z",
+      "createdAt": "2026-07-27T23:05:24Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 19,
+      "topics": []
+    },
+    {
+      "name": "carcinome_wp",
+      "url": "https://github.com/UbhayAab/carcinome_wp",
+      "description": null,
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 964,
+      "pushedAt": "2026-07-25T17:28:01Z",
+      "createdAt": "2026-07-20T15:10:38Z",
+      "language": "TypeScript",
+      "languageColor": "#3178c6",
+      "commits": 11,
+      "topics": []
+    },
+    {
+      "name": "EggAplha",
+      "url": "https://github.com/UbhayAab/EggAplha",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 46,
+      "pushedAt": "2026-02-20T05:13:32Z",
+      "createdAt": "2026-02-18T11:01:31Z",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "commits": 8,
+      "topics": []
+    },
+    {
+      "name": "maya-bridge-demo-canva-artifact",
+      "url": "https://github.com/UbhayAab/maya-bridge-demo-canva-artifact",
+      "description": "Public Canva import artifact for Maya and the Tiny Bridge prototype",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 61538,
+      "pushedAt": "2026-05-31T16:48:01Z",
+      "createdAt": "2026-05-31T11:30:49Z",
+      "language": null,
+      "languageColor": null,
+      "commits": 7,
+      "topics": []
+    },
+    {
+      "name": "Nexus",
+      "url": "https://github.com/UbhayAab/Nexus",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 1199,
+      "pushedAt": "2025-10-05T08:48:43Z",
+      "createdAt": "2025-10-04T12:04:39Z",
+      "language": "Kotlin",
+      "languageColor": "#A97BFF",
+      "commits": 7,
+      "topics": []
+    },
+    {
+      "name": "Ngo_SafaltaSetu",
+      "url": "https://github.com/UbhayAab/Ngo_SafaltaSetu",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 177,
+      "pushedAt": "2025-12-10T19:20:22Z",
+      "createdAt": "2025-12-10T16:30:38Z",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "commits": 6,
+      "topics": []
+    },
+    {
+      "name": "robotics",
+      "url": "https://github.com/UbhayAab/robotics",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 266,
+      "pushedAt": "2026-05-17T23:57:35Z",
+      "createdAt": "2026-05-17T12:46:56Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 5,
+      "topics": []
+    },
+    {
+      "name": "MegaSeleniumBot",
+      "url": "https://github.com/UbhayAab/MegaSeleniumBot",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 144365,
+      "pushedAt": "2025-07-21T20:51:21Z",
+      "createdAt": "2025-07-11T12:28:21Z",
+      "language": "Jupyter Notebook",
+      "languageColor": "#DA5B0B",
+      "commits": 5,
+      "topics": []
+    },
+    {
+      "name": "Meloaa",
+      "url": "https://github.com/UbhayAab/Meloaa",
+      "description": "Assignment",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 64,
+      "pushedAt": "2026-02-25T10:32:21Z",
+      "createdAt": "2026-02-25T10:31:30Z",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "commits": 4,
+      "topics": []
+    },
+    {
+      "name": "JCF-Gda31885",
+      "url": "https://github.com/UbhayAab/JCF-Gda31885",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 960,
+      "pushedAt": "2024-11-05T14:50:12Z",
+      "createdAt": "2024-11-05T14:46:41Z",
+      "language": "CSS",
+      "languageColor": "#663399",
+      "commits": 3,
+      "topics": []
+    },
+    {
+      "name": "AyuSSm",
+      "url": "https://github.com/UbhayAab/AyuSSm",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 31,
+      "pushedAt": "2025-05-11T15:31:07Z",
+      "createdAt": "2025-05-11T15:29:09Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 2,
+      "topics": []
+    },
+    {
+      "name": "whatsapp_automation",
+      "url": "https://github.com/UbhayAab/whatsapp_automation",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 259,
+      "pushedAt": "2025-04-19T15:57:16Z",
+      "createdAt": "2025-04-18T14:52:42Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 2,
+      "topics": []
+    },
+    {
+      "name": "llama.cpp-ubhay",
+      "url": "https://github.com/UbhayAab/llama.cpp-ubhay",
+      "description": "Personal clone of ggml-org/llama.cpp for upstreaming Gemma4 PLE port (upstream tracked as 'upstream' remote)",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 32460,
+      "pushedAt": "2026-06-01T09:34:35Z",
+      "createdAt": "2026-05-16T20:20:10Z",
+      "language": "C++",
+      "languageColor": "#f34b7d",
+      "commits": 1,
+      "topics": []
+    },
+    {
+      "name": "cleanedemails",
+      "url": "https://github.com/UbhayAab/cleanedemails",
+      "description": "Two-tier email cleaning pipeline: Gemini Flash classifies, Gemini Pro / DeepSeek + DuckDuckGo researches the rest",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 32,
+      "pushedAt": "2026-05-16T20:19:43Z",
+      "createdAt": "2026-05-16T20:19:41Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": []
+    },
+    {
+      "name": "Ollama-gemma4",
+      "url": "https://github.com/UbhayAab/Ollama-gemma4",
+      "description": "Local Gemma4 PLE benchmarking with llama.cpp on RTX 5060; capture_oracle + bench scripts",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 21,
+      "pushedAt": "2026-05-16T20:19:16Z",
+      "createdAt": "2026-05-16T20:19:13Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": []
+    },
+    {
+      "name": "Midjourney-bot",
+      "url": "https://github.com/UbhayAab/Midjourney-bot",
+      "description": "Discord-driven Midjourney automation: prompt batching, downloader, prompt matrix generator",
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 15,
+      "pushedAt": "2026-05-16T20:18:55Z",
+      "createdAt": "2026-05-16T20:18:52Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": []
+    },
+    {
+      "name": "KDP-bot",
+      "url": "https://github.com/UbhayAab/KDP-bot",
+      "description": null,
+      "isPrivate": true,
+      "stars": 0,
+      "diskKB": 183,
+      "pushedAt": "2026-05-16T20:18:40Z",
+      "createdAt": "2026-05-04T15:11:16Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": []
+    },
+    {
+      "name": "EmailScraper_JCF",
+      "url": "https://github.com/UbhayAab/EmailScraper_JCF",
+      "description": "Tried something",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 79,
+      "pushedAt": "2026-03-26T17:35:25Z",
+      "createdAt": "2026-03-26T17:34:50Z",
+      "language": "Python",
+      "languageColor": "#3572A5",
+      "commits": 1,
+      "topics": []
+    },
+    {
+      "name": "Ubhay",
+      "url": "https://github.com/UbhayAab/Ubhay",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 662,
+      "pushedAt": "2026-02-28T17:00:00Z",
+      "createdAt": "2026-02-28T16:59:11Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 1,
+      "topics": []
+    },
+    {
+      "name": "Neemans",
+      "url": "https://github.com/UbhayAab/Neemans",
+      "description": "Assigntment",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 22,
+      "pushedAt": "2026-02-17T20:04:48Z",
+      "createdAt": "2026-02-17T20:03:25Z",
+      "language": "CSS",
+      "languageColor": "#663399",
+      "commits": 1,
+      "topics": []
+    },
+    {
+      "name": "Patient-Navigator",
+      "url": "https://github.com/UbhayAab/Patient-Navigator",
+      "description": "JCF",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 0,
+      "pushedAt": "2026-05-04T15:10:48Z",
+      "createdAt": "2026-05-04T15:10:47Z",
+      "language": null,
+      "languageColor": null,
+      "commits": 0,
+      "topics": []
+    },
+    {
+      "name": "replitool",
+      "url": "https://github.com/UbhayAab/replitool",
+      "description": null,
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 0,
+      "pushedAt": "2025-04-20T07:57:25Z",
+      "createdAt": "2025-04-20T07:57:24Z",
+      "language": null,
+      "languageColor": null,
+      "commits": 0,
+      "topics": []
+    },
+    {
+      "name": "UbhayAab",
+      "url": "https://github.com/UbhayAab/UbhayAab",
+      "description": "Config files for my GitHub profile.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 0,
+      "pushedAt": "2021-03-24T23:51:32Z",
+      "createdAt": "2021-03-24T23:51:31Z",
+      "language": null,
+      "languageColor": null,
+      "commits": 0,
+      "topics": [
+        "config",
+        "github-config"
+      ]
+    }
+  ],
+  "latestCommit": {
+    "repo": "glance",
+    "message": "You can type in it now: a starting cursor, and room past the end",
+    "at": "2026-08-09T09:04:32Z",
+    "ago": "38 minutes ago",
+    "oid": "c3baee4"
+  },
+  "recentCommits": [
+    {
+      "repo": "glance",
+      "message": "You can type in it now: a starting cursor, and room past the end",
+      "at": "2026-08-09T09:04:32Z",
+      "ago": "38 minutes ago",
+      "oid": "c3baee4"
+    },
+    {
+      "repo": "glance",
+      "message": "A real calculation engine: dependency graph, cycles, iterative calcul…",
+      "at": "2026-08-09T08:41:50Z",
+      "ago": "1 hours ago",
+      "oid": "6137ffc"
+    },
+    {
+      "repo": "glance",
+      "message": "Ctrl+A selects the sheet, and Shift extends with every navigation key",
+      "at": "2026-08-09T08:11:58Z",
+      "ago": "2 hours ago",
+      "oid": "74adba6"
+    },
+    {
+      "repo": "glance",
+      "message": "Conditional formatting on date columns, and say when formulas are una…",
+      "at": "2026-08-09T07:43:50Z",
+      "ago": "2 hours ago",
+      "oid": "bba0974"
+    },
+    {
+      "repo": "glance",
+      "message": "Copy a range as a table, not as tab-separated soup",
+      "at": "2026-08-09T07:42:38Z",
+      "ago": "2 hours ago",
+      "oid": "f89c526"
+    },
+    {
+      "repo": "glance",
+      "message": "Fix what the reviewers found in the footer, and one long-standing pai…",
+      "at": "2026-08-09T07:36:33Z",
+      "ago": "2 hours ago",
+      "oid": "385e201"
+    },
+    {
+      "repo": "glance",
+      "message": "Type badges on workbook columns",
+      "at": "2026-08-09T07:30:50Z",
+      "ago": "2 hours ago",
+      "oid": "215a7a7"
+    },
+    {
+      "repo": "glance",
+      "message": "Column footer totals, select-all, column profiling for XLSX, stats panel",
+      "at": "2026-08-09T07:28:13Z",
+      "ago": "2 hours ago",
+      "oid": "30689b2"
+    },
+    {
+      "repo": "soop",
+      "message": "The grey box under the servers, and the plugin the dashboards will load",
+      "at": "2026-08-09T07:22:15Z",
+      "ago": "2 hours ago",
+      "oid": "d4fb60a"
+    },
+    {
+      "repo": "glance",
+      "message": "One coercion rule, and the toggles that did nothing",
+      "at": "2026-08-09T06:43:50Z",
+      "ago": "3 hours ago",
+      "oid": "46327c6"
+    },
+    {
+      "repo": "glance",
+      "message": "Read numbers stored as text, and exclude hidden rows",
+      "at": "2026-08-09T06:30:33Z",
+      "ago": "3 hours ago",
+      "oid": "1a08f24"
+    },
+    {
+      "repo": "glance",
+      "message": "Selection statistics: Sum, Average, Min, Max and Count, in both grids",
+      "at": "2026-08-09T06:25:08Z",
+      "ago": "3 hours ago",
+      "oid": "8d5fa4b"
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2025-08-10",
+      "count": 0
+    },
+    {
+      "date": "2025-08-11",
+      "count": 0
+    },
+    {
+      "date": "2025-08-12",
+      "count": 0
+    },
+    {
+      "date": "2025-08-13",
+      "count": 0
+    },
+    {
+      "date": "2025-08-14",
+      "count": 0
+    },
+    {
+      "date": "2025-08-15",
+      "count": 0
+    },
+    {
+      "date": "2025-08-16",
+      "count": 0
+    },
+    {
+      "date": "2025-08-17",
+      "count": 0
+    },
+    {
+      "date": "2025-08-18",
+      "count": 0
+    },
+    {
+      "date": "2025-08-19",
+      "count": 0
+    },
+    {
+      "date": "2025-08-20",
+      "count": 0
+    },
+    {
+      "date": "2025-08-21",
+      "count": 0
+    },
+    {
+      "date": "2025-08-22",
+      "count": 0
+    },
+    {
+      "date": "2025-08-23",
+      "count": 0
+    },
+    {
+      "date": "2025-08-24",
+      "count": 0
+    },
+    {
+      "date": "2025-08-25",
+      "count": 0
+    },
+    {
+      "date": "2025-08-26",
+      "count": 0
+    },
+    {
+      "date": "2025-08-27",
+      "count": 0
+    },
+    {
+      "date": "2025-08-28",
+      "count": 0
+    },
+    {
+      "date": "2025-08-29",
+      "count": 0
+    },
+    {
+      "date": "2025-08-30",
+      "count": 0
+    },
+    {
+      "date": "2025-08-31",
+      "count": 0
+    },
+    {
+      "date": "2025-09-01",
+      "count": 0
+    },
+    {
+      "date": "2025-09-02",
+      "count": 0
+    },
+    {
+      "date": "2025-09-03",
+      "count": 0
+    },
+    {
+      "date": "2025-09-04",
+      "count": 0
+    },
+    {
+      "date": "2025-09-05",
+      "count": 1
+    },
+    {
+      "date": "2025-09-06",
+      "count": 0
+    },
+    {
+      "date": "2025-09-07",
+      "count": 0
+    },
+    {
+      "date": "2025-09-08",
+      "count": 0
+    },
+    {
+      "date": "2025-09-09",
+      "count": 0
+    },
+    {
+      "date": "2025-09-10",
+      "count": 0
+    },
+    {
+      "date": "2025-09-11",
+      "count": 0
+    },
+    {
+      "date": "2025-09-12",
+      "count": 0
+    },
+    {
+      "date": "2025-09-13",
+      "count": 0
+    },
+    {
+      "date": "2025-09-14",
+      "count": 0
+    },
+    {
+      "date": "2025-09-15",
+      "count": 0
+    },
+    {
+      "date": "2025-09-16",
+      "count": 0
+    },
+    {
+      "date": "2025-09-17",
+      "count": 0
+    },
+    {
+      "date": "2025-09-18",
+      "count": 0
+    },
+    {
+      "date": "2025-09-19",
+      "count": 0
+    },
+    {
+      "date": "2025-09-20",
+      "count": 0
+    },
+    {
+      "date": "2025-09-21",
+      "count": 0
+    },
+    {
+      "date": "2025-09-22",
+      "count": 0
+    },
+    {
+      "date": "2025-09-23",
+      "count": 0
+    },
+    {
+      "date": "2025-09-24",
+      "count": 0
+    },
+    {
+      "date": "2025-09-25",
+      "count": 0
+    },
+    {
+      "date": "2025-09-26",
+      "count": 0
+    },
+    {
+      "date": "2025-09-27",
+      "count": 0
+    },
+    {
+      "date": "2025-09-28",
+      "count": 0
+    },
+    {
+      "date": "2025-09-29",
+      "count": 0
+    },
+    {
+      "date": "2025-09-30",
+      "count": 0
+    },
+    {
+      "date": "2025-10-01",
+      "count": 0
+    },
+    {
+      "date": "2025-10-02",
+      "count": 0
+    },
+    {
+      "date": "2025-10-03",
+      "count": 0
+    },
+    {
+      "date": "2025-10-04",
+      "count": 3
+    },
+    {
+      "date": "2025-10-05",
+      "count": 6
+    },
+    {
+      "date": "2025-10-06",
+      "count": 0
+    },
+    {
+      "date": "2025-10-07",
+      "count": 0
+    },
+    {
+      "date": "2025-10-08",
+      "count": 0
+    },
+    {
+      "date": "2025-10-09",
+      "count": 0
+    },
+    {
+      "date": "2025-10-10",
+      "count": 0
+    },
+    {
+      "date": "2025-10-11",
+      "count": 0
+    },
+    {
+      "date": "2025-10-12",
+      "count": 0
+    },
+    {
+      "date": "2025-10-13",
+      "count": 0
+    },
+    {
+      "date": "2025-10-14",
+      "count": 0
+    },
+    {
+      "date": "2025-10-15",
+      "count": 0
+    },
+    {
+      "date": "2025-10-16",
+      "count": 0
+    },
+    {
+      "date": "2025-10-17",
+      "count": 0
+    },
+    {
+      "date": "2025-10-18",
+      "count": 0
+    },
+    {
+      "date": "2025-10-19",
+      "count": 0
+    },
+    {
+      "date": "2025-10-20",
+      "count": 0
+    },
+    {
+      "date": "2025-10-21",
+      "count": 0
+    },
+    {
+      "date": "2025-10-22",
+      "count": 0
+    },
+    {
+      "date": "2025-10-23",
+      "count": 0
+    },
+    {
+      "date": "2025-10-24",
+      "count": 0
+    },
+    {
+      "date": "2025-10-25",
+      "count": 0
+    },
+    {
+      "date": "2025-10-26",
+      "count": 0
+    },
+    {
+      "date": "2025-10-27",
+      "count": 0
+    },
+    {
+      "date": "2025-10-28",
+      "count": 0
+    },
+    {
+      "date": "2025-10-29",
+      "count": 0
+    },
+    {
+      "date": "2025-10-30",
+      "count": 0
+    },
+    {
+      "date": "2025-10-31",
+      "count": 0
+    },
+    {
+      "date": "2025-11-01",
+      "count": 0
+    },
+    {
+      "date": "2025-11-02",
+      "count": 0
+    },
+    {
+      "date": "2025-11-03",
+      "count": 0
+    },
+    {
+      "date": "2025-11-04",
+      "count": 0
+    },
+    {
+      "date": "2025-11-05",
+      "count": 0
+    },
+    {
+      "date": "2025-11-06",
+      "count": 0
+    },
+    {
+      "date": "2025-11-07",
+      "count": 0
+    },
+    {
+      "date": "2025-11-08",
+      "count": 0
+    },
+    {
+      "date": "2025-11-09",
+      "count": 0
+    },
+    {
+      "date": "2025-11-10",
+      "count": 0
+    },
+    {
+      "date": "2025-11-11",
+      "count": 0
+    },
+    {
+      "date": "2025-11-12",
+      "count": 0
+    },
+    {
+      "date": "2025-11-13",
+      "count": 0
+    },
+    {
+      "date": "2025-11-14",
+      "count": 0
+    },
+    {
+      "date": "2025-11-15",
+      "count": 0
+    },
+    {
+      "date": "2025-11-16",
+      "count": 0
+    },
+    {
+      "date": "2025-11-17",
+      "count": 0
+    },
+    {
+      "date": "2025-11-18",
+      "count": 0
+    },
+    {
+      "date": "2025-11-19",
+      "count": 0
+    },
+    {
+      "date": "2025-11-20",
+      "count": 0
+    },
+    {
+      "date": "2025-11-21",
+      "count": 0
+    },
+    {
+      "date": "2025-11-22",
+      "count": 0
+    },
+    {
+      "date": "2025-11-23",
+      "count": 0
+    },
+    {
+      "date": "2025-11-24",
+      "count": 0
+    },
+    {
+      "date": "2025-11-25",
+      "count": 0
+    },
+    {
+      "date": "2025-11-26",
+      "count": 0
+    },
+    {
+      "date": "2025-11-27",
+      "count": 0
+    },
+    {
+      "date": "2025-11-28",
+      "count": 0
+    },
+    {
+      "date": "2025-11-29",
+      "count": 0
+    },
+    {
+      "date": "2025-11-30",
+      "count": 0
+    },
+    {
+      "date": "2025-12-01",
+      "count": 0
+    },
+    {
+      "date": "2025-12-02",
+      "count": 0
+    },
+    {
+      "date": "2025-12-03",
+      "count": 0
+    },
+    {
+      "date": "2025-12-04",
+      "count": 0
+    },
+    {
+      "date": "2025-12-05",
+      "count": 0
+    },
+    {
+      "date": "2025-12-06",
+      "count": 0
+    },
+    {
+      "date": "2025-12-07",
+      "count": 0
+    },
+    {
+      "date": "2025-12-08",
+      "count": 0
+    },
+    {
+      "date": "2025-12-09",
+      "count": 0
+    },
+    {
+      "date": "2025-12-10",
+      "count": 9
+    },
+    {
+      "date": "2025-12-11",
+      "count": 8
+    },
+    {
+      "date": "2025-12-12",
+      "count": 0
+    },
+    {
+      "date": "2025-12-13",
+      "count": 0
+    },
+    {
+      "date": "2025-12-14",
+      "count": 0
+    },
+    {
+      "date": "2025-12-15",
+      "count": 0
+    },
+    {
+      "date": "2025-12-16",
+      "count": 0
+    },
+    {
+      "date": "2025-12-17",
+      "count": 0
+    },
+    {
+      "date": "2025-12-18",
+      "count": 0
+    },
+    {
+      "date": "2025-12-19",
+      "count": 0
+    },
+    {
+      "date": "2025-12-20",
+      "count": 0
+    },
+    {
+      "date": "2025-12-21",
+      "count": 0
+    },
+    {
+      "date": "2025-12-22",
+      "count": 0
+    },
+    {
+      "date": "2025-12-23",
+      "count": 0
+    },
+    {
+      "date": "2025-12-24",
+      "count": 0
+    },
+    {
+      "date": "2025-12-25",
+      "count": 0
+    },
+    {
+      "date": "2025-12-26",
+      "count": 0
+    },
+    {
+      "date": "2025-12-27",
+      "count": 0
+    },
+    {
+      "date": "2025-12-28",
+      "count": 0
+    },
+    {
+      "date": "2025-12-29",
+      "count": 0
+    },
+    {
+      "date": "2025-12-30",
+      "count": 0
+    },
+    {
+      "date": "2025-12-31",
+      "count": 0
+    },
+    {
+      "date": "2026-01-01",
+      "count": 0
+    },
+    {
+      "date": "2026-01-02",
+      "count": 0
+    },
+    {
+      "date": "2026-01-03",
+      "count": 0
+    },
+    {
+      "date": "2026-01-04",
+      "count": 0
+    },
+    {
+      "date": "2026-01-05",
+      "count": 0
+    },
+    {
+      "date": "2026-01-06",
+      "count": 0
+    },
+    {
+      "date": "2026-01-07",
+      "count": 0
+    },
+    {
+      "date": "2026-01-08",
+      "count": 0
+    },
+    {
+      "date": "2026-01-09",
+      "count": 0
+    },
+    {
+      "date": "2026-01-10",
+      "count": 0
+    },
+    {
+      "date": "2026-01-11",
+      "count": 0
+    },
+    {
+      "date": "2026-01-12",
+      "count": 0
+    },
+    {
+      "date": "2026-01-13",
+      "count": 0
+    },
+    {
+      "date": "2026-01-14",
+      "count": 0
+    },
+    {
+      "date": "2026-01-15",
+      "count": 0
+    },
+    {
+      "date": "2026-01-16",
+      "count": 0
+    },
+    {
+      "date": "2026-01-17",
+      "count": 0
+    },
+    {
+      "date": "2026-01-18",
+      "count": 0
+    },
+    {
+      "date": "2026-01-19",
+      "count": 0
+    },
+    {
+      "date": "2026-01-20",
+      "count": 0
+    },
+    {
+      "date": "2026-01-21",
+      "count": 0
+    },
+    {
+      "date": "2026-01-22",
+      "count": 0
+    },
+    {
+      "date": "2026-01-23",
+      "count": 0
+    },
+    {
+      "date": "2026-01-24",
+      "count": 0
+    },
+    {
+      "date": "2026-01-25",
+      "count": 0
+    },
+    {
+      "date": "2026-01-26",
+      "count": 0
+    },
+    {
+      "date": "2026-01-27",
+      "count": 0
+    },
+    {
+      "date": "2026-01-28",
+      "count": 0
+    },
+    {
+      "date": "2026-01-29",
+      "count": 0
+    },
+    {
+      "date": "2026-01-30",
+      "count": 0
+    },
+    {
+      "date": "2026-01-31",
+      "count": 0
+    },
+    {
+      "date": "2026-02-01",
+      "count": 0
+    },
+    {
+      "date": "2026-02-02",
+      "count": 0
+    },
+    {
+      "date": "2026-02-03",
+      "count": 0
+    },
+    {
+      "date": "2026-02-04",
+      "count": 0
+    },
+    {
+      "date": "2026-02-05",
+      "count": 0
+    },
+    {
+      "date": "2026-02-06",
+      "count": 0
+    },
+    {
+      "date": "2026-02-07",
+      "count": 0
+    },
+    {
+      "date": "2026-02-08",
+      "count": 0
+    },
+    {
+      "date": "2026-02-09",
+      "count": 0
+    },
+    {
+      "date": "2026-02-10",
+      "count": 0
+    },
+    {
+      "date": "2026-02-11",
+      "count": 0
+    },
+    {
+      "date": "2026-02-12",
+      "count": 0
+    },
+    {
+      "date": "2026-02-13",
+      "count": 0
+    },
+    {
+      "date": "2026-02-14",
+      "count": 0
+    },
+    {
+      "date": "2026-02-15",
+      "count": 0
+    },
+    {
+      "date": "2026-02-16",
+      "count": 0
+    },
+    {
+      "date": "2026-02-17",
+      "count": 0
+    },
+    {
+      "date": "2026-02-18",
+      "count": 10
+    },
+    {
+      "date": "2026-02-19",
+      "count": 0
+    },
+    {
+      "date": "2026-02-20",
+      "count": 1
+    },
+    {
+      "date": "2026-02-21",
+      "count": 0
+    },
+    {
+      "date": "2026-02-22",
+      "count": 2
+    },
+    {
+      "date": "2026-02-23",
+      "count": 0
+    },
+    {
+      "date": "2026-02-24",
+      "count": 0
+    },
+    {
+      "date": "2026-02-25",
+      "count": 5
+    },
+    {
+      "date": "2026-02-26",
+      "count": 0
+    },
+    {
+      "date": "2026-02-27",
+      "count": 0
+    },
+    {
+      "date": "2026-02-28",
+      "count": 2
+    },
+    {
+      "date": "2026-03-01",
+      "count": 0
+    },
+    {
+      "date": "2026-03-02",
+      "count": 0
+    },
+    {
+      "date": "2026-03-03",
+      "count": 0
+    },
+    {
+      "date": "2026-03-04",
+      "count": 0
+    },
+    {
+      "date": "2026-03-05",
+      "count": 0
+    },
+    {
+      "date": "2026-03-06",
+      "count": 0
+    },
+    {
+      "date": "2026-03-07",
+      "count": 0
+    },
+    {
+      "date": "2026-03-08",
+      "count": 0
+    },
+    {
+      "date": "2026-03-09",
+      "count": 0
+    },
+    {
+      "date": "2026-03-10",
+      "count": 0
+    },
+    {
+      "date": "2026-03-11",
+      "count": 0
+    },
+    {
+      "date": "2026-03-12",
+      "count": 0
+    },
+    {
+      "date": "2026-03-13",
+      "count": 0
+    },
+    {
+      "date": "2026-03-14",
+      "count": 0
+    },
+    {
+      "date": "2026-03-15",
+      "count": 0
+    },
+    {
+      "date": "2026-03-16",
+      "count": 9
+    },
+    {
+      "date": "2026-03-17",
+      "count": 0
+    },
+    {
+      "date": "2026-03-18",
+      "count": 0
+    },
+    {
+      "date": "2026-03-19",
+      "count": 0
+    },
+    {
+      "date": "2026-03-20",
+      "count": 0
+    },
+    {
+      "date": "2026-03-21",
+      "count": 0
+    },
+    {
+      "date": "2026-03-22",
+      "count": 0
+    },
+    {
+      "date": "2026-03-23",
+      "count": 0
+    },
+    {
+      "date": "2026-03-24",
+      "count": 0
+    },
+    {
+      "date": "2026-03-25",
+      "count": 0
+    },
+    {
+      "date": "2026-03-26",
+      "count": 2
+    },
+    {
+      "date": "2026-03-27",
+      "count": 5
+    },
+    {
+      "date": "2026-03-28",
+      "count": 1
+    },
+    {
+      "date": "2026-03-29",
+      "count": 5
+    },
+    {
+      "date": "2026-03-30",
+      "count": 0
+    },
+    {
+      "date": "2026-03-31",
+      "count": 0
+    },
+    {
+      "date": "2026-04-01",
+      "count": 0
+    },
+    {
+      "date": "2026-04-02",
+      "count": 0
+    },
+    {
+      "date": "2026-04-03",
+      "count": 0
+    },
+    {
+      "date": "2026-04-04",
+      "count": 0
+    },
+    {
+      "date": "2026-04-05",
+      "count": 0
+    },
+    {
+      "date": "2026-04-06",
+      "count": 0
+    },
+    {
+      "date": "2026-04-07",
+      "count": 0
+    },
+    {
+      "date": "2026-04-08",
+      "count": 0
+    },
+    {
+      "date": "2026-04-09",
+      "count": 0
+    },
+    {
+      "date": "2026-04-10",
+      "count": 1
+    },
+    {
+      "date": "2026-04-11",
+      "count": 1
+    },
+    {
+      "date": "2026-04-12",
+      "count": 0
+    },
+    {
+      "date": "2026-04-13",
+      "count": 0
+    },
+    {
+      "date": "2026-04-14",
+      "count": 0
+    },
+    {
+      "date": "2026-04-15",
+      "count": 0
+    },
+    {
+      "date": "2026-04-16",
+      "count": 0
+    },
+    {
+      "date": "2026-04-17",
+      "count": 0
+    },
+    {
+      "date": "2026-04-18",
+      "count": 0
+    },
+    {
+      "date": "2026-04-19",
+      "count": 0
+    },
+    {
+      "date": "2026-04-20",
+      "count": 0
+    },
+    {
+      "date": "2026-04-21",
+      "count": 0
+    },
+    {
+      "date": "2026-04-22",
+      "count": 0
+    },
+    {
+      "date": "2026-04-23",
+      "count": 0
+    },
+    {
+      "date": "2026-04-24",
+      "count": 0
+    },
+    {
+      "date": "2026-04-25",
+      "count": 0
+    },
+    {
+      "date": "2026-04-26",
+      "count": 0
+    },
+    {
+      "date": "2026-04-27",
+      "count": 0
+    },
+    {
+      "date": "2026-04-28",
+      "count": 0
+    },
+    {
+      "date": "2026-04-29",
+      "count": 0
+    },
+    {
+      "date": "2026-04-30",
+      "count": 0
+    },
+    {
+      "date": "2026-05-01",
+      "count": 0
+    },
+    {
+      "date": "2026-05-02",
+      "count": 0
+    },
+    {
+      "date": "2026-05-03",
+      "count": 0
+    },
+    {
+      "date": "2026-05-04",
+      "count": 1
+    },
+    {
+      "date": "2026-05-05",
+      "count": 0
+    },
+    {
+      "date": "2026-05-06",
+      "count": 3
+    },
+    {
+      "date": "2026-05-07",
+      "count": 13
+    },
+    {
+      "date": "2026-05-08",
+      "count": 0
+    },
+    {
+      "date": "2026-05-09",
+      "count": 0
+    },
+    {
+      "date": "2026-05-10",
+      "count": 1
+    },
+    {
+      "date": "2026-05-11",
+      "count": 1
+    },
+    {
+      "date": "2026-05-12",
+      "count": 0
+    },
+    {
+      "date": "2026-05-13",
+      "count": 0
+    },
+    {
+      "date": "2026-05-14",
+      "count": 0
+    },
+    {
+      "date": "2026-05-15",
+      "count": 0
+    },
+    {
+      "date": "2026-05-16",
+      "count": 0
+    },
+    {
+      "date": "2026-05-17",
+      "count": 2
+    },
+    {
+      "date": "2026-05-18",
+      "count": 6
+    },
+    {
+      "date": "2026-05-19",
+      "count": 0
+    },
+    {
+      "date": "2026-05-20",
+      "count": 0
+    },
+    {
+      "date": "2026-05-21",
+      "count": 0
+    },
+    {
+      "date": "2026-05-22",
+      "count": 0
+    },
+    {
+      "date": "2026-05-23",
+      "count": 2
+    },
+    {
+      "date": "2026-05-24",
+      "count": 0
+    },
+    {
+      "date": "2026-05-25",
+      "count": 0
+    },
+    {
+      "date": "2026-05-26",
+      "count": 0
+    },
+    {
+      "date": "2026-05-27",
+      "count": 0
+    },
+    {
+      "date": "2026-05-28",
+      "count": 0
+    },
+    {
+      "date": "2026-05-29",
+      "count": 0
+    },
+    {
+      "date": "2026-05-30",
+      "count": 0
+    },
+    {
+      "date": "2026-05-31",
+      "count": 1
+    },
+    {
+      "date": "2026-06-01",
+      "count": 0
+    },
+    {
+      "date": "2026-06-02",
+      "count": 0
+    },
+    {
+      "date": "2026-06-03",
+      "count": 0
+    },
+    {
+      "date": "2026-06-04",
+      "count": 0
+    },
+    {
+      "date": "2026-06-05",
+      "count": 0
+    },
+    {
+      "date": "2026-06-06",
+      "count": 0
+    },
+    {
+      "date": "2026-06-07",
+      "count": 1
+    },
+    {
+      "date": "2026-06-08",
+      "count": 0
+    },
+    {
+      "date": "2026-06-09",
+      "count": 0
+    },
+    {
+      "date": "2026-06-10",
+      "count": 0
+    },
+    {
+      "date": "2026-06-11",
+      "count": 0
+    },
+    {
+      "date": "2026-06-12",
+      "count": 3
+    },
+    {
+      "date": "2026-06-13",
+      "count": 0
+    },
+    {
+      "date": "2026-06-14",
+      "count": 0
+    },
+    {
+      "date": "2026-06-15",
+      "count": 0
+    },
+    {
+      "date": "2026-06-16",
+      "count": 0
+    },
+    {
+      "date": "2026-06-17",
+      "count": 0
+    },
+    {
+      "date": "2026-06-18",
+      "count": 0
+    },
+    {
+      "date": "2026-06-19",
+      "count": 0
+    },
+    {
+      "date": "2026-06-20",
+      "count": 0
+    },
+    {
+      "date": "2026-06-21",
+      "count": 2
+    },
+    {
+      "date": "2026-06-22",
+      "count": 0
+    },
+    {
+      "date": "2026-06-23",
+      "count": 12
+    },
+    {
+      "date": "2026-06-24",
+      "count": 8
+    },
+    {
+      "date": "2026-06-25",
+      "count": 5
+    },
+    {
+      "date": "2026-06-26",
+      "count": 7
+    },
+    {
+      "date": "2026-06-27",
+      "count": 10
+    },
+    {
+      "date": "2026-06-28",
+      "count": 7
+    },
+    {
+      "date": "2026-06-29",
+      "count": 6
+    },
+    {
+      "date": "2026-06-30",
+      "count": 3
+    },
+    {
+      "date": "2026-07-01",
+      "count": 5
+    },
+    {
+      "date": "2026-07-02",
+      "count": 0
+    },
+    {
+      "date": "2026-07-03",
+      "count": 0
+    },
+    {
+      "date": "2026-07-04",
+      "count": 6
+    },
+    {
+      "date": "2026-07-05",
+      "count": 9
+    },
+    {
+      "date": "2026-07-06",
+      "count": 1
+    },
+    {
+      "date": "2026-07-07",
+      "count": 0
+    },
+    {
+      "date": "2026-07-08",
+      "count": 19
+    },
+    {
+      "date": "2026-07-09",
+      "count": 0
+    },
+    {
+      "date": "2026-07-10",
+      "count": 0
+    },
+    {
+      "date": "2026-07-11",
+      "count": 0
+    },
+    {
+      "date": "2026-07-12",
+      "count": 0
+    },
+    {
+      "date": "2026-07-13",
+      "count": 2
+    },
+    {
+      "date": "2026-07-14",
+      "count": 1
+    },
+    {
+      "date": "2026-07-15",
+      "count": 1
+    },
+    {
+      "date": "2026-07-16",
+      "count": 4
+    },
+    {
+      "date": "2026-07-17",
+      "count": 1
+    },
+    {
+      "date": "2026-07-18",
+      "count": 13
+    },
+    {
+      "date": "2026-07-19",
+      "count": 0
+    },
+    {
+      "date": "2026-07-20",
+      "count": 2
+    },
+    {
+      "date": "2026-07-21",
+      "count": 0
+    },
+    {
+      "date": "2026-07-22",
+      "count": 4
+    },
+    {
+      "date": "2026-07-23",
+      "count": 9
+    },
+    {
+      "date": "2026-07-24",
+      "count": 23
+    },
+    {
+      "date": "2026-07-25",
+      "count": 26
+    },
+    {
+      "date": "2026-07-26",
+      "count": 1
+    },
+    {
+      "date": "2026-07-27",
+      "count": 0
+    },
+    {
+      "date": "2026-07-28",
+      "count": 12
+    },
+    {
+      "date": "2026-07-29",
+      "count": 0
+    },
+    {
+      "date": "2026-07-30",
+      "count": 0
+    },
+    {
+      "date": "2026-07-31",
+      "count": 12
+    },
+    {
+      "date": "2026-08-01",
+      "count": 3
+    },
+    {
+      "date": "2026-08-02",
+      "count": 6
+    },
+    {
+      "date": "2026-08-03",
+      "count": 0
+    },
+    {
+      "date": "2026-08-04",
+      "count": 5
+    },
+    {
+      "date": "2026-08-05",
+      "count": 4
+    },
+    {
+      "date": "2026-08-06",
+      "count": 16
+    },
+    {
+      "date": "2026-08-07",
+      "count": 7
+    },
+    {
+      "date": "2026-08-08",
+      "count": 20
+    },
+    {
+      "date": "2026-08-09",
+      "count": 5
+    }
+  ],
+  "elapsedMs": 8652
+}

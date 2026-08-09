@@ -1,0 +1,84 @@
+name: rebuild profile
+
+on:
+  schedule:
+    # Never on :00. Scheduled workflows are documented as delayed under load and
+    # the top of the hour is the worst offender, with community reports of
+    # 15-30 minute drift. :17 lands in a quiet window.
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  # Other repos can ping this one so the profile refreshes within ~30s of a push
+  # instead of waiting for the next cron tick.
+  repository_dispatch:
+    types: [refresh]
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tools/lint-svg.mjs'
+      - 'README.tpl.md'
+      - 'data/projects.json'
+      - '.github/workflows/profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Zero npm dependencies on purpose. Nothing to install, nothing to audit,
+      # nothing that can yank a version out from under a scheduled job.
+      - name: collect stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/gen-stats.mjs
+
+      - name: render assets
+        run: |
+          node scripts/gen-hero.mjs
+          node scripts/gen-rhythm.mjs
+          node scripts/gen-cards.mjs
+
+      # Hard gate. A NaN in an SVG attribute produces a well-formed file that
+      # renders as empty space with no error anywhere, so this runs before
+      # anything is allowed to reach main.
+      - name: lint assets
+        run: node tools/lint-svg.mjs
+
+      - name: assemble README
+        run: node scripts/splice.mjs
+
+      - name: sanity check
+        run: |
+          test -s README.md || { echo "README.md is empty"; exit 1; }
+          grep -q 'hero-dark.svg' README.md || { echo "hero reference missing"; exit 1; }
+          grep -q 'Generated' README.md || { echo "provenance stamp missing"; exit 1; }
+          for f in assets/hero-dark.svg assets/hero-light.svg assets/rhythm-dark.svg assets/rhythm-light.svg; do
+            test -s "$f" || { echo "$f missing or empty"; exit 1; }
+          done
+
+      - name: commit if changed
+        run: |
+          git config user.name  "profile bot"
+          git config user.email "ubhayvatsaanand@gmail.com"
+          if git diff --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git add README.md assets data
+          git commit -m "chore: rebuild profile [skip ci]
+
+          $(node -e "const s=require('./data/stats.json');console.log(\`\${s.repos.total} repos, \${s.repos.totalCommits} commits, \${s.graphqlCost} graphql points\`)")"
+          git push

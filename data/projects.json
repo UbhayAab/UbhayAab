@@ -1,0 +1,50 @@
+{
+  "_note": "Hand-authored narrative only. Every NUMBER on a card is derived live from data/stats.json by scripts/gen-cards.mjs, so nothing here can drift out of date or overstate.",
+  "featured": [
+    {
+      "repo": "llama.cpp-ubhay",
+      "title": "Gemma 4 PLE -> llama.cpp",
+      "lines": [
+        "Personal fork of ggml-org/llama.cpp, tracking upstream.",
+        "Porting per-layer embeddings so the model fits a card",
+        "it was never sized for."
+      ],
+      "stack": ["C++", "CUDA", "GGML"],
+      "metric": "cpp-bytes"
+    },
+    {
+      "repo": "soop",
+      "title": "Soop",
+      "lines": [
+        "Invite-only team chat. Postgres row-level security,",
+        "migrations and RPCs all the way down. Built for one",
+        "NGO, running in production."
+      ],
+      "stack": ["Supabase", "PLpgSQL", "Vanilla JS"],
+      "metric": "live",
+      "live": "ubhayaab.github.io/soop"
+    },
+    {
+      "repo": "glance",
+      "title": "Glance",
+      "lines": [
+        "Offline viewer for CSV, XLSX, DOCX, PPTX and Markdown.",
+        "Opens instantly, never phones home, and now carries a",
+        "real calculation engine with cycle detection."
+      ],
+      "stack": ["Electron", "JavaScript"],
+      "metric": "size"
+    },
+    {
+      "repo": "kdp-ads-brain",
+      "title": "Ads Brain",
+      "lines": [
+        "Amazon Ads automation and a daily catalogue brain for",
+        "a self-publishing business. Bid policy, reporting,",
+        "and the boring parts nobody automates."
+      ],
+      "stack": ["Python", "Pandas"],
+      "metric": "velocity"
+    }
+  ]
+}

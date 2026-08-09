@@ -1,0 +1,20 @@
+{
+  "name": "ubhayaab-profile",
+  "private": true,
+  "type": "module",
+  "description": "Self-generating GitHub profile README. Every image is built by a script in this repo and committed as a file, so nothing on the page depends on a third-party service staying up.",
+  "scripts": {
+    "stats": "node scripts/gen-stats.mjs",
+    "assets": "node scripts/gen-hero.mjs && node scripts/gen-rhythm.mjs && node scripts/gen-cards.mjs",
+    "lint": "node tools/lint-svg.mjs",
+    "readme": "node scripts/splice.mjs",
+    "build": "npm run stats && npm run assets && npm run lint && npm run readme",
+    "offline": "npm run assets && npm run lint && npm run readme",
+    "bench": "node scripts/bench-local.mjs",
+    "ttt": "node scripts/gen-ttt.mjs",
+    "shot": "node tools/screenshot.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

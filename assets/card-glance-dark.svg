@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 428 208" width="428" height="208" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet">
+<title id="t">Glance (glance)</title><desc id="d">Glance. Offline viewer for CSV, XLSX, DOCX, PPTX and Markdown. Opens instantly, never phones home, and now carries a real calculation engine with cycle detection. 10 MB 28 commits, 5 days old. Private repository, 28 commits, pushed today.</desc>
+<defs><clipPath id="cglancedb"><rect x="24" y="196" width="380" height="9" class="barclip"/></clipPath></defs>
+<style>
+
+.spine{animation:spine .6s cubic-bezier(.4,0,.2,1) .1s backwards}
+@keyframes spine{from{transform:scaleY(0)}}
+.barclip{animation:bar .9s cubic-bezier(.4,0,.2,1) .35s backwards}
+@keyframes bar{from{width:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0" y="0" width="428" height="208" rx="14" fill="#0B0D13"/>
+<rect x="0.75" y="0.75" width="426.5" height="206.5" rx="13.25" fill="none" stroke="#1B2130" stroke-width="1.5"/>
+<rect x="0" y="14" width="3" height="180" rx="1.5" fill="#f1e05a" class="spine" style="transform-origin:0 104px"/>
+<circle cx="24" cy="27" r="4.5" fill="#f1e05a"/>
+<text x="35" y="31" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#7C8699" text-anchor="start" textLength="39.6" lengthAdjust="spacing">glance</text>
+<rect x="349.1" y="19" width="58.9" height="16" rx="8" fill="#101420" stroke="#1B2130" stroke-width="1"/>
+<text x="378.55" y="30" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="8.5" font-weight="400" fill="#3C4457" text-anchor="middle" letter-spacing="1.2">PRIVATE</text>
+<text x="24" y="62" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="17" font-weight="400" fill="#EDF0F7" text-anchor="start" letter-spacing="-0.3" textLength="59.7" lengthAdjust="spacing">Glance</text>
+<text x="24" y="86" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="324" lengthAdjust="spacing">Offline viewer for CSV, XLSX, DOCX, PPTX and Markdown.</text>
+<text x="24" y="101" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="318" lengthAdjust="spacing">Opens instantly, never phones home, and now carries a</text>
+<text x="24" y="116" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="270" lengthAdjust="spacing">real calculation engine with cycle detection.</text>
+<path d="M24,132 H404" stroke="#141926"/>
+<rect x="24" y="142" width="54.8" height="16" rx="8" fill="#101420"/>
+<text x="51.4" y="153.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="8.5" font-weight="400" fill="#7C8699" text-anchor="middle">Electron</text>
+<rect x="84.8" y="142" width="65" height="16" rx="8" fill="#101420"/>
+<text x="117.3" y="153.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="8.5" font-weight="400" fill="#7C8699" text-anchor="middle">JavaScript</text>
+<text x="24" y="176" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="19" font-weight="400" fill="#FF7A18" text-anchor="start" letter-spacing="-0.4" textLength="55.4" lengthAdjust="spacing">10 MB</text>
+<text x="24" y="191" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="start" textLength="125.4" lengthAdjust="spacing">28 commits, 5 days old</text>
+<rect x="24" y="199" width="380" height="3" rx="1.5" fill="#141926"/>
+<g clip-path="url(#cglancedb)"><rect x="24" y="199" width="16.943" height="3" rx="1.5" fill="#f1e05a" opacity="0.9"/></g>
+<text x="404" y="176" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10.5" font-weight="400" fill="#7C8699" text-anchor="end" textLength="63" lengthAdjust="spacing">28 commits</text>
+<text x="404" y="191" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="end" textLength="68.4" lengthAdjust="spacing">pushed today</text>
+</svg>

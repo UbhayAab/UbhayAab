@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 346" width="880" height="346" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet">
+<title id="t">Commit rhythm: weekday by hour</title><desc id="d">A 7 by 24 heatmap of 882 real commit timestamps in Asia/Kolkata. Busiest slot is Sun at 1:00 with 26 commits. 24 percent of commits land between 11pm and 6am, 45 percent on weekends.</desc>
+<defs></defs>
+<style>
+
+.c{animation:pop .42s cubic-bezier(.34,1.5,.5,1) backwards}
+@keyframes pop{from{transform:scale(.2);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0" y="0" width="880" height="346" rx="20" fill="#06070B"/>
+<rect x="0.75" y="0.75" width="878.5" height="344.5" rx="19.25" fill="none" stroke="#1B2130" stroke-width="1.5"/>
+<text x="56" y="40" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#EDF0F7" text-anchor="start" letter-spacing="2.4" textLength="211.8" lengthAdjust="spacing">WHEN THE COMMITS LAND</text>
+<text x="824" y="40" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#3C4457" text-anchor="end" textLength="191.4" lengthAdjust="spacing">882 timestamps · Asia/Kolkata</text>
+<path d="M56,56 H824" stroke="#141926"/>
+<text x="103.375" y="78" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="middle">00</text>
+<text x="195.625" y="78" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="middle">03</text>
+<text x="287.875" y="78" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="middle">06</text>
+<text x="380.125" y="78" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="middle">09</text>
+<text x="472.375" y="78" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="middle">12</text>
+<text x="564.625" y="78" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="middle">15</text>
+<text x="656.875" y="78" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="middle">18</text>
+<text x="749.125" y="78" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="middle">21</text>
+<text x="56" y="106.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="18" lengthAdjust="spacing">Sun</text>
+<rect x="90" y="92" width="26.75" height="22" rx="4" fill="#b67b77" opacity="0.679" class="c" style="animation-delay:0s;transform-origin:103.375px 103px"><title>Sun 00:00 · 9 commits</title></rect>
+<rect x="120.75" y="92" width="26.75" height="22" rx="4" fill="#ff7a18" opacity="1" class="c" style="animation-delay:0.006s;transform-origin:134.125px 103px"><title>Sun 01:00 · 26 commits</title></rect>
+<rect x="151.5" y="92" width="26.75" height="22" rx="4" fill="#e57a39" opacity="0.887" class="c" style="animation-delay:0.011s;transform-origin:164.875px 103px"><title>Sun 02:00 · 19 commits</title></rect>
+<rect x="182.25" y="92" width="26.75" height="22" rx="4" fill="#bb7b6f" opacity="0.704" class="c" style="animation-delay:0.017s;transform-origin:195.625px 103px"><title>Sun 03:00 · 10 commits</title></rect>
+<rect x="213" y="92" width="26.75" height="22" rx="4" fill="#b07b7e" opacity="0.653" class="c" style="animation-delay:0.022s;transform-origin:226.375px 103px"><title>Sun 04:00 · 8 commits</title></rect>
+<rect x="243.75" y="92" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.027s;transform-origin:257.125px 103px"><title>Sun 05:00 · 4 commits</title></rect>
+<rect x="274.5" y="92" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.033s;transform-origin:287.875px 103px"><title>Sun 06:00 · 0 commits</title></rect>
+<rect x="305.25" y="92" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.039s;transform-origin:318.625px 103px"><title>Sun 07:00 · 0 commits</title></rect>
+<rect x="336" y="92" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.044s;transform-origin:349.375px 103px"><title>Sun 08:00 · 3 commits</title></rect>
+<rect x="366.75" y="92" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.049s;transform-origin:380.125px 103px"><title>Sun 09:00 · 3 commits</title></rect>
+<rect x="397.5" y="92" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.055s;transform-origin:410.875px 103px"><title>Sun 10:00 · 6 commits</title></rect>
+<rect x="428.25" y="92" width="26.75" height="22" rx="4" fill="#b07b7e" opacity="0.653" class="c" style="animation-delay:0.061s;transform-origin:441.625px 103px"><title>Sun 11:00 · 8 commits</title></rect>
+<rect x="459" y="92" width="26.75" height="22" rx="4" fill="#cb7b5b" opacity="0.772" class="c" style="animation-delay:0.066s;transform-origin:472.375px 103px"><title>Sun 12:00 · 13 commits</title></rect>
+<rect x="489.75" y="92" width="26.75" height="22" rx="4" fill="#b67b77" opacity="0.679" class="c" style="animation-delay:0.072s;transform-origin:503.125px 103px"><title>Sun 13:00 · 9 commits</title></rect>
+<rect x="520.5" y="92" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.077s;transform-origin:533.875px 103px"><title>Sun 14:00 · 7 commits</title></rect>
+<rect x="551.25" y="92" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.082s;transform-origin:564.625px 103px"><title>Sun 15:00 · 1 commit</title></rect>
+<rect x="582" y="92" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.088s;transform-origin:595.375px 103px"><title>Sun 16:00 · 2 commits</title></rect>
+<rect x="612.75" y="92" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.094s;transform-origin:626.125px 103px"><title>Sun 17:00 · 4 commits</title></rect>
+<rect x="643.5" y="92" width="26.75" height="22" rx="4" fill="#9b7b99" opacity="0.562" class="c" style="animation-delay:0.099s;transform-origin:656.875px 103px"><title>Sun 18:00 · 5 commits</title></rect>
+<rect x="674.25" y="92" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.105s;transform-origin:687.625px 103px"><title>Sun 19:00 · 0 commits</title></rect>
+<rect x="705" y="92" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.11s;transform-origin:718.375px 103px"><title>Sun 20:00 · 3 commits</title></rect>
+<rect x="735.75" y="92" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.115s;transform-origin:749.125px 103px"><title>Sun 21:00 · 1 commit</title></rect>
+<rect x="766.5" y="92" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.121s;transform-origin:779.875px 103px"><title>Sun 22:00 · 6 commits</title></rect>
+<rect x="797.25" y="92" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.127s;transform-origin:810.625px 103px"><title>Sun 23:00 · 1 commit</title></rect>
+<text x="56" y="132.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="18" lengthAdjust="spacing">Mon</text>
+<rect x="90" y="118" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.132s;transform-origin:103.375px 129px"><title>Mon 00:00 · 0 commits</title></rect>
+<rect x="120.75" y="118" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.137s;transform-origin:134.125px 129px"><title>Mon 01:00 · 3 commits</title></rect>
+<rect x="151.5" y="118" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.143s;transform-origin:164.875px 129px"><title>Mon 02:00 · 2 commits</title></rect>
+<rect x="182.25" y="118" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.149s;transform-origin:195.625px 129px"><title>Mon 03:00 · 1 commit</title></rect>
+<rect x="213" y="118" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.154s;transform-origin:226.375px 129px"><title>Mon 04:00 · 6 commits</title></rect>
+<rect x="243.75" y="118" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.16s;transform-origin:257.125px 129px"><title>Mon 05:00 · 6 commits</title></rect>
+<rect x="274.5" y="118" width="26.75" height="22" rx="4" fill="#b67b77" opacity="0.679" class="c" style="animation-delay:0.165s;transform-origin:287.875px 129px"><title>Mon 06:00 · 9 commits</title></rect>
+<rect x="305.25" y="118" width="26.75" height="22" rx="4" fill="#9b7b99" opacity="0.562" class="c" style="animation-delay:0.17s;transform-origin:318.625px 129px"><title>Mon 07:00 · 5 commits</title></rect>
+<rect x="336" y="118" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.176s;transform-origin:349.375px 129px"><title>Mon 08:00 · 7 commits</title></rect>
+<rect x="366.75" y="118" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.182s;transform-origin:380.125px 129px"><title>Mon 09:00 · 7 commits</title></rect>
+<rect x="397.5" y="118" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.187s;transform-origin:410.875px 129px"><title>Mon 10:00 · 3 commits</title></rect>
+<rect x="428.25" y="118" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.192s;transform-origin:441.625px 129px"><title>Mon 11:00 · 2 commits</title></rect>
+<rect x="459" y="118" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.198s;transform-origin:472.375px 129px"><title>Mon 12:00 · 1 commit</title></rect>
+<rect x="489.75" y="118" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.204s;transform-origin:503.125px 129px"><title>Mon 13:00 · 0 commits</title></rect>
+<rect x="520.5" y="118" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.209s;transform-origin:533.875px 129px"><title>Mon 14:00 · 4 commits</title></rect>
+<rect x="551.25" y="118" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.215s;transform-origin:564.625px 129px"><title>Mon 15:00 · 7 commits</title></rect>
+<rect x="582" y="118" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.22s;transform-origin:595.375px 129px"><title>Mon 16:00 · 1 commit</title></rect>
+<rect x="612.75" y="118" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.225s;transform-origin:626.125px 129px"><title>Mon 17:00 · 1 commit</title></rect>
+<rect x="643.5" y="118" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.231s;transform-origin:656.875px 129px"><title>Mon 18:00 · 2 commits</title></rect>
+<rect x="674.25" y="118" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.237s;transform-origin:687.625px 129px"><title>Mon 19:00 · 0 commits</title></rect>
+<rect x="705" y="118" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.242s;transform-origin:718.375px 129px"><title>Mon 20:00 · 4 commits</title></rect>
+<rect x="735.75" y="118" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.248s;transform-origin:749.125px 129px"><title>Mon 21:00 · 1 commit</title></rect>
+<rect x="766.5" y="118" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.253s;transform-origin:779.875px 129px"><title>Mon 22:00 · 0 commits</title></rect>
+<rect x="797.25" y="118" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.259s;transform-origin:810.625px 129px"><title>Mon 23:00 · 0 commits</title></rect>
+<text x="56" y="158.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="18" lengthAdjust="spacing">Tue</text>
+<rect x="90" y="144" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.264s;transform-origin:103.375px 155px"><title>Tue 00:00 · 0 commits</title></rect>
+<rect x="120.75" y="144" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.269s;transform-origin:134.125px 155px"><title>Tue 01:00 · 0 commits</title></rect>
+<rect x="151.5" y="144" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.275s;transform-origin:164.875px 155px"><title>Tue 02:00 · 3 commits</title></rect>
+<rect x="182.25" y="144" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.281s;transform-origin:195.625px 155px"><title>Tue 03:00 · 2 commits</title></rect>
+<rect x="213" y="144" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.286s;transform-origin:226.375px 155px"><title>Tue 04:00 · 4 commits</title></rect>
+<rect x="243.75" y="144" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.292s;transform-origin:257.125px 155px"><title>Tue 05:00 · 0 commits</title></rect>
+<rect x="274.5" y="144" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.297s;transform-origin:287.875px 155px"><title>Tue 06:00 · 3 commits</title></rect>
+<rect x="305.25" y="144" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.303s;transform-origin:318.625px 155px"><title>Tue 07:00 · 4 commits</title></rect>
+<rect x="336" y="144" width="26.75" height="22" rx="4" fill="#d97a4a" opacity="0.832" class="c" style="animation-delay:0.308s;transform-origin:349.375px 155px"><title>Tue 08:00 · 16 commits</title></rect>
+<rect x="366.75" y="144" width="26.75" height="22" rx="4" fill="#e57a39" opacity="0.887" class="c" style="animation-delay:0.314s;transform-origin:380.125px 155px"><title>Tue 09:00 · 19 commits</title></rect>
+<rect x="397.5" y="144" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.319s;transform-origin:410.875px 155px"><title>Tue 10:00 · 2 commits</title></rect>
+<rect x="428.25" y="144" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.324s;transform-origin:441.625px 155px"><title>Tue 11:00 · 2 commits</title></rect>
+<rect x="459" y="144" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.33s;transform-origin:472.375px 155px"><title>Tue 12:00 · 0 commits</title></rect>
+<rect x="489.75" y="144" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.335s;transform-origin:503.125px 155px"><title>Tue 13:00 · 4 commits</title></rect>
+<rect x="520.5" y="144" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.341s;transform-origin:533.875px 155px"><title>Tue 14:00 · 7 commits</title></rect>
+<rect x="551.25" y="144" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.347s;transform-origin:564.625px 155px"><title>Tue 15:00 · 7 commits</title></rect>
+<rect x="582" y="144" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.352s;transform-origin:595.375px 155px"><title>Tue 16:00 · 3 commits</title></rect>
+<rect x="612.75" y="144" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.358s;transform-origin:626.125px 155px"><title>Tue 17:00 · 3 commits</title></rect>
+<rect x="643.5" y="144" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.363s;transform-origin:656.875px 155px"><title>Tue 18:00 · 0 commits</title></rect>
+<rect x="674.25" y="144" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.369s;transform-origin:687.625px 155px"><title>Tue 19:00 · 2 commits</title></rect>
+<rect x="705" y="144" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.374s;transform-origin:718.375px 155px"><title>Tue 20:00 · 4 commits</title></rect>
+<rect x="735.75" y="144" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.38s;transform-origin:749.125px 155px"><title>Tue 21:00 · 1 commit</title></rect>
+<rect x="766.5" y="144" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.385s;transform-origin:779.875px 155px"><title>Tue 22:00 · 1 commit</title></rect>
+<rect x="797.25" y="144" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.39s;transform-origin:810.625px 155px"><title>Tue 23:00 · 1 commit</title></rect>
+<text x="56" y="184.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="18" lengthAdjust="spacing">Wed</text>
+<rect x="90" y="170" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.396s;transform-origin:103.375px 181px"><title>Wed 00:00 · 1 commit</title></rect>
+<rect x="120.75" y="170" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.401s;transform-origin:134.125px 181px"><title>Wed 01:00 · 2 commits</title></rect>
+<rect x="151.5" y="170" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.407s;transform-origin:164.875px 181px"><title>Wed 02:00 · 0 commits</title></rect>
+<rect x="182.25" y="170" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.413s;transform-origin:195.625px 181px"><title>Wed 03:00 · 0 commits</title></rect>
+<rect x="213" y="170" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.418s;transform-origin:226.375px 181px"><title>Wed 04:00 · 0 commits</title></rect>
+<rect x="243.75" y="170" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.424s;transform-origin:257.125px 181px"><title>Wed 05:00 · 0 commits</title></rect>
+<rect x="274.5" y="170" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.429s;transform-origin:287.875px 181px"><title>Wed 06:00 · 1 commit</title></rect>
+<rect x="305.25" y="170" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.435s;transform-origin:318.625px 181px"><title>Wed 07:00 · 2 commits</title></rect>
+<rect x="336" y="170" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.44s;transform-origin:349.375px 181px"><title>Wed 08:00 · 1 commit</title></rect>
+<rect x="366.75" y="170" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.445s;transform-origin:380.125px 181px"><title>Wed 09:00 · 2 commits</title></rect>
+<rect x="397.5" y="170" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.451s;transform-origin:410.875px 181px"><title>Wed 10:00 · 4 commits</title></rect>
+<rect x="428.25" y="170" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.456s;transform-origin:441.625px 181px"><title>Wed 11:00 · 0 commits</title></rect>
+<rect x="459" y="170" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.462s;transform-origin:472.375px 181px"><title>Wed 12:00 · 0 commits</title></rect>
+<rect x="489.75" y="170" width="26.75" height="22" rx="4" fill="#9b7b99" opacity="0.562" class="c" style="animation-delay:0.467s;transform-origin:503.125px 181px"><title>Wed 13:00 · 5 commits</title></rect>
+<rect x="520.5" y="170" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.473s;transform-origin:533.875px 181px"><title>Wed 14:00 · 7 commits</title></rect>
+<rect x="551.25" y="170" width="26.75" height="22" rx="4" fill="#e17a3f" opacity="0.869" class="c" style="animation-delay:0.479s;transform-origin:564.625px 181px"><title>Wed 15:00 · 18 commits</title></rect>
+<rect x="582" y="170" width="26.75" height="22" rx="4" fill="#cb7b5b" opacity="0.772" class="c" style="animation-delay:0.484s;transform-origin:595.375px 181px"><title>Wed 16:00 · 13 commits</title></rect>
+<rect x="612.75" y="170" width="26.75" height="22" rx="4" fill="#b67b77" opacity="0.679" class="c" style="animation-delay:0.49s;transform-origin:626.125px 181px"><title>Wed 17:00 · 9 commits</title></rect>
+<rect x="643.5" y="170" width="26.75" height="22" rx="4" fill="#cb7b5b" opacity="0.772" class="c" style="animation-delay:0.495s;transform-origin:656.875px 181px"><title>Wed 18:00 · 13 commits</title></rect>
+<rect x="674.25" y="170" width="26.75" height="22" rx="4" fill="#b07b7e" opacity="0.653" class="c" style="animation-delay:0.5s;transform-origin:687.625px 181px"><title>Wed 19:00 · 8 commits</title></rect>
+<rect x="705" y="170" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.506s;transform-origin:718.375px 181px"><title>Wed 20:00 · 3 commits</title></rect>
+<rect x="735.75" y="170" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.511s;transform-origin:749.125px 181px"><title>Wed 21:00 · 7 commits</title></rect>
+<rect x="766.5" y="170" width="26.75" height="22" rx="4" fill="#b07b7e" opacity="0.653" class="c" style="animation-delay:0.517s;transform-origin:779.875px 181px"><title>Wed 22:00 · 8 commits</title></rect>
+<rect x="797.25" y="170" width="26.75" height="22" rx="4" fill="#b07b7e" opacity="0.653" class="c" style="animation-delay:0.523s;transform-origin:810.625px 181px"><title>Wed 23:00 · 8 commits</title></rect>
+<text x="56" y="210.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="18" lengthAdjust="spacing">Thu</text>
+<rect x="90" y="196" width="26.75" height="22" rx="4" fill="#b67b77" opacity="0.679" class="c" style="animation-delay:0.528s;transform-origin:103.375px 207px"><title>Thu 00:00 · 9 commits</title></rect>
+<rect x="120.75" y="196" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.534s;transform-origin:134.125px 207px"><title>Thu 01:00 · 3 commits</title></rect>
+<rect x="151.5" y="196" width="26.75" height="22" rx="4" fill="#9b7b99" opacity="0.562" class="c" style="animation-delay:0.539s;transform-origin:164.875px 207px"><title>Thu 02:00 · 5 commits</title></rect>
+<rect x="182.25" y="196" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.545s;transform-origin:195.625px 207px"><title>Thu 03:00 · 1 commit</title></rect>
+<rect x="213" y="196" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.55s;transform-origin:226.375px 207px"><title>Thu 04:00 · 6 commits</title></rect>
+<rect x="243.75" y="196" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.556s;transform-origin:257.125px 207px"><title>Thu 05:00 · 2 commits</title></rect>
+<rect x="274.5" y="196" width="26.75" height="22" rx="4" fill="#b67b77" opacity="0.679" class="c" style="animation-delay:0.561s;transform-origin:287.875px 207px"><title>Thu 06:00 · 9 commits</title></rect>
+<rect x="305.25" y="196" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.567s;transform-origin:318.625px 207px"><title>Thu 07:00 · 7 commits</title></rect>
+<rect x="336" y="196" width="26.75" height="22" rx="4" fill="#bb7b6f" opacity="0.704" class="c" style="animation-delay:0.572s;transform-origin:349.375px 207px"><title>Thu 08:00 · 10 commits</title></rect>
+<rect x="366.75" y="196" width="26.75" height="22" rx="4" fill="#c17b68" opacity="0.727" class="c" style="animation-delay:0.578s;transform-origin:380.125px 207px"><title>Thu 09:00 · 11 commits</title></rect>
+<rect x="397.5" y="196" width="26.75" height="22" rx="4" fill="#b07b7e" opacity="0.653" class="c" style="animation-delay:0.583s;transform-origin:410.875px 207px"><title>Thu 10:00 · 8 commits</title></rect>
+<rect x="428.25" y="196" width="26.75" height="22" rx="4" fill="#bb7b6f" opacity="0.704" class="c" style="animation-delay:0.588s;transform-origin:441.625px 207px"><title>Thu 11:00 · 10 commits</title></rect>
+<rect x="459" y="196" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.594s;transform-origin:472.375px 207px"><title>Thu 12:00 · 0 commits</title></rect>
+<rect x="489.75" y="196" width="26.75" height="22" rx="4" fill="#9b7b99" opacity="0.562" class="c" style="animation-delay:0.599s;transform-origin:503.125px 207px"><title>Thu 13:00 · 5 commits</title></rect>
+<rect x="520.5" y="196" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.605s;transform-origin:533.875px 207px"><title>Thu 14:00 · 0 commits</title></rect>
+<rect x="551.25" y="196" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.61s;transform-origin:564.625px 207px"><title>Thu 15:00 · 1 commit</title></rect>
+<rect x="582" y="196" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.616s;transform-origin:595.375px 207px"><title>Thu 16:00 · 2 commits</title></rect>
+<rect x="612.75" y="196" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.621s;transform-origin:626.125px 207px"><title>Thu 17:00 · 4 commits</title></rect>
+<rect x="643.5" y="196" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.627s;transform-origin:656.875px 207px"><title>Thu 18:00 · 0 commits</title></rect>
+<rect x="674.25" y="196" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.633s;transform-origin:687.625px 207px"><title>Thu 19:00 · 0 commits</title></rect>
+<rect x="705" y="196" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.638s;transform-origin:718.375px 207px"><title>Thu 20:00 · 0 commits</title></rect>
+<rect x="735.75" y="196" width="26.75" height="22" rx="4" fill="#9b7b99" opacity="0.562" class="c" style="animation-delay:0.644s;transform-origin:749.125px 207px"><title>Thu 21:00 · 5 commits</title></rect>
+<rect x="766.5" y="196" width="26.75" height="22" rx="4" fill="#bb7b6f" opacity="0.704" class="c" style="animation-delay:0.649s;transform-origin:779.875px 207px"><title>Thu 22:00 · 10 commits</title></rect>
+<rect x="797.25" y="196" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.655s;transform-origin:810.625px 207px"><title>Thu 23:00 · 4 commits</title></rect>
+<text x="56" y="236.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="18" lengthAdjust="spacing">Fri</text>
+<rect x="90" y="222" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.66s;transform-origin:103.375px 233px"><title>Fri 00:00 · 1 commit</title></rect>
+<rect x="120.75" y="222" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.666s;transform-origin:134.125px 233px"><title>Fri 01:00 · 0 commits</title></rect>
+<rect x="151.5" y="222" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.671s;transform-origin:164.875px 233px"><title>Fri 02:00 · 0 commits</title></rect>
+<rect x="182.25" y="222" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.677s;transform-origin:195.625px 233px"><title>Fri 03:00 · 0 commits</title></rect>
+<rect x="213" y="222" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.682s;transform-origin:226.375px 233px"><title>Fri 04:00 · 0 commits</title></rect>
+<rect x="243.75" y="222" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.688s;transform-origin:257.125px 233px"><title>Fri 05:00 · 0 commits</title></rect>
+<rect x="274.5" y="222" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.693s;transform-origin:287.875px 233px"><title>Fri 06:00 · 7 commits</title></rect>
+<rect x="305.25" y="222" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.699s;transform-origin:318.625px 233px"><title>Fri 07:00 · 1 commit</title></rect>
+<rect x="336" y="222" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.704s;transform-origin:349.375px 233px"><title>Fri 08:00 · 0 commits</title></rect>
+<rect x="366.75" y="222" width="26.75" height="22" rx="4" fill="#e17a3f" opacity="0.869" class="c" style="animation-delay:0.709s;transform-origin:380.125px 233px"><title>Fri 09:00 · 18 commits</title></rect>
+<rect x="397.5" y="222" width="26.75" height="22" rx="4" fill="#c17b68" opacity="0.727" class="c" style="animation-delay:0.715s;transform-origin:410.875px 233px"><title>Fri 10:00 · 11 commits</title></rect>
+<rect x="428.25" y="222" width="26.75" height="22" rx="4" fill="#b07b7e" opacity="0.653" class="c" style="animation-delay:0.72s;transform-origin:441.625px 233px"><title>Fri 11:00 · 8 commits</title></rect>
+<rect x="459" y="222" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.726s;transform-origin:472.375px 233px"><title>Fri 12:00 · 2 commits</title></rect>
+<rect x="489.75" y="222" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.731s;transform-origin:503.125px 233px"><title>Fri 13:00 · 1 commit</title></rect>
+<rect x="520.5" y="222" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.737s;transform-origin:533.875px 233px"><title>Fri 14:00 · 2 commits</title></rect>
+<rect x="551.25" y="222" width="26.75" height="22" rx="4" fill="#9b7b99" opacity="0.562" class="c" style="animation-delay:0.742s;transform-origin:564.625px 233px"><title>Fri 15:00 · 5 commits</title></rect>
+<rect x="582" y="222" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.748s;transform-origin:595.375px 233px"><title>Fri 16:00 · 0 commits</title></rect>
+<rect x="612.75" y="222" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.754s;transform-origin:626.125px 233px"><title>Fri 17:00 · 6 commits</title></rect>
+<rect x="643.5" y="222" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.759s;transform-origin:656.875px 233px"><title>Fri 18:00 · 1 commit</title></rect>
+<rect x="674.25" y="222" width="26.75" height="22" rx="4" fill="#101420" class="c" style="animation-delay:0.765s;transform-origin:687.625px 233px"><title>Fri 19:00 · 0 commits</title></rect>
+<rect x="705" y="222" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.77s;transform-origin:718.375px 233px"><title>Fri 20:00 · 3 commits</title></rect>
+<rect x="735.75" y="222" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.776s;transform-origin:749.125px 233px"><title>Fri 21:00 · 6 commits</title></rect>
+<rect x="766.5" y="222" width="26.75" height="22" rx="4" fill="#d47a4f" opacity="0.812" class="c" style="animation-delay:0.781s;transform-origin:779.875px 233px"><title>Fri 22:00 · 15 commits</title></rect>
+<rect x="797.25" y="222" width="26.75" height="22" rx="4" fill="#e17a3f" opacity="0.869" class="c" style="animation-delay:0.787s;transform-origin:810.625px 233px"><title>Fri 23:00 · 18 commits</title></rect>
+<text x="56" y="262.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" font-weight="400" fill="#7C8699" text-anchor="start" textLength="18" lengthAdjust="spacing">Sat</text>
+<rect x="90" y="248" width="26.75" height="22" rx="4" fill="#d47a4f" opacity="0.812" class="c" style="animation-delay:0.792s;transform-origin:103.375px 259px"><title>Sat 00:00 · 15 commits</title></rect>
+<rect x="120.75" y="248" width="26.75" height="22" rx="4" fill="#c17b68" opacity="0.727" class="c" style="animation-delay:0.798s;transform-origin:134.125px 259px"><title>Sat 01:00 · 11 commits</title></rect>
+<rect x="151.5" y="248" width="26.75" height="22" rx="4" fill="#707cd1" opacity="0.373" class="c" style="animation-delay:0.803s;transform-origin:164.875px 259px"><title>Sat 02:00 · 1 commit</title></rect>
+<rect x="182.25" y="248" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.809s;transform-origin:195.625px 259px"><title>Sat 03:00 · 4 commits</title></rect>
+<rect x="213" y="248" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.814s;transform-origin:226.375px 259px"><title>Sat 04:00 · 6 commits</title></rect>
+<rect x="243.75" y="248" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.82s;transform-origin:257.125px 259px"><title>Sat 05:00 · 2 commits</title></rect>
+<rect x="274.5" y="248" width="26.75" height="22" rx="4" fill="#897bb0" opacity="0.485" class="c" style="animation-delay:0.825s;transform-origin:287.875px 259px"><title>Sat 06:00 · 3 commits</title></rect>
+<rect x="305.25" y="248" width="26.75" height="22" rx="4" fill="#7e7bbe" opacity="0.436" class="c" style="animation-delay:0.83s;transform-origin:318.625px 259px"><title>Sat 07:00 · 2 commits</title></rect>
+<rect x="336" y="248" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.836s;transform-origin:349.375px 259px"><title>Sat 08:00 · 4 commits</title></rect>
+<rect x="366.75" y="248" width="26.75" height="22" rx="4" fill="#b67b77" opacity="0.679" class="c" style="animation-delay:0.841s;transform-origin:380.125px 259px"><title>Sat 09:00 · 9 commits</title></rect>
+<rect x="397.5" y="248" width="26.75" height="22" rx="4" fill="#937ba4" opacity="0.526" class="c" style="animation-delay:0.847s;transform-origin:410.875px 259px"><title>Sat 10:00 · 4 commits</title></rect>
+<rect x="428.25" y="248" width="26.75" height="22" rx="4" fill="#c67b62" opacity="0.75" class="c" style="animation-delay:0.852s;transform-origin:441.625px 259px"><title>Sat 11:00 · 12 commits</title></rect>
+<rect x="459" y="248" width="26.75" height="22" rx="4" fill="#b67b77" opacity="0.679" class="c" style="animation-delay:0.858s;transform-origin:472.375px 259px"><title>Sat 12:00 · 9 commits</title></rect>
+<rect x="489.75" y="248" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.863s;transform-origin:503.125px 259px"><title>Sat 13:00 · 6 commits</title></rect>
+<rect x="520.5" y="248" width="26.75" height="22" rx="4" fill="#a97b87" opacity="0.625" class="c" style="animation-delay:0.869s;transform-origin:533.875px 259px"><title>Sat 14:00 · 7 commits</title></rect>
+<rect x="551.25" y="248" width="26.75" height="22" rx="4" fill="#e57a39" opacity="0.887" class="c" style="animation-delay:0.875s;transform-origin:564.625px 259px"><title>Sat 15:00 · 19 commits</title></rect>
+<rect x="582" y="248" width="26.75" height="22" rx="4" fill="#c67b62" opacity="0.75" class="c" style="animation-delay:0.88s;transform-origin:595.375px 259px"><title>Sat 16:00 · 12 commits</title></rect>
+<rect x="612.75" y="248" width="26.75" height="22" rx="4" fill="#ff7a18" opacity="1" class="c" style="animation-delay:0.886s;transform-origin:626.125px 259px"><title>Sat 17:00 · 26 commits</title></rect>
+<rect x="643.5" y="248" width="26.75" height="22" rx="4" fill="#ff7a18" opacity="1" class="c" style="animation-delay:0.891s;transform-origin:656.875px 259px"><title>Sat 18:00 · 26 commits</title></rect>
+<rect x="674.25" y="248" width="26.75" height="22" rx="4" fill="#a37b90" opacity="0.595" class="c" style="animation-delay:0.897s;transform-origin:687.625px 259px"><title>Sat 19:00 · 6 commits</title></rect>
+<rect x="705" y="248" width="26.75" height="22" rx="4" fill="#f47a26" opacity="0.954" class="c" style="animation-delay:0.902s;transform-origin:718.375px 259px"><title>Sat 20:00 · 23 commits</title></rect>
+<rect x="735.75" y="248" width="26.75" height="22" rx="4" fill="#b07b7e" opacity="0.653" class="c" style="animation-delay:0.908s;transform-origin:749.125px 259px"><title>Sat 21:00 · 8 commits</title></rect>
+<rect x="766.5" y="248" width="26.75" height="22" rx="4" fill="#fc7a1c" opacity="0.985" class="c" style="animation-delay:0.913s;transform-origin:779.875px 259px"><title>Sat 22:00 · 25 commits</title></rect>
+<rect x="797.25" y="248" width="26.75" height="22" rx="4" fill="#9b7b99" opacity="0.562" class="c" style="animation-delay:0.919s;transform-origin:810.625px 259px"><title>Sat 23:00 · 5 commits</title></rect>
+<text x="56" y="301" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="start" textLength="28.5" lengthAdjust="spacing">quiet</text>
+<rect x="94.5" y="292" width="20" height="12" rx="3" fill="#101420"/>
+<rect x="118.5" y="292" width="20" height="12" rx="3" fill="#7a7cc5" opacity="0.415"/>
+<rect x="142.5" y="292" width="20" height="12" rx="3" fill="#a67b8b" opacity="0.61"/>
+<rect x="166.5" y="292" width="20" height="12" rx="3" fill="#d37b52" opacity="0.805"/>
+<rect x="190.5" y="292" width="20" height="12" rx="3" fill="#ff7a18" opacity="1"/>
+<text x="216.5" y="301" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="start" textLength="96.9" lengthAdjust="spacing">busy (26 commits)</text>
+<text x="824" y="301" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#7C8699" text-anchor="end" textLength="119.7" lengthAdjust="spacing">136 of 168 slots used</text>
+<text x="56" y="330" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#7C8699" text-anchor="start" textLength="521.4" lengthAdjust="spacing">busiest slot Sun 01:00 with 26 commits · 24% land 23:00-06:00 · 45% on weekends</text>
+</svg>
