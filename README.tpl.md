@@ -29,16 +29,20 @@
 <!-- BEGIN:DRAFT -->
 <!-- END:DRAFT -->
 
-## Two games in here, and one of them has no runtime at all
+## Two games in here, and neither has a runtime
 
 **[Tic-tac-toe](./play/ttt.md)** is the whole game tree, pre-rendered as nested
-disclosure triangles. No server, no GitHub Action, no JavaScript, nothing to
-rate limit. Of the 569 games reachable from the empty board, 386 end with the
-computer winning and 183 end in a draw. None end with you winning. A draw is a
-perfect score.
+disclosure triangles. Of the 569 games reachable from the empty board, 386 end
+with the computer winning and 183 end in a draw. None end with you winning. A
+draw is a perfect score.
 
-**[The Draft](#the-draft)** is above, and it is the opposite: it runs a real
-language model inside a GitHub Action every time somebody clicks a token.
+**[The Draft](#the-draft)** is above: 30 real next-token distributions measured
+from a model running on the machine described below, committed as data and
+rendered as reveals.
+
+Neither one runs a server, a GitHub Action, or a line of JavaScript. That was
+the constraint, not a limitation. A game with no runtime cannot be rate limited,
+cannot 503, and will still work in ten years.
 
 ## When the commits land
 

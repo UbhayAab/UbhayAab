@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "ubhayaab-profile",
   "private": true,
   "type": "module",
@@ -12,9 +12,11 @@
     "offline": "npm run assets && npm run lint && npm run readme",
     "bench": "node scripts/bench-local.mjs",
     "ttt": "node scripts/gen-ttt.mjs",
+    "draft": "node scripts/gen-draft.mjs && node scripts/gen-draft-md.mjs",
     "shot": "node tools/screenshot.mjs"
   },
   "devDependencies": {
     "playwright": "^1.49.0"
   }
 }
+

@@ -1,4 +1,4 @@
-name: rebuild profile
+﻿name: rebuild profile
 
 on:
   schedule:
@@ -63,6 +63,12 @@ jobs:
       - name: lint assets
         run: node tools/lint-svg.mjs
 
+      # Rotates the daily Draft puzzle. Reads committed logprobs only, so no
+      # model is ever downloaded or run in CI.
+      - name: rotate the draft
+        run: node scripts/gen-draft-md.mjs
+        continue-on-error: true
+
       - name: assemble README
         run: node scripts/splice.mjs
 
@@ -83,8 +89,9 @@ jobs:
             echo "nothing changed"
             exit 0
           fi
-          git add README.md assets data
+          git add README.md assets data game play
           git commit -m "chore: rebuild profile [skip ci]
 
           $(node -e "const s=require('./data/stats.json');console.log(\`\${s.repos.total} repos, \${s.repos.totalCommits} commits, \${s.graphqlCost} graphql points\`)")"
           git push
+

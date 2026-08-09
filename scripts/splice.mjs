@@ -15,7 +15,9 @@ const read = (p) => readFileSync(join(ROOT, p), 'utf8');
 const S = JSON.parse(read('data/stats.json'));
 const P = JSON.parse(read('data/projects.json'));
 const BENCH = existsSync(join(ROOT, 'data/bench.json')) ? JSON.parse(read('data/bench.json')) : null;
-const DRAFT = existsSync(join(ROOT, 'game/state.json')) ? JSON.parse(read('game/state.json')) : null;
+// Rendered by gen-draft-md.mjs from committed logprobs. Absent until the
+// generator has been run locally against a model.
+const DRAFT = existsSync(join(ROOT, 'game/today.md')) ? read('game/today.md') : '';
 
 const int = (v) => Number(v).toLocaleString('en-US');
 const bytes = (v) => {
@@ -150,50 +152,7 @@ Reproduce with [\`scripts/bench-local.mjs\`](./scripts/bench-local.mjs).
 }
 
 // ---------------------------------------------------------------- draft ----
-let draft = '';
-if (DRAFT && DRAFT.active) {
-  const g = DRAFT;
-  const links = g.candidates.map((c, i) => {
-    const title = encodeURIComponent(`draft|${g.gameId}|${g.step}|${i}`);
-    const body = encodeURIComponent(
-      'Press Submit. You do not need to change anything above.\n\n'
-      + 'A GitHub Action will play your token, ask the model for the next five candidates, '
-      + 'redraw the board and close this issue. It takes about 40 seconds.'
-    );
-    const label = JSON.stringify(c.token).slice(1, -1).replace(/\|/g, '');
-    return `[\`${label}\`<br>${(c.p * 100).toFixed(1)}%](https://github.com/${S.profile.login}/${S.profile.login}/issues/new?title=${title}&body=${body})`;
-  });
-  draft = `## The Draft
-
-<a name="the-draft"></a>
-
-The internet is performing greedy decoding by committee, one token at a time,
-against a real language model running inside a GitHub Action.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/draft-${g.step}-dark.svg">
-    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="./assets/draft-${g.step}-light.svg">
-    <img alt="The passage so far: ${g.text.replace(/"/g, '').slice(0, 200)}" src="./assets/draft-${g.step}-light.svg" width="880">
-  </picture>
-</p>
-
-**Pick the next token.** Click one, then press Submit on the issue that opens.
-You do not have to type anything.
-
-| ${g.candidates.map((_, i) => `rank ${i + 1}`).join(' | ')} |
-|${g.candidates.map(() => '---').join('|')}|
-| ${links.join(' | ')} |
-
-The model's own choice is rank 1. Every time the crowd picks something else it
-adds **surprisal debt**, measured in nats: \`sum(-log p(crowd)) - sum(-log p(greedy))\`.
-Current debt is **${g.debt.toFixed(2)} nats** over ${g.step} tokens. Lower is
-more predictable. Higher is more interesting.
-
-Takes about 40 seconds per move. Moves queue, so a burst is fine.
-
-`;
-}
+const draft = DRAFT;
 
 // ---------------------------------------------------------------- repos ----
 const repoRows = S.topRepos
