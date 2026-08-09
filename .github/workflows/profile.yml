@@ -40,9 +40,15 @@ jobs:
 
       # Zero npm dependencies on purpose. Nothing to install, nothing to audit,
       # nothing that can yank a version out from under a scheduled job.
+      # METRICS_PAT is a personal access token with `repo` scope. Without it the
+      # default GITHUB_TOKEN is scoped to this repository alone and the query
+      # returns public repos only, which would drop every private project from
+      # the profile. gen-stats.mjs refuses to regress either way, but this is
+      # the actual fix:
+      #   gh secret set METRICS_PAT --repo UbhayAab/UbhayAab
       - name: collect stats
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.METRICS_PAT || secrets.GITHUB_TOKEN }}
         run: node scripts/gen-stats.mjs
 
       - name: render assets

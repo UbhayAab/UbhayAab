@@ -126,10 +126,19 @@ function card(cfg, theme) {
   });
 }
 
+// A repo missing from stats.json means the token could not see it, not that
+// the config is wrong. Warn and leave the existing card in place rather than
+// failing the whole build and leaving the README half rendered.
+let written = 0;
 for (const cfg of P.featured) {
-  for (const theme of ['dark', 'light']) {
-    const svg = card(cfg, theme);
-    writeFileSync(join(ROOT, 'assets', `card-${cfg.repo}-${theme}.svg`), svg);
+  if (!byName.has(cfg.repo)) {
+    console.warn(`skip card-${cfg.repo}: not in stats.json, keeping the committed asset`);
+    continue;
   }
+  for (const theme of ['dark', 'light']) {
+    writeFileSync(join(ROOT, 'assets', `card-${cfg.repo}-${theme}.svg`), card(cfg, theme));
+  }
+  written += 1;
   console.log(`card-${cfg.repo}-*.svg`);
 }
+console.log(`cards: ${written}/${P.featured.length} regenerated`);

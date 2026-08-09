@@ -267,8 +267,51 @@ async function main() {
     elapsedMs: Date.now() - started,
   };
 
+  // Visibility guard.
+  //
+  // The default GITHUB_TOKEN in Actions is scoped to one repository, so this
+  // query returns only PUBLIC repos when it runs in CI. Without this guard the
+  // 6-hourly cron would quietly rewrite stats.json without the private work and
+  // delete half the profile, and the first symptom would be a reader noticing.
+  //
+  // So: never regress. Any repo present in the last full run but missing now is
+  // carried forward at its last known values and flagged, and the run is marked
+  // partial. Fix it properly by adding a PAT with repo scope as METRICS_PAT.
+  const statsPath = join(ROOT, 'data', 'stats.json');
+  if (existsSync(statsPath)) {
+    const prev = JSON.parse(readFileSync(statsPath, 'utf8'));
+    const seen = new Set(stats.topRepos.map((r) => r.name));
+    const missing = (prev.topRepos || []).filter((r) => !seen.has(r.name));
+    if (missing.length) {
+      stats.topRepos.push(...missing.map((r) => ({ ...r, staleSince: prev.generatedAt })));
+      stats.topRepos.sort((a, b) => b.commits - a.commits);
+      stats.partialVisibility = {
+        missingCount: missing.length,
+        missingNames: missing.map((r) => r.name),
+        lastFullRun: prev.generatedAt,
+        reason: 'the token used for this run cannot see these repositories',
+      };
+      // Roll the aggregate counters forward too, so the headline numbers do not
+      // drop by a third the moment CI runs with a narrower token.
+      for (const key of ['total', 'private', 'totalCommits', 'diskKB', 'stars']) {
+        if ((prev.repos?.[key] ?? 0) > stats.repos[key]) stats.repos[key] = prev.repos[key];
+      }
+      if ((prev.languages?.length || 0) > stats.languages.length) {
+        stats.languages = prev.languages;
+        stats.languageTotalBytes = prev.languageTotalBytes;
+      }
+      if ((prev.rhythm?.sampled || 0) > stats.rhythm.sampled) stats.rhythm = prev.rhythm;
+      console.warn(
+        `WARNING: ${missing.length} repositories were not visible to this token `
+        + `(${missing.slice(0, 4).map((r) => r.name).join(', ')}${missing.length > 4 ? ', ...' : ''}).\n`
+        + '         Carried forward from the last full run rather than dropped.\n'
+        + '         Add a PAT with repo scope as the METRICS_PAT secret to fix this properly.'
+      );
+    }
+  }
+
   mkdirSync(join(ROOT, 'data'), { recursive: true });
-  writeFileSync(join(ROOT, 'data', 'stats.json'), JSON.stringify(stats, null, 2) + '\n');
+  writeFileSync(statsPath, JSON.stringify(stats, null, 2) + '\n');
 
   // One compact line per run, appended forever. This is the dataset GitHub
   // will not sell you: real follower/star/contribution history at 6h resolution.
