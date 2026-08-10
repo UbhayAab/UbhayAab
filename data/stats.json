@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-10T13:43:24.919Z",
+  "generatedAt": "2026-08-10T19:16:08.625Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 5,
-  "runId": 9,
+  "runId": 10,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,8 +21,8 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 397,
-    "commits": 377,
+    "lastYear": 398,
+    "commits": 378,
     "repositoriesCreated": 20,
     "activeDays": 68,
     "trackedDays": 366,
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "glance",
@@ -506,7 +506,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "EyeTracker",
@@ -591,7 +591,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "continuity",
@@ -606,7 +606,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "soop",
@@ -623,6 +623,23 @@
       "topics": []
     },
     {
+      "name": "UbhayAab",
+      "url": "https://github.com/UbhayAab/UbhayAab",
+      "description": "Config files for my GitHub profile.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 198,
+      "pushedAt": "2026-08-10T13:43:27Z",
+      "createdAt": "2021-03-24T23:51:31Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 11,
+      "topics": [
+        "config",
+        "github-config"
+      ]
+    },
+    {
       "name": "carcinome_wp",
       "url": "https://github.com/UbhayAab/carcinome_wp",
       "description": null,
@@ -635,24 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
-    },
-    {
-      "name": "UbhayAab",
-      "url": "https://github.com/UbhayAab/UbhayAab",
-      "description": "Config files for my GitHub profile.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 167,
-      "pushedAt": "2026-08-10T08:03:55Z",
-      "createdAt": "2021-03-24T23:51:31Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 10,
-      "topics": [
-        "config",
-        "github-config"
-      ]
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "EggAplha",
@@ -863,7 +863,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "cleanedemails",
@@ -878,7 +878,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -893,7 +893,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "Midjourney-bot",
@@ -908,7 +908,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "KDP-bot",
@@ -923,7 +923,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T08:03:54.331Z"
+      "staleSince": "2026-08-10T13:43:24.919Z"
     },
     {
       "name": "Patient-Navigator",
@@ -957,30 +957,37 @@
   "latestCommit": {
     "repo": "UbhayAab",
     "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-08-10T08:03:54Z",
+    "at": "2026-08-10T13:43:25Z",
     "ago": "6 hours ago",
-    "oid": "72f8a50"
+    "oid": "2dbb583"
   },
   "recentCommits": [
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-10T08:03:54Z",
+      "at": "2026-08-10T13:43:25Z",
       "ago": "6 hours ago",
+      "oid": "2dbb583"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-10T08:03:54Z",
+      "ago": "11 hours ago",
       "oid": "72f8a50"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-10T02:33:52Z",
-      "ago": "11 hours ago",
+      "ago": "17 hours ago",
       "oid": "ee2cad8"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-09T19:00:12Z",
-      "ago": "19 hours ago",
+      "ago": "1 day ago",
       "oid": "0f7d50c"
     },
     {
@@ -1038,13 +1045,6 @@
       "at": "2026-08-09T09:44:50Z",
       "ago": "1 day ago",
       "oid": "a619c91"
-    },
-    {
-      "repo": "UbhayAab.github.io",
-      "message": "Landing page: WebGL2 hero, five games, no framework",
-      "at": "2026-08-09T09:42:49Z",
-      "ago": "1 day ago",
-      "oid": "8392f65"
     }
   ],
   "calendar": [
@@ -2510,10 +2510,10 @@
     },
     {
       "date": "2026-08-10",
-      "count": 2
+      "count": 3
     }
   ],
-  "elapsedMs": 9168,
+  "elapsedMs": 7698,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2530,7 +2530,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-10T08:03:54.331Z",
+    "lastFullRun": "2026-08-10T13:43:24.919Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
