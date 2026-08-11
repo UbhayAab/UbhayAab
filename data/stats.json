@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-11T07:36:17.454Z",
+  "generatedAt": "2026-08-11T13:41:48.017Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 5,
-  "runId": 12,
+  "runId": 13,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,8 +21,8 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 408,
-    "commits": 388,
+    "lastYear": 410,
+    "commits": 390,
     "repositoriesCreated": 20,
     "activeDays": 69,
     "trackedDays": 367,
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "kdp-ads-dashboard",
@@ -499,12 +499,12 @@
       "description": "KDP ads dashboard",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 255,
-      "pushedAt": "2026-08-11T04:38:05Z",
+      "diskKB": 282,
+      "pushedAt": "2026-08-11T09:20:12Z",
       "createdAt": "2026-07-28T01:25:51Z",
       "language": "HTML",
       "languageColor": "#e34c26",
-      "commits": 28,
+      "commits": 29,
       "topics": []
     },
     {
@@ -520,7 +520,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "EyeTracker",
@@ -591,7 +591,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "continuity",
@@ -606,7 +606,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "soop",
@@ -628,12 +628,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 225,
-      "pushedAt": "2026-08-11T02:26:53Z",
+      "diskKB": 247,
+      "pushedAt": "2026-08-11T07:36:18Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 13,
+      "commits": 14,
       "topics": [
         "config",
         "github-config"
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "EggAplha",
@@ -863,7 +863,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "cleanedemails",
@@ -878,7 +878,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -893,7 +893,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "Midjourney-bot",
@@ -908,7 +908,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "KDP-bot",
@@ -923,7 +923,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T02:26:52.183Z"
+      "staleSince": "2026-08-11T07:36:17.454Z"
     },
     {
       "name": "Patient-Navigator",
@@ -955,96 +955,96 @@
     }
   ],
   "latestCommit": {
-    "repo": "MeeshoLod",
-    "message": "Restore app content, keep entry pages showing not-available notice",
-    "at": "2026-08-11T07:02:32Z",
-    "ago": "34 minutes ago",
-    "oid": "b5545c8"
+    "repo": "kdp-ads-dashboard",
+    "message": "Report 2026-08-11",
+    "at": "2026-08-11T09:20:08Z",
+    "ago": "4 hours ago",
+    "oid": "be90e91"
   },
   "recentCommits": [
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-11",
+      "at": "2026-08-11T09:20:08Z",
+      "ago": "4 hours ago",
+      "oid": "be90e91"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-11T07:36:17Z",
+      "ago": "6 hours ago",
+      "oid": "c8e6c44"
+    },
     {
       "repo": "MeeshoLod",
       "message": "Restore app content, keep entry pages showing not-available notice",
       "at": "2026-08-11T07:02:32Z",
-      "ago": "34 minutes ago",
+      "ago": "7 hours ago",
       "oid": "b5545c8"
     },
     {
       "repo": "MeeshoLod",
       "message": "Take down app — replace with not-available notice",
       "at": "2026-08-11T06:31:19Z",
-      "ago": "1 hours ago",
+      "ago": "7 hours ago",
       "oid": "392b5a7"
     },
     {
       "repo": "UbhayAab.github.io",
       "message": "The ship had been flying without its engines",
       "at": "2026-08-11T05:03:01Z",
-      "ago": "3 hours ago",
+      "ago": "9 hours ago",
       "oid": "d662b4c"
     },
     {
       "repo": "UbhayAab.github.io",
       "message": "Stop the section scrims swallowing the flight",
       "at": "2026-08-11T04:40:37Z",
-      "ago": "3 hours ago",
+      "ago": "9 hours ago",
       "oid": "c8ec528"
     },
     {
       "repo": "JCF",
       "message": "feat(nutrition): an outreach list, and a call that actually rests the…",
       "at": "2026-08-11T04:39:00Z",
-      "ago": "3 hours ago",
+      "ago": "9 hours ago",
       "oid": "5fc2714"
     },
     {
       "repo": "UbhayAab.github.io",
       "message": "Fix the flame, the warp, the arrival, and the blending",
       "at": "2026-08-11T04:38:20Z",
-      "ago": "3 hours ago",
+      "ago": "9 hours ago",
       "oid": "79ad43f"
     },
     {
       "repo": "kdp-ads-dashboard",
       "message": "Report 2026-08-11",
       "at": "2026-08-11T04:38:03Z",
-      "ago": "3 hours ago",
+      "ago": "9 hours ago",
       "oid": "adb09b2"
     },
     {
       "repo": "kdp-ads-dashboard",
       "message": "Report 2026-08-11",
       "at": "2026-08-11T04:34:20Z",
-      "ago": "3 hours ago",
+      "ago": "9 hours ago",
       "oid": "90012a9"
     },
     {
       "repo": "soop",
       "message": "Voice rooms and the admin jobs, findable on a phone",
       "at": "2026-08-11T04:16:50Z",
-      "ago": "3 hours ago",
+      "ago": "9 hours ago",
       "oid": "a7006e5"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-11T02:26:52Z",
-      "ago": "5 hours ago",
+      "ago": "11 hours ago",
       "oid": "e17e0c1"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-10T19:16:09Z",
-      "ago": "12 hours ago",
-      "oid": "333f5d9"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-10T13:43:25Z",
-      "ago": "18 hours ago",
-      "oid": "2dbb583"
     }
   ],
   "calendar": [
@@ -2514,10 +2514,10 @@
     },
     {
       "date": "2026-08-11",
-      "count": 9
+      "count": 11
     }
   ],
-  "elapsedMs": 6668,
+  "elapsedMs": 9017,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2534,7 +2534,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-11T02:26:52.183Z",
+    "lastFullRun": "2026-08-11T07:36:17.454Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
