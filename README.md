@@ -21,10 +21,10 @@
 <!-- BEGIN:PROSE -->
 37 repositories, 26 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-68 active days in the last year, longest run 9.
+69 active days in the last year, longest run 9.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 7 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 34 minutes ago to [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) - `Restore app content, keep entry pages showing not-available notice`.
 <!-- END:PROSE -->
 
 ## Work
@@ -331,30 +331,30 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 149 | 191 MB | 2026-08-08 |  |
+| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 150 | 191 MB | 2026-08-11 |  |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 130 | 18 MB | 2026-08-08 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
+| [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 28 | 255 KB | 2026-08-11 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
-| [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 26 | 231 KB | 2026-08-08 | KDP ads dashboard |
 | [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 26 | 646 KB | 2026-07-27 |  |
 | [`kpicomp`](https://github.com/UbhayAab/kpicomp) | TypeScript | 25 | 217 KB | 2025-09-05 |  |
-| [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 21 | 275 KB | 2026-07-08 |  |
+| [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 23 | 332 KB | 2026-08-11 |  |
 | `hearth` <sub>private</sub> | JavaScript | 21 | 117 MB | 2026-07-28 |  |
 | `continuity` <sub>private</sub> | Python | 21 | 207 KB | 2026-07-18 |  |
-| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 19 | 1.0 MB | 2026-08-09 | Soop - invite-only team chat. A Redtree product. |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 12 | 221 KB | 2026-08-10 | Config files for my GitHub profile. |
+| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 20 | 1.0 MB | 2026-08-11 | Soop - invite-only team chat. A Redtree product. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 13 | 225 KB | 2026-08-11 | Config files for my GitHub profile. |
 | `carcinome_wp` <sub>private</sub> | TypeScript | 11 | 964 KB | 2026-07-25 |  |
 | [`EggAplha`](https://github.com/UbhayAab/EggAplha) | HTML | 8 | 46 KB | 2026-02-20 |  |
 | [`maya-bridge-demo-canva-artifact`](https://github.com/UbhayAab/maya-bridge-demo-canva-artifact) | - | 7 | 60 MB | 2026-05-31 | Public Canva import artifact for Maya and the Tiny Bridge prototype |
 | [`Nexus`](https://github.com/UbhayAab/Nexus) | Kotlin | 7 | 1.2 MB | 2025-10-05 |  |
+| [`UbhayAab.github.io`](https://github.com/UbhayAab/UbhayAab.github.io) | JavaScript | 6 | 133 KB | 2026-08-11 | Landing page. Hand-rolled WebGL2, five playable games, every number measured. |
 | [`Ngo_SafaltaSetu`](https://github.com/UbhayAab/Ngo_SafaltaSetu) | HTML | 6 | 177 KB | 2025-12-10 |  |
 | [`robotics`](https://github.com/UbhayAab/robotics) | JavaScript | 5 | 266 KB | 2026-05-17 |  |
 | [`MegaSeleniumBot`](https://github.com/UbhayAab/MegaSeleniumBot) | Jupyter Notebook | 5 | 141 MB | 2025-07-21 |  |
 | [`Meloaa`](https://github.com/UbhayAab/Meloaa) | HTML | 4 | 64 KB | 2026-02-25 | Assignment |
-| [`UbhayAab.github.io`](https://github.com/UbhayAab/UbhayAab.github.io) | JavaScript | 3 | 111 KB | 2026-08-09 | Landing page. Hand-rolled WebGL2, five playable games, every number measured. |
 | [`JCF-Gda31885`](https://github.com/UbhayAab/JCF-Gda31885) | CSS | 3 | 960 KB | 2024-11-05 |  |
 | [`AyuSSm`](https://github.com/UbhayAab/AyuSSm) | Python | 2 | 31 KB | 2025-05-11 |  |
 | [`whatsapp_automation`](https://github.com/UbhayAab/whatsapp_automation) | JavaScript | 2 | 259 KB | 2025-04-19 |  |
@@ -375,11 +375,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 11 Aug 2026 07:56 IST from 5 GraphQL points in 6.5s.
-Run #11. Rebuilds every 6 hours and on every push.
+Generated 11 Aug 2026 13:06 IST from 5 GraphQL points in 6.7s.
+Run #12. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 11 Aug 2026 00:46 rather than dropped.
+forward from 11 Aug 2026 07:56 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.

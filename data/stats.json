@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-11T02:26:52.183Z",
+  "generatedAt": "2026-08-11T07:36:17.454Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 5,
-  "runId": 11,
+  "runId": 12,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
     "name": null,
     "createdAt": "2020-10-18T03:31:03Z",
-    "accountAgeDays": 2122,
+    "accountAgeDays": 2123,
     "followers": 2,
     "following": 0
   },
@@ -21,10 +21,10 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 399,
-    "commits": 379,
+    "lastYear": 408,
+    "commits": 388,
     "repositoriesCreated": 20,
-    "activeDays": 68,
+    "activeDays": 69,
     "trackedDays": 367,
     "busiestDay": {
       "date": "2026-07-25",
@@ -32,7 +32,7 @@
       "weekday": 6
     },
     "longestStreak": 9,
-    "currentStreak": 7
+    "currentStreak": 8
   },
   "languages": [
     {
@@ -426,12 +426,12 @@
       "description": null,
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 195496,
-      "pushedAt": "2026-08-08T12:59:53Z",
+      "diskKB": 195554,
+      "pushedAt": "2026-08-11T04:39:12Z",
       "createdAt": "2026-03-16T14:42:06Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 149,
+      "commits": 150,
       "topics": []
     },
     {
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,21 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
+    },
+    {
+      "name": "kdp-ads-dashboard",
+      "url": "https://github.com/UbhayAab/kdp-ads-dashboard",
+      "description": "KDP ads dashboard",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 255,
+      "pushedAt": "2026-08-11T04:38:05Z",
+      "createdAt": "2026-07-28T01:25:51Z",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "commits": 28,
+      "topics": []
     },
     {
       "name": "glance",
@@ -506,7 +520,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "EyeTracker",
@@ -520,20 +534,6 @@
       "language": "Python",
       "languageColor": "#3572A5",
       "commits": 27,
-      "topics": []
-    },
-    {
-      "name": "kdp-ads-dashboard",
-      "url": "https://github.com/UbhayAab/kdp-ads-dashboard",
-      "description": "KDP ads dashboard",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 231,
-      "pushedAt": "2026-08-08T19:47:35Z",
-      "createdAt": "2026-07-28T01:25:51Z",
-      "language": "HTML",
-      "languageColor": "#e34c26",
-      "commits": 26,
       "topics": []
     },
     {
@@ -570,12 +570,12 @@
       "description": null,
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 275,
-      "pushedAt": "2026-07-08T14:45:20Z",
+      "diskKB": 332,
+      "pushedAt": "2026-08-11T07:02:37Z",
       "createdAt": "2026-07-08T08:38:01Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 21,
+      "commits": 23,
       "topics": []
     },
     {
@@ -591,7 +591,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "continuity",
@@ -606,7 +606,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "soop",
@@ -614,12 +614,12 @@
       "description": "Soop - invite-only team chat. A Redtree product.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 1039,
-      "pushedAt": "2026-08-09T08:58:13Z",
+      "diskKB": 1048,
+      "pushedAt": "2026-08-11T04:16:53Z",
       "createdAt": "2026-07-27T23:05:24Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 19,
+      "commits": 20,
       "topics": []
     },
     {
@@ -628,12 +628,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 221,
-      "pushedAt": "2026-08-10T19:16:09Z",
+      "diskKB": 225,
+      "pushedAt": "2026-08-11T02:26:53Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 12,
+      "commits": 13,
       "topics": [
         "config",
         "github-config"
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "EggAplha",
@@ -694,6 +694,20 @@
       "language": "Kotlin",
       "languageColor": "#A97BFF",
       "commits": 7,
+      "topics": []
+    },
+    {
+      "name": "UbhayAab.github.io",
+      "url": "https://github.com/UbhayAab/UbhayAab.github.io",
+      "description": "Landing page. Hand-rolled WebGL2, five playable games, every number measured.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 133,
+      "pushedAt": "2026-08-11T05:03:03Z",
+      "createdAt": "2026-08-09T09:42:49Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 6,
       "topics": []
     },
     {
@@ -750,20 +764,6 @@
       "language": "HTML",
       "languageColor": "#e34c26",
       "commits": 4,
-      "topics": []
-    },
-    {
-      "name": "UbhayAab.github.io",
-      "url": "https://github.com/UbhayAab/UbhayAab.github.io",
-      "description": "Landing page. Hand-rolled WebGL2, five playable games, every number measured.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 111,
-      "pushedAt": "2026-08-09T12:55:24Z",
-      "createdAt": "2026-08-09T09:42:49Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 3,
       "topics": []
     },
     {
@@ -863,7 +863,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "cleanedemails",
@@ -878,7 +878,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -893,7 +893,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "Midjourney-bot",
@@ -908,7 +908,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "KDP-bot",
@@ -923,7 +923,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-10T19:16:08.625Z"
+      "staleSince": "2026-08-11T02:26:52.183Z"
     },
     {
       "name": "Patient-Navigator",
@@ -955,96 +955,96 @@
     }
   ],
   "latestCommit": {
-    "repo": "UbhayAab",
-    "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-08-10T19:16:09Z",
-    "ago": "7 hours ago",
-    "oid": "333f5d9"
+    "repo": "MeeshoLod",
+    "message": "Restore app content, keep entry pages showing not-available notice",
+    "at": "2026-08-11T07:02:32Z",
+    "ago": "34 minutes ago",
+    "oid": "b5545c8"
   },
   "recentCommits": [
+    {
+      "repo": "MeeshoLod",
+      "message": "Restore app content, keep entry pages showing not-available notice",
+      "at": "2026-08-11T07:02:32Z",
+      "ago": "34 minutes ago",
+      "oid": "b5545c8"
+    },
+    {
+      "repo": "MeeshoLod",
+      "message": "Take down app — replace with not-available notice",
+      "at": "2026-08-11T06:31:19Z",
+      "ago": "1 hours ago",
+      "oid": "392b5a7"
+    },
+    {
+      "repo": "UbhayAab.github.io",
+      "message": "The ship had been flying without its engines",
+      "at": "2026-08-11T05:03:01Z",
+      "ago": "3 hours ago",
+      "oid": "d662b4c"
+    },
+    {
+      "repo": "UbhayAab.github.io",
+      "message": "Stop the section scrims swallowing the flight",
+      "at": "2026-08-11T04:40:37Z",
+      "ago": "3 hours ago",
+      "oid": "c8ec528"
+    },
+    {
+      "repo": "JCF",
+      "message": "feat(nutrition): an outreach list, and a call that actually rests the…",
+      "at": "2026-08-11T04:39:00Z",
+      "ago": "3 hours ago",
+      "oid": "5fc2714"
+    },
+    {
+      "repo": "UbhayAab.github.io",
+      "message": "Fix the flame, the warp, the arrival, and the blending",
+      "at": "2026-08-11T04:38:20Z",
+      "ago": "3 hours ago",
+      "oid": "79ad43f"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-11",
+      "at": "2026-08-11T04:38:03Z",
+      "ago": "3 hours ago",
+      "oid": "adb09b2"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Report 2026-08-11",
+      "at": "2026-08-11T04:34:20Z",
+      "ago": "3 hours ago",
+      "oid": "90012a9"
+    },
+    {
+      "repo": "soop",
+      "message": "Voice rooms and the admin jobs, findable on a phone",
+      "at": "2026-08-11T04:16:50Z",
+      "ago": "3 hours ago",
+      "oid": "a7006e5"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-11T02:26:52Z",
+      "ago": "5 hours ago",
+      "oid": "e17e0c1"
+    },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-10T19:16:09Z",
-      "ago": "7 hours ago",
+      "ago": "12 hours ago",
       "oid": "333f5d9"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-10T13:43:25Z",
-      "ago": "13 hours ago",
-      "oid": "2dbb583"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-10T08:03:54Z",
       "ago": "18 hours ago",
-      "oid": "72f8a50"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-10T02:33:52Z",
-      "ago": "24 hours ago",
-      "oid": "ee2cad8"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-09T19:00:12Z",
-      "ago": "1 day ago",
-      "oid": "0f7d50c"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-09T13:15:15Z",
-      "ago": "2 days ago",
-      "oid": "92a318c"
-    },
-    {
-      "repo": "UbhayAab.github.io",
-      "message": "Starship, and fix everything that read as fake",
-      "at": "2026-08-09T12:55:22Z",
-      "ago": "2 days ago",
-      "oid": "4c11ef0"
-    },
-    {
-      "repo": "UbhayAab.github.io",
-      "message": "The page is now a Falcon 9 flight to a black hole",
-      "at": "2026-08-09T12:07:03Z",
-      "ago": "2 days ago",
-      "oid": "051fa8a"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-09T09:52:29Z",
-      "ago": "2 days ago",
-      "oid": "56816b8"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "The Draft: 30 real next-token distributions, zero runtime",
-      "at": "2026-08-09T09:52:10Z",
-      "ago": "2 days ago",
-      "oid": "7898031"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "The Draft: 30 real next-token distributions, zero runtime",
-      "at": "2026-08-09T09:51:59Z",
-      "ago": "2 days ago",
-      "oid": "0573b8d"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-09T09:45:07Z",
-      "ago": "2 days ago",
-      "oid": "fcf1ebd"
+      "oid": "2dbb583"
     }
   ],
   "calendar": [
@@ -2514,10 +2514,10 @@
     },
     {
       "date": "2026-08-11",
-      "count": 0
+      "count": 9
     }
   ],
-  "elapsedMs": 6504,
+  "elapsedMs": 6668,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2534,7 +2534,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-10T19:16:08.625Z",
+    "lastFullRun": "2026-08-11T02:26:52.183Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
