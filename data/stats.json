@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-11T19:19:11.415Z",
+  "generatedAt": "2026-08-12T02:43:18.800Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 5,
-  "runId": 14,
+  "runId": 15,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,18 +21,18 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 411,
-    "commits": 391,
+    "lastYear": 417,
+    "commits": 397,
     "repositoriesCreated": 20,
-    "activeDays": 69,
-    "trackedDays": 367,
+    "activeDays": 70,
+    "trackedDays": 368,
     "busiestDay": {
       "date": "2026-07-25",
       "contributionCount": 26,
       "weekday": 6
     },
     "longestStreak": 9,
-    "currentStreak": 8
+    "currentStreak": 9
   },
   "languages": [
     {
@@ -426,12 +426,12 @@
       "description": null,
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 195554,
-      "pushedAt": "2026-08-11T04:39:12Z",
+      "diskKB": 195688,
+      "pushedAt": "2026-08-11T22:01:15Z",
       "createdAt": "2026-03-16T14:42:06Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 150,
+      "commits": 151,
       "topics": []
     },
     {
@@ -440,12 +440,12 @@
       "description": null,
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 18608,
-      "pushedAt": "2026-08-08T19:57:08Z",
+      "diskKB": 18615,
+      "pushedAt": "2026-08-11T20:59:44Z",
       "createdAt": "2026-05-11T10:18:29Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 130,
+      "commits": 131,
       "topics": []
     },
     {
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "kdp-ads-dashboard",
@@ -520,7 +520,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "EyeTracker",
@@ -548,6 +548,20 @@
       "language": "HTML",
       "languageColor": "#e34c26",
       "commits": 26,
+      "topics": []
+    },
+    {
+      "name": "soop",
+      "url": "https://github.com/UbhayAab/soop",
+      "description": "Soop - invite-only team chat. A Redtree product.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 1243,
+      "pushedAt": "2026-08-11T22:35:41Z",
+      "createdAt": "2026-07-27T23:05:24Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 25,
       "topics": []
     },
     {
@@ -591,7 +605,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "continuity",
@@ -606,21 +620,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
-    },
-    {
-      "name": "soop",
-      "url": "https://github.com/UbhayAab/soop",
-      "description": "Soop - invite-only team chat. A Redtree product.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 1048,
-      "pushedAt": "2026-08-11T04:16:53Z",
-      "createdAt": "2026-07-27T23:05:24Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 20,
-      "topics": []
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "UbhayAab",
@@ -628,12 +628,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 275,
-      "pushedAt": "2026-08-11T13:41:49Z",
+      "diskKB": 280,
+      "pushedAt": "2026-08-11T19:19:12Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 15,
+      "commits": 16,
       "topics": [
         "config",
         "github-config"
@@ -652,7 +652,21 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
+    },
+    {
+      "name": "UbhayAab.github.io",
+      "url": "https://github.com/UbhayAab/UbhayAab.github.io",
+      "description": "Landing page. Hand-rolled WebGL2, five playable games, every number measured.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 297,
+      "pushedAt": "2026-08-12T00:04:19Z",
+      "createdAt": "2026-08-09T09:42:49Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 9,
+      "topics": []
     },
     {
       "name": "EggAplha",
@@ -694,20 +708,6 @@
       "language": "Kotlin",
       "languageColor": "#A97BFF",
       "commits": 7,
-      "topics": []
-    },
-    {
-      "name": "UbhayAab.github.io",
-      "url": "https://github.com/UbhayAab/UbhayAab.github.io",
-      "description": "Landing page. Hand-rolled WebGL2, five playable games, every number measured.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 133,
-      "pushedAt": "2026-08-11T05:03:03Z",
-      "createdAt": "2026-08-09T09:42:49Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 6,
       "topics": []
     },
     {
@@ -863,7 +863,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "cleanedemails",
@@ -878,7 +878,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -893,7 +893,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "Midjourney-bot",
@@ -908,7 +908,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "KDP-bot",
@@ -923,7 +923,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-11T13:41:48.017Z"
+      "staleSince": "2026-08-11T19:19:11.415Z"
     },
     {
       "name": "Patient-Navigator",
@@ -955,96 +955,96 @@
     }
   ],
   "latestCommit": {
-    "repo": "UbhayAab",
-    "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-08-11T13:41:48Z",
-    "ago": "6 hours ago",
-    "oid": "3f7e066"
+    "repo": "UbhayAab.github.io",
+    "message": "Real light-mode flight, a warp shot the ship is actually in, an arcad…",
+    "at": "2026-08-12T00:04:16Z",
+    "ago": "3 hours ago",
+    "oid": "9ac6ebf"
   },
   "recentCommits": [
+    {
+      "repo": "UbhayAab.github.io",
+      "message": "Real light-mode flight, a warp shot the ship is actually in, an arcad…",
+      "at": "2026-08-12T00:04:16Z",
+      "ago": "3 hours ago",
+      "oid": "9ac6ebf"
+    },
+    {
+      "repo": "soop",
+      "message": "The efficiency pass, written down",
+      "at": "2026-08-11T22:35:37Z",
+      "ago": "4 hours ago",
+      "oid": "24457bf"
+    },
+    {
+      "repo": "soop",
+      "message": "Half the idle traffic was a sidebar redrawing itself with the same pi…",
+      "at": "2026-08-11T22:35:06Z",
+      "ago": "4 hours ago",
+      "oid": "b112f3b"
+    },
+    {
+      "repo": "UbhayAab.github.io",
+      "message": "Add the vision dossiers, consult page, 29-game arcade and the site shell",
+      "at": "2026-08-11T22:32:00Z",
+      "ago": "4 hours ago",
+      "oid": "1c2c2ec"
+    },
+    {
+      "repo": "JCF",
+      "message": "feat(nutrition): claiming is a decision now, not a guess at who touch…",
+      "at": "2026-08-11T22:01:03Z",
+      "ago": "5 hours ago",
+      "oid": "6b2d11b"
+    },
+    {
+      "repo": "soop",
+      "message": "Stop polling a phone in somebody's pocket, and buffer the ICE we were…",
+      "at": "2026-08-11T21:22:21Z",
+      "ago": "5 hours ago",
+      "oid": "1fe7415"
+    },
+    {
+      "repo": "soop",
+      "message": "One-use invites actually work: stop redeeming the same link twice",
+      "at": "2026-08-11T21:09:08Z",
+      "ago": "6 hours ago",
+      "oid": "1e40a50"
+    },
+    {
+      "repo": "UbhayAab.github.io",
+      "message": "A real plume, a roll program, horizontal scroll, and the person",
+      "at": "2026-08-11T21:06:27Z",
+      "ago": "6 hours ago",
+      "oid": "3b945cd"
+    },
+    {
+      "repo": "soop",
+      "message": "One link one person, voice rooms you can make, and screen sharing",
+      "at": "2026-08-11T21:04:24Z",
+      "ago": "6 hours ago",
+      "oid": "5db42c2"
+    },
+    {
+      "repo": "trackerz",
+      "message": "A closed day is not a finished day",
+      "at": "2026-08-11T20:59:41Z",
+      "ago": "6 hours ago",
+      "oid": "b1baa30"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-11T19:19:11Z",
+      "ago": "7 hours ago",
+      "oid": "80a27d5"
+    },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-11T13:41:48Z",
-      "ago": "6 hours ago",
-      "oid": "3f7e066"
-    },
-    {
-      "repo": "kdp-ads-dashboard",
-      "message": "Report 2026-08-11",
-      "at": "2026-08-11T09:20:08Z",
-      "ago": "10 hours ago",
-      "oid": "be90e91"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-11T07:36:17Z",
-      "ago": "12 hours ago",
-      "oid": "c8e6c44"
-    },
-    {
-      "repo": "MeeshoLod",
-      "message": "Restore app content, keep entry pages showing not-available notice",
-      "at": "2026-08-11T07:02:32Z",
-      "ago": "12 hours ago",
-      "oid": "b5545c8"
-    },
-    {
-      "repo": "MeeshoLod",
-      "message": "Take down app — replace with not-available notice",
-      "at": "2026-08-11T06:31:19Z",
       "ago": "13 hours ago",
-      "oid": "392b5a7"
-    },
-    {
-      "repo": "UbhayAab.github.io",
-      "message": "The ship had been flying without its engines",
-      "at": "2026-08-11T05:03:01Z",
-      "ago": "14 hours ago",
-      "oid": "d662b4c"
-    },
-    {
-      "repo": "UbhayAab.github.io",
-      "message": "Stop the section scrims swallowing the flight",
-      "at": "2026-08-11T04:40:37Z",
-      "ago": "15 hours ago",
-      "oid": "c8ec528"
-    },
-    {
-      "repo": "JCF",
-      "message": "feat(nutrition): an outreach list, and a call that actually rests the…",
-      "at": "2026-08-11T04:39:00Z",
-      "ago": "15 hours ago",
-      "oid": "5fc2714"
-    },
-    {
-      "repo": "UbhayAab.github.io",
-      "message": "Fix the flame, the warp, the arrival, and the blending",
-      "at": "2026-08-11T04:38:20Z",
-      "ago": "15 hours ago",
-      "oid": "79ad43f"
-    },
-    {
-      "repo": "kdp-ads-dashboard",
-      "message": "Report 2026-08-11",
-      "at": "2026-08-11T04:38:03Z",
-      "ago": "15 hours ago",
-      "oid": "adb09b2"
-    },
-    {
-      "repo": "kdp-ads-dashboard",
-      "message": "Report 2026-08-11",
-      "at": "2026-08-11T04:34:20Z",
-      "ago": "15 hours ago",
-      "oid": "90012a9"
-    },
-    {
-      "repo": "soop",
-      "message": "Voice rooms and the admin jobs, findable on a phone",
-      "at": "2026-08-11T04:16:50Z",
-      "ago": "15 hours ago",
-      "oid": "a7006e5"
+      "oid": "3f7e066"
     }
   ],
   "calendar": [
@@ -2514,10 +2514,14 @@
     },
     {
       "date": "2026-08-11",
-      "count": 12
+      "count": 13
+    },
+    {
+      "date": "2026-08-12",
+      "count": 5
     }
   ],
-  "elapsedMs": 10080,
+  "elapsedMs": 8356,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2534,7 +2538,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-11T13:41:48.017Z",
+    "lastFullRun": "2026-08-11T19:19:11.415Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
