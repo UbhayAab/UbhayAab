@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 70 active days in the last year, longest run 9.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 6 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 7 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> A benchmark that cannot be reproduced is just **___**
+> Every distributed system eventually reinvents **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>an</code></summary>
-
-**No.** `an` is rank 4 at 5.4%. The model wanted `a` at 51.5%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `a` | 51.5% | 0.96 bits |
-| 2 | `...` | 20.2% | 2.30 bits |
-| 3 | `not` | 18.2% | 2.45 bits |
-| 4 | `an` | 5.4% | 4.21 bits |
-| 5 | `use` | 4.7% | 4.42 bits |
-
-</details>
-
-<details><summary><code>use</code></summary>
-
-**No.** `use` is rank 5 at 4.7%. The model wanted `a` at 51.5%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `a` | 51.5% | 0.96 bits |
-| 2 | `...` | 20.2% | 2.30 bits |
-| 3 | `not` | 18.2% | 2.45 bits |
-| 4 | `an` | 5.4% | 4.21 bits |
-| 5 | `use` | 4.7% | 4.42 bits |
-
-</details>
-
 <details><summary><code>a</code></summary>
 
-**Correct.** The model's top token, at **51.5%** of the visible mass, carrying 0.96 bits.
+**No.** `a` is rank 4 at 1.0%. The model wanted `the` at 80.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `a` | 51.5% | 0.96 bits |
-| 2 | `...` | 20.2% | 2.30 bits |
-| 3 | `not` | 18.2% | 2.45 bits |
-| 4 | `an` | 5.4% | 4.21 bits |
-| 5 | `use` | 4.7% | 4.42 bits |
+| 1 | `the` | 80.4% | 0.31 bits |
+| 2 | `...` | 15.6% | 2.68 bits |
+| 3 | `its` | 2.4% | 5.37 bits |
+| 4 | `a` | 1.0% | 6.72 bits |
+| 5 | `it` | 0.6% | 7.27 bits |
+
+</details>
+
+<details><summary><code>its</code></summary>
+
+**No.** `its` is rank 3 at 2.4%. The model wanted `the` at 80.4%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `the` | 80.4% | 0.31 bits |
+| 2 | `...` | 15.6% | 2.68 bits |
+| 3 | `its` | 2.4% | 5.37 bits |
+| 4 | `a` | 1.0% | 6.72 bits |
+| 5 | `it` | 0.6% | 7.27 bits |
+
+</details>
+
+<details><summary><code>it</code></summary>
+
+**No.** `it` is rank 5 at 0.6%. The model wanted `the` at 80.4%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `the` | 80.4% | 0.31 bits |
+| 2 | `...` | 15.6% | 2.68 bits |
+| 3 | `its` | 2.4% | 5.37 bits |
+| 4 | `a` | 1.0% | 6.72 bits |
+| 5 | `it` | 0.6% | 7.27 bits |
 
 </details>
 
 <details><summary><code>...</code></summary>
 
-**No.** `...` is rank 2 at 20.2%. The model wanted `a` at 51.5%.
+**No.** `...` is rank 2 at 15.6%. The model wanted `the` at 80.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `a` | 51.5% | 0.96 bits |
-| 2 | `...` | 20.2% | 2.30 bits |
-| 3 | `not` | 18.2% | 2.45 bits |
-| 4 | `an` | 5.4% | 4.21 bits |
-| 5 | `use` | 4.7% | 4.42 bits |
+| 1 | `the` | 80.4% | 0.31 bits |
+| 2 | `...` | 15.6% | 2.68 bits |
+| 3 | `its` | 2.4% | 5.37 bits |
+| 4 | `a` | 1.0% | 6.72 bits |
+| 5 | `it` | 0.6% | 7.27 bits |
 
 </details>
 
-<details><summary><code>not</code></summary>
+<details><summary><code>the</code></summary>
 
-**No.** `not` is rank 3 at 18.2%. The model wanted `a` at 51.5%.
+**Correct.** The model's top token, at **80.4%** of the visible mass, carrying 0.31 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `a` | 51.5% | 0.96 bits |
-| 2 | `...` | 20.2% | 2.30 bits |
-| 3 | `not` | 18.2% | 2.45 bits |
-| 4 | `an` | 5.4% | 4.21 bits |
-| 5 | `use` | 4.7% | 4.42 bits |
+| 1 | `the` | 80.4% | 0.31 bits |
+| 2 | `...` | 15.6% | 2.68 bits |
+| 3 | `its` | 2.4% | 5.37 bits |
+| 4 | `a` | 1.0% | 6.72 bits |
+| 5 | `it` | 0.6% | 7.27 bits |
 
 </details>
 
-Today's puzzle carries **1.84 bits** of entropy out of a possible
+Today's puzzle carries **0.91 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -345,7 +345,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 23 | 332 KB | 2026-08-11 |  |
 | `hearth` <sub>private</sub> | JavaScript | 21 | 117 MB | 2026-07-28 |  |
 | `continuity` <sub>private</sub> | Python | 21 | 207 KB | 2026-07-18 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 19 | 318 KB | 2026-08-12 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 20 | 342 KB | 2026-08-12 | Config files for my GitHub profile. |
 | `carcinome_wp` <sub>private</sub> | TypeScript | 11 | 964 KB | 2026-07-25 |  |
 | [`UbhayAab.github.io`](https://github.com/UbhayAab/UbhayAab.github.io) | JavaScript | 9 | 297 KB | 2026-08-12 | Landing page. Hand-rolled WebGL2, five playable games, every number measured. |
 | [`EggAplha`](https://github.com/UbhayAab/EggAplha) | HTML | 8 | 46 KB | 2026-02-20 |  |
@@ -375,11 +375,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 13 Aug 2026 00:49 IST from 5 GraphQL points in 6.5s.
-Run #18. Rebuilds every 6 hours and on every push.
+Generated 13 Aug 2026 08:16 IST from 5 GraphQL points in 7.7s.
+Run #19. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 12 Aug 2026 19:15 rather than dropped.
+forward from 13 Aug 2026 00:49 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
