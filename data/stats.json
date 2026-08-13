@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-13T13:46:19.051Z",
+  "generatedAt": "2026-08-13T19:19:34.224Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 5,
-  "runId": 21,
+  "runId": 22,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,8 +21,8 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 423,
-    "commits": 403,
+    "lastYear": 430,
+    "commits": 410,
     "repositoriesCreated": 20,
     "activeDays": 71,
     "trackedDays": 369,
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "kdp-ads-dashboard",
@@ -499,12 +499,12 @@
       "description": "KDP ads dashboard",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 282,
-      "pushedAt": "2026-08-11T09:20:12Z",
+      "diskKB": 330,
+      "pushedAt": "2026-08-13T16:18:01Z",
       "createdAt": "2026-07-28T01:25:51Z",
       "language": "HTML",
       "languageColor": "#e34c26",
-      "commits": 29,
+      "commits": 35,
       "topics": []
     },
     {
@@ -520,7 +520,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "EyeTracker",
@@ -579,6 +579,23 @@
       "topics": []
     },
     {
+      "name": "UbhayAab",
+      "url": "https://github.com/UbhayAab/UbhayAab",
+      "description": "Config files for my GitHub profile.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 380,
+      "pushedAt": "2026-08-13T13:46:20Z",
+      "createdAt": "2021-03-24T23:51:31Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 23,
+      "topics": [
+        "config",
+        "github-config"
+      ]
+    },
+    {
       "name": "MeeshoLod",
       "url": "https://github.com/UbhayAab/MeeshoLod",
       "description": null,
@@ -593,23 +610,6 @@
       "topics": []
     },
     {
-      "name": "UbhayAab",
-      "url": "https://github.com/UbhayAab/UbhayAab",
-      "description": "Config files for my GitHub profile.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 368,
-      "pushedAt": "2026-08-13T07:52:03Z",
-      "createdAt": "2021-03-24T23:51:31Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 22,
-      "topics": [
-        "config",
-        "github-config"
-      ]
-    },
-    {
       "name": "hearth",
       "url": "https://github.com/UbhayAab/hearth",
       "description": null,
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "carcinome_wp",
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -863,7 +863,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "cleanedemails",
@@ -878,7 +878,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -893,7 +893,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "Midjourney-bot",
@@ -908,7 +908,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "KDP-bot",
@@ -923,7 +923,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-13T07:52:02.370Z"
+      "staleSince": "2026-08-13T13:46:19.051Z"
     },
     {
       "name": "Patient-Navigator",
@@ -955,32 +955,81 @@
     }
   ],
   "latestCommit": {
-    "repo": "UbhayAab",
-    "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-08-13T07:52:02Z",
-    "ago": "6 hours ago",
-    "oid": "be45242"
+    "repo": "kdp-ads-dashboard",
+    "message": "Spend rose, royalty did not 2026-08-13",
+    "at": "2026-08-13T16:17:50Z",
+    "ago": "3 hours ago",
+    "oid": "1fb5339"
   },
   "recentCommits": [
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Spend rose, royalty did not 2026-08-13",
+      "at": "2026-08-13T16:17:50Z",
+      "ago": "3 hours ago",
+      "oid": "1fb5339"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Spend rose, royalty did not 2026-08-13",
+      "at": "2026-08-13T15:52:38Z",
+      "ago": "3 hours ago",
+      "oid": "b40be64"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Spend rose, royalty did not 2026-08-13",
+      "at": "2026-08-13T15:50:43Z",
+      "ago": "3 hours ago",
+      "oid": "2d6ffbc"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Spend rose, royalty did not 2026-08-13",
+      "at": "2026-08-13T15:47:54Z",
+      "ago": "4 hours ago",
+      "oid": "e5f7bf9"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Account view: why today is not August 1",
+      "at": "2026-08-13T15:26:02Z",
+      "ago": "4 hours ago",
+      "oid": "555e6a3"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Account view: why today is not August 1",
+      "at": "2026-08-13T14:58:10Z",
+      "ago": "4 hours ago",
+      "oid": "2583ecd"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-13T13:46:19Z",
+      "ago": "6 hours ago",
+      "oid": "577c3f9"
+    },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-13T07:52:02Z",
-      "ago": "6 hours ago",
+      "ago": "11 hours ago",
       "oid": "be45242"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-13T02:46:18Z",
-      "ago": "11 hours ago",
+      "ago": "17 hours ago",
       "oid": "bd10525"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-12T19:19:20Z",
-      "ago": "18 hours ago",
+      "ago": "1 day ago",
       "oid": "e439739"
     },
     {
@@ -996,55 +1045,6 @@
       "at": "2026-08-12T07:51:27Z",
       "ago": "1 day ago",
       "oid": "b8a5fd4"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-12T02:43:19Z",
-      "ago": "1 day ago",
-      "oid": "8f6e752"
-    },
-    {
-      "repo": "UbhayAab.github.io",
-      "message": "Real light-mode flight, a warp shot the ship is actually in, an arcad…",
-      "at": "2026-08-12T00:04:16Z",
-      "ago": "2 days ago",
-      "oid": "9ac6ebf"
-    },
-    {
-      "repo": "soop",
-      "message": "The efficiency pass, written down",
-      "at": "2026-08-11T22:35:37Z",
-      "ago": "2 days ago",
-      "oid": "24457bf"
-    },
-    {
-      "repo": "soop",
-      "message": "Half the idle traffic was a sidebar redrawing itself with the same pi…",
-      "at": "2026-08-11T22:35:06Z",
-      "ago": "2 days ago",
-      "oid": "b112f3b"
-    },
-    {
-      "repo": "UbhayAab.github.io",
-      "message": "Add the vision dossiers, consult page, 29-game arcade and the site shell",
-      "at": "2026-08-11T22:32:00Z",
-      "ago": "2 days ago",
-      "oid": "1c2c2ec"
-    },
-    {
-      "repo": "JCF",
-      "message": "feat(nutrition): claiming is a decision now, not a guess at who touch…",
-      "at": "2026-08-11T22:01:03Z",
-      "ago": "2 days ago",
-      "oid": "6b2d11b"
-    },
-    {
-      "repo": "soop",
-      "message": "Stop polling a phone in somebody's pocket, and buffer the ICE we were…",
-      "at": "2026-08-11T21:22:21Z",
-      "ago": "2 days ago",
-      "oid": "1fe7415"
     }
   ],
   "calendar": [
@@ -2522,10 +2522,10 @@
     },
     {
       "date": "2026-08-13",
-      "count": 2
+      "count": 9
     }
   ],
-  "elapsedMs": 8271,
+  "elapsedMs": 6430,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2542,7 +2542,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-13T07:52:02.370Z",
+    "lastFullRun": "2026-08-13T13:46:19.051Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
