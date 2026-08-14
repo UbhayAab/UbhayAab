@@ -21,10 +21,10 @@
 <!-- BEGIN:PROSE -->
 37 repositories, 26 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-71 active days in the last year, longest run 10.
+72 active days in the last year, longest run 11.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 3 hours ago to [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) - `Spend rose, royalty did not 2026-08-13`.
+Last push 6 hours ago to [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) - `After the cut: the post-change audit`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Every distributed system eventually reinvents **___**
+> The KV cache grows linearly with the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>a</code></summary>
+<details><summary><code>incre</code></summary>
 
-**No.** `a` is rank 4 at 1.0%. The model wanted `the` at 80.4%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
-
-</details>
-
-<details><summary><code>its</code></summary>
-
-**No.** `its` is rank 3 at 2.4%. The model wanted `the` at 80.4%.
+**No.** `incre` is rank 4 at 0.8%. The model wanted `number` at 89.2%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
 
 </details>
 
-<details><summary><code>it</code></summary>
+<details><summary><code>size</code></summary>
 
-**No.** `it` is rank 5 at 0.6%. The model wanted `the` at 80.4%.
+**No.** `size` is rank 2 at 7.2%. The model wanted `number` at 89.2%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
 
 </details>
 
-<details><summary><code>...</code></summary>
+<details><summary><code>number</code></summary>
 
-**No.** `...` is rank 2 at 15.6%. The model wanted `the` at 80.4%.
+**Correct.** The model's top token, at **89.2%** of the visible mass, carrying 0.16 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
 
 </details>
 
-<details><summary><code>the</code></summary>
+<details><summary><code>increase</code></summary>
 
-**Correct.** The model's top token, at **80.4%** of the visible mass, carrying 0.31 bits.
+**No.** `increase` is rank 5 at 0.8%. The model wanted `number` at 89.2%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
 
 </details>
 
-Today's puzzle carries **0.91 bits** of entropy out of a possible
+<details><summary><code>amount</code></summary>
+
+**No.** `amount` is rank 3 at 1.9%. The model wanted `number` at 89.2%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
+
+</details>
+
+Today's puzzle carries **0.64 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -336,13 +336,13 @@ work look thinner than it is; their links are omitted rather than dangled.
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
-| [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 35 | 330 KB | 2026-08-13 | KDP ads dashboard |
+| [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 39 | 379 KB | 2026-08-13 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
 | [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 26 | 646 KB | 2026-07-27 |  |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 25 | 1.2 MB | 2026-08-11 | Soop - invite-only team chat. A Redtree product. |
 | [`kpicomp`](https://github.com/UbhayAab/kpicomp) | TypeScript | 25 | 217 KB | 2025-09-05 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 23 | 380 KB | 2026-08-13 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 24 | 404 KB | 2026-08-13 | Config files for my GitHub profile. |
 | [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 23 | 332 KB | 2026-08-11 |  |
 | `hearth` <sub>private</sub> | JavaScript | 21 | 117 MB | 2026-07-28 |  |
 | `continuity` <sub>private</sub> | Python | 21 | 207 KB | 2026-07-18 |  |
@@ -375,11 +375,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 14 Aug 2026 00:49 IST from 5 GraphQL points in 6.4s.
-Run #22. Rebuilds every 6 hours and on every push.
+Generated 14 Aug 2026 08:15 IST from 5 GraphQL points in 7.2s.
+Run #23. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 13 Aug 2026 19:16 rather than dropped.
+forward from 14 Aug 2026 00:49 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
