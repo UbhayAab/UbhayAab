@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 73 active days in the last year, longest run 12.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 6 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 7 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,77 +86,77 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Amazon advertising campaigns waste most of their budget on **___**
+> The hardest part of porting a model to llama.cpp is the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>ads</code></summary>
+<details><summary><code>fact</code></summary>
 
-**No.** `ads` is rank 5 at 15.2%. The model wanted `low` at 29.1%.
+**Correct.** The model's top token, at **25.4%** of the visible mass, carrying 1.98 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
-<details><summary><code>display</code></summary>
+<details><summary><code>getting</code></summary>
 
-**No.** `display` is rank 3 at 18.3%. The model wanted `low` at 29.1%.
+**No.** `getting` is rank 4 at 17.2%. The model wanted `fact` at 25.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
-<details><summary><code>un</code></summary>
+<details><summary><code>...</code></summary>
 
-**No.** `un` is rank 4 at 16.6%. The model wanted `low` at 29.1%.
+**No.** `...` is rank 3 at 19.4%. The model wanted `fact` at 25.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
-<details><summary><code>low</code></summary>
+<details><summary><code>translation</code></summary>
 
-**Correct.** The model's top token, at **29.1%** of the visible mass, carrying 1.78 bits.
+**No.** `translation` is rank 5 at 13.2%. The model wanted `fact` at 25.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
-<details><summary><code>click</code></summary>
+<details><summary><code>lack</code></summary>
 
-**No.** `click` is rank 2 at 20.7%. The model wanted `low` at 29.1%.
+**No.** `lack` is rank 2 at 24.7%. The model wanted `fact` at 25.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
@@ -337,7 +337,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 39 | 379 KB | 2026-08-13 | KDP ads dashboard |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 31 | 500 KB | 2026-08-15 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 32 | 526 KB | 2026-08-15 | Config files for my GitHub profile. |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
 | [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 26 | 646 KB | 2026-07-27 |  |
@@ -375,11 +375,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 16 Aug 2026 00:16 IST from 5 GraphQL points in 6.0s.
-Run #30. Rebuilds every 6 hours and on every push.
+Generated 16 Aug 2026 07:26 IST from 5 GraphQL points in 8.3s.
+Run #31. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 15 Aug 2026 18:28 rather than dropped.
+forward from 16 Aug 2026 00:16 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
