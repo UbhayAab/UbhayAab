@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-17T13:04:44.810Z",
+  "generatedAt": "2026-08-17T18:56:57.058Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 5,
-  "runId": 37,
+  "runId": 38,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,8 +21,8 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 450,
-    "commits": 429,
+    "lastYear": 451,
+    "commits": 430,
     "repositoriesCreated": 20,
     "activeDays": 75,
     "trackedDays": 366,
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,24 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
+    },
+    {
+      "name": "UbhayAab",
+      "url": "https://github.com/UbhayAab/UbhayAab",
+      "description": "Config files for my GitHub profile.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 624,
+      "pushedAt": "2026-08-17T13:04:46Z",
+      "createdAt": "2021-03-24T23:51:31Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 39,
+      "topics": [
+        "config",
+        "github-config"
+      ]
     },
     {
       "name": "kdp-ads-dashboard",
@@ -508,23 +525,6 @@
       "topics": []
     },
     {
-      "name": "UbhayAab",
-      "url": "https://github.com/UbhayAab/UbhayAab",
-      "description": "Config files for my GitHub profile.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 611,
-      "pushedAt": "2026-08-17T07:15:28Z",
-      "createdAt": "2021-03-24T23:51:31Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 38,
-      "topics": [
-        "config",
-        "github-config"
-      ]
-    },
-    {
       "name": "glance",
       "url": "https://github.com/UbhayAab/glance",
       "description": "An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Windows 11",
@@ -537,7 +537,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "EyeTracker",
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "carcinome_wp",
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -863,7 +863,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "cleanedemails",
@@ -878,7 +878,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -893,7 +893,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "Midjourney-bot",
@@ -908,7 +908,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "KDP-bot",
@@ -923,7 +923,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-17T07:15:26.885Z"
+      "staleSince": "2026-08-17T13:04:44.810Z"
     },
     {
       "name": "Patient-Navigator",
@@ -957,30 +957,37 @@
   "latestCommit": {
     "repo": "UbhayAab",
     "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-08-17T07:15:27Z",
+    "at": "2026-08-17T13:04:45Z",
     "ago": "6 hours ago",
-    "oid": "acad534"
+    "oid": "ae61708"
   },
   "recentCommits": [
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-17T07:15:27Z",
+      "at": "2026-08-17T13:04:45Z",
       "ago": "6 hours ago",
+      "oid": "ae61708"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-17T07:15:27Z",
+      "ago": "12 hours ago",
       "oid": "acad534"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-17T01:54:18Z",
-      "ago": "11 hours ago",
+      "ago": "17 hours ago",
       "oid": "e1150a2"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-16T18:46:32Z",
-      "ago": "18 hours ago",
+      "ago": "1 day ago",
       "oid": "fa84317"
     },
     {
@@ -1001,7 +1008,7 @@
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-16T01:56:35Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "7a035a3"
     },
     {
@@ -1029,7 +1036,7 @@
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-15T01:49:23Z",
-      "ago": "2 days ago",
+      "ago": "3 days ago",
       "oid": "3428832"
     },
     {
@@ -1038,13 +1045,6 @@
       "at": "2026-08-14T19:13:14Z",
       "ago": "3 days ago",
       "oid": "d2f5050"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-14T13:41:27Z",
-      "ago": "3 days ago",
-      "oid": "1d13d81"
     }
   ],
   "calendar": [
@@ -2510,10 +2510,10 @@
     },
     {
       "date": "2026-08-17",
-      "count": 2
+      "count": 3
     }
   ],
-  "elapsedMs": 6690,
+  "elapsedMs": 8348,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2530,7 +2530,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-17T07:15:26.885Z",
+    "lastFullRun": "2026-08-17T13:04:44.810Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
