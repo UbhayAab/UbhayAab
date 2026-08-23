@@ -6,81 +6,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Most scrapers fail in production because of **___**
+> Writing a compiler is easier than writing a **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>ins</code></summary>
+<details><summary><code>interpreter</code></summary>
 
-**No.** `ins` is rank 2 at 20.2%. The model wanted `their` at 29.9%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `their` | 29.9% | 1.74 bits |
-| 2 | `ins` | 20.2% | 2.31 bits |
-| 3 | `the` | 17.8% | 2.49 bits |
-| 4 | `in` | 16.2% | 2.63 bits |
-| 5 | `a` | 15.9% | 2.66 bits |
-
-</details>
-
-<details><summary><code>a</code></summary>
-
-**No.** `a` is rank 5 at 15.9%. The model wanted `their` at 29.9%.
+**Correct.** The model's top token, at **36.9%** of the visible mass, carrying 1.44 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `their` | 29.9% | 1.74 bits |
-| 2 | `ins` | 20.2% | 2.31 bits |
-| 3 | `the` | 17.8% | 2.49 bits |
-| 4 | `in` | 16.2% | 2.63 bits |
-| 5 | `a` | 15.9% | 2.66 bits |
+| 1 | `interpreter` | 36.9% | 1.44 bits |
+| 2 | `parser` | 22.8% | 2.13 bits |
+| 3 | `program` | 16.5% | 2.60 bits |
+| 4 | `runtime` | 16.1% | 2.64 bits |
+| 5 | `debug` | 7.7% | 3.70 bits |
 
 </details>
 
-<details><summary><code>in</code></summary>
+<details><summary><code>parser</code></summary>
 
-**No.** `in` is rank 4 at 16.2%. The model wanted `their` at 29.9%.
+**No.** `parser` is rank 2 at 22.8%. The model wanted `interpreter` at 36.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `their` | 29.9% | 1.74 bits |
-| 2 | `ins` | 20.2% | 2.31 bits |
-| 3 | `the` | 17.8% | 2.49 bits |
-| 4 | `in` | 16.2% | 2.63 bits |
-| 5 | `a` | 15.9% | 2.66 bits |
+| 1 | `interpreter` | 36.9% | 1.44 bits |
+| 2 | `parser` | 22.8% | 2.13 bits |
+| 3 | `program` | 16.5% | 2.60 bits |
+| 4 | `runtime` | 16.1% | 2.64 bits |
+| 5 | `debug` | 7.7% | 3.70 bits |
 
 </details>
 
-<details><summary><code>the</code></summary>
+<details><summary><code>runtime</code></summary>
 
-**No.** `the` is rank 3 at 17.8%. The model wanted `their` at 29.9%.
+**No.** `runtime` is rank 4 at 16.1%. The model wanted `interpreter` at 36.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `their` | 29.9% | 1.74 bits |
-| 2 | `ins` | 20.2% | 2.31 bits |
-| 3 | `the` | 17.8% | 2.49 bits |
-| 4 | `in` | 16.2% | 2.63 bits |
-| 5 | `a` | 15.9% | 2.66 bits |
+| 1 | `interpreter` | 36.9% | 1.44 bits |
+| 2 | `parser` | 22.8% | 2.13 bits |
+| 3 | `program` | 16.5% | 2.60 bits |
+| 4 | `runtime` | 16.1% | 2.64 bits |
+| 5 | `debug` | 7.7% | 3.70 bits |
 
 </details>
 
-<details><summary><code>their</code></summary>
+<details><summary><code>program</code></summary>
 
-**Correct.** The model's top token, at **29.9%** of the visible mass, carrying 1.74 bits.
+**No.** `program` is rank 3 at 16.5%. The model wanted `interpreter` at 36.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `their` | 29.9% | 1.74 bits |
-| 2 | `ins` | 20.2% | 2.31 bits |
-| 3 | `the` | 17.8% | 2.49 bits |
-| 4 | `in` | 16.2% | 2.63 bits |
-| 5 | `a` | 15.9% | 2.66 bits |
+| 1 | `interpreter` | 36.9% | 1.44 bits |
+| 2 | `parser` | 22.8% | 2.13 bits |
+| 3 | `program` | 16.5% | 2.60 bits |
+| 4 | `runtime` | 16.1% | 2.64 bits |
+| 5 | `debug` | 7.7% | 3.70 bits |
 
 </details>
 
-Today's puzzle carries **2.28 bits** of entropy out of a possible
+<details><summary><code>debug</code></summary>
+
+**No.** `debug` is rank 5 at 7.7%. The model wanted `interpreter` at 36.9%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `interpreter` | 36.9% | 1.44 bits |
+| 2 | `parser` | 22.8% | 2.13 bits |
+| 3 | `program` | 16.5% | 2.60 bits |
+| 4 | `runtime` | 16.1% | 2.64 bits |
+| 5 | `debug` | 7.7% | 3.70 bits |
+
+</details>
+
+Today's puzzle carries **2.15 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
