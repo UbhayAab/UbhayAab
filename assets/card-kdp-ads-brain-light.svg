@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 428 208" width="428" height="208" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet">
-<title id="t">Ads Brain (kdp-ads-brain)</title><desc id="d">Ads Brain. Amazon Ads automation and a daily catalogue brain for a self-publishing business. Bid policy, reporting, and the boring parts nobody automates. 5.0/day 126 commits in 25 days. Private repository, 126 commits, pushed 14d ago.</desc>
+<title id="t">Ads Brain (kdp-ads-brain)</title><desc id="d">Ads Brain. Amazon Ads automation and a daily catalogue brain for a self-publishing business. Bid policy, reporting, and the boring parts nobody automates. 4.8/day 126 commits in 26 days. Private repository, 126 commits, pushed 14d ago.</desc>
 <defs><clipPath id="ckdpadsbrainlb"><rect x="24" y="196" width="380" height="9" class="barclip"/></clipPath></defs>
 <style>
 
@@ -25,8 +25,8 @@
 <text x="46.3" y="153.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="8.5" font-weight="400" fill="#5B6474" text-anchor="middle">Python</text>
 <rect x="74.6" y="142" width="44.6" height="16" rx="8" fill="#F3F4F8"/>
 <text x="96.9" y="153.5" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="8.5" font-weight="400" fill="#5B6474" text-anchor="middle">Pandas</text>
-<text x="24" y="176" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="19" font-weight="400" fill="#E2620A" text-anchor="start" letter-spacing="-0.4" textLength="77.4" lengthAdjust="spacing">5.0/day</text>
-<text x="24" y="191" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#AAB2C0" text-anchor="start" textLength="125.4" lengthAdjust="spacing">126 commits in 25 days</text>
+<text x="24" y="176" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="19" font-weight="400" fill="#E2620A" text-anchor="start" letter-spacing="-0.4" textLength="77.4" lengthAdjust="spacing">4.8/day</text>
+<text x="24" y="191" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#AAB2C0" text-anchor="start" textLength="125.4" lengthAdjust="spacing">126 commits in 26 days</text>
 <rect x="24" y="199" width="380" height="3" rx="1.5" fill="#EAEDF3"/>
 <g clip-path="url(#ckdpadsbrainlb)"><rect x="24" y="199" width="76.242" height="3" rx="1.5" fill="#3572A5" opacity="0.9"/></g>
 <text x="404" y="176" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10.5" font-weight="400" fill="#5B6474" text-anchor="end" textLength="69.3" lengthAdjust="spacing">126 commits</text>
