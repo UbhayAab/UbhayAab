@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-24T07:19:38.979Z",
+  "generatedAt": "2026-08-24T13:12:09.133Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 5,
-  "runId": 64,
+  "runId": 65,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,8 +21,8 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 481,
-    "commits": 459,
+    "lastYear": 482,
+    "commits": 460,
     "repositoriesCreated": 20,
     "activeDays": 82,
     "trackedDays": 366,
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "UbhayAab",
@@ -499,16 +499,30 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 299,
-      "pushedAt": "2026-08-24T01:57:03Z",
+      "diskKB": 318,
+      "pushedAt": "2026-08-24T07:19:40Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 65,
+      "commits": 66,
       "topics": [
         "config",
         "github-config"
       ]
+    },
+    {
+      "name": "soop",
+      "url": "https://github.com/UbhayAab/soop",
+      "description": "Soop - invite-only team chat. A Redtree product.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 3076,
+      "pushedAt": "2026-08-24T09:54:09Z",
+      "createdAt": "2026-07-27T23:05:24Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 59,
+      "topics": []
     },
     {
       "name": "kdp-ads-dashboard",
@@ -537,7 +551,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "EyeTracker",
@@ -565,20 +579,6 @@
       "language": "HTML",
       "languageColor": "#e34c26",
       "commits": 26,
-      "topics": []
-    },
-    {
-      "name": "soop",
-      "url": "https://github.com/UbhayAab/soop",
-      "description": "Soop - invite-only team chat. A Redtree product.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 1243,
-      "pushedAt": "2026-08-11T22:35:41Z",
-      "createdAt": "2026-07-27T23:05:24Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 25,
       "topics": []
     },
     {
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "carcinome_wp",
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -863,7 +863,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "cleanedemails",
@@ -878,7 +878,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -893,7 +893,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "Midjourney-bot",
@@ -908,7 +908,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "KDP-bot",
@@ -923,7 +923,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T01:57:01.750Z"
+      "staleSince": "2026-08-24T07:19:38.979Z"
     },
     {
       "name": "Patient-Navigator",
@@ -955,96 +955,96 @@
     }
   ],
   "latestCommit": {
-    "repo": "UbhayAab",
-    "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-08-24T01:57:02Z",
-    "ago": "5 hours ago",
-    "oid": "0ecd0ea"
+    "repo": "soop",
+    "message": "The tab bar finally ships, and so do the eyes that caught it: demo lo…",
+    "at": "2026-08-24T09:54:05Z",
+    "ago": "3 hours ago",
+    "oid": "6ea4efe"
   },
   "recentCommits": [
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-24T01:57:02Z",
+      "repo": "soop",
+      "message": "The tab bar finally ships, and so do the eyes that caught it: demo lo…",
+      "at": "2026-08-24T09:54:05Z",
+      "ago": "3 hours ago",
+      "oid": "6ea4efe"
+    },
+    {
+      "repo": "soop",
+      "message": "Registering a panel under an id somebody else used now warns, because…",
+      "at": "2026-08-24T09:52:58Z",
+      "ago": "3 hours ago",
+      "oid": "7cebd18"
+    },
+    {
+      "repo": "soop",
+      "message": "EFFICIENCY.md refreshed after execution: every rank marked landed or …",
+      "at": "2026-08-24T08:48:10Z",
+      "ago": "4 hours ago",
+      "oid": "d779e2f"
+    },
+    {
+      "repo": "soop",
+      "message": "Cache edge-function preflights for a day; mint-download's answer now …",
+      "at": "2026-08-24T08:25:09Z",
       "ago": "5 hours ago",
-      "oid": "0ecd0ea"
+      "oid": "877875a"
     },
     {
-      "repo": "trackerz",
-      "message": "The day you picked scrolled off the strip, so the slider showed a wee…",
-      "at": "2026-08-23T19:17:16Z",
-      "ago": "12 hours ago",
-      "oid": "1a7713e"
+      "repo": "soop",
+      "message": "The push half of notifications: a sender that mints nothing and prune…",
+      "at": "2026-08-24T07:56:39Z",
+      "ago": "5 hours ago",
+      "oid": "5945756"
     },
     {
-      "repo": "trackerz",
-      "message": "Three days of meals priced at half of themselves, because the table h…",
-      "at": "2026-08-23T19:17:16Z",
-      "ago": "12 hours ago",
-      "oid": "e6f6b34"
-    },
-    {
-      "repo": "trackerz",
-      "message": "Teach the food table Burger King items, and stop it eating the brand",
-      "at": "2026-08-23T19:13:43Z",
-      "ago": "12 hours ago",
-      "oid": "cc23ca5"
+      "repo": "soop",
+      "message": "The resync heal read stops shipping every message row whole: it proje…",
+      "at": "2026-08-24T07:26:13Z",
+      "ago": "6 hours ago",
+      "oid": "cc2e27e"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-23T18:47:49Z",
-      "ago": "13 hours ago",
-      "oid": "45772f6"
+      "at": "2026-08-24T07:19:39Z",
+      "ago": "6 hours ago",
+      "oid": "0cbddad"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-23T13:00:54Z",
-      "ago": "18 hours ago",
-      "oid": "582e831"
+      "repo": "soop",
+      "message": "Attachment bodies get a service-worker cache keyed by path, not by th…",
+      "at": "2026-08-24T06:49:05Z",
+      "ago": "6 hours ago",
+      "oid": "8f6e242"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-23T07:00:20Z",
-      "ago": "1 day ago",
-      "oid": "5ff9007"
+      "repo": "soop",
+      "message": "The embed redeem skips its preflight and its second identity lookup: …",
+      "at": "2026-08-24T05:47:04Z",
+      "ago": "7 hours ago",
+      "oid": "23a67d0"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-23T01:58:56Z",
-      "ago": "1 day ago",
-      "oid": "7b558c0"
+      "repo": "soop",
+      "message": "Table reads project their columns and the resync heal stops betting t…",
+      "at": "2026-08-24T04:49:46Z",
+      "ago": "8 hours ago",
+      "oid": "6a382f9"
     },
     {
-      "repo": "trackerz",
-      "message": "The plan prescribed a leg press to a room that has dumbbells and a bench",
-      "at": "2026-08-23T01:54:07Z",
-      "ago": "1 day ago",
-      "oid": "6d5f735"
+      "repo": "soop",
+      "message": "Mark-read clears its badge locally: opening a channel or DM no longer…",
+      "at": "2026-08-24T04:18:07Z",
+      "ago": "9 hours ago",
+      "oid": "06acf1f"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-22T18:48:11Z",
-      "ago": "2 days ago",
-      "oid": "fa0ce93"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-22T13:00:00Z",
-      "ago": "2 days ago",
-      "oid": "d178eba"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-22T06:58:32Z",
-      "ago": "2 days ago",
-      "oid": "a04b603"
+      "repo": "soop",
+      "message": "Typing stops costing a broadcast per message: the arrival clears the …",
+      "at": "2026-08-24T03:49:13Z",
+      "ago": "9 hours ago",
+      "oid": "11c15b0"
     }
   ],
   "calendar": [
@@ -2510,10 +2510,10 @@
     },
     {
       "date": "2026-08-24",
-      "count": 2
+      "count": 3
     }
   ],
-  "elapsedMs": 7736,
+  "elapsedMs": 8138,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2530,7 +2530,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-24T01:57:01.750Z",
+    "lastFullRun": "2026-08-24T07:19:38.979Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
