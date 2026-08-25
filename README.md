@@ -19,12 +19,12 @@
 </p>
 
 <!-- BEGIN:PROSE -->
-37 repositories, 26 of them public, 1,536 commits between them.
+37 repositories, 27 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
 82 active days in the last year, longest run 21.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 1 hours ago to [`soop`](https://github.com/UbhayAab/soop) - `UI overhaul pass with eyes: channel welcome mat, composer tools un-bu…`.
+Last push 3 hours ago to [`soop`](https://github.com/UbhayAab/soop) - `OTP production live: dek-onboarding API key minted on the mailer box …`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Attention is quadratic in the length of the **___**
+> The biggest risk in a database migration is **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>document</code></summary>
+<details><summary><code>...</code></summary>
 
-**No.** `document` is rank 3 at 17.6%. The model wanted `text` at 43.4%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `text` | 43.4% | 1.21 bits |
-| 2 | `input` | 25.7% | 1.96 bits |
-| 3 | `document` | 17.6% | 2.51 bits |
-| 4 | `message` | 7.9% | 3.67 bits |
-| 5 | `signal` | 5.5% | 4.18 bits |
-
-</details>
-
-<details><summary><code>message</code></summary>
-
-**No.** `message` is rank 4 at 7.9%. The model wanted `text` at 43.4%.
+**No.** `...` is rank 4 at 8.7%. The model wanted `data` at 62.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `text` | 43.4% | 1.21 bits |
-| 2 | `input` | 25.7% | 1.96 bits |
-| 3 | `document` | 17.6% | 2.51 bits |
-| 4 | `message` | 7.9% | 3.67 bits |
-| 5 | `signal` | 5.5% | 4.18 bits |
+| 1 | `data` | 62.9% | 0.67 bits |
+| 2 | `losing` | 11.0% | 3.19 bits |
+| 3 | `the` | 9.3% | 3.43 bits |
+| 4 | `...` | 8.7% | 3.52 bits |
+| 5 | `that` | 8.1% | 3.62 bits |
 
 </details>
 
-<details><summary><code>input</code></summary>
+<details><summary><code>the</code></summary>
 
-**No.** `input` is rank 2 at 25.7%. The model wanted `text` at 43.4%.
+**No.** `the` is rank 3 at 9.3%. The model wanted `data` at 62.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `text` | 43.4% | 1.21 bits |
-| 2 | `input` | 25.7% | 1.96 bits |
-| 3 | `document` | 17.6% | 2.51 bits |
-| 4 | `message` | 7.9% | 3.67 bits |
-| 5 | `signal` | 5.5% | 4.18 bits |
+| 1 | `data` | 62.9% | 0.67 bits |
+| 2 | `losing` | 11.0% | 3.19 bits |
+| 3 | `the` | 9.3% | 3.43 bits |
+| 4 | `...` | 8.7% | 3.52 bits |
+| 5 | `that` | 8.1% | 3.62 bits |
 
 </details>
 
-<details><summary><code>text</code></summary>
+<details><summary><code>that</code></summary>
 
-**Correct.** The model's top token, at **43.4%** of the visible mass, carrying 1.21 bits.
+**No.** `that` is rank 5 at 8.1%. The model wanted `data` at 62.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `text` | 43.4% | 1.21 bits |
-| 2 | `input` | 25.7% | 1.96 bits |
-| 3 | `document` | 17.6% | 2.51 bits |
-| 4 | `message` | 7.9% | 3.67 bits |
-| 5 | `signal` | 5.5% | 4.18 bits |
+| 1 | `data` | 62.9% | 0.67 bits |
+| 2 | `losing` | 11.0% | 3.19 bits |
+| 3 | `the` | 9.3% | 3.43 bits |
+| 4 | `...` | 8.7% | 3.52 bits |
+| 5 | `that` | 8.1% | 3.62 bits |
 
 </details>
 
-<details><summary><code>signal</code></summary>
+<details><summary><code>losing</code></summary>
 
-**No.** `signal` is rank 5 at 5.5%. The model wanted `text` at 43.4%.
+**No.** `losing` is rank 2 at 11.0%. The model wanted `data` at 62.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `text` | 43.4% | 1.21 bits |
-| 2 | `input` | 25.7% | 1.96 bits |
-| 3 | `document` | 17.6% | 2.51 bits |
-| 4 | `message` | 7.9% | 3.67 bits |
-| 5 | `signal` | 5.5% | 4.18 bits |
+| 1 | `data` | 62.9% | 0.67 bits |
+| 2 | `losing` | 11.0% | 3.19 bits |
+| 3 | `the` | 9.3% | 3.43 bits |
+| 4 | `...` | 8.7% | 3.52 bits |
+| 5 | `that` | 8.1% | 3.62 bits |
 
 </details>
 
-Today's puzzle carries **1.99 bits** of entropy out of a possible
+<details><summary><code>data</code></summary>
+
+**Correct.** The model's top token, at **62.9%** of the visible mass, carrying 0.67 bits.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `data` | 62.9% | 0.67 bits |
+| 2 | `losing` | 11.0% | 3.19 bits |
+| 3 | `the` | 9.3% | 3.43 bits |
+| 4 | `...` | 8.7% | 3.52 bits |
+| 5 | `that` | 8.1% | 3.62 bits |
+
+</details>
+
+Today's puzzle carries **1.69 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -336,8 +336,8 @@ work look thinner than it is; their links are omitted rather than dangled.
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
-| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 70 | 5.4 MB | 2026-08-24 | Soop - invite-only team chat. A Redtree product. |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 67 | 334 KB | 2026-08-24 | Config files for my GitHub profile. |
+| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 83 | 6.8 MB | 2026-08-24 | Soop - invite-only team chat. A Redtree product. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 68 | 361 KB | 2026-08-24 | Config files for my GitHub profile. |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 39 | 379 KB | 2026-08-13 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
@@ -358,6 +358,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`JCF-Gda31885`](https://github.com/UbhayAab/JCF-Gda31885) | CSS | 3 | 960 KB | 2024-11-05 |  |
 | [`AyuSSm`](https://github.com/UbhayAab/AyuSSm) | Python | 2 | 31 KB | 2025-05-11 |  |
 | [`whatsapp_automation`](https://github.com/UbhayAab/whatsapp_automation) | JavaScript | 2 | 259 KB | 2025-04-19 |  |
+| [`horizon-campaign`](https://github.com/UbhayAab/horizon-campaign) | HTML | 1 | 253 KB | 2026-08-21 | Horizon campaign playbook for Jarurat Care: 8 stages, 20 cohorts, full email copy, b |
 | [`EmailScraper_JCF`](https://github.com/UbhayAab/EmailScraper_JCF) | Python | 1 | 79 KB | 2026-03-26 | Tried something |
 | [`Ubhay`](https://github.com/UbhayAab/Ubhay) | JavaScript | 1 | 662 KB | 2026-02-28 |  |
 | [`Neemans`](https://github.com/UbhayAab/Neemans) | CSS | 1 | 22 KB | 2026-02-17 | Assigntment |
@@ -375,11 +376,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 25 Aug 2026 00:28 IST from 5 GraphQL points in 10.6s.
-Run #66. Rebuilds every 6 hours and on every push.
+Generated 25 Aug 2026 07:22 IST from 6 GraphQL points in 9.2s.
+Run #67. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 24 Aug 2026 18:42 rather than dropped.
+forward from 25 Aug 2026 00:28 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.

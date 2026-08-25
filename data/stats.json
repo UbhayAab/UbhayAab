@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-24T18:58:21.554Z",
+  "generatedAt": "2026-08-25T01:52:04.760Z",
   "generatedBy": "scripts/gen-stats.mjs",
-  "graphqlCost": 5,
-  "runId": 66,
+  "graphqlCost": 6,
+  "runId": 67,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -14,18 +14,18 @@
   },
   "repos": {
     "total": 37,
-    "public": 26,
+    "public": 27,
     "private": 12,
     "stars": 0,
     "diskKB": 3405815,
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 483,
-    "commits": 461,
-    "repositoriesCreated": 20,
+    "lastYear": 486,
+    "commits": 463,
+    "repositoriesCreated": 21,
     "activeDays": 82,
-    "trackedDays": 366,
+    "trackedDays": 367,
     "busiestDay": {
       "date": "2026-07-25",
       "contributionCount": 26,
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "soop",
@@ -499,12 +499,12 @@
       "description": "Soop - invite-only team chat. A Redtree product.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 5513,
-      "pushedAt": "2026-08-24T17:50:40Z",
+      "diskKB": 6913,
+      "pushedAt": "2026-08-24T22:32:00Z",
       "createdAt": "2026-07-27T23:05:24Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 70,
+      "commits": 83,
       "topics": []
     },
     {
@@ -513,12 +513,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 334,
-      "pushedAt": "2026-08-24T13:12:10Z",
+      "diskKB": 361,
+      "pushedAt": "2026-08-24T18:58:22Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 67,
+      "commits": 68,
       "topics": [
         "config",
         "github-config"
@@ -551,7 +551,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "EyeTracker",
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "carcinome_wp",
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -809,6 +809,20 @@
       "topics": []
     },
     {
+      "name": "horizon-campaign",
+      "url": "https://github.com/UbhayAab/horizon-campaign",
+      "description": "Horizon campaign playbook for Jarurat Care: 8 stages, 20 cohorts, full email copy, built against the JCF-Mailer source",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 253,
+      "pushedAt": "2026-08-21T16:09:02Z",
+      "createdAt": "2026-08-21T16:08:33Z",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "commits": 1,
+      "topics": []
+    },
+    {
       "name": "EmailScraper_JCF",
       "url": "https://github.com/UbhayAab/EmailScraper_JCF",
       "description": "Tried something",
@@ -863,7 +877,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "cleanedemails",
@@ -878,7 +892,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -893,7 +907,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "Midjourney-bot",
@@ -908,7 +922,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "KDP-bot",
@@ -923,7 +937,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-24T13:12:09.133Z"
+      "staleSince": "2026-08-24T18:58:21.554Z"
     },
     {
       "name": "Patient-Navigator",
@@ -956,95 +970,95 @@
   ],
   "latestCommit": {
     "repo": "soop",
-    "message": "UI overhaul pass with eyes: channel welcome mat, composer tools un-bu…",
-    "at": "2026-08-24T17:50:35Z",
-    "ago": "1 hours ago",
-    "oid": "a14a2b4"
+    "message": "OTP production live: dek-onboarding API key minted on the mailer box …",
+    "at": "2026-08-24T22:31:57Z",
+    "ago": "3 hours ago",
+    "oid": "e1c4a48"
   },
   "recentCommits": [
     {
       "repo": "soop",
-      "message": "UI overhaul pass with eyes: channel welcome mat, composer tools un-bu…",
-      "at": "2026-08-24T17:50:35Z",
-      "ago": "1 hours ago",
-      "oid": "a14a2b4"
-    },
-    {
-      "repo": "soop",
-      "message": "Opening one panel from inside another destroyed the first with no way…",
-      "at": "2026-08-24T17:21:15Z",
-      "ago": "2 hours ago",
-      "oid": "eae2fe9"
-    },
-    {
-      "repo": "soop",
-      "message": "A 440px app box paid desktop message geometry and a 5-minute grouping…",
-      "at": "2026-08-24T16:56:23Z",
-      "ago": "2 hours ago",
-      "oid": "92e7848"
-    },
-    {
-      "repo": "soop",
-      "message": "env() insets are only exposed to the top-level document, so every hom…",
-      "at": "2026-08-24T16:20:01Z",
+      "message": "OTP production live: dek-onboarding API key minted on the mailer box …",
+      "at": "2026-08-24T22:31:57Z",
       "ago": "3 hours ago",
-      "oid": "f7a8e82"
+      "oid": "e1c4a48"
     },
     {
       "repo": "soop",
-      "message": "Target sizing keyed off the device's primary pointer meant a touchscr…",
-      "at": "2026-08-24T16:00:06Z",
-      "ago": "3 hours ago",
-      "oid": "23a450f"
-    },
-    {
-      "repo": "soop",
-      "message": "The error bar covered the send button for thirty seconds and painted …",
-      "at": "2026-08-24T14:53:58Z",
+      "message": "One 40px header below 480px of app box: the global bar collapses to z…",
+      "at": "2026-08-24T21:59:11Z",
       "ago": "4 hours ago",
-      "oid": "fec9789"
+      "oid": "3a26193"
     },
     {
       "repo": "soop",
-      "message": "The drawer scrim lived outside every width query, so opening it on a …",
-      "at": "2026-08-24T14:19:55Z",
+      "message": "Onboarding proven end to end on production: stranger signs up with an…",
+      "at": "2026-08-24T21:54:46Z",
+      "ago": "4 hours ago",
+      "oid": "a073df7"
+    },
+    {
+      "repo": "soop",
+      "message": "Self-serve onboarding, whole cloth: mail-otp engine (send/verify/crea…",
+      "at": "2026-08-24T21:46:44Z",
+      "ago": "4 hours ago",
+      "oid": "d226265"
+    },
+    {
+      "repo": "soop",
+      "message": "TURN IS LIVE: signed-in user mints real iceServers end to end. The la…",
+      "at": "2026-08-24T21:10:22Z",
       "ago": "5 hours ago",
-      "oid": "7552bac"
+      "oid": "5bc4c23"
     },
     {
       "repo": "soop",
-      "message": "The topbar was built for viewports, but an embed panel lives in a box…",
-      "at": "2026-08-24T13:46:57Z",
+      "message": "dek-turn speaks the Realtime APP model: appId + appToken mint account…",
+      "at": "2026-08-24T20:55:35Z",
       "ago": "5 hours ago",
-      "oid": "d2102c2"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-24T13:12:09Z",
-      "ago": "6 hours ago",
-      "oid": "e6cbe48"
+      "oid": "5d8bdb5"
     },
     {
       "repo": "soop",
-      "message": "Panel geometry now measures the app box instead of whatever viewport …",
-      "at": "2026-08-24T12:53:24Z",
-      "ago": "6 hours ago",
-      "oid": "7ed459f"
+      "message": "An iframe cannot see the keyboard - VisualViewport reports layout num…",
+      "at": "2026-08-24T20:48:48Z",
+      "ago": "5 hours ago",
+      "oid": "bf25228"
     },
     {
       "repo": "soop",
-      "message": "Escape in a dock asked the host instead of collapsing the panel, and …",
-      "at": "2026-08-24T12:18:05Z",
+      "message": "Escape raced three handlers and the lightbox was invisible to all of …",
+      "at": "2026-08-24T20:36:23Z",
+      "ago": "5 hours ago",
+      "oid": "daf00df"
+    },
+    {
+      "repo": "soop",
+      "message": "Voice goes live-ready: dek-turn rewritten for Cloudflare's new rtc.li…",
+      "at": "2026-08-24T20:09:15Z",
+      "ago": "6 hours ago",
+      "oid": "9852da6"
+    },
+    {
+      "repo": "soop",
+      "message": "A collapsed panel kept reading every arriving message aloud over the …",
+      "at": "2026-08-24T19:50:05Z",
+      "ago": "6 hours ago",
+      "oid": "6893a9f"
+    },
+    {
+      "repo": "soop",
+      "message": "Escape peeled two layers in one press wherever the overlay lived outs…",
+      "at": "2026-08-24T19:20:20Z",
       "ago": "7 hours ago",
-      "oid": "4bd7168"
+      "oid": "10f924f"
     },
     {
       "repo": "soop",
-      "message": "An embedded panel the host collapsed could sit deaf for 35s and a sec…",
-      "at": "2026-08-24T10:24:00Z",
-      "ago": "9 hours ago",
-      "oid": "fc3d6fc"
+      "message": "Field feedback round one: ghost orgs killed at the SQL root, voice no…",
+      "at": "2026-08-24T19:00:00Z",
+      "ago": "7 hours ago",
+      "oid": "40e8a3f"
     }
   ],
   "calendar": [
@@ -2498,7 +2512,7 @@
     },
     {
       "date": "2026-08-21",
-      "count": 4
+      "count": 6
     },
     {
       "date": "2026-08-22",
@@ -2510,10 +2524,14 @@
     },
     {
       "date": "2026-08-24",
-      "count": 4
+      "count": 5
+    },
+    {
+      "date": "2026-08-25",
+      "count": 0
     }
   ],
-  "elapsedMs": 10589,
+  "elapsedMs": 9220,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2530,7 +2548,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-24T13:12:09.133Z",
+    "lastFullRun": "2026-08-24T18:58:21.554Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
