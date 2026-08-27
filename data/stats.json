@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-27T09:46:24.341Z",
+  "generatedAt": "2026-08-27T22:15:08.034Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 6,
-  "runId": 75,
+  "runId": 76,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -14,25 +14,25 @@
   },
   "repos": {
     "total": 37,
-    "public": 27,
+    "public": 28,
     "private": 12,
     "stars": 0,
     "diskKB": 3405815,
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 494,
-    "commits": 471,
-    "repositoriesCreated": 21,
-    "activeDays": 84,
+    "lastYear": 507,
+    "commits": 483,
+    "repositoriesCreated": 22,
+    "activeDays": 85,
     "trackedDays": 369,
     "busiestDay": {
       "date": "2026-07-25",
       "contributionCount": 26,
       "weekday": 6
     },
-    "longestStreak": 23,
-    "currentStreak": 23
+    "longestStreak": 24,
+    "currentStreak": 24
   },
   "languages": [
     {
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "soop",
@@ -513,12 +513,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 486,
-      "pushedAt": "2026-08-26T20:01:42Z",
+      "diskKB": 516,
+      "pushedAt": "2026-08-27T09:46:25Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 76,
+      "commits": 77,
       "topics": [
         "config",
         "github-config"
@@ -551,7 +551,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "EyeTracker",
@@ -610,6 +610,20 @@
       "topics": []
     },
     {
+      "name": "JCF-Mailer-v2",
+      "url": "https://github.com/UbhayAab/JCF-Mailer-v2",
+      "description": "Campaign Studio: Jarurat Care Foundation self-hosted email platform (v2). Marketing campaigns, transactional mail, mailboxes and webmail.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 625,
+      "pushedAt": "2026-08-27T11:48:26Z",
+      "createdAt": "2026-08-27T11:48:21Z",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "commits": 21,
+      "topics": []
+    },
+    {
       "name": "hearth",
       "url": "https://github.com/UbhayAab/hearth",
       "description": null,
@@ -622,7 +636,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "continuity",
@@ -637,7 +651,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "carcinome_wp",
@@ -652,7 +666,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -877,7 +891,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "cleanedemails",
@@ -892,7 +906,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -907,7 +921,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "Midjourney-bot",
@@ -922,7 +936,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "KDP-bot",
@@ -937,7 +951,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-26T20:01:40.540Z"
+      "staleSince": "2026-08-27T09:46:24.341Z"
     },
     {
       "name": "Patient-Navigator",
@@ -971,94 +985,94 @@
   "latestCommit": {
     "repo": "UbhayAab",
     "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-08-26T20:01:40Z",
-    "ago": "14 hours ago",
-    "oid": "44d2d13"
+    "at": "2026-08-27T09:46:24Z",
+    "ago": "12 hours ago",
+    "oid": "50e83ee"
   },
   "recentCommits": [
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-26T20:01:40Z",
-      "ago": "14 hours ago",
-      "oid": "44d2d13"
+      "at": "2026-08-27T09:46:24Z",
+      "ago": "12 hours ago",
+      "oid": "50e83ee"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-26T13:16:04Z",
-      "ago": "21 hours ago",
-      "oid": "bfec8a6"
+      "repo": "JCF-Mailer-v2",
+      "message": "console: close the contrast, tap target and user agent colour gaps",
+      "at": "2026-08-27T07:43:36Z",
+      "ago": "15 hours ago",
+      "oid": "b4b8d67"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-26T07:07:57Z",
-      "ago": "1 day ago",
-      "oid": "579a215"
+      "repo": "JCF-Mailer-v2",
+      "message": "webmail: put the mailbox on the console design system",
+      "at": "2026-08-27T07:43:17Z",
+      "ago": "15 hours ago",
+      "oid": "98ac128"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-26T01:57:56Z",
-      "ago": "1 day ago",
-      "oid": "7100a6c"
+      "repo": "JCF-Mailer-v2",
+      "message": "docs and deploy tooling",
+      "at": "2026-08-27T07:06:51Z",
+      "ago": "15 hours ago",
+      "oid": "f26ff3d"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-25T18:56:12Z",
-      "ago": "2 days ago",
-      "oid": "b9b0111"
+      "repo": "JCF-Mailer-v2",
+      "message": "v2: test suite",
+      "at": "2026-08-27T07:06:51Z",
+      "ago": "15 hours ago",
+      "oid": "b8d30c0"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-25T13:10:44Z",
-      "ago": "2 days ago",
-      "oid": "9cf9682"
+      "repo": "JCF-Mailer-v2",
+      "message": "v2: console UI",
+      "at": "2026-08-27T07:06:36Z",
+      "ago": "15 hours ago",
+      "oid": "53f6194"
     },
     {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-25T07:07:26Z",
-      "ago": "2 days ago",
-      "oid": "10456f8"
+      "repo": "JCF-Mailer-v2",
+      "message": "v2: Stalwart mail server integration",
+      "at": "2026-08-27T07:06:29Z",
+      "ago": "15 hours ago",
+      "oid": "14c7c4e"
     },
     {
-      "repo": "soop",
-      "message": "Ground-up pass one: split-screen auth with a real brand stage, sideba…",
-      "at": "2026-08-25T05:38:45Z",
-      "ago": "2 days ago",
-      "oid": "442f875"
+      "repo": "JCF-Mailer-v2",
+      "message": "v2: transactional and public API",
+      "at": "2026-08-27T07:06:17Z",
+      "ago": "15 hours ago",
+      "oid": "af61df2"
     },
     {
-      "repo": "soop",
-      "message": "The thumbnail path is probed like the rest: synthetic canvas photos p…",
-      "at": "2026-08-25T05:22:18Z",
-      "ago": "2 days ago",
-      "oid": "fbb5efb"
+      "repo": "JCF-Mailer-v2",
+      "message": "v2: campaign and journey engine",
+      "at": "2026-08-27T07:06:05Z",
+      "ago": "15 hours ago",
+      "oid": "03e2fdf"
     },
     {
-      "repo": "soop",
-      "message": "Every scrolled-in image paid full-photo bytes to fill a 340px box, so…",
-      "at": "2026-08-25T05:22:11Z",
-      "ago": "2 days ago",
-      "oid": "e644d57"
+      "repo": "JCF-Mailer-v2",
+      "message": "v2: authentication, roles and API keys",
+      "at": "2026-08-27T07:05:53Z",
+      "ago": "15 hours ago",
+      "oid": "143f3c2"
     },
     {
-      "repo": "soop",
-      "message": "A concurrent session's writer had downgraded the service worker to de…",
-      "at": "2026-08-25T04:50:26Z",
-      "ago": "2 days ago",
-      "oid": "f88c63d"
+      "repo": "JCF-Mailer-v2",
+      "message": "v2: audience and subscriber model",
+      "at": "2026-08-27T07:05:44Z",
+      "ago": "15 hours ago",
+      "oid": "8e532b5"
     },
     {
-      "repo": "soop",
-      "message": "Periodic sweeps kept losing to the cp1252 writer, so the repair scrip…",
-      "at": "2026-08-25T03:49:04Z",
-      "ago": "2 days ago",
-      "oid": "95b3697"
+      "repo": "JCF-Mailer-v2",
+      "message": "v2: build, configuration and secret handling",
+      "at": "2026-08-27T07:05:30Z",
+      "ago": "15 hours ago",
+      "oid": "cf6dfcc"
     }
   ],
   "calendar": [
@@ -2536,10 +2550,10 @@
     },
     {
       "date": "2026-08-27",
-      "count": 0
+      "count": 13
     }
   ],
-  "elapsedMs": 9921,
+  "elapsedMs": 9990,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2556,7 +2570,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-26T20:01:40.540Z",
+    "lastFullRun": "2026-08-27T09:46:24.341Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
