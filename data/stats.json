@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-28T11:21:56.564Z",
+  "generatedAt": "2026-08-28T22:18:08.316Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 6,
-  "runId": 77,
+  "runId": 78,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,18 +21,18 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 508,
-    "commits": 484,
+    "lastYear": 512,
+    "commits": 488,
     "repositoriesCreated": 22,
-    "activeDays": 85,
+    "activeDays": 86,
     "trackedDays": 370,
     "busiestDay": {
       "date": "2026-07-25",
       "contributionCount": 26,
       "weekday": 6
     },
-    "longestStreak": 24,
-    "currentStreak": 24
+    "longestStreak": 25,
+    "currentStreak": 25
   },
   "languages": [
     {
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "soop",
@@ -513,12 +513,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 518,
-      "pushedAt": "2026-08-27T22:15:09Z",
+      "diskKB": 552,
+      "pushedAt": "2026-08-28T11:21:57Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 78,
+      "commits": 79,
       "topics": [
         "config",
         "github-config"
@@ -530,12 +530,12 @@
       "description": "KDP ads dashboard",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 379,
-      "pushedAt": "2026-08-13T20:48:05Z",
+      "diskKB": 419,
+      "pushedAt": "2026-08-28T18:08:18Z",
       "createdAt": "2026-07-28T01:25:51Z",
       "language": "HTML",
       "languageColor": "#e34c26",
-      "commits": 39,
+      "commits": 43,
       "topics": []
     },
     {
@@ -551,7 +551,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "EyeTracker",
@@ -636,7 +636,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "continuity",
@@ -651,7 +651,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "carcinome_wp",
@@ -666,7 +666,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -891,7 +891,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "cleanedemails",
@@ -906,7 +906,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -921,7 +921,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "Midjourney-bot",
@@ -936,7 +936,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "KDP-bot",
@@ -951,7 +951,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-27T22:15:08.034Z"
+      "staleSince": "2026-08-28T11:21:56.564Z"
     },
     {
       "name": "Patient-Navigator",
@@ -983,96 +983,96 @@
     }
   ],
   "latestCommit": {
-    "repo": "UbhayAab",
-    "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-08-27T22:15:08Z",
-    "ago": "13 hours ago",
-    "oid": "b672c81"
+    "repo": "kdp-ads-dashboard",
+    "message": "Analysis 2026-08-28",
+    "at": "2026-08-28T18:08:07Z",
+    "ago": "4 hours ago",
+    "oid": "a004193"
   },
   "recentCommits": [
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Analysis 2026-08-28",
+      "at": "2026-08-28T18:08:07Z",
+      "ago": "4 hours ago",
+      "oid": "a004193"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Analysis 2026-08-28",
+      "at": "2026-08-28T17:12:46Z",
+      "ago": "5 hours ago",
+      "oid": "1626481"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Analysis 2026-08-28",
+      "at": "2026-08-28T17:12:00Z",
+      "ago": "5 hours ago",
+      "oid": "608a99a"
+    },
+    {
+      "repo": "kdp-ads-dashboard",
+      "message": "Analysis 2026-08-28",
+      "at": "2026-08-28T17:05:40Z",
+      "ago": "5 hours ago",
+      "oid": "5d08d3e"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-28T11:21:56Z",
+      "ago": "11 hours ago",
+      "oid": "b6dce82"
+    },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-27T22:15:08Z",
-      "ago": "13 hours ago",
+      "ago": "1 day ago",
       "oid": "b672c81"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-27T09:46:24Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "50e83ee"
     },
     {
       "repo": "JCF-Mailer-v2",
       "message": "console: close the contrast, tap target and user agent colour gaps",
       "at": "2026-08-27T07:43:36Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "b4b8d67"
     },
     {
       "repo": "JCF-Mailer-v2",
       "message": "webmail: put the mailbox on the console design system",
       "at": "2026-08-27T07:43:17Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "98ac128"
     },
     {
       "repo": "JCF-Mailer-v2",
       "message": "docs and deploy tooling",
       "at": "2026-08-27T07:06:51Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "f26ff3d"
     },
     {
       "repo": "JCF-Mailer-v2",
       "message": "v2: test suite",
       "at": "2026-08-27T07:06:51Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "b8d30c0"
     },
     {
       "repo": "JCF-Mailer-v2",
       "message": "v2: console UI",
       "at": "2026-08-27T07:06:36Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "53f6194"
-    },
-    {
-      "repo": "JCF-Mailer-v2",
-      "message": "v2: Stalwart mail server integration",
-      "at": "2026-08-27T07:06:29Z",
-      "ago": "1 day ago",
-      "oid": "14c7c4e"
-    },
-    {
-      "repo": "JCF-Mailer-v2",
-      "message": "v2: transactional and public API",
-      "at": "2026-08-27T07:06:17Z",
-      "ago": "1 day ago",
-      "oid": "af61df2"
-    },
-    {
-      "repo": "JCF-Mailer-v2",
-      "message": "v2: campaign and journey engine",
-      "at": "2026-08-27T07:06:05Z",
-      "ago": "1 day ago",
-      "oid": "03e2fdf"
-    },
-    {
-      "repo": "JCF-Mailer-v2",
-      "message": "v2: authentication, roles and API keys",
-      "at": "2026-08-27T07:05:53Z",
-      "ago": "1 day ago",
-      "oid": "143f3c2"
-    },
-    {
-      "repo": "JCF-Mailer-v2",
-      "message": "v2: audience and subscriber model",
-      "at": "2026-08-27T07:05:44Z",
-      "ago": "1 day ago",
-      "oid": "8e532b5"
     }
   ],
   "calendar": [
@@ -2554,10 +2554,10 @@
     },
     {
       "date": "2026-08-28",
-      "count": 0
+      "count": 4
     }
   ],
-  "elapsedMs": 8578,
+  "elapsedMs": 7227,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2574,7 +2574,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-27T22:15:08.034Z",
+    "lastFullRun": "2026-08-28T11:21:56.564Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
