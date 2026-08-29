@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 86 active days in the last year, longest run 25.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 4 hours ago to [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) - `Analysis 2026-08-28`.
+Last push 9 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Most performance problems turn out to be **___**
+> Rate limiting protects the server more than it protects the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>design</code></summary>
+<details><summary><code>client</code></summary>
 
-**No.** `design` is rank 5 at 3.5%. The model wanted `ca` at 42.4%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
-
-</details>
-
-<details><summary><code>ca</code></summary>
-
-**Correct.** The model's top token, at **42.4%** of the visible mass, carrying 1.24 bits.
+**Correct.** The model's top token, at **38.9%** of the visible mass, carrying 1.36 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
 
 </details>
 
-<details><summary><code>simple</code></summary>
+<details><summary><code>user</code></summary>
 
-**No.** `simple` is rank 4 at 3.8%. The model wanted `ca` at 42.4%.
+**No.** `user` is rank 2 at 29.3%. The model wanted `client` at 38.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
 
 </details>
 
-<details><summary><code>due</code></summary>
+<details><summary><code>end</code></summary>
 
-**No.** `due` is rank 3 at 21.0%. The model wanted `ca` at 42.4%.
+**No.** `end` is rank 5 at 3.5%. The model wanted `client` at 38.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
 
 </details>
 
-<details><summary><code>related</code></summary>
+<details><summary><code>users</code></summary>
 
-**No.** `related` is rank 2 at 29.3%. The model wanted `ca` at 42.4%.
+**No.** `users` is rank 4 at 4.4%. The model wanted `client` at 38.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
 
 </details>
 
-Today's puzzle carries **1.87 bits** of entropy out of a possible
+<details><summary><code>the</code></summary>
+
+**No.** `the` is rank 3 at 23.9%. The model wanted `client` at 38.9%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
+
+</details>
+
+Today's puzzle carries **1.91 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -337,7 +337,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 93 | 9.2 MB | 2026-08-25 | Soop - invite-only team chat. A Redtree product. |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 79 | 552 KB | 2026-08-28 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 80 | 554 KB | 2026-08-28 | Config files for my GitHub profile. |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 43 | 419 KB | 2026-08-28 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
@@ -377,11 +377,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 29 Aug 2026 03:48 IST from 6 GraphQL points in 7.2s.
-Run #78. Rebuilds every 6 hours and on every push.
+Generated 29 Aug 2026 12:33 IST from 6 GraphQL points in 7.7s.
+Run #79. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 28 Aug 2026 16:51 rather than dropped.
+forward from 29 Aug 2026 03:48 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
