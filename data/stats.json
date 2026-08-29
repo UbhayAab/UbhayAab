@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-29T16:42:42.434Z",
+  "generatedAt": "2026-08-29T20:54:28.718Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 6,
-  "runId": 80,
+  "runId": 81,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,8 +21,8 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 363,
-    "commits": 339,
+    "lastYear": 367,
+    "commits": 343,
     "repositoriesCreated": 22,
     "activeDays": 63,
     "trackedDays": 371,
@@ -426,12 +426,12 @@
       "description": "Soop - invite-only team chat. A Redtree product.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 18760,
-      "pushedAt": "2026-08-29T15:25:34Z",
+      "diskKB": 19169,
+      "pushedAt": "2026-08-29T19:19:36Z",
       "createdAt": "2026-07-27T23:05:24Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 143,
+      "commits": 149,
       "topics": []
     },
     {
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "UbhayAab",
@@ -499,12 +499,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 588,
-      "pushedAt": "2026-08-29T07:03:22Z",
+      "diskKB": 591,
+      "pushedAt": "2026-08-29T16:42:43Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 81,
+      "commits": 82,
       "topics": [
         "config",
         "github-config"
@@ -537,7 +537,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "EyeTracker",
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "carcinome_wp",
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -753,6 +753,20 @@
       "topics": []
     },
     {
+      "name": "JCF",
+      "url": "https://github.com/UbhayAab/JCF",
+      "description": "Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. Source lives in the private JCF-app.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 685,
+      "pushedAt": "2026-08-29T18:53:17Z",
+      "createdAt": "2026-08-29T08:55:30Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 4,
+      "topics": []
+    },
+    {
       "name": "Meloaa",
       "url": "https://github.com/UbhayAab/Meloaa",
       "description": "Assignment",
@@ -778,20 +792,6 @@
       "language": "CSS",
       "languageColor": "#663399",
       "commits": 3,
-      "topics": []
-    },
-    {
-      "name": "JCF",
-      "url": "https://github.com/UbhayAab/JCF",
-      "description": "Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. Source lives in the private JCF-app.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 631,
-      "pushedAt": "2026-08-29T09:21:27Z",
-      "createdAt": "2026-08-29T08:55:30Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 2,
       "topics": []
     },
     {
@@ -891,7 +891,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "cleanedemails",
@@ -906,7 +906,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -921,7 +921,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "Midjourney-bot",
@@ -936,7 +936,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "KDP-bot",
@@ -951,7 +951,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T07:03:21.511Z"
+      "staleSince": "2026-08-29T16:42:42.434Z"
     },
     {
       "name": "Patient-Navigator",
@@ -984,95 +984,95 @@
   ],
   "latestCommit": {
     "repo": "soop",
-    "message": "The five looks land, and the file that was quietly preventing them is…",
-    "at": "2026-08-29T15:25:28Z",
-    "ago": "1 hours ago",
-    "oid": "09fa7e4"
+    "message": "Every emoji standing in for an icon is drawn now, which was asked for…",
+    "at": "2026-08-29T19:19:32Z",
+    "ago": "2 hours ago",
+    "oid": "cb6576c"
   },
   "recentCommits": [
     {
       "repo": "soop",
+      "message": "Every emoji standing in for an icon is drawn now, which was asked for…",
+      "at": "2026-08-29T19:19:32Z",
+      "ago": "2 hours ago",
+      "oid": "cb6576c"
+    },
+    {
+      "repo": "soop",
+      "message": "The organisation console laid itself out as a flex ROW, a direct mess…",
+      "at": "2026-08-29T18:56:15Z",
+      "ago": "2 hours ago",
+      "oid": "14264b0"
+    },
+    {
+      "repo": "JCF",
+      "message": "publish from JCF-app, 2026-08-29 18:53",
+      "at": "2026-08-29T18:53:12Z",
+      "ago": "2 hours ago",
+      "oid": "57ef037"
+    },
+    {
+      "repo": "JCF",
+      "message": "publish from JCF-app, 2026-08-29 18:51",
+      "at": "2026-08-29T18:51:30Z",
+      "ago": "2 hours ago",
+      "oid": "fe3c061"
+    },
+    {
+      "repo": "soop",
+      "message": "Eight composer tools were laid out under the textarea at zero width, …",
+      "at": "2026-08-29T18:31:44Z",
+      "ago": "2 hours ago",
+      "oid": "e3e844c"
+    },
+    {
+      "repo": "soop",
+      "message": "The identity menu was unreachable, so the theme picker was too, and a…",
+      "at": "2026-08-29T18:05:24Z",
+      "ago": "3 hours ago",
+      "oid": "85cccf9"
+    },
+    {
+      "repo": "soop",
+      "message": "An installed app could never find out a new version existed, because …",
+      "at": "2026-08-29T17:43:36Z",
+      "ago": "3 hours ago",
+      "oid": "0c33538"
+    },
+    {
+      "repo": "soop",
+      "message": "The mobile sheet never covered the header, so every panel showed two …",
+      "at": "2026-08-29T17:07:13Z",
+      "ago": "4 hours ago",
+      "oid": "4f39cf7"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-29T16:42:42Z",
+      "ago": "4 hours ago",
+      "oid": "b8398f7"
+    },
+    {
+      "repo": "soop",
       "message": "The five looks land, and the file that was quietly preventing them is…",
       "at": "2026-08-29T15:25:28Z",
-      "ago": "1 hours ago",
+      "ago": "5 hours ago",
       "oid": "09fa7e4"
     },
     {
       "repo": "soop",
       "message": "Look and mode were one control, which is why the aubergine and the da…",
       "at": "2026-08-29T15:12:47Z",
-      "ago": "1 hours ago",
+      "ago": "6 hours ago",
       "oid": "b765e4d"
     },
     {
       "repo": "soop",
       "message": "Five selectable looks need the token system to control more than colo…",
       "at": "2026-08-29T14:45:43Z",
-      "ago": "2 hours ago",
-      "oid": "76548c8"
-    },
-    {
-      "repo": "soop",
-      "message": "Six visual directions rendered against identical markup, so the choic…",
-      "at": "2026-08-29T14:40:09Z",
-      "ago": "2 hours ago",
-      "oid": "09a70fb"
-    },
-    {
-      "repo": "soop",
-      "message": "The organisation you could not leave, could not delete, and could not…",
-      "at": "2026-08-29T10:37:30Z",
       "ago": "6 hours ago",
-      "oid": "f815d78"
-    },
-    {
-      "repo": "kdp-ads-dashboard",
-      "message": "Analysis 2026-08-29",
-      "at": "2026-08-29T09:30:47Z",
-      "ago": "7 hours ago",
-      "oid": "972a0f7"
-    },
-    {
-      "repo": "JCF",
-      "message": "publish from JCF-app, 2026-08-29 09:21",
-      "at": "2026-08-29T09:21:24Z",
-      "ago": "7 hours ago",
-      "oid": "5d3866e"
-    },
-    {
-      "repo": "JCF",
-      "message": "the deployed site: HOPE Circle page and the Patient Navigator portal …",
-      "at": "2026-08-29T08:55:19Z",
-      "ago": "8 hours ago",
-      "oid": "76dc413"
-    },
-    {
-      "repo": "kdp-ads-dashboard",
-      "message": "Analysis 2026-08-29",
-      "at": "2026-08-29T08:44:02Z",
-      "ago": "8 hours ago",
-      "oid": "2b6c82b"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-29T07:03:21Z",
-      "ago": "10 hours ago",
-      "oid": "6191e12"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-28T22:18:08Z",
-      "ago": "18 hours ago",
-      "oid": "f53c637"
-    },
-    {
-      "repo": "soop",
-      "message": "js/util.js is the pure kernel every coalescer binding leans on - debo…",
-      "at": "2026-08-28T18:48:19Z",
-      "ago": "22 hours ago",
-      "oid": "2499e59"
+      "oid": "76548c8"
     }
   ],
   "calendar": [
@@ -2558,10 +2558,10 @@
     },
     {
       "date": "2026-08-29",
-      "count": 9
+      "count": 13
     }
   ],
-  "elapsedMs": 6370,
+  "elapsedMs": 6745,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2578,7 +2578,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-29T07:03:21.511Z",
+    "lastFullRun": "2026-08-29T16:42:42.434Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
