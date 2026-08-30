@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-30T05:22:44.860Z",
+  "generatedAt": "2026-08-30T11:53:25.840Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 6,
-  "runId": 82,
+  "runId": 83,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,8 +21,8 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 373,
-    "commits": 349,
+    "lastYear": 375,
+    "commits": 351,
     "repositoriesCreated": 22,
     "activeDays": 64,
     "trackedDays": 365,
@@ -427,11 +427,11 @@
       "isPrivate": false,
       "stars": 0,
       "diskKB": 16813,
-      "pushedAt": "2026-08-29T22:09:27Z",
+      "pushedAt": "2026-08-30T11:06:01Z",
       "createdAt": "2026-07-27T23:05:24Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 151,
+      "commits": 152,
       "topics": []
     },
     {
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "public-complaint-hub",
@@ -491,7 +491,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "UbhayAab",
@@ -499,12 +499,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 618,
-      "pushedAt": "2026-08-29T20:54:30Z",
+      "diskKB": 659,
+      "pushedAt": "2026-08-30T05:22:46Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 83,
+      "commits": 84,
       "topics": [
         "config",
         "github-config"
@@ -537,7 +537,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "EyeTracker",
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "carcinome_wp",
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -891,7 +891,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "cleanedemails",
@@ -906,7 +906,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -921,7 +921,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "Midjourney-bot",
@@ -936,7 +936,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "KDP-bot",
@@ -951,7 +951,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-08-29T20:54:28.718Z"
+      "staleSince": "2026-08-30T05:22:44.860Z"
     },
     {
       "name": "Patient-Navigator",
@@ -984,95 +984,95 @@
   ],
   "latestCommit": {
     "repo": "soop",
-    "message": "The composer still outsized the channel title, on a phone, which is t…",
-    "at": "2026-08-29T22:09:23Z",
-    "ago": "7 hours ago",
-    "oid": "498e2fa"
+    "message": "Apps: an app has a name, a face, a scoped token, and posts",
+    "at": "2026-08-30T11:05:53Z",
+    "ago": "48 minutes ago",
+    "oid": "4b285f4"
   },
   "recentCommits": [
     {
       "repo": "soop",
+      "message": "Apps: an app has a name, a face, a scoped token, and posts",
+      "at": "2026-08-30T11:05:53Z",
+      "ago": "48 minutes ago",
+      "oid": "4b285f4"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-08-30T05:22:45Z",
+      "ago": "7 hours ago",
+      "oid": "26861db"
+    },
+    {
+      "repo": "soop",
       "message": "The composer still outsized the channel title, on a phone, which is t…",
       "at": "2026-08-29T22:09:23Z",
-      "ago": "7 hours ago",
+      "ago": "14 hours ago",
       "oid": "498e2fa"
     },
     {
       "repo": "soop",
       "message": "Size did not track importance anywhere, because the two steps that ca…",
       "at": "2026-08-29T21:00:59Z",
-      "ago": "8 hours ago",
+      "ago": "15 hours ago",
       "oid": "843fdac"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-08-29T20:54:29Z",
-      "ago": "8 hours ago",
+      "ago": "15 hours ago",
       "oid": "28ba2e1"
     },
     {
       "repo": "soop",
       "message": "Every emoji standing in for an icon is drawn now, which was asked for…",
       "at": "2026-08-29T19:19:32Z",
-      "ago": "10 hours ago",
+      "ago": "17 hours ago",
       "oid": "cb6576c"
     },
     {
       "repo": "soop",
       "message": "The organisation console laid itself out as a flex ROW, a direct mess…",
       "at": "2026-08-29T18:56:15Z",
-      "ago": "10 hours ago",
+      "ago": "17 hours ago",
       "oid": "14264b0"
     },
     {
       "repo": "JCF",
       "message": "publish from JCF-app, 2026-08-29 18:53",
       "at": "2026-08-29T18:53:12Z",
-      "ago": "10 hours ago",
+      "ago": "17 hours ago",
       "oid": "57ef037"
     },
     {
       "repo": "JCF",
       "message": "publish from JCF-app, 2026-08-29 18:51",
       "at": "2026-08-29T18:51:30Z",
-      "ago": "11 hours ago",
+      "ago": "17 hours ago",
       "oid": "fe3c061"
     },
     {
       "repo": "soop",
       "message": "Eight composer tools were laid out under the textarea at zero width, …",
       "at": "2026-08-29T18:31:44Z",
-      "ago": "11 hours ago",
+      "ago": "17 hours ago",
       "oid": "e3e844c"
     },
     {
       "repo": "soop",
       "message": "The identity menu was unreachable, so the theme picker was too, and a…",
       "at": "2026-08-29T18:05:24Z",
-      "ago": "11 hours ago",
+      "ago": "18 hours ago",
       "oid": "85cccf9"
     },
     {
       "repo": "soop",
       "message": "An installed app could never find out a new version existed, because …",
       "at": "2026-08-29T17:43:36Z",
-      "ago": "12 hours ago",
+      "ago": "18 hours ago",
       "oid": "0c33538"
-    },
-    {
-      "repo": "soop",
-      "message": "The mobile sheet never covered the header, so every panel showed two …",
-      "at": "2026-08-29T17:07:13Z",
-      "ago": "12 hours ago",
-      "oid": "4f39cf7"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-08-29T16:42:42Z",
-      "ago": "13 hours ago",
-      "oid": "b8398f7"
     }
   ],
   "calendar": [
@@ -2534,10 +2534,10 @@
     },
     {
       "date": "2026-08-30",
-      "count": 5
+      "count": 7
     }
   ],
-  "elapsedMs": 6805,
+  "elapsedMs": 6326,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2554,7 +2554,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-08-29T20:54:28.718Z",
+    "lastFullRun": "2026-08-30T05:22:44.860Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
