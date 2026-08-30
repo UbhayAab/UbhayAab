@@ -21,10 +21,10 @@
 <!-- BEGIN:PROSE -->
 37 repositories, 28 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-63 active days in the last year, longest run 26.
+64 active days in the last year, longest run 27.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 2 hours ago to [`soop`](https://github.com/UbhayAab/soop) - `Every emoji standing in for an icon is drawn now, which was asked for…`.
+Last push 7 hours ago to [`soop`](https://github.com/UbhayAab/soop) - `The composer still outsized the channel title, on a phone, which is t…`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Rate limiting protects the server more than it protects the **___**
+> A good commit message explains the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>client</code></summary>
+<details><summary><code>problem</code></summary>
 
-**Correct.** The model's top token, at **38.9%** of the visible mass, carrying 1.36 bits.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `client` | 38.9% | 1.36 bits |
-| 2 | `user` | 29.3% | 1.77 bits |
-| 3 | `the` | 23.9% | 2.06 bits |
-| 4 | `users` | 4.4% | 4.52 bits |
-| 5 | `end` | 3.5% | 4.83 bits |
-
-</details>
-
-<details><summary><code>user</code></summary>
-
-**No.** `user` is rank 2 at 29.3%. The model wanted `client` at 38.9%.
+**No.** `problem` is rank 4 at 11.1%. The model wanted `reason` at 36.3%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `client` | 38.9% | 1.36 bits |
-| 2 | `user` | 29.3% | 1.77 bits |
-| 3 | `the` | 23.9% | 2.06 bits |
-| 4 | `users` | 4.4% | 4.52 bits |
-| 5 | `end` | 3.5% | 4.83 bits |
+| 1 | `reason` | 36.3% | 1.46 bits |
+| 2 | `purpose` | 30.8% | 1.70 bits |
+| 3 | `changes` | 13.5% | 2.89 bits |
+| 4 | `problem` | 11.1% | 3.17 bits |
+| 5 | `change` | 8.4% | 3.58 bits |
 
 </details>
 
-<details><summary><code>end</code></summary>
+<details><summary><code>change</code></summary>
 
-**No.** `end` is rank 5 at 3.5%. The model wanted `client` at 38.9%.
+**No.** `change` is rank 5 at 8.4%. The model wanted `reason` at 36.3%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `client` | 38.9% | 1.36 bits |
-| 2 | `user` | 29.3% | 1.77 bits |
-| 3 | `the` | 23.9% | 2.06 bits |
-| 4 | `users` | 4.4% | 4.52 bits |
-| 5 | `end` | 3.5% | 4.83 bits |
+| 1 | `reason` | 36.3% | 1.46 bits |
+| 2 | `purpose` | 30.8% | 1.70 bits |
+| 3 | `changes` | 13.5% | 2.89 bits |
+| 4 | `problem` | 11.1% | 3.17 bits |
+| 5 | `change` | 8.4% | 3.58 bits |
 
 </details>
 
-<details><summary><code>users</code></summary>
+<details><summary><code>reason</code></summary>
 
-**No.** `users` is rank 4 at 4.4%. The model wanted `client` at 38.9%.
+**Correct.** The model's top token, at **36.3%** of the visible mass, carrying 1.46 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `client` | 38.9% | 1.36 bits |
-| 2 | `user` | 29.3% | 1.77 bits |
-| 3 | `the` | 23.9% | 2.06 bits |
-| 4 | `users` | 4.4% | 4.52 bits |
-| 5 | `end` | 3.5% | 4.83 bits |
+| 1 | `reason` | 36.3% | 1.46 bits |
+| 2 | `purpose` | 30.8% | 1.70 bits |
+| 3 | `changes` | 13.5% | 2.89 bits |
+| 4 | `problem` | 11.1% | 3.17 bits |
+| 5 | `change` | 8.4% | 3.58 bits |
 
 </details>
 
-<details><summary><code>the</code></summary>
+<details><summary><code>changes</code></summary>
 
-**No.** `the` is rank 3 at 23.9%. The model wanted `client` at 38.9%.
+**No.** `changes` is rank 3 at 13.5%. The model wanted `reason` at 36.3%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `client` | 38.9% | 1.36 bits |
-| 2 | `user` | 29.3% | 1.77 bits |
-| 3 | `the` | 23.9% | 2.06 bits |
-| 4 | `users` | 4.4% | 4.52 bits |
-| 5 | `end` | 3.5% | 4.83 bits |
+| 1 | `reason` | 36.3% | 1.46 bits |
+| 2 | `purpose` | 30.8% | 1.70 bits |
+| 3 | `changes` | 13.5% | 2.89 bits |
+| 4 | `problem` | 11.1% | 3.17 bits |
+| 5 | `change` | 8.4% | 3.58 bits |
 
 </details>
 
-Today's puzzle carries **1.91 bits** of entropy out of a possible
+<details><summary><code>purpose</code></summary>
+
+**No.** `purpose` is rank 2 at 30.8%. The model wanted `reason` at 36.3%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `reason` | 36.3% | 1.46 bits |
+| 2 | `purpose` | 30.8% | 1.70 bits |
+| 3 | `changes` | 13.5% | 2.89 bits |
+| 4 | `problem` | 11.1% | 3.17 bits |
+| 5 | `change` | 8.4% | 3.58 bits |
+
+</details>
+
+Today's puzzle carries **2.09 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,12 +331,12 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 149 | 19 MB | 2026-08-29 | Soop - invite-only team chat. A Redtree product. |
+| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 151 | 16 MB | 2026-08-29 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-08-23 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 82 | 591 KB | 2026-08-29 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 83 | 618 KB | 2026-08-29 | Config files for my GitHub profile. |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
@@ -377,11 +377,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 30 Aug 2026 02:24 IST from 6 GraphQL points in 6.7s.
-Run #81. Rebuilds every 6 hours and on every push.
+Generated 30 Aug 2026 10:52 IST from 6 GraphQL points in 6.8s.
+Run #82. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 29 Aug 2026 22:12 rather than dropped.
+forward from 30 Aug 2026 02:24 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
