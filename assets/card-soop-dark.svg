@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 428 208" width="428" height="208" role="img" aria-labelledby="t d" preserveAspectRatio="xMidYMid meet">
-<title id="t">Soop (soop)</title><desc id="d">Soop. Invite-only team chat. Postgres row-level security, migrations and RPCs all the way down. Built for one NGO, running in production. in production ubhayaab.github.io/soop. Public repository, 152 commits, pushed today.</desc>
+<title id="t">Soop (soop)</title><desc id="d">Soop. Invite-only team chat. Postgres row-level security, migrations and RPCs all the way down. Built for one NGO, running in production. in production ubhayaab.github.io/soop. Public repository, 152 commits, pushed yesterday.</desc>
 <defs><clipPath id="csoopdb"><rect x="24" y="196" width="380" height="9" class="barclip"/></clipPath></defs>
 <style>
 
@@ -32,5 +32,5 @@
 <rect x="24" y="199" width="380" height="3" rx="1.5" fill="#141926"/>
 <g clip-path="url(#csoopdb)"><rect x="24" y="199" width="91.975" height="3" rx="1.5" fill="#f1e05a" opacity="0.9"/></g>
 <text x="404" y="176" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10.5" font-weight="400" fill="#7C8699" text-anchor="end" textLength="69.3" lengthAdjust="spacing">152 commits</text>
-<text x="404" y="191" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="end" textLength="68.4" lengthAdjust="spacing">pushed today</text>
+<text x="404" y="191" font-family="ui-monospace,'SF Mono','Cascadia Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="9.5" font-weight="400" fill="#3C4457" text-anchor="end" textLength="91.2" lengthAdjust="spacing">pushed yesterday</text>
 </svg>
