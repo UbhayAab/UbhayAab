@@ -21,10 +21,10 @@
 <!-- BEGIN:PROSE -->
 37 repositories, 28 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-67 active days in the last year, longest run 30.
+68 active days in the last year, longest run 31.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 4 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 4 hours ago to [`soop`](https://github.com/UbhayAab/soop) - `The sign-in card asks for what it needs, and the org stops hiding its…`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> The first thing to check when a GPU is idle is the **___**
+> Static site generators became popular because they **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>Power</code></summary>
+<details><summary><code>off</code></summary>
 
-**No.** `Power` is rank 2 at 8.4%. The model wanted `power` at 77.9%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `power` | 77.9% | 0.36 bits |
-| 2 | `Power` | 8.4% | 3.58 bits |
-| 3 | `GPU` | 5.4% | 4.20 bits |
-| 4 | `driver` | 4.5% | 4.48 bits |
-| 5 | `system` | 3.8% | 4.71 bits |
-
-</details>
-
-<details><summary><code>driver</code></summary>
-
-**No.** `driver` is rank 4 at 4.5%. The model wanted `power` at 77.9%.
+**No.** `off` is rank 2 at 20.7%. The model wanted `allowed` at 55.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `power` | 77.9% | 0.36 bits |
-| 2 | `Power` | 8.4% | 3.58 bits |
-| 3 | `GPU` | 5.4% | 4.20 bits |
-| 4 | `driver` | 4.5% | 4.48 bits |
-| 5 | `system` | 3.8% | 4.71 bits |
+| 1 | `allowed` | 55.5% | 0.85 bits |
+| 2 | `off` | 20.7% | 2.27 bits |
+| 3 | `allow` | 10.7% | 3.22 bits |
+| 4 | `...` | 6.5% | 3.93 bits |
+| 5 | `they` | 6.5% | 3.93 bits |
 
 </details>
 
-<details><summary><code>power</code></summary>
+<details><summary><code>...</code></summary>
 
-**Correct.** The model's top token, at **77.9%** of the visible mass, carrying 0.36 bits.
+**No.** `...` is rank 4 at 6.5%. The model wanted `allowed` at 55.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `power` | 77.9% | 0.36 bits |
-| 2 | `Power` | 8.4% | 3.58 bits |
-| 3 | `GPU` | 5.4% | 4.20 bits |
-| 4 | `driver` | 4.5% | 4.48 bits |
-| 5 | `system` | 3.8% | 4.71 bits |
+| 1 | `allowed` | 55.5% | 0.85 bits |
+| 2 | `off` | 20.7% | 2.27 bits |
+| 3 | `allow` | 10.7% | 3.22 bits |
+| 4 | `...` | 6.5% | 3.93 bits |
+| 5 | `they` | 6.5% | 3.93 bits |
 
 </details>
 
-<details><summary><code>system</code></summary>
+<details><summary><code>they</code></summary>
 
-**No.** `system` is rank 5 at 3.8%. The model wanted `power` at 77.9%.
+**No.** `they` is rank 5 at 6.5%. The model wanted `allowed` at 55.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `power` | 77.9% | 0.36 bits |
-| 2 | `Power` | 8.4% | 3.58 bits |
-| 3 | `GPU` | 5.4% | 4.20 bits |
-| 4 | `driver` | 4.5% | 4.48 bits |
-| 5 | `system` | 3.8% | 4.71 bits |
+| 1 | `allowed` | 55.5% | 0.85 bits |
+| 2 | `off` | 20.7% | 2.27 bits |
+| 3 | `allow` | 10.7% | 3.22 bits |
+| 4 | `...` | 6.5% | 3.93 bits |
+| 5 | `they` | 6.5% | 3.93 bits |
 
 </details>
 
-<details><summary><code>GPU</code></summary>
+<details><summary><code>allow</code></summary>
 
-**No.** `GPU` is rank 3 at 5.4%. The model wanted `power` at 77.9%.
+**No.** `allow` is rank 3 at 10.7%. The model wanted `allowed` at 55.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `power` | 77.9% | 0.36 bits |
-| 2 | `Power` | 8.4% | 3.58 bits |
-| 3 | `GPU` | 5.4% | 4.20 bits |
-| 4 | `driver` | 4.5% | 4.48 bits |
-| 5 | `system` | 3.8% | 4.71 bits |
+| 1 | `allowed` | 55.5% | 0.85 bits |
+| 2 | `off` | 20.7% | 2.27 bits |
+| 3 | `allow` | 10.7% | 3.22 bits |
+| 4 | `...` | 6.5% | 3.93 bits |
+| 5 | `they` | 6.5% | 3.93 bits |
 
 </details>
 
-Today's puzzle carries **1.19 bits** of entropy out of a possible
+<details><summary><code>allowed</code></summary>
+
+**Correct.** The model's top token, at **55.5%** of the visible mass, carrying 0.85 bits.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `allowed` | 55.5% | 0.85 bits |
+| 2 | `off` | 20.7% | 2.27 bits |
+| 3 | `allow` | 10.7% | 3.22 bits |
+| 4 | `...` | 6.5% | 3.93 bits |
+| 5 | `they` | 6.5% | 3.93 bits |
+
+</details>
+
+Today's puzzle carries **1.80 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,12 +331,12 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 153 | 17 MB | 2026-09-02 | Soop - invite-only team chat. A Redtree product. |
+| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 154 | 36 MB | 2026-09-03 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-08-23 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 97 | 901 KB | 2026-09-02 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 98 | 926 KB | 2026-09-02 | Config files for my GitHub profile. |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
@@ -377,11 +377,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 03 Sept 2026 02:32 IST from 6 GraphQL points in 10.7s.
-Run #96. Rebuilds every 6 hours and on every push.
+Generated 03 Sept 2026 09:51 IST from 6 GraphQL points in 9.7s.
+Run #97. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 02 Sept 2026 22:03 rather than dropped.
+forward from 03 Sept 2026 02:32 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
