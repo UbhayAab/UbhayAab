@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 68 active days in the last year, longest run 31.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 5 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 7 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Static site generators became popular because they **___**
+> The hardest bug I ever found turned out to be a **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>off</code></summary>
+<details><summary><code>typ</code></summary>
 
-**No.** `off` is rank 2 at 20.7%. The model wanted `allowed` at 55.5%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
-
-</details>
-
-<details><summary><code>...</code></summary>
-
-**No.** `...` is rank 4 at 6.5%. The model wanted `allowed` at 55.5%.
+**No.** `typ` is rank 5 at 11.8%. The model wanted `single` at 31.6%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
 
 </details>
 
-<details><summary><code>they</code></summary>
+<details><summary><code>simple</code></summary>
 
-**No.** `they` is rank 5 at 6.5%. The model wanted `allowed` at 55.5%.
+**No.** `simple` is rank 2 at 22.8%. The model wanted `single` at 31.6%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
 
 </details>
 
-<details><summary><code>allow</code></summary>
+<details><summary><code>mis</code></summary>
 
-**No.** `allow` is rank 3 at 10.7%. The model wanted `allowed` at 55.5%.
+**No.** `mis` is rank 3 at 20.2%. The model wanted `single` at 31.6%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
 
 </details>
 
-<details><summary><code>allowed</code></summary>
+<details><summary><code>single</code></summary>
 
-**Correct.** The model's top token, at **55.5%** of the visible mass, carrying 0.85 bits.
+**Correct.** The model's top token, at **31.6%** of the visible mass, carrying 1.66 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
 
 </details>
 
-Today's puzzle carries **1.80 bits** of entropy out of a possible
+<details><summary><code>small</code></summary>
+
+**No.** `small` is rank 4 at 13.6%. The model wanted `single` at 31.6%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
+
+</details>
+
+Today's puzzle carries **2.23 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -335,8 +335,8 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-08-23 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 102 | 996 KB | 2026-09-03 | Config files for my GitHub profile. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 101 | 970 KB | 2026-09-03 | Config files for my GitHub profile. |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
@@ -377,11 +377,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 04 Sept 2026 02:31 IST from 6 GraphQL points in 10.5s.
-Run #100. Rebuilds every 6 hours and on every push.
+Generated 04 Sept 2026 10:00 IST from 6 GraphQL points in 7.7s.
+Run #101. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 03 Sept 2026 21:54 rather than dropped.
+forward from 04 Sept 2026 02:31 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
