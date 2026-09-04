@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-04T11:16:21.338Z",
+  "generatedAt": "2026-09-04T16:20:25.679Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 6,
-  "runId": 102,
+  "runId": 103,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -16,13 +16,13 @@
     "total": 37,
     "public": 28,
     "private": 12,
-    "stars": 0,
+    "stars": 1,
     "diskKB": 3405815,
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 398,
-    "commits": 374,
+    "lastYear": 399,
+    "commits": 375,
     "repositoriesCreated": 22,
     "activeDays": 69,
     "trackedDays": 370,
@@ -426,7 +426,7 @@
       "description": "Soop - invite-only team chat. A Redtree product.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 36651,
+      "diskKB": 36710,
       "pushedAt": "2026-09-04T11:05:40Z",
       "createdAt": "2026-07-27T23:05:24Z",
       "language": "JavaScript",
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "UbhayAab",
@@ -484,12 +484,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 1004,
-      "pushedAt": "2026-09-04T04:30:51Z",
+      "diskKB": 1025,
+      "pushedAt": "2026-09-04T11:16:22Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 103,
+      "commits": 104,
       "topics": [
         "config",
         "github-config"
@@ -508,7 +508,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "kdp-ads-dashboard",
@@ -537,7 +537,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "EyeTracker",
@@ -600,7 +600,7 @@
       "url": "https://github.com/UbhayAab/JCF-Mailer-v2",
       "description": "Campaign Studio: Jarurat Care Foundation self-hosted email platform (v2). Marketing campaigns, transactional mail, mailboxes and webmail.",
       "isPrivate": false,
-      "stars": 0,
+      "stars": 1,
       "diskKB": 625,
       "pushedAt": "2026-08-27T11:48:26Z",
       "createdAt": "2026-08-27T11:48:21Z",
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "carcinome_wp",
@@ -652,7 +652,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -674,7 +674,7 @@
       "description": "Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. Source lives in the private JCF-app.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 806,
+      "diskKB": 853,
       "pushedAt": "2026-09-04T11:13:31Z",
       "createdAt": "2026-08-29T08:55:30Z",
       "language": "JavaScript",
@@ -891,7 +891,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "cleanedemails",
@@ -906,7 +906,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -921,7 +921,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "Midjourney-bot",
@@ -936,7 +936,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "KDP-bot",
@@ -951,7 +951,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-04T04:30:50.477Z"
+      "staleSince": "2026-09-04T11:16:21.338Z"
     },
     {
       "name": "Patient-Navigator",
@@ -983,74 +983,81 @@
     }
   ],
   "latestCommit": {
-    "repo": "JCF",
-    "message": "publish from JCF-app, 2026-09-04 11:13",
-    "at": "2026-09-04T11:13:28Z",
-    "ago": "3 minutes ago",
-    "oid": "f4205fd"
+    "repo": "UbhayAab",
+    "message": "chore: rebuild profile [skip ci]",
+    "at": "2026-09-04T11:16:21Z",
+    "ago": "5 hours ago",
+    "oid": "c7c8cb3"
   },
   "recentCommits": [
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-09-04T11:16:21Z",
+      "ago": "5 hours ago",
+      "oid": "c7c8cb3"
+    },
     {
       "repo": "JCF",
       "message": "publish from JCF-app, 2026-09-04 11:13",
       "at": "2026-09-04T11:13:28Z",
-      "ago": "3 minutes ago",
+      "ago": "5 hours ago",
       "oid": "f4205fd"
     },
     {
       "repo": "soop",
       "message": "Joining a server joins the organisation; forgot-password; and a name …",
       "at": "2026-09-04T11:05:37Z",
-      "ago": "11 minutes ago",
+      "ago": "5 hours ago",
       "oid": "3e2ad12"
     },
     {
       "repo": "JCF",
       "message": "publish from JCF-app, 2026-09-04 10:57",
       "at": "2026-09-04T10:57:09Z",
-      "ago": "19 minutes ago",
+      "ago": "5 hours ago",
       "oid": "5e5323f"
     },
     {
       "repo": "JCF",
       "message": "publish from JCF-app, 2026-09-04 10:50",
       "at": "2026-09-04T10:50:29Z",
-      "ago": "26 minutes ago",
+      "ago": "5 hours ago",
       "oid": "7bb597f"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-04T04:30:50Z",
-      "ago": "7 hours ago",
+      "ago": "12 hours ago",
       "oid": "f4c13a5"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-03T21:01:23Z",
-      "ago": "14 hours ago",
+      "ago": "19 hours ago",
       "oid": "35f5c77"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-03T16:24:37Z",
-      "ago": "19 hours ago",
+      "ago": "24 hours ago",
       "oid": "c64bb77"
     },
     {
       "repo": "JCF",
       "message": "publish from JCF-app, 2026-09-03 12:26",
       "at": "2026-09-03T12:26:44Z",
-      "ago": "23 hours ago",
+      "ago": "1 day ago",
       "oid": "c292a5f"
     },
     {
       "repo": "soop",
       "message": "An admin can decide which servers an invite link lands people in",
       "at": "2026-09-03T12:24:26Z",
-      "ago": "23 hours ago",
+      "ago": "1 day ago",
       "oid": "8bed3be"
     },
     {
@@ -1066,13 +1073,6 @@
       "at": "2026-09-03T04:21:53Z",
       "ago": "1 day ago",
       "oid": "b180e65"
-    },
-    {
-      "repo": "soop",
-      "message": "The sign-in card asks for what it needs, and the org stops hiding its…",
-      "at": "2026-09-03T00:49:19Z",
-      "ago": "1 day ago",
-      "oid": "3094dd0"
     }
   ],
   "calendar": [
@@ -2554,10 +2554,10 @@
     },
     {
       "date": "2026-09-04",
-      "count": 2
+      "count": 3
     }
   ],
-  "elapsedMs": 9592,
+  "elapsedMs": 8272,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2574,7 +2574,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-09-04T04:30:50.477Z",
+    "lastFullRun": "2026-09-04T11:16:21.338Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
