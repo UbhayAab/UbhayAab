@@ -6,77 +6,77 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> The hardest bug I ever found turned out to be a **___**
+> An 8 GB graphics card can comfortably run a model with about **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>typ</code></summary>
+<details><summary><code>1</code></summary>
 
-**No.** `typ` is rank 5 at 11.8%. The model wanted `single` at 31.6%.
+**No.** `1` is rank 5 at 14.3%. The model wanted `100` at 34.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
-<details><summary><code>simple</code></summary>
+<details><summary><code>20</code></summary>
 
-**No.** `simple` is rank 2 at 22.8%. The model wanted `single` at 31.6%.
+**No.** `20` is rank 3 at 17.3%. The model wanted `100` at 34.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
-<details><summary><code>mis</code></summary>
+<details><summary><code>200</code></summary>
 
-**No.** `mis` is rank 3 at 20.2%. The model wanted `single` at 31.6%.
+**No.** `200` is rank 4 at 15.0%. The model wanted `100` at 34.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
-<details><summary><code>single</code></summary>
+<details><summary><code>10</code></summary>
 
-**Correct.** The model's top token, at **31.6%** of the visible mass, carrying 1.66 bits.
+**No.** `10` is rank 2 at 19.0%. The model wanted `100` at 34.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
-<details><summary><code>small</code></summary>
+<details><summary><code>100</code></summary>
 
-**No.** `small` is rank 4 at 13.6%. The model wanted `single` at 31.6%.
+**Correct.** The model's top token, at **34.4%** of the visible mass, carrying 1.54 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 

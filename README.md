@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 69 active days in the last year, longest run 32.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 3 hours ago to [`soop`](https://github.com/UbhayAab/soop) - `probe-latermerge told the time instead of testing the app`.
+Last push 8 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,77 +86,77 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> The hardest bug I ever found turned out to be a **___**
+> An 8 GB graphics card can comfortably run a model with about **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>typ</code></summary>
+<details><summary><code>1</code></summary>
 
-**No.** `typ` is rank 5 at 11.8%. The model wanted `single` at 31.6%.
+**No.** `1` is rank 5 at 14.3%. The model wanted `100` at 34.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
-<details><summary><code>simple</code></summary>
+<details><summary><code>20</code></summary>
 
-**No.** `simple` is rank 2 at 22.8%. The model wanted `single` at 31.6%.
+**No.** `20` is rank 3 at 17.3%. The model wanted `100` at 34.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
-<details><summary><code>mis</code></summary>
+<details><summary><code>200</code></summary>
 
-**No.** `mis` is rank 3 at 20.2%. The model wanted `single` at 31.6%.
+**No.** `200` is rank 4 at 15.0%. The model wanted `100` at 34.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
-<details><summary><code>single</code></summary>
+<details><summary><code>10</code></summary>
 
-**Correct.** The model's top token, at **31.6%** of the visible mass, carrying 1.66 bits.
+**No.** `10` is rank 2 at 19.0%. The model wanted `100` at 34.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
-<details><summary><code>small</code></summary>
+<details><summary><code>100</code></summary>
 
-**No.** `small` is rank 4 at 13.6%. The model wanted `single` at 31.6%.
+**Correct.** The model's top token, at **34.4%** of the visible mass, carrying 1.54 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `single` | 31.6% | 1.66 bits |
-| 2 | `simple` | 22.8% | 2.13 bits |
-| 3 | `mis` | 20.2% | 2.31 bits |
-| 4 | `small` | 13.6% | 2.88 bits |
-| 5 | `typ` | 11.8% | 3.09 bits |
+| 1 | `100` | 34.4% | 1.54 bits |
+| 2 | `10` | 19.0% | 2.39 bits |
+| 3 | `20` | 17.3% | 2.53 bits |
+| 4 | `200` | 15.0% | 2.73 bits |
+| 5 | `1` | 14.3% | 2.81 bits |
 
 </details>
 
@@ -335,7 +335,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-08-23 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 105 | 1.0 MB | 2026-09-04 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 106 | 1.1 MB | 2026-09-04 | Config files for my GitHub profile. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
@@ -377,11 +377,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 05 Sept 2026 02:14 IST from 6 GraphQL points in 8.0s.
-Run #104. Rebuilds every 6 hours and on every push.
+Generated 05 Sept 2026 09:56 IST from 6 GraphQL points in 9.2s.
+Run #105. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 04 Sept 2026 21:50 rather than dropped.
+forward from 05 Sept 2026 02:14 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
