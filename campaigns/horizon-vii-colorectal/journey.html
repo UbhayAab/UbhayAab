@@ -1,0 +1,1347 @@
+<title>Horizon VII Campaign Journey</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap">
+<style>
+:root{
+  --paper:#F5F7F7; --surface:#FFFFFF; --surface-2:#EDF1F1; --draft:#F0F3F2;
+  --ink:#0F1E21; --ink-2:#2E4247; --muted:#617276; --faint:#93A2A5;
+  --rule:#D8E0E0; --rule-2:#C3CFD0;
+  --teal:#0D6B70; --teal-soft:#DCEBEA; --sun:#D9531E; --sun-soft:#FBE7DC;
+  --t-m:#3C5A69; --t-r:#0E6F64; --t-c:#9C5C05; --t-o:#5A5490; --t-n:#6B7A80; --t-p:#C0400C;
+  --shadow:0 1px 2px rgba(15,30,33,.05), 0 8px 24px -14px rgba(15,30,33,.22);
+  --f-disp:"Newsreader",Georgia,"Times New Roman",serif;
+  --f-body:"IBM Plex Sans",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --wrap:70rem;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0B1416; --surface:#111D20; --surface-2:#17262A; --draft:#0E1A1D;
+    --ink:#E7EEEE; --ink-2:#C0CFD0; --muted:#8A9B9E; --faint:#66787C;
+    --rule:#233438; --rule-2:#2E4247;
+    --teal:#5FC2BE; --teal-soft:#12302F; --sun:#F0794A; --sun-soft:#3A1E12;
+    --t-m:#8FB2C4; --t-r:#4FC0AE; --t-c:#DDA24A; --t-o:#A29BDA; --t-n:#9AAAB0; --t-p:#F08256;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0B1416; --surface:#111D20; --surface-2:#17262A; --draft:#0E1A1D;
+  --ink:#E7EEEE; --ink-2:#C0CFD0; --muted:#8A9B9E; --faint:#66787C;
+  --rule:#233438; --rule-2:#2E4247;
+  --teal:#5FC2BE; --teal-soft:#12302F; --sun:#F0794A; --sun-soft:#3A1E12;
+  --t-m:#8FB2C4; --t-r:#4FC0AE; --t-c:#DDA24A; --t-o:#A29BDA; --t-n:#9AAAB0; --t-p:#F08256;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -16px rgba(0,0,0,.7);
+}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);
+  font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased;}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(1rem,4vw,2.5rem)}
+h1,h2,h3,h4{text-wrap:balance;margin:0}
+a{color:var(--teal)}
+:focus-visible{outline:2px solid var(--sun);outline-offset:3px;border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---------- masthead ---------- */
+.mast{border-bottom:1px solid var(--rule);background:var(--surface)}
+.mast-in{display:flex;flex-direction:column;gap:1.9rem;padding:clamp(2.2rem,6vw,3.6rem) 0 clamp(2rem,5vw,3rem)}
+.eyebrow{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);display:flex;flex-wrap:wrap;gap:.55rem;align-items:center}
+.eyebrow .dot{color:var(--rule-2)}
+h1{font-family:var(--f-disp);font-weight:500;font-size:clamp(2.5rem,6.2vw,4.25rem);
+  line-height:1.02;letter-spacing:-.018em;max-width:16ch}
+h1 em{font-style:italic;color:var(--teal)}
+.dek{font-family:var(--f-disp);font-size:clamp(1.12rem,2.1vw,1.4rem);line-height:1.5;
+  color:var(--ink-2);max-width:56ch}
+
+/* event stamp */
+.stamp{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));
+  border:1px solid var(--rule-2);border-radius:3px;overflow:hidden;background:var(--surface)}
+.stamp div{padding:.85rem 1.05rem;border-right:1px solid var(--rule)}
+.stamp div:last-child{border-right:none}
+.stamp dt{font-family:var(--f-mono);font-size:.63rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--faint);margin-bottom:.28rem}
+.stamp dd{margin:0;font-weight:600;font-size:.94rem;line-height:1.3;font-variant-numeric:tabular-nums}
+.stamp .hot dd{color:var(--sun)}
+
+/* ---------- generic section ---------- */
+section{padding:clamp(2.8rem,6vw,4.5rem) 0;border-bottom:1px solid var(--rule)}
+.shead{display:flex;align-items:baseline;gap:.9rem;margin-bottom:1.6rem;flex-wrap:wrap}
+.snum{font-family:var(--f-mono);font-size:.72rem;color:var(--sun);letter-spacing:.1em;
+  border:1px solid var(--rule-2);border-radius:2px;padding:.12rem .42rem;flex:none}
+h2{font-family:var(--f-disp);font-weight:500;font-size:clamp(1.65rem,3.4vw,2.4rem);
+  letter-spacing:-.012em;line-height:1.15}
+.lede{font-size:1.03rem;color:var(--ink-2);max-width:64ch;margin-bottom:2rem}
+p{margin:0 0 1rem;max-width:66ch}
+h3{font-family:var(--f-body);font-size:.78rem;font-weight:600;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);margin:2.2rem 0 .9rem}
+
+/* pillars */
+.pillars{display:grid;gap:1.6rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));margin-top:.5rem}
+.pillar{border-top:2px solid var(--teal);padding-top:.85rem}
+.pillar h4{font-family:var(--f-disp);font-size:1.28rem;font-weight:600;margin-bottom:.35rem}
+.pillar p{font-size:.93rem;color:var(--ink-2);margin:0}
+.thesis{border-left:3px solid var(--sun);padding:.2rem 0 .2rem 1.3rem;margin:0 0 2rem;
+  font-family:var(--f-disp);font-size:clamp(1.08rem,2vw,1.3rem);line-height:1.52;color:var(--ink);max-width:60ch}
+
+/* ---------- tracks ---------- */
+.tracks{display:grid;gap:0;border:1px solid var(--rule);border-radius:3px;overflow:hidden;background:var(--surface)}
+.trow{display:grid;grid-template-columns:5.5rem minmax(0,1fr);gap:0;border-bottom:1px solid var(--rule)}
+.trow:last-child{border-bottom:none}
+.tkey{padding:1rem;border-right:1px solid var(--rule);display:flex;flex-direction:column;gap:.3rem;
+  align-items:flex-start;background:var(--surface-2)}
+.tletter{font-family:var(--f-mono);font-weight:600;font-size:1.5rem;line-height:1;color:var(--tc)}
+.tcount{font-family:var(--f-mono);font-size:.63rem;color:var(--faint);letter-spacing:.06em}
+.tbody{padding:1rem 1.15rem;display:flex;flex-direction:column;gap:.35rem}
+.tname{font-weight:600;font-size:.95rem;color:var(--tc)}
+.ttrig{font-family:var(--f-mono);font-size:.74rem;color:var(--muted);line-height:1.5}
+.tgoal{font-size:.92rem;color:var(--ink-2)}
+@media(max-width:34rem){.trow{grid-template-columns:1fr}.tkey{flex-direction:row;align-items:baseline;gap:.6rem;border-right:none;border-bottom:1px solid var(--rule)}}
+
+/* ---------- filter ---------- */
+.filter{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.8rem;align-items:center}
+.filter .flabel{font-family:var(--f-mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--faint);margin-right:.35rem}
+.chip{font-family:var(--f-mono);font-size:.75rem;font-weight:500;padding:.32rem .68rem;border-radius:2px;
+  border:1px solid var(--rule-2);background:transparent;color:var(--muted);cursor:pointer;
+  transition:background .12s,color .12s,border-color .12s}
+.chip:hover{border-color:var(--tc,var(--teal));color:var(--tc,var(--teal))}
+.chip[aria-pressed="true"]{background:var(--tc,var(--ink));border-color:var(--tc,var(--ink));color:var(--paper)}
+
+/* ---------- timeline ---------- */
+.tl{position:relative}
+.tl::before{content:"";position:absolute;left:5.1rem;top:.5rem;bottom:.5rem;width:1px;background:var(--rule)}
+.ev{display:grid;grid-template-columns:4.6rem 1rem minmax(0,1fr);gap:0 .9rem;align-items:start;padding:.34rem 0}
+.ev.hide{display:none}
+.tmin{font-family:var(--f-mono);font-size:.8rem;font-weight:500;text-align:right;color:var(--ink-2);
+  padding-top:.62rem;font-variant-numeric:tabular-nums;line-height:1.2}
+.tmin span{display:block;font-size:.62rem;color:var(--faint);font-weight:400;letter-spacing:.03em}
+.mark{display:flex;justify-content:center;padding-top:.95rem}
+.mark i{width:9px;height:9px;border-radius:50%;background:var(--tc);
+  box-shadow:0 0 0 4px var(--paper);display:block}
+.ev.zero .mark i{width:15px;height:15px;background:var(--sun);box-shadow:0 0 0 4px var(--paper),0 0 0 6px var(--sun-soft)}
+.card{background:var(--surface);border:1px solid var(--rule);border-left:2px solid var(--tc);
+  border-radius:2px;padding:.72rem .95rem;display:flex;flex-wrap:wrap;gap:.2rem 1rem;align-items:baseline;
+  cursor:pointer;transition:border-color .12s,transform .12s}
+.card:hover{border-color:var(--tc)}
+.card .id{font-family:var(--f-mono);font-size:.74rem;font-weight:600;color:var(--tc);flex:none;min-width:2.6rem}
+.card .ttl{font-weight:600;font-size:.95rem;flex:1 1 14rem}
+.card .aud{font-family:var(--f-mono);font-size:.68rem;color:var(--faint);flex:none;text-align:right}
+.card .subj{flex:1 1 100%;font-family:var(--f-mono);font-size:.76rem;color:var(--muted);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card .subj b{font-weight:400;color:var(--ink-2)}
+.dayrule{grid-column:1/-1;display:flex;align-items:center;gap:.7rem;margin:1.5rem 0 .5rem}
+.dayrule span{font-family:var(--f-mono);font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.dayrule::after{content:"";flex:1;height:1px;background:var(--rule)}
+@media(max-width:38rem){
+  .tl::before{left:3.4rem}
+  .ev{grid-template-columns:3rem .8rem minmax(0,1fr);gap:0 .6rem}
+  .tmin{font-size:.7rem}
+  .card .aud{display:none}
+}
+
+/* ---------- forks ---------- */
+.forks{display:grid;gap:1.1rem}
+.fork{background:var(--surface);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.fork-q{padding:.9rem 1.15rem;background:var(--surface-2);border-bottom:1px solid var(--rule);
+  font-family:var(--f-disp);font-size:1.18rem;font-weight:600}
+.fork-q small{display:block;font-family:var(--f-mono);font-size:.68rem;font-weight:400;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:.2rem}
+.branches{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.branch{padding:1rem 1.15rem;border-right:1px solid var(--rule);display:flex;flex-direction:column;gap:.45rem}
+.branch:last-child{border-right:none}
+.bcond{font-family:var(--f-mono);font-size:.72rem;color:var(--tc);font-weight:500;letter-spacing:.02em}
+.bwhat{font-size:.93rem;color:var(--ink-2);margin:0}
+.bwhat strong{color:var(--ink);font-weight:600}
+.bsends{font-family:var(--f-mono);font-size:.7rem;color:var(--faint);margin-top:auto;padding-top:.3rem}
+@media(max-width:40rem){.branch{border-right:none;border-bottom:1px solid var(--rule)}.branch:last-child{border-bottom:none}}
+
+/* ---------- email specimens ---------- */
+.specs{display:grid;gap:1.4rem}
+.spec{background:var(--surface);border:1px solid var(--rule);border-radius:3px;overflow:hidden;box-shadow:var(--shadow)}
+.spec.hide{display:none}
+.spec-h{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:baseline;padding:.85rem 1.15rem;
+  border-bottom:1px solid var(--rule);background:linear-gradient(to bottom,var(--surface-2),var(--surface))}
+.spec-h .id{font-family:var(--f-mono);font-weight:600;font-size:.85rem;color:var(--tc)}
+.spec-h .ttl{font-family:var(--f-disp);font-size:1.22rem;font-weight:600;flex:1 1 12rem}
+.spec-h .when{font-family:var(--f-mono);font-size:.7rem;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.spec-meta{display:grid;grid-template-columns:6.2rem minmax(0,1fr);border-bottom:1px solid var(--rule)}
+.spec-meta>dt{font-family:var(--f-mono);font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--faint);padding:.5rem 0 .5rem 1.15rem;border-bottom:1px solid var(--rule)}
+.spec-meta>dd{margin:0;padding:.5rem 1.15rem .5rem .6rem;border-bottom:1px solid var(--rule);font-size:.88rem;min-width:0}
+.spec-meta>dt:nth-last-of-type(1),.spec-meta>dd:nth-last-of-type(1){border-bottom:none}
+.subjline{font-family:var(--f-mono);font-size:.83rem;color:var(--ink);display:block;
+  padding:.06rem 0;overflow-wrap:anywhere}
+.subjline em{font-style:normal;color:var(--faint);font-size:.68rem;letter-spacing:.08em;margin-right:.45rem}
+.pre{color:var(--muted);font-style:italic;font-family:var(--f-disp);font-size:.95rem}
+.goal{color:var(--ink-2)}
+.draft{background:var(--draft);padding:1.15rem 1.15rem 1.3rem;overflow-x:auto}
+.draft pre{margin:0;font-family:var(--f-mono);font-size:.79rem;line-height:1.72;color:var(--ink-2);
+  white-space:pre;min-width:0}
+.draft pre b{color:var(--ink);font-weight:600}
+.draft pre u{text-decoration:none;color:var(--teal);font-weight:500}
+.note{padding:.7rem 1.15rem;font-size:.86rem;color:var(--muted);border-top:1px solid var(--rule);
+  background:var(--surface)}
+.note b{color:var(--sun);font-weight:600}
+
+/* ---------- tables ---------- */
+.tscroll{overflow-x:auto;border:1px solid var(--rule);border-radius:3px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.87rem;min-width:34rem}
+th{font-family:var(--f-mono);font-size:.64rem;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+  text-align:left;padding:.6rem .9rem;border-bottom:1px solid var(--rule-2);font-weight:500;white-space:nowrap}
+td{padding:.55rem .9rem;border-bottom:1px solid var(--rule);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td b{font-weight:600}
+
+/* ---------- guardrails / callouts ---------- */
+.rails{display:grid;gap:.1rem;counter-reset:r}
+.rail{display:grid;grid-template-columns:2rem minmax(0,1fr);gap:.8rem;padding:.85rem 0;border-bottom:1px solid var(--rule)}
+.rail:last-child{border-bottom:none}
+.rail::before{counter-increment:r;content:counter(r,decimal-leading-zero);font-family:var(--f-mono);
+  font-size:.72rem;color:var(--sun);padding-top:.22rem}
+.rail p{margin:0;font-size:.94rem;color:var(--ink-2)}
+.rail p strong{color:var(--ink)}
+.todo{background:var(--sun-soft);border:1px solid var(--sun);border-radius:3px;padding:1.1rem 1.25rem;margin-top:1.6rem}
+.todo h4{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--sun);margin-bottom:.5rem}
+.todo p{margin:0 0 .5rem;font-size:.93rem;color:var(--ink-2)}
+.todo p:last-child{margin:0}
+.todo code{font-family:var(--f-mono);font-size:.82rem;background:var(--surface);padding:.06rem .3rem;
+  border-radius:2px;border:1px solid var(--rule-2)}
+
+footer{padding:2.6rem 0 3.4rem;color:var(--faint);font-size:.83rem}
+footer p{max-width:62ch;margin-bottom:.5rem}
+footer code{font-family:var(--f-mono);font-size:.79rem}
+</style>
+
+<header class="mast"><div class="wrap mast-in">
+  <div class="eyebrow">
+    <span>Horizon &middot; A Global Collaborative Forum on Cancer Care</span>
+    <span class="dot">/</span><span>Edition VII</span>
+    <span class="dot">/</span><span>Jarurat Care Foundation</span>
+  </div>
+  <h1>Colorectal cancer, <em>from evidence to the real world</em></h1>
+  <p class="dek">A thirty-four-send email journey that starts eighteen days out, splits six ways on the first thing each person does, and ends with a recording in everybody&rsquo;s inbox &mdash; whether they showed up or not.</p>
+  <dl class="stamp">
+    <div><dt>Date</dt><dd>Sat 26 September</dd></div>
+    <div><dt>Time</dt><dd>7:00&ndash;9:00 PM IST</dd></div>
+    <div><dt>Venue</dt><dd>Online &middot; Zoom</dd></div>
+    <div><dt>Cost</dt><dd>Free</dd></div>
+    <div class="hot"><dt>Campaign opens</dt><dd>T&minus;18 &middot; 8 Sep</dd></div>
+    <div class="hot"><dt>Sends</dt><dd>34 across 6 tracks</dd></div>
+  </dl>
+</div></header>
+
+<section><div class="wrap">
+  <div class="shead"><span class="snum">01</span><h2>The frame</h2></div>
+  <p class="thesis">The trial data on colorectal cancer is published everywhere. What isn&rsquo;t published is what six senior oncologists actually <em>do</em> when the patient in front of them doesn&rsquo;t match the trial population, the biosimilar costs a third as much, and the family is paying out of pocket. That&rsquo;s the two hours.</p>
+  <p>Every email ladders up to that sentence, and carries at least one of three proof pillars. Rotate them; never send without one.</p>
+  <div class="pillars">
+    <div class="pillar"><h4>Access</h4><p>MD Anderson GI faculty, live, free, from your living room, on a Saturday. No registration fee, no flight, no three days away from patients.</p></div>
+    <div class="pillar"><h4>Realism</h4><p>Two unscripted real-world cases plus twenty-five minutes of open panel disagreement. Sixty of the hundred and twenty minutes are unscripted.</p></div>
+    <div class="pillar"><h4>India context</h4><p>Biosimilars, cost and access, and the patient side &mdash; via AIIMS, NCI Nagpur, Max Saket, Sir HN Reliance and Jarurat Care.</p></div>
+  </div>
+  <h3>Sender rules that the whole design depends on</h3>
+  <div class="tscroll"><table>
+    <tr><th>Field</th><th>Value</th><th>Why it matters</th></tr>
+    <tr><td>From name</td><td><b>Horizon &middot; Jarurat Care Foundation</b></td><td>Series recognition for past attendees</td></tr>
+    <tr><td>Reply-to</td><td><b>A monitored human inbox</b></td><td><code>no-reply@</code> is banned here &mdash; the entire reply branch depends on people being able to answer</td></tr>
+    <tr><td>Personal sends</td><td>From an individual by name</td><td>Tracks O and N only work when the email looks like a colleague typed it</td></tr>
+    <tr><td>Footer</td><td>Preference centre, not a binary unsubscribe</td><td>Three doors &mdash; fewer emails, Horizon only, unsubscribe &mdash; recovers a large share of would-be unsubscribes</td></tr>
+  </table></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="shead"><span class="snum">02</span><h2>Six tracks</h2></div>
+  <p class="lede">One announcement goes out. What each person does with it decides everything after. A contact sits in exactly one track at a time &mdash; entering Registered, Replied or Suppressed instantly exits every other stream.</p>
+  <div class="tracks" id="tracks"></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="shead"><span class="snum">03</span><h2>The countdown</h2></div>
+  <p class="lede">Thirty-four sends, ordered by when they fire. Rolling branch emails sit at the point in the countdown where they typically land. Filter by track, or click any send to jump to its copy.</p>
+  <div class="filter" id="filter"><span class="flabel">Track</span></div>
+  <div class="tl" id="timeline"></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="shead"><span class="snum">04</span><h2>What happens at each fork</h2></div>
+  <p class="lede">Four decision points, in the order a contact hits them. Each one reads a different signal and needs a different kind of email &mdash; not a louder version of the same one.</p>
+  <div class="forks" id="forks"></div>
+  <h3>Trigger rules, as an operator would build them</h3>
+  <div class="tscroll"><table>
+    <tr><th>Condition</th><th>Action</th></tr>
+    <tr><td class="num">reply_received = true</td><td><b>Pause all automation.</b> Fire auto-ack in 5 min. Human task, SLA 4 business hours.</td></tr>
+    <tr><td class="num">registration_completed = true</td><td>Exit M, O, C, N. Enter R. Stamp <code>reg_date</code>.</td></tr>
+    <tr><td class="num">clicked &amp;&amp; !registered &amp;&amp; 24h</td><td>Enter Track C. Send C1 with a prefilled form link.</td></tr>
+    <tr><td class="num">opened &amp;&amp; !clicked &amp;&amp; 48h</td><td>Enter Track O. Send O1 &mdash; plain text, one question.</td></tr>
+    <tr><td class="num">opens_total = 0 &amp;&amp; 72h</td><td>Enter Track N. Resend M1 body with a <b>new subject at a new daypart</b>.</td></tr>
+    <tr><td class="num">registered &amp;&amp; !joined &amp;&amp; live+20min</td><td>Send R8 &mdash; recovers 5&ndash;12% of no-shows.</td></tr>
+    <tr><td class="num">registered &amp;&amp; !joined &amp;&amp; event_ended</td><td>Tag <code>no_show</code>. Route to X2, never X1.</td></tr>
+    <tr><td class="num">sends_in_7d &gt;= 3 &amp;&amp; !registered</td><td>Hold the next send 24h. <b>The frequency cap wins over the schedule.</b></td></tr>
+    <tr><td class="num">unsub | bounce | complaint</td><td>Suppress permanently. Not even a &ldquo;sorry to see you go&rdquo;.</td></tr>
+  </table></div>
+  <p style="margin-top:1.4rem;color:var(--muted);font-size:.92rem">Build the exit conditions <em>before</em> the entry conditions in every automation. Doing it the other way round is how someone gets &ldquo;you were thirty seconds away&rdquo; four hours after they registered &mdash; the single most common way a campaign like this embarrasses itself.</p>
+</div></section>
+
+<section><div class="wrap">
+  <div class="shead"><span class="snum">05</span><h2>The copy</h2></div>
+  <p class="lede">Subject line variants, preheader, and body for every send. The filter above applies here too.</p>
+  <div class="specs" id="specs"></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="shead"><span class="snum">06</span><h2>What to watch</h2></div>
+  <p class="lede">Open rate is inflated by Apple Mail privacy protection &mdash; treat it as directional only. Click rate is the real interest metric, and registration&rarr;attendance is the one the reminder stream exists to move.</p>
+  <div class="tscroll"><table>
+    <tr><th>Metric</th><th>Cold list</th><th>Warm list</th><th>Read it as</th></tr>
+    <tr><td>Delivery</td><td class="num">&gt;97%</td><td class="num">&gt;98%</td><td>Under 95% is a list-hygiene problem &mdash; stop and clean</td></tr>
+    <tr><td>Open</td><td class="num">18&ndash;25%</td><td class="num">35&ndash;50%</td><td>Directional only</td></tr>
+    <tr><td><b>Click</b></td><td class="num">1.5&ndash;3%</td><td class="num">5&ndash;9%</td><td>The real interest metric</td></tr>
+    <tr><td>Click-to-open</td><td class="num">8&ndash;12%</td><td class="num">15&ndash;22%</td><td>Whether the body is working</td></tr>
+    <tr><td><b>Registration</b></td><td class="num">0.8&ndash;2%</td><td class="num">4&ndash;8%</td><td>The number that matters</td></tr>
+    <tr><td>Reply</td><td class="num">0.2%</td><td class="num">1&ndash;2%</td><td>Every one is a warm lead</td></tr>
+    <tr><td><b>Registration &rarr; attendance</b></td><td class="num">35&ndash;45%</td><td class="num">45&ndash;60%</td><td>Moved almost entirely by R4&ndash;R7</td></tr>
+    <tr><td>Unsubscribe</td><td class="num">&lt;0.4%</td><td class="num">&lt;0.2%</td><td>Over 0.5% on one send &mdash; pull the next and rewrite</td></tr>
+    <tr><td>Spam complaints</td><td class="num">&lt;0.08%</td><td class="num">&lt;0.05%</td><td>Over 0.1% &mdash; stop the campaign immediately</td></tr>
+  </table></div>
+  <h3>Diagnosing from the shape of the numbers</h3>
+  <div class="tscroll"><table>
+    <tr><th>Pattern</th><th>Problem</th><th>Fix</th></tr>
+    <tr><td>Low open, low click</td><td>Subject line, sender or deliverability</td><td>Track N tactics &mdash; new subject, new daypart, plain text from a person</td></tr>
+    <tr><td>High open, low click</td><td>Body and offer</td><td>Track O tactics &mdash; one concrete outcome, one link</td></tr>
+    <tr><td>High click, low register</td><td>Form friction</td><td>Track C tactics, and cut the form to four fields</td></tr>
+    <tr><td>High register, low attendance</td><td>Reminder stream</td><td>Tighten R4&ndash;R7, add the WhatsApp layer</td></tr>
+  </table></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="shead"><span class="snum">07</span><h2>Guardrails</h2></div>
+  <p class="lede">This campaign sits in a regulated space, with a named product on the agenda and two pharmaceutical supporters. Five things to hold to.</p>
+  <div class="rails">
+    <div class="rail"><p><strong>Keep every email educational, never promotional.</strong> The agenda names cetuximab and includes a biosimilars segment, with Merck and Zydus as supporters. Describe the clinical question, never a product benefit. Supporters appear as &ldquo;Supported by&rdquo; with logos only &mdash; no claims, and no brand attached to a subject line.</p></div>
+    <div class="rail"><p><strong>Never imply CME accreditation unless it is real.</strong> If it is accredited, name the body and the credit hours. If not, say &ldquo;certificate of participation&rdquo; and nothing more.</p></div>
+    <div class="rail"><p><strong>Only send where there is a lawful basis.</strong> Prior registration, explicit opt-in, or an existing relationship. Partner lists must be opt-in at source. Never buy a list &mdash; it will burn the sending domain for every future edition.</p></div>
+    <div class="rail"><p><strong>Confirm the case presentations are de-identified</strong> before any case detail reaches marketing copy. Keep the marketing description of both cases generic and non-identifying.</p></div>
+    <div class="rail"><p><strong>No individual medical advice from the campaign inbox</strong>, particularly on patient replies. Point to the treating team and to Jarurat Care&rsquo;s patient support services instead. The reply playbook has the standard wording.</p></div>
+  </div>
+  <div class="todo">
+    <h4>Blocked &mdash; needs your input</h4>
+    <p><b>M8 (T&minus;3) cannot ship yet.</b> That email is entirely social proof from Editions I&ndash;VI, and the block is still placeholders. The same block appears in compressed form in M1, M6 and X4, where it degrades gracefully &mdash; but M8 does not.</p>
+    <p>What&rsquo;s needed per edition: <code>title</code>, <code>date</code>, a one-line summary of no more than fifteen words, <code>keynote</code>, <code>attendees</code>, <code>recording_url</code>. Plus aggregate totals and at least two attributed testimonials.</p>
+    <p>Two notes for when you fill it: summaries should name an outcome, not a topic &mdash; &ldquo;where six oncologists disagreed on adjuvant duration&rdquo; earns a click, &ldquo;explored immunotherapy&rdquo; does not. And a working recording link from a past edition is stronger proof than any summary.</p>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <p>Horizon Edition VII &middot; <em>Colorectal Cancer: From Evidence to the Real World</em> &middot; Saturday 26 September, 7:00&ndash;9:00 PM IST &middot; Jarurat Care Foundation, with AIIMS New Delhi and the National Cancer Institute, Nagpur. Supported by Zydus and Merck.</p>
+  <p>Campaign code <code>HZN7-CRC-SEP26</code>. Full source, automation build spec and the past-editions template live in <code>campaigns/horizon-vii-colorectal/</code>.</p>
+</div></footer>
+
+<script>
+const TRACKS = {
+  M:{name:"Main broadcast",   c:"var(--t-m)", trig:"default — everyone starts here",             goal:"Fourteen sends: twelve that argue the case from T−18 to the hour before we go live, plus two that follow up with everyone who never converted."},
+  R:{name:"Registered",       c:"var(--t-r)", trig:"registration_completed = true",                   goal:"Exits every promotional stream instantly. The job changes from convincing to making sure they turn up — nine sends to get them there, then two more the morning after."},
+  C:{name:"Clicked, no reg",  c:"var(--t-c)", trig:"clicked && !registered && 24h",                   goal:"Highest-intent unconverted segment in the campaign. A friction problem, not a persuasion problem — so remove friction, don't add argument."},
+  O:{name:"Opened, no click", c:"var(--t-o)", trig:"opened && !clicked && 48h",                       goal:"They read it and didn't act. Change the shape of the email completely: plain text, one question, from a person."},
+  N:{name:"Never opened",     c:"var(--t-n)", trig:"opens_total = 0 && 72h",                          goal:"A subject-line problem, not a content problem. Change the variable, not the argument. Three attempts, then sunset."},
+  P:{name:"Replied",          c:"var(--t-p)", trig:"any human reply",                                 goal:"The highest-value signal here. Automation stops, a human answers within four hours, and six intent playbooks cover what they said."}
+};
+
+const E = [
+{id:"M1",t:"M",tm:"T−18",d:"Tue 8 Sep",h:"11:00",aud:"All segments",ttl:"The Announcement",
+ s:["Colorectal cancer: what the trial data doesn't tell you","Horizon VII · 26 Sept · MD Anderson × AIIMS × NCI Nagpur","You were at Horizon VI. Edition VII is colorectal cancer.  (warm list only)"],
+ p:"Two real cases. Six experts. Two hours. Saturday 26 September, 7 PM IST. Free.",
+ g:"First registrations, and set the frame everything else references.",
+ n:"Send to the warmest segment first. Past attendees engaging early builds sender reputation before the cold list is ever touched — never open a campaign by mailing the coldest segment.",
+ b:`Dear Dr. {{last_name}},
+
+Every guideline on metastatic colorectal cancer is a click away.
+
+What isn't a click away is the room where six senior oncologists argue
+about what to do when the patient in front of you is not the patient in
+the trial — when the biosimilar costs a third as much, when the family is
+paying out of pocket, and when the textbook line of therapy isn't
+available in your city.
+
+That room is open on 26 September.
+
+<b>HORIZON · EDITION VII
+Colorectal Cancer: From Evidence to the Real World</b>
+Saturday, 26 September  ·  7:00–9:00 PM IST
+Online via Zoom  ·  Free to attend
+
+<b>INTERNATIONAL KEYNOTE</b>
+Dr. Arvind Dasari
+Professor, Department of Gastrointestinal Medical Oncology
+MD Anderson Cancer Center, Houston
+
+<b>CO-CHAIRS</b>
+Dr. Milind Javle — MD Anderson, Houston
+Dr. Sewanti Limaye — Sir HN Reliance Foundation Hospital, Mumbai
+Dr. Atul Sharma — Max Super Speciality Hospital, Saket
+Dr. Anand Pathak — National Cancer Institute, Nagpur
+
+<b>WHAT'S ACTUALLY ON THE TABLE</b>
+· Advances in colorectal cancer — Dr. Arvind Dasari
+· Two real-world cases, presented and then pulled apart by the panel
+· Biosimilars in India: what the evolving market means for your patients
+· 15 minutes of open Q&amp;A — you ask, the faculty answers
+
+              <u>[  Reserve my seat →  ]</u>
+
+Two hours. No registration fee. A recording if you can't make it live.
+
+Warm regards,
+{{sender_name}} · Jarurat Care Foundation
+
+{{PAST_EDITIONS_BLOCK}}`},
+
+{id:"N1",t:"N",tm:"T−15",d:"Fri 11 Sep",h:"08:00",aud:"Zero opens",ttl:"Resend, new subject, new daypart",
+ s:["26 Sept, 7 PM: colorectal cancer with MD Anderson faculty","Invitation: Horizon VII, Saturday 26 September","Free, 2 hours, colorectal cancer — 26 September"],
+ p:"In case the first one got buried.",
+ g:"Test whether the failure was the subject line or the send time. Nothing else changes.",
+ n:"Same body as M1. New subject, different daypart, one added line at the top. Resist the urge to rewrite the argument — they never read the argument.",
+ b:`Resending in case this got buried — it's a free session on 26 September
+and registration closes on the 25th.
+
+<i>[… M1 body, unchanged …]</i>`},
+
+{id:"M2",t:"M",tm:"T−14",d:"Sat 12 Sep",h:"10:30",aud:"Unregistered",ttl:"The Keynote",
+ s:["30 minutes with MD Anderson's GI oncology faculty","Dr. Arvind Dasari on what's actually changed in colorectal cancer"],
+ p:"The keynote at Horizon VII. 26 September, 7:15 PM IST. Free.",
+ g:"Authority, plus FOMO on access that normally costs a flight.",
+ b:`Dear Dr. {{last_name}},
+
+Getting thirty uninterrupted minutes with a GI medical oncology professor
+from MD Anderson usually involves a conference registration fee, a flight,
+and three days away from your patients.
+
+On 26 September it involves a Zoom link.
+
+<i>[ PHOTO: Dr. Arvind Dasari ]</i>
+
+<b>DR. ARVIND DASARI</b>
+Professor, Department of Gastrointestinal Medical Oncology
+MD Anderson Cancer Center, Houston, Texas
+
+  <b>"Advances in Colorectal Cancer"</b>
+  7:15 – 7:45 PM IST
+
+Thirty minutes on where colorectal cancer treatment has actually moved —
+and then, crucially, forty-five more minutes of his colleagues in India
+testing that against two cases from their own OPDs.
+
+That second part is the point of Horizon. Evidence is available
+everywhere. Evidence stress-tested against Indian practice is not.
+
+              <u>[  Reserve my seat →  ]</u>
+
+26 September  ·  7:00–9:00 PM IST  ·  Zoom  ·  Free`},
+
+{id:"M3",t:"M",tm:"T−12",d:"Mon 14 Sep",h:"19:30",aud:"Unregistered",ttl:"The Run of Show",
+ s:["Two hours, minute by minute — here's exactly what happens","No filler. Here's the full Horizon VII agenda."],
+ p:"Every segment, every speaker, every minute. Decide for yourself.",
+ g:"Kill the “is this worth two hours?” objection with total transparency.",
+ b:`Dear Dr. {{last_name}},
+
+You've sat through enough webinars that ran 40 minutes of introductions
+before anything useful happened. So here is the entire Horizon VII
+agenda, to the minute, before you commit two hours of a Saturday evening.
+
+<b>SATURDAY 26 SEPTEMBER · 7:00–9:00 PM IST</b>
+
+7:00 – 7:05   Welcome &amp; Opening Remarks
+              Dr. Milind Javle · Dr. Sewanti Limaye
+
+7:05 – 7:15   Jarurat Care Foundation: Patient Advocacy &amp;
+              Improving the Cancer Care Journey
+              Ms. Priyanka Joshi
+
+7:15 – 7:45   <b>Advances in Colorectal Cancer  ← KEYNOTE</b>
+              Dr. Arvind Dasari, MD Anderson
+
+7:45 – 7:55   Case Presentation 1: A Real-World Colorectal Cancer Case
+              Dr. Anand Pathak, NCI Nagpur
+
+7:55 – 8:10   Expert Discussion &amp; Clinical Perspectives
+              Dasari · Javle · Limaye · Sharma · Pathak
+
+8:10 – 8:20   Biosimilars in India: The Evolving Market &amp;
+              Its Impact on Cancer Care
+              Mr. Jay Kothari, Zydus · Zynext Ventures
+
+8:20 – 8:30   Case Presentation 2: A Real-World Clinical Challenge
+              (Cetuximab)
+              Dr. Nikhil Vasudeva, B.R.A. IRCH, AIIMS New Delhi
+
+8:30 – 8:45   Expert Discussion &amp; Audience Perspectives
+              Full faculty
+
+8:45 – 9:00   Interactive Q&amp;A: Ask the Experts
+              All faculty
+
+9:00          Closing Remarks &amp; Vote of Thanks
+
+Count it: 25 minutes of panel discussion, 20 minutes of real cases,
+15 minutes of open Q&amp;A. Sixty of the 120 minutes are unscripted.
+
+              <u>[  Reserve my seat →  ]</u>`},
+
+{id:"C1",t:"C",tm:"rolling",d:"+24h after click",h:"—",aud:"Clicked, no reg",ttl:"You were thirty seconds away",
+ s:["You were about thirty seconds away","Picking up where you left off"],
+ p:"Your Horizon VII registration is still open — one click finishes it.",
+ g:"Remove friction. They already said yes with a click; don't re-argue the case.",
+ n:"The link must be prefilled and land them exactly where they stopped. If it dumps them back at an empty form, this email does nothing.",
+ b:`Dear Dr. {{last_name}},
+
+You looked at Horizon VII yesterday and didn't finish registering.
+Entirely possible you got called away mid-form — it happens to all of us.
+
+The link below picks up exactly where you stopped. Four fields, about
+thirty seconds.
+
+              <u>[  Finish my registration →  ]</u>
+
+Quick reminder of what you were signing up for:
+
+    <b>Colorectal Cancer: From Evidence to the Real World</b>
+    Saturday 26 September  ·  7:00–9:00 PM IST  ·  Zoom  ·  Free
+
+    Keynote — Dr. Arvind Dasari, MD Anderson
+    Two real-world cases — NCI Nagpur &amp; AIIMS New Delhi
+    Open Q&amp;A with all six faculty
+
+And if the reason you stopped was that Saturday evening doesn't work:
+register anyway. The recording goes only to registrants.`},
+
+{id:"O1",t:"O",tm:"rolling",d:"+48h after open",h:"—",aud:"Opened, no click",ttl:"Is it the timing, or the topic?",
+ s:["Is it the timing, or the topic?","Quick one about Horizon VII"],
+ p:"Genuinely asking — it helps us plan Edition VIII.",
+ g:"Handle the four real objections out loud, and open a reply channel.",
+ n:"Send as near-plain-text, from an individual rather than the brand. This should look like an email a colleague typed, not a campaign asset. That contrast is the whole mechanism.",
+ b:`Dear Dr. {{last_name}},
+
+I saw you opened our note about Horizon VII on the 26th but haven't
+registered, and I'd rather ask than keep sending invitations.
+
+Usually it's one of four things:
+
+  <b>"Saturday evening doesn't work."</b>
+      → Register anyway. The recording goes only to registrants, and
+        it's with you Sunday morning.
+
+  <b>"Colorectal isn't my primary area."</b>
+      → Fair. The biosimilars segment at 8:10 and the access discussion
+        apply across tumour types — that may be the useful hour for you.
+
+  <b>"Two hours is a lot."</b>
+      → It is. The keynote is 7:15–7:45. If you only have thirty
+        minutes, take those.
+
+  <b>"I don't know if it'll be worth it."</b>
+      → Reasonable. Sixty of the 120 minutes are unscripted panel
+        discussion and live Q&amp;A with faculty from MD Anderson, AIIMS,
+        NCI Nagpur, Max Saket and Sir HN Reliance. That's the part you
+        can't get from a paper.
+
+If it's none of those, just hit reply and tell me — I read every one, and
+it genuinely shapes what we programme next.
+
+And if it's simply that you meant to and forgot:
+
+              <u>[  Reserve my seat →  ]</u>
+
+Best,
+{{personal_sender_name}} · Jarurat Care Foundation`},
+
+{id:"C2",t:"C",tm:"rolling",d:"+72h after click",h:"—",aud:"Still no reg",ttl:"Two lines and a link",
+ s:["Two lines and a link"],
+ p:"26 September, 7 PM IST. Free. That's the whole email.",
+ g:"If C1 didn't close it, more words won't. Strip everything.",
+ b:`Dr. {{last_name}} —
+
+Horizon VII: colorectal cancer, 26 September, 7:00 PM IST, free, on Zoom.
+Dr. Arvind Dasari from MD Anderson, two real cases, open Q&amp;A.
+
+              <u>[  Register →  ]</u>
+
+That's the whole email.`},
+
+{id:"M4",t:"M",tm:"T−10",d:"Wed 16 Sep",h:"11:00",aud:"Unregistered",ttl:"The Room",
+ s:["Houston, Mumbai, Delhi, Nagpur — in one room for two hours","Who you'll be in the room with on 26 September"],
+ p:"Six faculty. Four institutions. One colorectal cancer conversation.",
+ g:"Peer proof — who else is in there, on the panel and in the audience.",
+ b:`Dear Dr. {{last_name}},
+
+Horizon works because of who disagrees with whom.
+
+<i>[ FACULTY GRID — 6 photos ]</i>
+
+Dr. Arvind Dasari      MD Anderson, Houston — Keynote
+Dr. Milind Javle       MD Anderson, Houston — Co-Chair
+Dr. Sewanti Limaye     Sir HN Reliance Foundation, Mumbai — Co-Chair
+Dr. Atul Sharma        Max Super Speciality, Saket, New Delhi — Co-Chair
+Dr. Anand Pathak       National Cancer Institute, Nagpur — Case 1
+Dr. Nikhil Vasudeva    B.R.A. IRCH, AIIMS New Delhi — Case 2
+
+Two of them practise in Houston. Four practise in India. That gap —
+between what the data supports and what is actually deliverable in
+Nagpur, Delhi or Mumbai — is the entire subject of the evening.
+
+You'll also be in the audience alongside medical oncologists, surgical
+oncologists, DM and DNB residents, and oncology pharmacists from across
+India. When the Q&amp;A opens at 8:45, that's who is asking.
+
+              <u>[  Reserve my seat →  ]</u>`},
+
+{id:"N2",t:"N",tm:"T−9",d:"Thu 17 Sep",h:"09:00",aud:"Still zero opens",ttl:"Plain text, from a human",
+ s:["a question, Dr. {{last_name}}"],
+ p:"(none — plain text)",
+ g:"Get past whatever ate the designed version, and read like a person.",
+ n:"Strip every image, button and HTML table. Raw URL, not a tracked button. Lowercase subject, from an individual. This is deliberately the least designed email in the campaign.",
+ b:`Dr. {{last_name}},
+
+We're running a free two-hour session on colorectal cancer on Saturday
+26 September, 7-9 PM IST. Keynote is Dr. Arvind Dasari from MD Anderson's
+GI medical oncology department; co-chairs are from Sir HN Reliance
+Mumbai, Max Saket, NCI Nagpur and AIIMS Delhi.
+
+Two real cases get presented and then argued over by the panel, and the
+last 15 minutes are open Q&amp;A.
+
+Registration: {{registration_url}}
+
+If this isn't relevant to your practice, tell me and I'll take you off
+the Horizon list — no need to hunt for an unsubscribe link.
+
+{{personal_sender_name}}
+Jarurat Care Foundation`},
+
+{id:"M5",t:"M",tm:"T−8",d:"Fri 18 Sep",h:"18:00",aud:"Unregistered",ttl:"The Cases",
+ s:["Case 2 is a cetuximab problem. How would you play it?","Two real cases. The panel doesn't get them in advance."],
+ p:"26 September, 7 PM IST. Bring your own answer and compare.",
+ g:"The strongest hook in the campaign — clinical curiosity, not event marketing.",
+ n:"Expect this to be the highest click-rate send. If it isn't, the list is wrong, not the copy.",
+ b:`Dear Dr. {{last_name}},
+
+Most webinars present cases that resolve neatly. Horizon presents the
+ones that didn't.
+
+<b>CASE 1 · 7:45 PM</b>
+A real-world colorectal cancer case
+Presented by Dr. Anand Pathak, Medical Director &amp; Head of Medical
+Oncology, National Cancer Institute, Nagpur
+
+<b>CASE 2 · 8:20 PM</b>
+A real-world clinical challenge involving cetuximab
+Presented by Dr. Nikhil Vasudeva, Medical Oncology, B.R.A. IRCH,
+AIIMS New Delhi
+
+After each one, the panel takes it apart in the open — Dr. Dasari and
+Dr. Javle from MD Anderson, Dr. Limaye from Mumbai, Dr. Sharma from
+Delhi, Dr. Pathak from Nagpur. Five senior oncologists, one case, and no
+obligation to agree with each other.
+
+Here's the useful bit: form your own plan while the case is being
+presented, then watch where the panel goes. If they diverge from you,
+you've learned something specific. If they diverge from each other,
+you've learned something more interesting.
+
+              <u>[  Reserve my seat →  ]</u>
+
+P.S. Case details are anonymised. The clinical problem is not simplified.`},
+
+{id:"R0",t:"R",tm:"instant",d:"on signup",h:"+60 sec",aud:"New registrant",ttl:"Confirmation",
+ s:["You're in — Horizon VII, Saturday 26 September, 7 PM IST"],
+ p:"Your Zoom link and calendar invite are inside. Save this email.",
+ g:"Lock in the calendar slot, harvest a question, and get one referral.",
+ n:"The highest-open email of the entire campaign — people always open the confirmation. Spend it on three asks, not one line of thanks.",
+ b:`Dear Dr. {{first_name}},
+
+You're registered for Horizon VII.
+
+<b>Colorectal Cancer: From Evidence to the Real World
+Saturday, 26 September  ·  7:00–9:00 PM IST</b>
+
+<b>YOUR JOIN LINK</b>
+{{zoom_join_link}}
+
+       <u>[  Add to calendar  ]</u>     <u>[  Add to Google Calendar  ]</u>
+       (.ics attached — one click, and it's in your diary with a
+        30-minute reminder already set)
+
+<b>THREE THINGS BEFORE YOU GO</b>
+
+1.  <b>Block the time now.</b> A two-hour Saturday evening slot survives the
+    week only if it's in your calendar. The .ics is attached.
+
+2.  <b>Send us your question.</b> The Q&amp;A at 8:45 PM runs on questions
+    submitted in advance — yours gets answered before the live chat
+    gets scrolled.
+              <u>[  Submit a question →  ]</u>
+
+3.  <b>Bring a colleague.</b> If there's someone in your department who
+    should be in this room, forward them this:
+              {{shareable_registration_link}}
+
+<b>WHAT YOU'LL GET AFTERWARDS</b>
+· The full recording, Sunday morning
+· A certificate of participation for attending 60+ minutes
+· The slide summary from Dr. Dasari's keynote
+
+See you on the 26th.
+
+Questions? Just reply to this email — it goes to a real person.`},
+
+{id:"R1",t:"R",tm:"T−7",d:"Sat 19 Sep",h:"11:00",aud:"Registered",ttl:"The Prep Pack",
+ s:["One week out — three things to bring on the 26th"],
+ p:"A little preparation makes a two-hour session worth four.",
+ g:"Raise attendance by raising investment before the event.",
+ n:"Registration→attendance is the metric this whole sub-stream exists to move. Someone who has prepared shows up.",
+ b:`Dear Dr. {{first_name}},
+
+Horizon VII is one week away. Saturday 26 September, 7:00 PM IST.
+
+Sessions like this pay off in proportion to what you bring to them.
+Three suggestions:
+
+<b>1 · BRING A CASE THAT'S BOTHERING YOU</b>
+   Not to present — just to hold in your head. When Dr. Pathak presents
+   at 7:45 and Dr. Vasudeva at 8:20, you'll have something concrete to
+   compare against. That's where the learning happens.
+
+<b>2 · DECIDE YOUR ANSWER BEFORE THE PANEL DOES</b>
+   Both cases are presented before the panel discusses them. Commit to a
+   plan in your head first. Then find out where five senior oncologists
+   agree with you and where they don't.
+
+<b>3 · SEND YOUR QUESTION NOW</b>
+   The Q&amp;A at 8:45 takes pre-submitted questions first.
+              <u>[  Submit a question →  ]</u>
+
+<i>[… full run of show …]</i>
+
+Your join link: {{zoom_join_link}}`},
+
+{id:"O2",t:"O",tm:"T−6",d:"Sun 20 Sep",h:"20:00",aud:"Opened O1, no click",ttl:"The specific-value email",
+ s:["Three things you'll be able to do differently on Monday","The specific reason to give up two hours on Saturday"],
+ p:"Not a pitch. A list.",
+ g:"Stop selling the event. Sell three concrete outcomes and give them an exit.",
+ n:"Offering the preference centre here — rather than at the fourth attempt — protects the domain and reads as respect. Some of these people will register for Edition VIII.",
+ b:`Dear Dr. {{last_name}},
+
+I'll skip the invitation language and just say what you actually walk
+away with.
+
+<b>ONE — a current read on where colorectal cancer treatment has moved</b>
+Dr. Arvind Dasari, GI Medical Oncology at MD Anderson, has thirty minutes
+to say what's changed. Not a literature review — a position.
+
+<b>TWO — two worked cases, argued in public</b>
+Dr. Anand Pathak brings a case from NCI Nagpur; Dr. Nikhil Vasudeva
+brings a cetuximab problem from AIIMS. Then five senior oncologists take
+each one apart on air. You will hear people disagree, which is the part
+that's missing from every published guideline.
+
+<b>THREE — a straight answer on biosimilars</b>
+Mr. Jay Kothari from Zydus on how the Indian biosimilar market is
+actually moving and what that does to the cost conversation you have
+with families.
+
+Plus fifteen minutes to ask your own question, directly, to all six.
+
+Saturday 26 September, 7:00–9:00 PM IST. Free. Zoom.
+
+              <u>[  Reserve my seat →  ]</u>
+
+If it's still a no, that's completely fine — you can turn off Horizon
+invites here and keep the rest, or unsubscribe entirely. No hard feelings
+either way.`},
+
+{id:"M6",t:"M",tm:"T−5",d:"Mon 21 Sep",h:"11:00",aud:"Unregistered",ttl:"The Cost Conversation",
+ s:["The part of the treatment decision that isn't clinical","Biosimilars, cost, and the conversation you have after the plan"],
+ p:"Horizon VII · 26 September · 7 PM IST · Free",
+ g:"The India-specific angle no other forum covers.",
+ b:`Dear Dr. {{last_name}},
+
+There is a conversation that happens after the treatment plan is made,
+and it rarely appears in a guideline.
+
+It is the one where the family asks what it will cost. Where a biosimilar
+changes the arithmetic. Where the answer determines whether the plan you
+just made survives contact with reality.
+
+Horizon VII puts that conversation on the agenda twice, on purpose:
+
+  <b>7:05 PM</b>  ·  Patient Advocacy &amp; Improving the Cancer Care Journey
+             Ms. Priyanka Joshi, Jarurat Care Foundation
+             What the journey looks like from the other side of the desk
+
+  <b>8:10 PM</b>  ·  Biosimilars in India: The Evolving Market &amp;
+             Its Impact on Cancer Care
+             Mr. Jay Kothari, President, Zydus Lifesciences;
+             Director, Zynext Ventures
+
+Between them sits Dr. Arvind Dasari's keynote on where colorectal cancer
+treatment has actually advanced — and two real cases from Nagpur and
+AIIMS where the theory meets the invoice.
+
+That combination is the reason this forum exists.
+
+              <u>[  Reserve my seat →  ]</u>`},
+
+{id:"M7",t:"M",tm:"T−4",d:"Tue 22 Sep",h:"19:00",aud:"Everyone",ttl:"Ask the Experts",
+ s:["What would you ask MD Anderson's GI faculty?","Your question, answered live on 26 September"],
+ p:"The Q&A at 8:45 PM runs on questions submitted in advance. Send yours.",
+ g:"Interaction hook that doubles as re-engagement — and the question form doubles as registration.",
+ n:"Goes to registered and unregistered alike; registered contacts get the R2 variant, which swaps the registration CTA for a referral ask.",
+ b:`Dear Dr. {{last_name}},
+
+The last fifteen minutes of Horizon VII are yours.
+
+At 8:45 PM the floor opens: Dr. Arvind Dasari, Dr. Milind Javle,
+Dr. Sewanti Limaye, Dr. Atul Sharma, Dr. Anand Pathak and
+Dr. Nikhil Vasudeva take questions from the audience.
+
+Questions submitted in advance get answered first — there's no scrolling
+through a live chat, and no chance of yours getting buried.
+
+              <u>[  Submit my question →  ]</u>
+
+It can be anything genuinely on your desk:
+  · A sequencing decision you're second-guessing
+  · Something about biosimilar substitution you'd rather ask privately
+  · A case that isn't behaving like the literature says it should
+  · What MD Anderson does that you can't do here, and what to do instead
+
+Submissions are anonymous to the audience. The faculty see the question,
+not your name.
+
+Not registered yet? The question form doubles as your registration.
+
+              <u>[  Reserve my seat and ask →  ]</u>`},
+
+{id:"R2",t:"R",tm:"T−4",d:"Tue 22 Sep",h:"19:00",aud:"Registered",ttl:"Question + one colleague",
+ s:["Your question, and one colleague"],
+ p:"Two small asks before Saturday.",
+ g:"Q&A material, plus organic list growth from the warmest possible source.",
+ b:`Dear Dr. {{first_name}},
+
+You're registered for Saturday. Two small things that make the evening
+better:
+
+<b>ONE — YOUR QUESTION</b>
+The 8:45 PM Q&amp;A opens with pre-submitted questions. Yours goes to
+Dr. Dasari, Dr. Javle, Dr. Limaye, Dr. Sharma, Dr. Pathak and
+Dr. Vasudeva directly, and it's anonymous to the audience.
+              <u>[  Submit my question →  ]</u>
+
+<b>TWO — ONE COLLEAGUE</b>
+Panel sessions get better when the audience is stronger. If there's a
+registrar, a colleague, or someone in your GI tumour board who should
+hear Case 2, send them this link:
+
+    {{shareable_registration_link}}
+
+That's it. See you Saturday, 7:00 PM IST.`},
+
+{id:"M8",t:"M",tm:"T−3",d:"Wed 23 Sep",h:"11:00",aud:"Unregistered",ttl:"The Track Record",
+ s:["Six editions in. Here's what Horizon VII adds.","{{TOTAL_PAST_ATTENDEES}} clinicians have been through this forum"],
+ p:"Colorectal cancer, 26 September, 7 PM IST. Three days out.",
+ g:"Social proof, immediately before the deadline sequence starts.",
+ n:"BLOCKED. This email is entirely the past-editions block. Do not send it with empty placeholders — pull it from the schedule rather than ship it half-filled.",
+ b:`Dear Dr. {{last_name}},
+
+Horizon VII is not the first one. Here's the shelf it sits on:
+
+  ── Edition VI · {{VI_TITLE}}
+     {{VI_SUMMARY_ONE_LINE}}
+  ── Edition V · {{V_TITLE}}
+     {{V_SUMMARY_ONE_LINE}}
+  ── Edition IV · {{IV_TITLE}}
+     {{IV_SUMMARY_ONE_LINE}}
+  ── Edition III · {{III_TITLE}}
+  ── Edition II · {{II_TITLE}}
+  ── Edition I · {{I_TITLE}}
+
+{{TOTAL_PAST_ATTENDEES}} clinicians across {{PAST_EDITION_COUNT}} editions.
+{{PAST_FACULTY_COUNT}} faculty from {{PAST_INSTITUTION_COUNT}} institutions
+across {{COUNTRY_COUNT}} countries.
+
+  "{{TESTIMONIAL_1_QUOTE}}"
+  — {{TESTIMONIAL_1_NAME}}, {{TESTIMONIAL_1_AFFILIATION}}
+
+Edition VII is colorectal cancer, and it's on Saturday.
+
+              <u>[  Reserve my seat →  ]</u>`},
+
+{id:"M9",t:"M",tm:"T−2",d:"Thu 24 Sep",h:"18:30",aud:"Unregistered",ttl:"48 Hours",
+ s:["48 hours to Horizon VII","Registrations close Friday night"],
+ p:"Saturday, 7 PM IST. Dr. Arvind Dasari, two real cases, open Q&A.",
+ g:"A real deadline, honestly stated — the credentials genuinely have to go out.",
+ b:`Dear Dr. {{last_name}},
+
+Two days out. A short version, because you've seen the long one.
+
+<b>WHAT</b>      Horizon VII — Colorectal Cancer: From Evidence to the
+          Real World
+<b>WHEN</b>      Saturday 26 September, 7:00–9:00 PM IST
+<b>WHERE</b>     Zoom
+<b>COST</b>      Free
+<b>KEYNOTE</b>   Dr. Arvind Dasari, MD Anderson
+<b>CASES</b>     NCI Nagpur (Dr. Anand Pathak) · AIIMS Delhi
+          (Dr. Nikhil Vasudeva)
+<b>PANEL</b>     Javle · Limaye · Sharma · Pathak · Dasari · Vasudeva
+<b>Q&amp;A</b>       15 minutes, live, all faculty
+
+Registration closes Friday 25 September at {{CUTOFF_TIME}} so the Zoom
+credentials can go out cleanly before the session.
+
+              <u>[  Reserve my seat →  ]</u>
+
+Can't attend live? Register anyway — the recording goes only to
+registrants.`},
+
+{id:"R3",t:"R",tm:"T−2",d:"Thu 24 Sep",h:"18:30",aud:"Registered",ttl:"Calendar + tech check",
+ s:["Saturday, 7 PM — is it in your calendar?"],
+ p:"Sixty seconds of setup now beats scrambling at 6:58 on Saturday.",
+ g:"Remove the two things that cause no-shows: an unblocked calendar and a Zoom update prompt.",
+ b:`Dear Dr. {{first_name}},
+
+Horizon VII is in two days. Sixty seconds of housekeeping:
+
+☐  <b>CALENDAR</b>
+   Is Sat 26 Sept, 7:00–9:00 PM blocked?
+              <u>[  Add to calendar  ]</u>
+
+☐  <b>ZOOM</b>
+   Open the link once, today, on the device you'll actually use. If it
+   needs an update, better to find out now.
+   {{zoom_join_link}}
+
+☐  <b>ADD US TO YOUR CONTACTS</b>
+   So Saturday's join reminder doesn't land in Promotions:
+   {{from_email}}
+
+☐  <b>QUESTION SUBMITTED?</b>
+              <u>[  Submit a question →  ]</u>`},
+
+{id:"N3",t:"N",tm:"T−2",d:"Thu 24 Sep",h:"12:00",aud:"Never opened",ttl:"Final attempt, then sunset",
+ s:["Last one from us about Saturday"],
+ p:"And then we'll stop.",
+ g:"One last honest attempt, and a one-click way to stay on the list.",
+ n:"On send, set status = sunset and remove from all Horizon broadcasts. Continuing to mail non-openers damages deliverability for everyone else on the list — this is a reputation decision, not a courtesy.",
+ b:`Dr. {{last_name}},
+
+Last note about this.
+
+Horizon VII — colorectal cancer, evidence to real-world practice — is on
+Saturday 26 September, 7:00-9:00 PM IST. Free. Dr. Arvind Dasari from
+MD Anderson, two real cases from NCI Nagpur and AIIMS Delhi, open Q&amp;A.
+
+{{registration_url}}
+
+We haven't seen you open anything from us in a while, so we're going to
+stop sending Horizon invitations after this. If you'd like to stay on the
+list, just click once — that's all it takes to keep them coming.
+
+              <u>[  Keep me on the list  ]</u>
+
+Either way, thank you for the time.`},
+
+{id:"M10",t:"M",tm:"T−1",d:"Fri 25 Sep",h:"19:00",aud:"Unregistered",ttl:"Tomorrow, 7 PM",
+ s:["Tomorrow, 7 PM IST","Last call — Horizon VII is tomorrow evening"],
+ p:"Registration closes tonight. The recording only goes to registrants.",
+ g:"Last real conversion window, with a second CTA for the recording.",
+ b:`Dear Dr. {{last_name}},
+
+Tomorrow evening, 7:00 PM IST.
+
+Dr. Arvind Dasari from MD Anderson on advances in colorectal cancer.
+Two real cases from NCI Nagpur and AIIMS Delhi.
+Twenty-five minutes of panel discussion where six oncologists are free
+to disagree.
+Fifteen minutes where you get to ask.
+
+Registration closes tonight.
+
+              <u>[  Reserve my seat →  ]</u>
+
+If Saturday evening doesn't work: register anyway. The recording is sent
+to registrants only, and you'll have it Sunday.
+
+              <u>[  Register for the recording →  ]</u>`},
+
+{id:"R4",t:"R",tm:"T−1",d:"Fri 25 Sep",h:"19:00",aud:"Registered",ttl:"Your link for tomorrow",
+ s:["Tomorrow, 7 PM IST — your Horizon VII link"],
+ p:"Dr. Arvind Dasari at 7:15. Two real cases. Open Q&A at 8:45.",
+ g:"Link in front of them the night before, with the running order.",
+ b:`Dear Dr. {{first_name}},
+
+Tomorrow evening.
+
+    <b>Saturday 26 September  ·  7:00–9:00 PM IST</b>
+
+              <u>[  Join the session →  ]</u>
+              {{zoom_join_link}}
+
+  7:15  Dr. Arvind Dasari, MD Anderson — Advances in Colorectal Cancer
+  7:45  Case 1 — Dr. Anand Pathak, NCI Nagpur
+  8:20  Case 2 (Cetuximab) — Dr. Nikhil Vasudeva, AIIMS New Delhi
+  8:45  Ask the Experts — all faculty
+
+Come a couple of minutes early; the opening remarks start on time.`},
+
+{id:"M11",t:"M",tm:"T−0.5",d:"Sat 26 Sep",h:"10:00",aud:"Unregistered",ttl:"Tonight at 7",
+ s:["Tonight at 7","Colorectal cancer, tonight, 7 PM IST — a seat is still open"],
+ p:"Nine hours out. Registration takes about thirty seconds.",
+ g:"Same-day sweep of anyone still unconverted.",
+ b:`Dear Dr. {{last_name}},
+
+Tonight. 7:00 PM IST. Two hours.
+
+MD Anderson × Sir HN Reliance × Max Saket × NCI Nagpur × AIIMS Delhi,
+on colorectal cancer — from evidence to what you can actually do on
+Monday.
+
+Registration is open until we go live, and takes about thirty seconds.
+
+              <u>[  Reserve my seat →  ]</u>`},
+
+{id:"R5",t:"R",tm:"T−0.5",d:"Sat 26 Sep",h:"10:00",aud:"Registered",ttl:"Tonight — link and running order",
+ s:["Tonight at 7 — Horizon VII"],
+ p:"Your join link, and the running order.",
+ g:"Morning-of anchor so the evening slot survives the day.",
+ b:`Dear Dr. {{first_name}},
+
+Tonight, 7:00 PM IST.
+
+              <u>[  Join the session →  ]</u>
+              {{zoom_join_link}}
+
+  7:00  Welcome
+  7:05  Ms. Priyanka Joshi — Patient advocacy
+  7:15  Dr. Arvind Dasari — Advances in Colorectal Cancer
+  7:45  Case 1 — Dr. Anand Pathak
+  7:55  Panel
+  8:10  Mr. Jay Kothari — Biosimilars in India
+  8:20  Case 2: Cetuximab — Dr. Nikhil Vasudeva
+  8:30  Panel &amp; audience perspectives
+  8:45  Ask the Experts
+  9:00  Close
+
+See you at seven.`},
+
+{id:"M12",t:"M",tm:"T−0",d:"Sat 26 Sep",h:"18:00",aud:"Unregistered",ttl:"Doors open in an hour",
+ s:["We start in an hour"],
+ p:"Horizon VII · Colorectal cancer · 7:00 PM IST · Register and join.",
+ g:"Walk-in capture. Five lines, no more.",
+ b:`Dr. {{last_name}} —
+
+Horizon VII begins in one hour. 7:00 PM IST.
+
+Register now and the Zoom link arrives immediately.
+
+              <u>[  Register and join →  ]</u>`},
+
+{id:"R6",t:"R",tm:"T−0",d:"Sat 26 Sep",h:"18:00",aud:"Registered",ttl:"Sixty minutes",
+ s:["We go live in 60 minutes"],
+ p:"Your join link is one tap away.",
+ g:"One tap on a phone. Nothing else.",
+ b:`Dr. {{first_name}} —
+
+Horizon VII starts in one hour. 7:00 PM IST.
+
+              <u>[  Join the session →  ]</u>
+
+{{zoom_join_link}}`},
+
+{id:"R7",t:"R",tm:"T−0",d:"Sat 26 Sep",h:"18:45",aud:"Registered",ttl:"Join now",
+ s:["Starting in 15 minutes"],
+ p:"Tap to join Horizon VII.",
+ g:"This email exists to be tapped on a phone. One line, one button.",
+ b:`Horizon VII starts in 15 minutes.
+
+              <u>[  Join now →  ]</u>
+
+{{zoom_join_link}}`},
+
+{id:"R8",t:"R",tm:"T+0:20",d:"Sat 26 Sep",h:"19:20",aud:"Registered no-shows",ttl:"You're missing the keynote",
+ s:["Dr. Dasari is speaking right now"],
+ p:"You can still join. The keynote runs until 7:45.",
+ g:"Recover the no-shows while the keynote is still running.",
+ n:"Typically recovers 5–12% of no-shows — the single highest-ROI email in the sequence. Suppresses automatically for anyone Zoom has already seen join.",
+ b:`Dr. {{first_name}} —
+
+You registered, and we haven't seen you join.
+
+Dr. Arvind Dasari is on now — the keynote runs until 7:45, and the first
+real-world case follows straight after.
+
+              <u>[  Join now →  ]</u>
+
+{{zoom_join_link}}
+
+Genuinely can't make it? No problem at all — the recording comes to you
+tomorrow morning either way.`},
+
+{id:"P0",t:"P",tm:"rolling",d:"any reply",h:"+5 min",aud:"Anyone who replies",ttl:"Auto-acknowledgement",
+ s:["Re: {{original_subject}}"],
+ p:"(threaded reply — no preheader)",
+ g:"Confirm a human is coming, and set the response-time expectation.",
+ n:"Fires once per contact per campaign. Nobody wants two auto-replies in one thread. Sending this while the promotional stream keeps running is the failure mode — the reply must pause everything.",
+ b:`Dear Dr. {{last_name}},
+
+Thank you — this has reached a real inbox and a real person will reply to
+you today, usually within a few hours.
+
+If it's time-sensitive, you can reach us on {{phone_or_whatsapp}}.
+
+In the meantime, in case it's useful:
+  Horizon VII · Colorectal Cancer: From Evidence to the Real World
+  Saturday 26 September · 7:00–9:00 PM IST · Zoom · Free
+  Register: {{registration_url}}`},
+
+{id:"P1",t:"P",tm:"rolling",d:"≤4 business hrs",h:"human",aud:"Anyone who replies",ttl:"Human reply — six intent playbooks",
+ s:["(threaded — answers what they actually wrote)"],
+ p:"—",
+ g:"Convert the highest-value signal in the campaign into a registration, a partnership, or a clean exit.",
+ n:"These are openers, not scripts. The specific answer to what they wrote goes underneath. Anything involving a complaint, a regulatory question, a media enquiry or an adverse-event mention leaves the marketing inbox the same day.",
+ b:`<b>INTENT 1 · "Yes, please register me"</b>  → register manually, move to Track R
+  "Done, you're registered. Your join link: {{zoom_join_link}}. I've also
+   attached a calendar invite. If you have a question for the panel, send
+   it to me and I'll get it into the 8:45 PM Q&amp;A."
+
+<b>INTENT 2 · A clinical or programme question</b>  → answer properly, then register
+  "{{ACTUAL ANSWER — and if it needs faculty input, say 'I'm checking with
+   Dr. X and will come back to you by Thursday.' Never guess.}}
+   Since it's directly relevant to the 26th, would you like me to put this
+   to the panel during the Q&amp;A? It goes to the faculty anonymously."
+
+<b>INTENT 3 · "Can't attend / wrong timezone / on duty"</b>  → recording opt-in
+  "Completely understood — Saturday evening is a real ask. Register anyway
+   and I'll make sure the recording reaches you Sunday morning; it goes to
+   registrants only. We're at 7:00 PM IST, which is 9:30 AM Houston and
+   2:30 PM London."
+  <i>This is a conversion, not a loss.</i>
+
+<b>INTENT 4 · "I'd like to present / speak / partner"</b>  → route out of automation
+  "I'm passing this to {{programme_lead}}, who runs faculty and
+   partnerships for Horizon, and they'll come back to you within two
+   working days. Would you be open to a short call next week?"
+  <i>This is how Edition VIII gets built.</i>
+
+<b>INTENT 5 · A patient or caregiver</b>  → warm, and clear about limits
+  "Horizon is a session for clinicians, and you're welcome to listen —
+   Priyanka Joshi speaks at 7:05 PM on what the cancer care journey looks
+   like from the patient's side. I'm not able to advise on your own
+   treatment from here — that has to come from your treating team, who
+   know your case. What I can do is point you to Jarurat Care's patient
+   support services: {{patient_support_link}}"
+
+<b>INTENT 6 · Annoyed / "stop emailing me"</b>  → suppress immediately
+  "Done — you've been removed from the Horizon list and won't hear from us
+   again. Apologies for the intrusion, and thank you for telling us."
+  <i>Do not attempt to save it.</i>`},
+
+{id:"X1",t:"R",tm:"T+1",d:"Sun 27 Sep",h:"11:00",aud:"Attended",ttl:"Thank you — recording and certificate",
+ s:["Thank you — your recording, slides and certificate"],
+ p:"Everything from last night, in one place.",
+ g:"Deliver everything promised, capture the Edition VIII topic, seed the waitlist.",
+ b:`Dear Dr. {{first_name}},
+
+Thank you for spending Saturday evening with us. {{ATTENDEE_COUNT}}
+clinicians were in that room, and the Q&amp;A ran right to the wire.
+
+              <u>[  Watch the recording →  ]</u>
+              <u>[  Download the slide summary →  ]</u>
+              <u>[  Download your certificate →  ]</u>
+
+<b>FIVE THINGS THAT CAME UP</b>
+{{TAKEAWAY_1}} … {{TAKEAWAY_5}}
+
+<b>WE DIDN'T GET TO EVERY QUESTION</b>
+{{UNANSWERED_QUESTION_COUNT}} questions came in and we couldn't reach them
+all in fifteen minutes. We're putting written answers together with the
+faculty and will send them next week.
+
+<b>ONE QUESTION, THIRTY SECONDS</b>
+What should Edition VIII be about?
+              <u>[  Tell us →  ]</u>
+              <u>[  Join the Edition VIII waitlist →  ]</u>`},
+
+{id:"X2",t:"R",tm:"T+1",d:"Sun 27 Sep",h:"11:00",aud:"Registered no-shows",ttl:"The recording, as promised",
+ s:["The recording, as promised"],
+ p:"You registered, Saturday got in the way. Here's everything.",
+ g:"Zero guilt, full value. This is exactly the person who attends Edition VIII.",
+ n:"The timestamps matter. Someone with thirty minutes will use them; someone facing a two-hour video will not open it at all.",
+ b:`Dear Dr. {{first_name}},
+
+You registered and Saturday evening got in the way — which, given what a
+Saturday looks like in oncology, is entirely fair.
+
+Here's everything anyway.
+
+              <u>[  Watch the recording →  ]</u>
+              <u>[  Download the slide summary →  ]</u>
+
+<b>IF YOU ONLY HAVE THIRTY MINUTES</b>
+  15:00 – 45:00   Dr. Arvind Dasari's keynote
+  95:00 – 105:00  The cetuximab case from AIIMS — the sharpest ten
+                  minutes of the evening
+
+Certificates are issued for live attendance, so there isn't one for this
+edition — but you're on the list for Edition VIII, and we'll give you
+plenty of notice.
+
+              <u>[  Join the Edition VIII waitlist →  ]</u>`},
+
+{id:"X3",t:"M",tm:"T+3",d:"Tue 29 Sep",h:"11:00",aud:"Engaged, never registered",ttl:"Five things that came out of it",
+ s:["Five things that came out of Horizon VII"],
+ p:"You didn't make it. Here's what happened anyway.",
+ g:"Last re-engagement, delivered as pure value with no ask attached.",
+ n:"Giving the recording to people who never registered breaks the registrants-only promise slightly — do it deliberately, and only for this segment. It converts a meaningful share of them for Edition VIII.",
+ b:`Dear Dr. {{last_name}},
+
+Horizon VII ran on Saturday. You didn't join us, so here's what came out
+of it — no strings.
+
+{{TAKEAWAY_1}} … {{TAKEAWAY_5}}
+
+The recording is normally for registrants only. Since you were on the
+list, here it is:
+              <u>[  Watch the recording →  ]</u>
+
+Edition VIII is being planned now. If you want first notice — and a say
+in the topic — you can join the waitlist below. If you'd rather not hear
+about it, the preference link at the bottom sorts that out in one click.
+
+              <u>[  Edition VIII waitlist →  ]</u>`},
+
+{id:"X4",t:"M",tm:"T+7",d:"Sat 3 Oct",h:"11:00",aud:"Full engaged list",ttl:"What Edition VIII should be",
+ s:["What Horizon VIII should be about"],
+ p:"Your vote, plus two ways to be part of the next one.",
+ g:"Close the campaign by opening the next one, and connect it to the foundation's actual work.",
+ b:`Dear Dr. {{last_name}},
+
+Horizon VII is done. {{ATTENDEE_COUNT}} clinicians, six faculty across
+four institutions and two countries, two real cases, and a Q&amp;A that
+overran.
+
+Edition VIII is open for planning, and the topic isn't decided.
+
+              <u>[  Vote on the next topic →  ]</u>
+
+<b>TWO OTHER WAYS IN</b>
+
+<b>Present a case.</b> If you have a real-world case that didn't resolve the
+way the literature said it would, that's exactly what this forum is for.
+              <u>[  Submit a case →  ]</u>
+
+<b>Support the work.</b> Jarurat Care Foundation runs patient advocacy and
+support for cancer patients and their families across India. Horizon is
+free because of that work, not alongside it.
+              <u>[  How to support →  ]</u>
+
+Thank you for being part of this one.`}
+];
+
+const FORKS = [
+ {q:"Did it get delivered, and did they reply?", tag:"Fork 1 · immediately after M1",
+  br:[
+   {c:"Bounced or complained", t:"P", w:"<strong>Suppress permanently.</strong> Not even a farewell email. Three soft bounces convert to a suppression too.", s:"0 further sends"},
+   {c:"They replied", t:"P", w:"<strong>Everything stops.</strong> Auto-acknowledge in five minutes, a human answers within four business hours, and the reply gets tagged to one of six intents. Nobody who just wrote you a personal message should get “you were thirty seconds away” the next morning.", s:"P0 → P1, then Track R or a clean exit"},
+   {c:"Delivered, no reply", t:"M", w:"Continues to the next fork. Silence is the default, not a signal — the signal is what they did with the email.", s:"→ Fork 2"}
+  ]},
+ {q:"Did they open it?", tag:"Fork 2 · 72 hours after send",
+  br:[
+   {c:"Never opened · Track N", t:"N", w:"A subject-line, sender or daypart problem — <strong>not a content problem.</strong> They never read the argument, so rewriting it is wasted. Change one variable at a time: new subject at 08:00, then plain text from an individual, then a final note with a one-click stay-on-the-list button.", s:"N1 → N2 → N3 → sunset"},
+   {c:"Opened", t:"M", w:"They read it. Now the question is whether the offer landed.", s:"→ Fork 3"}
+  ]},
+ {q:"Did they click?", tag:"Fork 3 · 48 hours after open",
+  br:[
+   {c:"Opened, never clicked · Track O", t:"O", w:"Interested, not convinced. <strong>Change the shape of the email completely</strong> — drop the design, write plain text from a person, ask one direct question and name the four real objections out loud. Then, if that fails, stop selling the event and sell three concrete outcomes instead.", s:"O1 → O2 → back to main stream"},
+   {c:"Clicked", t:"M", w:"High intent. Everything now depends on whether the form let them finish.", s:"→ Fork 4"}
+  ]},
+ {q:"Did they complete registration?", tag:"Fork 4 · 24 hours after click",
+  br:[
+   {c:"Clicked, didn't register · Track C", t:"C", w:"The <strong>highest-intent unconverted segment</strong> in the campaign. They already said yes with a click, so this is a friction problem, not a persuasion problem. Send a prefilled link that picks up where they stopped, and cut the form to four fields.", s:"C1 → C2 → back to main stream"},
+   {c:"Registered · Track R", t:"R", w:"<strong>Exits every promotional stream instantly.</strong> The job changes: nine sends whose only purpose is making sure they actually turn up, ending with a live rescue email twenty minutes into the session for anyone Zoom hasn't seen.", s:"R0 → R8, then X1 or X2"}
+  ]}
+];
+
+const esc = s => s.replace(/&(?!amp;|lt;|gt;|#)/g,"&amp;");
+
+// tracks table
+document.getElementById("tracks").innerHTML = Object.entries(TRACKS).map(([k,v])=>{
+  const n = E.filter(e=>e.t===k).length;
+  return `<div class="trow" style="--tc:${v.c}">
+    <div class="tkey"><span class="tletter">${k}</span><span class="tcount">${n} send${n>1?"s":""}</span></div>
+    <div class="tbody"><span class="tname">${v.name}</span>
+      <span class="ttrig">${esc(v.trig)}</span>
+      <span class="tgoal">${v.goal}</span></div>
+  </div>`;
+}).join("");
+
+// filter
+const filt = document.getElementById("filter");
+filt.insertAdjacentHTML("beforeend",
+  `<button class="chip" data-f="all" aria-pressed="true">All 34</button>` +
+  Object.entries(TRACKS).map(([k,v])=>
+    `<button class="chip" data-f="${k}" aria-pressed="false" style="--tc:${v.c}">${k} &middot; ${v.name}</button>`).join(""));
+
+// timeline
+document.getElementById("timeline").innerHTML = E.map(e=>{
+  const c = TRACKS[e.t].c;
+  const zero = e.tm === "T−0" ? " zero" : "";
+  return `<div class="ev${zero}" data-t="${e.t}" style="--tc:${c}">
+    <div class="tmin">${e.tm}<span>${e.h}</span></div>
+    <div class="mark"><i></i></div>
+    <a class="card" href="#spec-${e.id}">
+      <span class="id">${e.id}</span>
+      <span class="ttl">${e.ttl}</span>
+      <span class="aud">${e.d} &middot; ${e.aud}</span>
+      <span class="subj"><b>Subject:</b> ${esc(e.s[0])}</span>
+    </a></div>`;
+}).join("");
+
+// forks
+document.getElementById("forks").innerHTML = FORKS.map(f=>
+  `<div class="fork"><div class="fork-q"><small>${f.tag}</small>${f.q}</div>
+   <div class="branches">${f.br.map(b=>
+     `<div class="branch" style="--tc:${TRACKS[b.t].c}">
+        <span class="bcond">${b.c}</span>
+        <p class="bwhat">${b.w}</p>
+        <span class="bsends">${esc(b.s)}</span>
+      </div>`).join("")}</div></div>`).join("");
+
+// specs
+document.getElementById("specs").innerHTML = E.map(e=>{
+  const c = TRACKS[e.t].c;
+  const subs = e.s.map((s,i)=>`<span class="subjline">${e.s.length>1?`<em>${String.fromCharCode(65+i)}</em>`:""}${esc(s)}</span>`).join("");
+  return `<article class="spec" id="spec-${e.id}" data-t="${e.t}" style="--tc:${c}">
+    <div class="spec-h"><span class="id">${e.id}</span><span class="ttl">${e.ttl}</span>
+      <span class="when">${e.tm} &middot; ${e.d} &middot; ${e.h} IST</span></div>
+    <dl class="spec-meta">
+      <dt>Audience</dt><dd>${e.aud}</dd>
+      <dt>Subject</dt><dd>${subs}</dd>
+      <dt>Preheader</dt><dd class="pre">${esc(e.p)}</dd>
+      <dt>Goal</dt><dd class="goal">${e.g}</dd>
+    </dl>
+    <div class="draft"><pre>${e.b}</pre></div>
+    ${e.n?`<p class="note"><b>Note</b> &mdash; ${e.n}</p>`:""}
+  </article>`;
+}).join("");
+
+// filtering
+filt.addEventListener("click", ev=>{
+  const btn = ev.target.closest(".chip"); if(!btn) return;
+  const f = btn.dataset.f;
+  filt.querySelectorAll(".chip").forEach(b=>b.setAttribute("aria-pressed", b===btn?"true":"false"));
+  document.querySelectorAll(".ev").forEach(n=>n.classList.toggle("hide", f!=="all" && n.dataset.t!==f));
+  document.querySelectorAll(".spec").forEach(n=>n.classList.toggle("hide", f!=="all" && n.dataset.t!==f));
+});
+</script>

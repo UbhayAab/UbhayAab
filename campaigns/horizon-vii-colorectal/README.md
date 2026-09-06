@@ -15,7 +15,7 @@ A Global Collaborative Forum on Cancer Care · Jarurat Care Foundation
 
 One announcement, then five behavioural branches:
 
-- **M** — main broadcast, T-18 → T-0 (12 sends)
+- **M** — main broadcast, T-18 → T-0 (12 sends) plus 2 post-event follow-ups
 - **R** — registered: exits promo instantly, gets 9 attendance-driving sends
 - **C** — clicked but didn't register: friction problem, 2 sends
 - **O** — opened but never clicked: persuasion problem, 2 plain-text sends from a person
@@ -23,3 +23,8 @@ One announcement, then five behavioural branches:
 - **P** — replied: automation pauses, a human answers in 4 hours, 6 intent playbooks
 
 Then 4 post-event sends split by attended / no-showed / never registered.
+
+## Published page
+
+The same journey as a browsable page: <https://claude.ai/code/artifact/17cb7ea1-1b8d-48aa-b283-0554459b24de>
+Source: [`journey.html`](journey.html) — filter by track, click any send to jump to its copy.
