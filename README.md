@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 70 active days in the last year, longest run 34.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 5 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 8 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> When a model does not fit in VRAM, the runtime will **___**
+> The reason JavaScript has two equality operators is **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>display</code></summary>
+<details><summary><code>to</code></summary>
 
-**Correct.** The model's top token, at **28.9%** of the visible mass, carrying 1.79 bits.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `display` | 28.9% | 1.79 bits |
-| 2 | `attempt` | 25.2% | 1.99 bits |
-| 3 | `throw` | 17.6% | 2.50 bits |
-| 4 | `autom` | 15.4% | 2.70 bits |
-| 5 | `switch` | 13.0% | 2.95 bits |
-
-</details>
-
-<details><summary><code>attempt</code></summary>
-
-**No.** `attempt` is rank 2 at 25.2%. The model wanted `display` at 28.9%.
+**No.** `to` is rank 5 at 6.7%. The model wanted `because` at 61.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `display` | 28.9% | 1.79 bits |
-| 2 | `attempt` | 25.2% | 1.99 bits |
-| 3 | `throw` | 17.6% | 2.50 bits |
-| 4 | `autom` | 15.4% | 2.70 bits |
-| 5 | `switch` | 13.0% | 2.95 bits |
+| 1 | `because` | 61.9% | 0.69 bits |
+| 2 | `due` | 13.2% | 2.92 bits |
+| 3 | `a` | 10.6% | 3.24 bits |
+| 4 | `...` | 7.6% | 3.72 bits |
+| 5 | `to` | 6.7% | 3.91 bits |
 
 </details>
 
-<details><summary><code>throw</code></summary>
+<details><summary><code>due</code></summary>
 
-**No.** `throw` is rank 3 at 17.6%. The model wanted `display` at 28.9%.
+**No.** `due` is rank 2 at 13.2%. The model wanted `because` at 61.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `display` | 28.9% | 1.79 bits |
-| 2 | `attempt` | 25.2% | 1.99 bits |
-| 3 | `throw` | 17.6% | 2.50 bits |
-| 4 | `autom` | 15.4% | 2.70 bits |
-| 5 | `switch` | 13.0% | 2.95 bits |
+| 1 | `because` | 61.9% | 0.69 bits |
+| 2 | `due` | 13.2% | 2.92 bits |
+| 3 | `a` | 10.6% | 3.24 bits |
+| 4 | `...` | 7.6% | 3.72 bits |
+| 5 | `to` | 6.7% | 3.91 bits |
 
 </details>
 
-<details><summary><code>switch</code></summary>
+<details><summary><code>because</code></summary>
 
-**No.** `switch` is rank 5 at 13.0%. The model wanted `display` at 28.9%.
+**Correct.** The model's top token, at **61.9%** of the visible mass, carrying 0.69 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `display` | 28.9% | 1.79 bits |
-| 2 | `attempt` | 25.2% | 1.99 bits |
-| 3 | `throw` | 17.6% | 2.50 bits |
-| 4 | `autom` | 15.4% | 2.70 bits |
-| 5 | `switch` | 13.0% | 2.95 bits |
+| 1 | `because` | 61.9% | 0.69 bits |
+| 2 | `due` | 13.2% | 2.92 bits |
+| 3 | `a` | 10.6% | 3.24 bits |
+| 4 | `...` | 7.6% | 3.72 bits |
+| 5 | `to` | 6.7% | 3.91 bits |
 
 </details>
 
-<details><summary><code>autom</code></summary>
+<details><summary><code>a</code></summary>
 
-**No.** `autom` is rank 4 at 15.4%. The model wanted `display` at 28.9%.
+**No.** `a` is rank 3 at 10.6%. The model wanted `because` at 61.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `display` | 28.9% | 1.79 bits |
-| 2 | `attempt` | 25.2% | 1.99 bits |
-| 3 | `throw` | 17.6% | 2.50 bits |
-| 4 | `autom` | 15.4% | 2.70 bits |
-| 5 | `switch` | 13.0% | 2.95 bits |
+| 1 | `because` | 61.9% | 0.69 bits |
+| 2 | `due` | 13.2% | 2.92 bits |
+| 3 | `a` | 10.6% | 3.24 bits |
+| 4 | `...` | 7.6% | 3.72 bits |
+| 5 | `to` | 6.7% | 3.91 bits |
 
 </details>
 
-Today's puzzle carries **2.26 bits** of entropy out of a possible
+<details><summary><code>...</code></summary>
+
+**No.** `...` is rank 4 at 7.6%. The model wanted `because` at 61.9%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `because` | 61.9% | 0.69 bits |
+| 2 | `due` | 13.2% | 2.92 bits |
+| 3 | `a` | 10.6% | 3.24 bits |
+| 4 | `...` | 7.6% | 3.72 bits |
+| 5 | `to` | 6.7% | 3.91 bits |
+
+</details>
+
+Today's puzzle carries **1.70 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -335,7 +335,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-08-23 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 113 | 386 KB | 2026-09-06 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 114 | 415 KB | 2026-09-06 | Config files for my GitHub profile. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
@@ -377,11 +377,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 07 Sept 2026 01:52 IST from 6 GraphQL points in 7.5s.
-Run #112. Rebuilds every 6 hours and on every push.
+Generated 07 Sept 2026 10:09 IST from 6 GraphQL points in 7.7s.
+Run #113. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 06 Sept 2026 20:57 rather than dropped.
+forward from 07 Sept 2026 01:52 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
