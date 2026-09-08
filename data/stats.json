@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-08T04:33:31.838Z",
+  "generatedAt": "2026-09-08T11:17:10.262Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 6,
-  "runId": 116,
+  "runId": 117,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -14,25 +14,25 @@
   },
   "repos": {
     "total": 37,
-    "public": 28,
+    "public": 29,
     "private": 12,
     "stars": 1,
     "diskKB": 3405815,
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 418,
-    "commits": 394,
-    "repositoriesCreated": 21,
-    "activeDays": 71,
+    "lastYear": 420,
+    "commits": 395,
+    "repositoriesCreated": 22,
+    "activeDays": 72,
     "trackedDays": 367,
     "busiestDay": {
       "date": "2026-07-24",
       "contributionCount": 21,
       "weekday": 5
     },
-    "longestStreak": 35,
-    "currentStreak": 35
+    "longestStreak": 36,
+    "currentStreak": 36
   },
   "languages": [
     {
@@ -461,7 +461,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,7 +476,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "UbhayAab",
@@ -484,12 +484,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 453,
-      "pushedAt": "2026-09-07T21:30:05Z",
+      "diskKB": 485,
+      "pushedAt": "2026-09-08T04:33:33Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 117,
+      "commits": 118,
       "topics": [
         "config",
         "github-config"
@@ -508,7 +508,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "kdp-ads-dashboard",
@@ -537,7 +537,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "EyeTracker",
@@ -582,6 +582,20 @@
       "topics": []
     },
     {
+      "name": "JCF-Mailer-v2",
+      "url": "https://github.com/UbhayAab/JCF-Mailer-v2",
+      "description": "Campaign Studio: Jarurat Care Foundation self-hosted email platform (v2). Marketing campaigns, transactional mail, mailboxes and webmail.",
+      "isPrivate": false,
+      "stars": 1,
+      "diskKB": 635,
+      "pushedAt": "2026-09-08T08:57:22Z",
+      "createdAt": "2026-08-27T11:48:21Z",
+      "language": "Java",
+      "languageColor": "#b07219",
+      "commits": 24,
+      "topics": []
+    },
+    {
       "name": "MeeshoLod",
       "url": "https://github.com/UbhayAab/MeeshoLod",
       "description": null,
@@ -593,20 +607,6 @@
       "language": "JavaScript",
       "languageColor": "#f1e05a",
       "commits": 23,
-      "topics": []
-    },
-    {
-      "name": "JCF-Mailer-v2",
-      "url": "https://github.com/UbhayAab/JCF-Mailer-v2",
-      "description": "Campaign Studio: Jarurat Care Foundation self-hosted email platform (v2). Marketing campaigns, transactional mail, mailboxes and webmail.",
-      "isPrivate": false,
-      "stars": 1,
-      "diskKB": 634,
-      "pushedAt": "2026-09-07T13:43:52Z",
-      "createdAt": "2026-08-27T11:48:21Z",
-      "language": "Java",
-      "languageColor": "#b07219",
-      "commits": 22,
       "topics": []
     },
     {
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "JCF",
@@ -666,7 +666,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -823,6 +823,20 @@
       "topics": []
     },
     {
+      "name": "ean_gen",
+      "url": "https://github.com/UbhayAab/ean_gen",
+      "description": "Simpe Generate EAN Stickers. Bring your own EANs",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 0,
+      "pushedAt": "2026-09-08T10:36:50Z",
+      "createdAt": "2026-09-08T10:35:43Z",
+      "language": "HTML",
+      "languageColor": "#e34c26",
+      "commits": 1,
+      "topics": []
+    },
+    {
       "name": "horizon-campaign",
       "url": "https://github.com/UbhayAab/horizon-campaign",
       "description": "Horizon campaign playbook for Jarurat Care: 8 stages, 20 cohorts, full email copy, built against the JCF-Mailer source",
@@ -891,7 +905,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "cleanedemails",
@@ -906,7 +920,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -921,7 +935,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "Midjourney-bot",
@@ -936,7 +950,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "KDP-bot",
@@ -951,7 +965,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-07T21:30:04.137Z"
+      "staleSince": "2026-09-08T04:33:31.838Z"
     },
     {
       "name": "Patient-Navigator",
@@ -983,39 +997,67 @@
     }
   ],
   "latestCommit": {
-    "repo": "UbhayAab",
-    "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-09-07T21:30:04Z",
-    "ago": "7 hours ago",
-    "oid": "d36d64c"
+    "repo": "ean_gen",
+    "message": "first commit",
+    "at": "2026-09-08T10:36:42Z",
+    "ago": "40 minutes ago",
+    "oid": "ac6dbbe"
   },
   "recentCommits": [
+    {
+      "repo": "ean_gen",
+      "message": "first commit",
+      "at": "2026-09-08T10:36:42Z",
+      "ago": "40 minutes ago",
+      "oid": "ac6dbbe"
+    },
+    {
+      "repo": "JCF-Mailer-v2",
+      "message": "Merge pull request #1 from UbhayAab/cc-bcc-feature",
+      "at": "2026-09-08T08:57:22Z",
+      "ago": "2 hours ago",
+      "oid": "6f7e188"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-09-08T04:33:32Z",
+      "ago": "7 hours ago",
+      "oid": "3d1010d"
+    },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-07T21:30:04Z",
-      "ago": "7 hours ago",
+      "ago": "14 hours ago",
       "oid": "d36d64c"
+    },
+    {
+      "repo": "JCF-Mailer-v2",
+      "message": "feat: add CC/BCC fields + fix verification UI, CSV export filter",
+      "at": "2026-09-07T13:25:14Z",
+      "ago": "22 hours ago",
+      "oid": "0409b1b"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-07T12:30:12Z",
-      "ago": "16 hours ago",
+      "ago": "23 hours ago",
       "oid": "d6e4d97"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-07T04:39:07Z",
-      "ago": "24 hours ago",
+      "ago": "1 day ago",
       "oid": "0e50e5b"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-06T20:22:59Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "3395e07"
     },
     {
@@ -1043,36 +1085,8 @@
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-05T20:19:16Z",
-      "ago": "2 days ago",
+      "ago": "3 days ago",
       "oid": "a9e7453"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-09-05T15:12:33Z",
-      "ago": "3 days ago",
-      "oid": "3c11067"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-09-05T10:33:34Z",
-      "ago": "3 days ago",
-      "oid": "3c91444"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-09-05T04:26:17Z",
-      "ago": "3 days ago",
-      "oid": "7333cbd"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-09-04T20:44:32Z",
-      "ago": "3 days ago",
-      "oid": "4a75eca"
     }
   ],
   "calendar": [
@@ -2542,10 +2556,10 @@
     },
     {
       "date": "2026-09-08",
-      "count": 0
+      "count": 2
     }
   ],
-  "elapsedMs": 9633,
+  "elapsedMs": 9026,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2562,7 +2576,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-09-07T21:30:04.137Z",
+    "lastFullRun": "2026-09-08T04:33:31.838Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
