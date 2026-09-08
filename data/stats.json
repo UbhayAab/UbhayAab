@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-08T11:17:10.262Z",
+  "generatedAt": "2026-09-08T16:37:06.538Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 6,
-  "runId": 117,
+  "runId": 118,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,8 +21,8 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 420,
-    "commits": 395,
+    "lastYear": 422,
+    "commits": 396,
     "repositoriesCreated": 22,
     "activeDays": 72,
     "trackedDays": 367,
@@ -426,8 +426,8 @@
       "description": "Soop - invite-only team chat. A Redtree product.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 36896,
-      "pushedAt": "2026-09-04T18:06:09Z",
+      "diskKB": 37012,
+      "pushedAt": "2026-09-08T13:00:04Z",
       "createdAt": "2026-07-27T23:05:24Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
@@ -461,7 +461,24 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
+    },
+    {
+      "name": "UbhayAab",
+      "url": "https://github.com/UbhayAab/UbhayAab",
+      "description": "Config files for my GitHub profile.",
+      "isPrivate": false,
+      "stars": 0,
+      "diskKB": 506,
+      "pushedAt": "2026-09-08T11:17:11Z",
+      "createdAt": "2021-03-24T23:51:31Z",
+      "language": "JavaScript",
+      "languageColor": "#f1e05a",
+      "commits": 119,
+      "topics": [
+        "config",
+        "github-config"
+      ]
     },
     {
       "name": "illustrated-book-content-engine",
@@ -476,24 +493,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
-    },
-    {
-      "name": "UbhayAab",
-      "url": "https://github.com/UbhayAab/UbhayAab",
-      "description": "Config files for my GitHub profile.",
-      "isPrivate": false,
-      "stars": 0,
-      "diskKB": 485,
-      "pushedAt": "2026-09-08T04:33:33Z",
-      "createdAt": "2021-03-24T23:51:31Z",
-      "language": "JavaScript",
-      "languageColor": "#f1e05a",
-      "commits": 118,
-      "topics": [
-        "config",
-        "github-config"
-      ]
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "public-complaint-hub",
@@ -508,7 +508,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "kdp-ads-dashboard",
@@ -537,7 +537,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "EyeTracker",
@@ -622,7 +622,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "continuity",
@@ -637,7 +637,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "JCF",
@@ -666,7 +666,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -828,7 +828,7 @@
       "description": "Simpe Generate EAN Stickers. Bring your own EANs",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 0,
+      "diskKB": 6,
       "pushedAt": "2026-09-08T10:36:50Z",
       "createdAt": "2026-09-08T10:35:43Z",
       "language": "HTML",
@@ -905,7 +905,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "cleanedemails",
@@ -920,7 +920,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -935,7 +935,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "Midjourney-bot",
@@ -950,7 +950,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "KDP-bot",
@@ -965,7 +965,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-09-08T04:33:31.838Z"
+      "staleSince": "2026-09-08T11:17:10.262Z"
     },
     {
       "name": "Patient-Navigator",
@@ -997,53 +997,60 @@
     }
   ],
   "latestCommit": {
-    "repo": "ean_gen",
-    "message": "first commit",
-    "at": "2026-09-08T10:36:42Z",
-    "ago": "40 minutes ago",
-    "oid": "ac6dbbe"
+    "repo": "UbhayAab",
+    "message": "chore: rebuild profile [skip ci]",
+    "at": "2026-09-08T11:17:10Z",
+    "ago": "5 hours ago",
+    "oid": "960fb08"
   },
   "recentCommits": [
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-09-08T11:17:10Z",
+      "ago": "5 hours ago",
+      "oid": "960fb08"
+    },
     {
       "repo": "ean_gen",
       "message": "first commit",
       "at": "2026-09-08T10:36:42Z",
-      "ago": "40 minutes ago",
+      "ago": "6 hours ago",
       "oid": "ac6dbbe"
     },
     {
       "repo": "JCF-Mailer-v2",
       "message": "Merge pull request #1 from UbhayAab/cc-bcc-feature",
       "at": "2026-09-08T08:57:22Z",
-      "ago": "2 hours ago",
+      "ago": "8 hours ago",
       "oid": "6f7e188"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-08T04:33:32Z",
-      "ago": "7 hours ago",
+      "ago": "12 hours ago",
       "oid": "3d1010d"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-07T21:30:04Z",
-      "ago": "14 hours ago",
+      "ago": "19 hours ago",
       "oid": "d36d64c"
     },
     {
       "repo": "JCF-Mailer-v2",
       "message": "feat: add CC/BCC fields + fix verification UI, CSV export filter",
       "at": "2026-09-07T13:25:14Z",
-      "ago": "22 hours ago",
+      "ago": "1 day ago",
       "oid": "0409b1b"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-07T12:30:12Z",
-      "ago": "23 hours ago",
+      "ago": "1 day ago",
       "oid": "d6e4d97"
     },
     {
@@ -1078,15 +1085,8 @@
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-09-06T04:36:53Z",
-      "ago": "2 days ago",
-      "oid": "b0d9e3d"
-    },
-    {
-      "repo": "UbhayAab",
-      "message": "chore: rebuild profile [skip ci]",
-      "at": "2026-09-05T20:19:16Z",
       "ago": "3 days ago",
-      "oid": "a9e7453"
+      "oid": "b0d9e3d"
     }
   ],
   "calendar": [
@@ -2556,10 +2556,10 @@
     },
     {
       "date": "2026-09-08",
-      "count": 2
+      "count": 4
     }
   ],
-  "elapsedMs": 9026,
+  "elapsedMs": 10310,
   "partialVisibility": {
     "missingCount": 12,
     "missingNames": [
@@ -2576,7 +2576,7 @@
       "Midjourney-bot",
       "KDP-bot"
     ],
-    "lastFullRun": "2026-09-08T04:33:31.838Z",
+    "lastFullRun": "2026-09-08T11:17:10.262Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
