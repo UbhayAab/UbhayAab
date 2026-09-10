@@ -83,7 +83,7 @@ jobs:
 
       - name: commit if changed
         run: |
-          git config user.name  "profile bot"
+          git config user.name  "Ubhay"
           git config user.email "ubhayvatsaanand@gmail.com"
           if git diff --quiet; then
             echo "nothing changed"
