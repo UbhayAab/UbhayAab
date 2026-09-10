@@ -19,12 +19,12 @@
 </p>
 
 <!-- BEGIN:PROSE -->
-37 repositories, 29 of them public, 1,536 commits between them.
+37 repositories, 13 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-73 active days in the last year, longest run 37.
+61 active days in the last year, longest run 38.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 4 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 18 minutes ago to [`soop`](https://github.com/UbhayAab/soop) - `Every image was downloaded again on every cold start, and every chann…`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Quantising a model to 4 bits mostly costs you **___**
+> The difference between a fork and a thread is **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>precision</code></summary>
+<details><summary><code>that</code></summary>
 
-**No.** `precision` is rank 3 at 14.6%. The model wanted `nothing` at 33.8%.
+**Correct.** The model's top token, at **28.7%** of the visible mass, carrying 1.80 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `nothing` | 33.8% | 1.57 bits |
-| 2 | `the` | 26.7% | 1.91 bits |
-| 3 | `precision` | 14.6% | 2.78 bits |
-| 4 | `a` | 12.5% | 3.00 bits |
-| 5 | `memory` | 12.5% | 3.00 bits |
+| 1 | `that` | 28.7% | 1.80 bits |
+| 2 | `a` | 25.0% | 2.00 bits |
+| 3 | `often` | 18.8% | 2.41 bits |
+| 4 | `...` | 16.2% | 2.62 bits |
+| 5 | `in` | 11.3% | 3.14 bits |
 
 </details>
 
-<details><summary><code>nothing</code></summary>
+<details><summary><code>in</code></summary>
 
-**Correct.** The model's top token, at **33.8%** of the visible mass, carrying 1.57 bits.
+**No.** `in` is rank 5 at 11.3%. The model wanted `that` at 28.7%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `nothing` | 33.8% | 1.57 bits |
-| 2 | `the` | 26.7% | 1.91 bits |
-| 3 | `precision` | 14.6% | 2.78 bits |
-| 4 | `a` | 12.5% | 3.00 bits |
-| 5 | `memory` | 12.5% | 3.00 bits |
+| 1 | `that` | 28.7% | 1.80 bits |
+| 2 | `a` | 25.0% | 2.00 bits |
+| 3 | `often` | 18.8% | 2.41 bits |
+| 4 | `...` | 16.2% | 2.62 bits |
+| 5 | `in` | 11.3% | 3.14 bits |
+
+</details>
+
+<details><summary><code>often</code></summary>
+
+**No.** `often` is rank 3 at 18.8%. The model wanted `that` at 28.7%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `that` | 28.7% | 1.80 bits |
+| 2 | `a` | 25.0% | 2.00 bits |
+| 3 | `often` | 18.8% | 2.41 bits |
+| 4 | `...` | 16.2% | 2.62 bits |
+| 5 | `in` | 11.3% | 3.14 bits |
+
+</details>
+
+<details><summary><code>...</code></summary>
+
+**No.** `...` is rank 4 at 16.2%. The model wanted `that` at 28.7%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `that` | 28.7% | 1.80 bits |
+| 2 | `a` | 25.0% | 2.00 bits |
+| 3 | `often` | 18.8% | 2.41 bits |
+| 4 | `...` | 16.2% | 2.62 bits |
+| 5 | `in` | 11.3% | 3.14 bits |
 
 </details>
 
 <details><summary><code>a</code></summary>
 
-**No.** `a` is rank 4 at 12.5%. The model wanted `nothing` at 33.8%.
+**No.** `a` is rank 2 at 25.0%. The model wanted `that` at 28.7%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `nothing` | 33.8% | 1.57 bits |
-| 2 | `the` | 26.7% | 1.91 bits |
-| 3 | `precision` | 14.6% | 2.78 bits |
-| 4 | `a` | 12.5% | 3.00 bits |
-| 5 | `memory` | 12.5% | 3.00 bits |
+| 1 | `that` | 28.7% | 1.80 bits |
+| 2 | `a` | 25.0% | 2.00 bits |
+| 3 | `often` | 18.8% | 2.41 bits |
+| 4 | `...` | 16.2% | 2.62 bits |
+| 5 | `in` | 11.3% | 3.14 bits |
 
 </details>
 
-<details><summary><code>the</code></summary>
-
-**No.** `the` is rank 2 at 26.7%. The model wanted `nothing` at 33.8%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `nothing` | 33.8% | 1.57 bits |
-| 2 | `the` | 26.7% | 1.91 bits |
-| 3 | `precision` | 14.6% | 2.78 bits |
-| 4 | `a` | 12.5% | 3.00 bits |
-| 5 | `memory` | 12.5% | 3.00 bits |
-
-</details>
-
-<details><summary><code>memory</code></summary>
-
-**No.** `memory` is rank 5 at 12.5%. The model wanted `nothing` at 33.8%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `nothing` | 33.8% | 1.57 bits |
-| 2 | `the` | 26.7% | 1.91 bits |
-| 3 | `precision` | 14.6% | 2.78 bits |
-| 4 | `a` | 12.5% | 3.00 bits |
-| 5 | `memory` | 12.5% | 3.00 bits |
-
-</details>
-
-Today's puzzle carries **2.19 bits** of entropy out of a possible
+Today's puzzle carries **2.25 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,29 +331,29 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 162 | 36 MB | 2026-09-09 | Soop - invite-only team chat. A Redtree product. |
-| [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-08-23 |  |
+| [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 174 | 39 MB | 2026-09-10 | Soop - invite-only team chat. A Redtree product. |
+| [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 124 | 624 KB | 2026-09-09 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 125 | 626 KB | 2026-09-10 | Config files for my GitHub profile. |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
-| [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 26 | 646 KB | 2026-07-27 |  |
+| [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 26 | 646 KB | 2026-09-10 |  |
 | [`kpicomp`](https://github.com/UbhayAab/kpicomp) | TypeScript | 25 | 217 KB | 2025-09-05 |  |
-| [`JCF-Mailer-v2`](https://github.com/UbhayAab/JCF-Mailer-v2) | Java | 24 | 635 KB | 2026-09-08 | Campaign Studio: Jarurat Care Foundation self-hosted email platform (v2). Marketing  |
-| [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 23 | 332 KB | 2026-08-11 |  |
+| [`JCF-Mailer-v2`](https://github.com/UbhayAab/JCF-Mailer-v2) | Java | 24 | 635 KB | 2026-09-10 | Campaign Studio: Jarurat Care Foundation self-hosted email platform (v2). Marketing  |
+| [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 23 | 195 KB | 2026-09-10 |  |
 | `hearth` <sub>private</sub> | JavaScript | 21 | 117 MB | 2026-07-28 |  |
 | `continuity` <sub>private</sub> | Python | 21 | 207 KB | 2026-07-18 |  |
-| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 11 | 934 KB | 2026-09-04 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
+| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 13 | 1.1 MB | 2026-09-10 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
 | `carcinome_wp` <sub>private</sub> | TypeScript | 11 | 964 KB | 2026-07-25 |  |
 | [`UbhayAab.github.io`](https://github.com/UbhayAab/UbhayAab.github.io) | JavaScript | 9 | 297 KB | 2026-08-12 | Landing page. Hand-rolled WebGL2, five playable games, every number measured. |
 | [`EggAplha`](https://github.com/UbhayAab/EggAplha) | HTML | 8 | 46 KB | 2026-02-20 |  |
 | [`maya-bridge-demo-canva-artifact`](https://github.com/UbhayAab/maya-bridge-demo-canva-artifact) | - | 7 | 60 MB | 2026-05-31 | Public Canva import artifact for Maya and the Tiny Bridge prototype |
 | [`Nexus`](https://github.com/UbhayAab/Nexus) | Kotlin | 7 | 1.2 MB | 2025-10-05 |  |
 | [`Ngo_SafaltaSetu`](https://github.com/UbhayAab/Ngo_SafaltaSetu) | HTML | 6 | 177 KB | 2025-12-10 |  |
-| [`robotics`](https://github.com/UbhayAab/robotics) | JavaScript | 5 | 266 KB | 2026-05-17 |  |
+| [`robotics`](https://github.com/UbhayAab/robotics) | JavaScript | 5 | 266 KB | 2026-09-10 |  |
 | [`MegaSeleniumBot`](https://github.com/UbhayAab/MegaSeleniumBot) | Jupyter Notebook | 5 | 141 MB | 2025-07-21 |  |
 | [`Meloaa`](https://github.com/UbhayAab/Meloaa) | HTML | 4 | 64 KB | 2026-02-25 | Assignment |
 | [`JCF-Gda31885`](https://github.com/UbhayAab/JCF-Gda31885) | CSS | 3 | 960 KB | 2024-11-05 |  |
@@ -378,11 +378,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 10 Sept 2026 02:24 IST from 6 GraphQL points in 8.5s.
-Run #123. Rebuilds every 6 hours and on every push.
+Generated 10 Sept 2026 10:10 IST from 4 GraphQL points in 4.1s.
+Run #124. Rebuilds every 6 hours and on every push.
 <br>
-<b>This run could not see 12 private repositories</b>, so their numbers are carried
-forward from 09 Sept 2026 22:07 rather than dropped.
+<b>This run could not see 28 private repositories</b>, so their numbers are carried
+forward from 10 Sept 2026 02:24 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
