@@ -21,10 +21,10 @@
 <!-- BEGIN:PROSE -->
 37 repositories, 13 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-61 active days in the last year, longest run 38.
+67 active days in the last year, longest run 38.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 18 minutes ago to [`soop`](https://github.com/UbhayAab/soop) - `Every image was downloaded again on every cold start, and every chann…`.
+Last push just now to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `Commit the profile refresh as Ubhay, not as a bot`.
 <!-- END:PROSE -->
 
 ## Work
@@ -333,33 +333,33 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 174 | 39 MB | 2026-09-10 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 127 | 634 KB | 2026-09-10 | Config files for my GitHub profile. |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 125 | 626 KB | 2026-09-10 | Config files for my GitHub profile. |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`EyeTracker`](https://github.com/UbhayAab/EyeTracker) | Python | 27 | 106 MB | 2026-02-21 | Tried something |
-| [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 26 | 646 KB | 2026-09-10 |  |
+| [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 26 | 465 KB | 2026-09-10 |  |
 | [`kpicomp`](https://github.com/UbhayAab/kpicomp) | TypeScript | 25 | 217 KB | 2025-09-05 |  |
-| [`JCF-Mailer-v2`](https://github.com/UbhayAab/JCF-Mailer-v2) | Java | 24 | 635 KB | 2026-09-10 | Campaign Studio: Jarurat Care Foundation self-hosted email platform (v2). Marketing  |
-| [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 23 | 195 KB | 2026-09-10 |  |
+| [`JCF-Mailer-v2`](https://github.com/UbhayAab/JCF-Mailer-v2) | Java | 24 | 628 KB | 2026-09-10 | Campaign Studio: Jarurat Care Foundation self-hosted email platform (v2). Marketing  |
+| [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 23 | 194 KB | 2026-09-10 |  |
 | `hearth` <sub>private</sub> | JavaScript | 21 | 117 MB | 2026-07-28 |  |
 | `continuity` <sub>private</sub> | Python | 21 | 207 KB | 2026-07-18 |  |
 | [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 13 | 1.1 MB | 2026-09-10 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
 | `carcinome_wp` <sub>private</sub> | TypeScript | 11 | 964 KB | 2026-07-25 |  |
 | [`UbhayAab.github.io`](https://github.com/UbhayAab/UbhayAab.github.io) | JavaScript | 9 | 297 KB | 2026-08-12 | Landing page. Hand-rolled WebGL2, five playable games, every number measured. |
 | [`EggAplha`](https://github.com/UbhayAab/EggAplha) | HTML | 8 | 46 KB | 2026-02-20 |  |
-| [`maya-bridge-demo-canva-artifact`](https://github.com/UbhayAab/maya-bridge-demo-canva-artifact) | - | 7 | 60 MB | 2026-05-31 | Public Canva import artifact for Maya and the Tiny Bridge prototype |
+| [`maya-bridge-demo-canva-artifact`](https://github.com/UbhayAab/maya-bridge-demo-canva-artifact) | - | 7 | 60 MB | 2026-09-10 | Public Canva import artifact for Maya and the Tiny Bridge prototype |
 | [`Nexus`](https://github.com/UbhayAab/Nexus) | Kotlin | 7 | 1.2 MB | 2025-10-05 |  |
 | [`Ngo_SafaltaSetu`](https://github.com/UbhayAab/Ngo_SafaltaSetu) | HTML | 6 | 177 KB | 2025-12-10 |  |
-| [`robotics`](https://github.com/UbhayAab/robotics) | JavaScript | 5 | 266 KB | 2026-09-10 |  |
+| [`robotics`](https://github.com/UbhayAab/robotics) | JavaScript | 5 | 212 KB | 2026-09-10 |  |
 | [`MegaSeleniumBot`](https://github.com/UbhayAab/MegaSeleniumBot) | Jupyter Notebook | 5 | 141 MB | 2025-07-21 |  |
 | [`Meloaa`](https://github.com/UbhayAab/Meloaa) | HTML | 4 | 64 KB | 2026-02-25 | Assignment |
 | [`JCF-Gda31885`](https://github.com/UbhayAab/JCF-Gda31885) | CSS | 3 | 960 KB | 2024-11-05 |  |
 | [`AyuSSm`](https://github.com/UbhayAab/AyuSSm) | Python | 2 | 31 KB | 2025-05-11 |  |
 | [`whatsapp_automation`](https://github.com/UbhayAab/whatsapp_automation) | JavaScript | 2 | 259 KB | 2025-04-19 |  |
-| [`ean_gen`](https://github.com/UbhayAab/ean_gen) | HTML | 1 | 6.0 KB | 2026-09-08 | Simpe Generate EAN Stickers. Bring your own EANs |
+| [`ean_gen`](https://github.com/UbhayAab/ean_gen) | HTML | 1 | 6.0 KB | 2026-09-10 | Simpe Generate EAN Stickers. Bring your own EANs |
 | [`horizon-campaign`](https://github.com/UbhayAab/horizon-campaign) | HTML | 1 | 253 KB | 2026-08-21 | Horizon campaign playbook for Jarurat Care: 8 stages, 20 cohorts, full email copy, b |
 | [`EmailScraper_JCF`](https://github.com/UbhayAab/EmailScraper_JCF) | Python | 1 | 79 KB | 2026-03-26 | Tried something |
 | [`Ubhay`](https://github.com/UbhayAab/Ubhay) | JavaScript | 1 | 662 KB | 2026-02-28 |  |
@@ -378,11 +378,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 10 Sept 2026 10:10 IST from 4 GraphQL points in 4.1s.
-Run #124. Rebuilds every 6 hours and on every push.
+Generated 10 Sept 2026 15:48 IST from 4 GraphQL points in 5.3s.
+Run #125. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 28 private repositories</b>, so their numbers are carried
-forward from 10 Sept 2026 02:24 rather than dropped.
+forward from 10 Sept 2026 10:10 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
