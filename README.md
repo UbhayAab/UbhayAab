@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 67 active days in the last year, longest run 38.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 4 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 8 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> The difference between a fork and a thread is **___**
+> A benchmark that cannot be reproduced is just **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>that</code></summary>
+<details><summary><code>an</code></summary>
 
-**Correct.** The model's top token, at **28.7%** of the visible mass, carrying 1.80 bits.
+**No.** `an` is rank 4 at 5.4%. The model wanted `a` at 51.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `that` | 28.7% | 1.80 bits |
-| 2 | `a` | 25.0% | 2.00 bits |
-| 3 | `often` | 18.8% | 2.41 bits |
-| 4 | `...` | 16.2% | 2.62 bits |
-| 5 | `in` | 11.3% | 3.14 bits |
+| 1 | `a` | 51.5% | 0.96 bits |
+| 2 | `...` | 20.2% | 2.30 bits |
+| 3 | `not` | 18.2% | 2.45 bits |
+| 4 | `an` | 5.4% | 4.21 bits |
+| 5 | `use` | 4.7% | 4.42 bits |
 
 </details>
 
-<details><summary><code>in</code></summary>
+<details><summary><code>use</code></summary>
 
-**No.** `in` is rank 5 at 11.3%. The model wanted `that` at 28.7%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `that` | 28.7% | 1.80 bits |
-| 2 | `a` | 25.0% | 2.00 bits |
-| 3 | `often` | 18.8% | 2.41 bits |
-| 4 | `...` | 16.2% | 2.62 bits |
-| 5 | `in` | 11.3% | 3.14 bits |
-
-</details>
-
-<details><summary><code>often</code></summary>
-
-**No.** `often` is rank 3 at 18.8%. The model wanted `that` at 28.7%.
+**No.** `use` is rank 5 at 4.7%. The model wanted `a` at 51.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `that` | 28.7% | 1.80 bits |
-| 2 | `a` | 25.0% | 2.00 bits |
-| 3 | `often` | 18.8% | 2.41 bits |
-| 4 | `...` | 16.2% | 2.62 bits |
-| 5 | `in` | 11.3% | 3.14 bits |
-
-</details>
-
-<details><summary><code>...</code></summary>
-
-**No.** `...` is rank 4 at 16.2%. The model wanted `that` at 28.7%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `that` | 28.7% | 1.80 bits |
-| 2 | `a` | 25.0% | 2.00 bits |
-| 3 | `often` | 18.8% | 2.41 bits |
-| 4 | `...` | 16.2% | 2.62 bits |
-| 5 | `in` | 11.3% | 3.14 bits |
+| 1 | `a` | 51.5% | 0.96 bits |
+| 2 | `...` | 20.2% | 2.30 bits |
+| 3 | `not` | 18.2% | 2.45 bits |
+| 4 | `an` | 5.4% | 4.21 bits |
+| 5 | `use` | 4.7% | 4.42 bits |
 
 </details>
 
 <details><summary><code>a</code></summary>
 
-**No.** `a` is rank 2 at 25.0%. The model wanted `that` at 28.7%.
+**Correct.** The model's top token, at **51.5%** of the visible mass, carrying 0.96 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `that` | 28.7% | 1.80 bits |
-| 2 | `a` | 25.0% | 2.00 bits |
-| 3 | `often` | 18.8% | 2.41 bits |
-| 4 | `...` | 16.2% | 2.62 bits |
-| 5 | `in` | 11.3% | 3.14 bits |
+| 1 | `a` | 51.5% | 0.96 bits |
+| 2 | `...` | 20.2% | 2.30 bits |
+| 3 | `not` | 18.2% | 2.45 bits |
+| 4 | `an` | 5.4% | 4.21 bits |
+| 5 | `use` | 4.7% | 4.42 bits |
 
 </details>
 
-Today's puzzle carries **2.25 bits** of entropy out of a possible
+<details><summary><code>...</code></summary>
+
+**No.** `...` is rank 2 at 20.2%. The model wanted `a` at 51.5%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `a` | 51.5% | 0.96 bits |
+| 2 | `...` | 20.2% | 2.30 bits |
+| 3 | `not` | 18.2% | 2.45 bits |
+| 4 | `an` | 5.4% | 4.21 bits |
+| 5 | `use` | 4.7% | 4.42 bits |
+
+</details>
+
+<details><summary><code>not</code></summary>
+
+**No.** `not` is rank 3 at 18.2%. The model wanted `a` at 51.5%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `a` | 51.5% | 0.96 bits |
+| 2 | `...` | 20.2% | 2.30 bits |
+| 3 | `not` | 18.2% | 2.45 bits |
+| 4 | `an` | 5.4% | 4.21 bits |
+| 5 | `use` | 4.7% | 4.42 bits |
+
+</details>
+
+Today's puzzle carries **1.84 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -333,7 +333,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 175 | 39 MB | 2026-09-10 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 130 | 443 KB | 2026-09-10 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 131 | 470 KB | 2026-09-10 | Config files for my GitHub profile. |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
@@ -378,11 +378,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 11 Sept 2026 02:21 IST from 4 GraphQL points in 5.0s.
-Run #128. Rebuilds every 6 hours and on every push.
+Generated 11 Sept 2026 10:08 IST from 4 GraphQL points in 3.5s.
+Run #129. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 28 private repositories</b>, so their numbers are carried
-forward from 10 Sept 2026 21:52 rather than dropped.
+forward from 11 Sept 2026 02:21 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
