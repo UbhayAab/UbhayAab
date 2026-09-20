@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 76 active days in the last year, longest run 47.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 5 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 7 hours ago to [`JCF`](https://github.com/UbhayAab/JCF) - `publish from JCF-app, 2026-09-19 22:02`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> The best way to debug a slow query is to read the **___**
+> A cache is only useful when the access pattern is **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>explain</code></summary>
+<details><summary><code>sequential</code></summary>
 
-**No.** `explain` is rank 4 at 5.8%. The model wanted `execution` at 70.3%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `execution` | 70.3% | 0.51 bits |
-| 2 | `EX` | 12.3% | 3.03 bits |
-| 3 | `query` | 6.2% | 4.01 bits |
-| 4 | `explain` | 5.8% | 4.10 bits |
-| 5 | `ex` | 5.5% | 4.20 bits |
-
-</details>
-
-<details><summary><code>execution</code></summary>
-
-**Correct.** The model's top token, at **70.3%** of the visible mass, carrying 0.51 bits.
+**No.** `sequential` is rank 4 at 6.9%. The model wanted `predict` at 42.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `execution` | 70.3% | 0.51 bits |
-| 2 | `EX` | 12.3% | 3.03 bits |
-| 3 | `query` | 6.2% | 4.01 bits |
-| 4 | `explain` | 5.8% | 4.10 bits |
-| 5 | `ex` | 5.5% | 4.20 bits |
+| 1 | `predict` | 42.5% | 1.23 bits |
+| 2 | `known` | 27.0% | 1.89 bits |
+| 3 | `uniform` | 17.0% | 2.56 bits |
+| 4 | `sequential` | 6.9% | 3.85 bits |
+| 5 | `well` | 6.5% | 3.95 bits |
 
 </details>
 
-<details><summary><code>EX</code></summary>
+<details><summary><code>known</code></summary>
 
-**No.** `EX` is rank 2 at 12.3%. The model wanted `execution` at 70.3%.
+**No.** `known` is rank 2 at 27.0%. The model wanted `predict` at 42.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `execution` | 70.3% | 0.51 bits |
-| 2 | `EX` | 12.3% | 3.03 bits |
-| 3 | `query` | 6.2% | 4.01 bits |
-| 4 | `explain` | 5.8% | 4.10 bits |
-| 5 | `ex` | 5.5% | 4.20 bits |
+| 1 | `predict` | 42.5% | 1.23 bits |
+| 2 | `known` | 27.0% | 1.89 bits |
+| 3 | `uniform` | 17.0% | 2.56 bits |
+| 4 | `sequential` | 6.9% | 3.85 bits |
+| 5 | `well` | 6.5% | 3.95 bits |
 
 </details>
 
-<details><summary><code>ex</code></summary>
+<details><summary><code>uniform</code></summary>
 
-**No.** `ex` is rank 5 at 5.5%. The model wanted `execution` at 70.3%.
+**No.** `uniform` is rank 3 at 17.0%. The model wanted `predict` at 42.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `execution` | 70.3% | 0.51 bits |
-| 2 | `EX` | 12.3% | 3.03 bits |
-| 3 | `query` | 6.2% | 4.01 bits |
-| 4 | `explain` | 5.8% | 4.10 bits |
-| 5 | `ex` | 5.5% | 4.20 bits |
+| 1 | `predict` | 42.5% | 1.23 bits |
+| 2 | `known` | 27.0% | 1.89 bits |
+| 3 | `uniform` | 17.0% | 2.56 bits |
+| 4 | `sequential` | 6.9% | 3.85 bits |
+| 5 | `well` | 6.5% | 3.95 bits |
 
 </details>
 
-<details><summary><code>query</code></summary>
+<details><summary><code>well</code></summary>
 
-**No.** `query` is rank 3 at 6.2%. The model wanted `execution` at 70.3%.
+**No.** `well` is rank 5 at 6.5%. The model wanted `predict` at 42.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `execution` | 70.3% | 0.51 bits |
-| 2 | `EX` | 12.3% | 3.03 bits |
-| 3 | `query` | 6.2% | 4.01 bits |
-| 4 | `explain` | 5.8% | 4.10 bits |
-| 5 | `ex` | 5.5% | 4.20 bits |
+| 1 | `predict` | 42.5% | 1.23 bits |
+| 2 | `known` | 27.0% | 1.89 bits |
+| 3 | `uniform` | 17.0% | 2.56 bits |
+| 4 | `sequential` | 6.9% | 3.85 bits |
+| 5 | `well` | 6.5% | 3.95 bits |
 
 </details>
 
-Today's puzzle carries **1.45 bits** of entropy out of a possible
+<details><summary><code>predict</code></summary>
+
+**Correct.** The model's top token, at **42.5%** of the visible mass, carrying 1.23 bits.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `predict` | 42.5% | 1.23 bits |
+| 2 | `known` | 27.0% | 1.89 bits |
+| 3 | `uniform` | 17.0% | 2.56 bits |
+| 4 | `sequential` | 6.9% | 3.85 bits |
+| 5 | `well` | 6.5% | 3.95 bits |
+
+</details>
+
+Today's puzzle carries **1.99 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -333,7 +333,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
 | [`dek`](https://github.com/UbhayAab/dek) | JavaScript | 181 | 41 MB | 2026-09-19 | Soop - invite-only team chat. A Redtree product. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 165 | 495 KB | 2026-09-19 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 166 | 523 KB | 2026-09-19 | Config files for my GitHub profile. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
@@ -347,7 +347,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | [`MeeshoLod`](https://github.com/UbhayAab/MeeshoLod) | JavaScript | 23 | 194 KB | 2026-09-10 |  |
 | `hearth` <sub>private</sub> | JavaScript | 21 | 117 MB | 2026-07-28 |  |
 | `continuity` <sub>private</sub> | Python | 21 | 207 KB | 2026-07-18 |  |
-| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 17 | 1.3 MB | 2026-09-19 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
+| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 19 | 1.4 MB | 2026-09-19 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
 | `carcinome_wp` <sub>private</sub> | TypeScript | 11 | 964 KB | 2026-07-25 |  |
 | [`UbhayAab.github.io`](https://github.com/UbhayAab/UbhayAab.github.io) | JavaScript | 9 | 297 KB | 2026-08-12 | Landing page. Hand-rolled WebGL2, five playable games, every number measured. |
 | [`EggAplha`](https://github.com/UbhayAab/EggAplha) | HTML | 8 | 46 KB | 2026-02-20 |  |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 20 Sept 2026 02:08 IST from 4 GraphQL points in 4.6s.
-Run #163. Rebuilds every 6 hours and on every push.
+Generated 20 Sept 2026 10:22 IST from 4 GraphQL points in 3.8s.
+Run #164. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 29 private repositories</b>, so their numbers are carried
-forward from 19 Sept 2026 21:22 rather than dropped.
+forward from 20 Sept 2026 02:08 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
