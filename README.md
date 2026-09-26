@@ -21,10 +21,10 @@
 <!-- BEGIN:PROSE -->
 37 repositories, 13 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-125 active days in the last year, longest run 53.
+126 active days in the last year, longest run 54.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 4 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 7 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Documentation rots faster than code because **___**
+> A tokenizer splits text into pieces that are usually smaller than **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>people</code></summary>
-
-**No.** `people` is rank 4 at 4.3%. The model wanted `it` at 78.8%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `it` | 78.8% | 0.34 bits |
-| 2 | `...` | 7.2% | 3.80 bits |
-| 3 | `code` | 6.0% | 4.06 bits |
-| 4 | `people` | 4.3% | 4.54 bits |
-| 5 | `the` | 3.7% | 4.74 bits |
-
-</details>
-
-<details><summary><code>it</code></summary>
-
-**Correct.** The model's top token, at **78.8%** of the visible mass, carrying 0.34 bits.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `it` | 78.8% | 0.34 bits |
-| 2 | `...` | 7.2% | 3.80 bits |
-| 3 | `code` | 6.0% | 4.06 bits |
-| 4 | `people` | 4.3% | 4.54 bits |
-| 5 | `the` | 3.7% | 4.74 bits |
-
-</details>
-
-<details><summary><code>...</code></summary>
-
-**No.** `...` is rank 2 at 7.2%. The model wanted `it` at 78.8%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `it` | 78.8% | 0.34 bits |
-| 2 | `...` | 7.2% | 3.80 bits |
-| 3 | `code` | 6.0% | 4.06 bits |
-| 4 | `people` | 4.3% | 4.54 bits |
-| 5 | `the` | 3.7% | 4.74 bits |
-
-</details>
-
 <details><summary><code>the</code></summary>
 
-**No.** `the` is rank 5 at 3.7%. The model wanted `it` at 78.8%.
+**No.** `the` is rank 4 at 5.6%. The model wanted `words` at 55.7%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `it` | 78.8% | 0.34 bits |
-| 2 | `...` | 7.2% | 3.80 bits |
-| 3 | `code` | 6.0% | 4.06 bits |
-| 4 | `people` | 4.3% | 4.54 bits |
-| 5 | `the` | 3.7% | 4.74 bits |
+| 1 | `words` | 55.7% | 0.84 bits |
+| 2 | `a` | 27.8% | 1.85 bits |
+| 3 | `sent` | 7.2% | 3.79 bits |
+| 4 | `the` | 5.6% | 4.15 bits |
+| 5 | `individual` | 3.6% | 4.80 bits |
 
 </details>
 
-<details><summary><code>code</code></summary>
+<details><summary><code>a</code></summary>
 
-**No.** `code` is rank 3 at 6.0%. The model wanted `it` at 78.8%.
+**No.** `a` is rank 2 at 27.8%. The model wanted `words` at 55.7%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `it` | 78.8% | 0.34 bits |
-| 2 | `...` | 7.2% | 3.80 bits |
-| 3 | `code` | 6.0% | 4.06 bits |
-| 4 | `people` | 4.3% | 4.54 bits |
-| 5 | `the` | 3.7% | 4.74 bits |
+| 1 | `words` | 55.7% | 0.84 bits |
+| 2 | `a` | 27.8% | 1.85 bits |
+| 3 | `sent` | 7.2% | 3.79 bits |
+| 4 | `the` | 5.6% | 4.15 bits |
+| 5 | `individual` | 3.6% | 4.80 bits |
 
 </details>
 
-Today's puzzle carries **1.16 bits** of entropy out of a possible
+<details><summary><code>individual</code></summary>
+
+**No.** `individual` is rank 5 at 3.6%. The model wanted `words` at 55.7%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `words` | 55.7% | 0.84 bits |
+| 2 | `a` | 27.8% | 1.85 bits |
+| 3 | `sent` | 7.2% | 3.79 bits |
+| 4 | `the` | 5.6% | 4.15 bits |
+| 5 | `individual` | 3.6% | 4.80 bits |
+
+</details>
+
+<details><summary><code>words</code></summary>
+
+**Correct.** The model's top token, at **55.7%** of the visible mass, carrying 0.84 bits.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `words` | 55.7% | 0.84 bits |
+| 2 | `a` | 27.8% | 1.85 bits |
+| 3 | `sent` | 7.2% | 3.79 bits |
+| 4 | `the` | 5.6% | 4.15 bits |
+| 5 | `individual` | 3.6% | 4.80 bits |
+
+</details>
+
+<details><summary><code>sent</code></summary>
+
+**No.** `sent` is rank 3 at 7.2%. The model wanted `words` at 55.7%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `words` | 55.7% | 0.84 bits |
+| 2 | `a` | 27.8% | 1.85 bits |
+| 3 | `sent` | 7.2% | 3.79 bits |
+| 4 | `the` | 5.6% | 4.15 bits |
+| 5 | `individual` | 3.6% | 4.80 bits |
+
+</details>
+
+Today's puzzle carries **1.66 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -332,7 +332,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
 | [`dek`](https://github.com/UbhayAab/dek) | JavaScript | 192 | 41 MB | 2026-09-22 | Soop - invite-only team chat. A Redtree product. |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 188 | 893 KB | 2026-09-25 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 189 | 921 KB | 2026-09-25 | Config files for my GitHub profile. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 26 Sept 2026 03:03 IST from 4 GraphQL points in 5.5s.
-Run #186. Rebuilds every 6 hours and on every push.
+Generated 26 Sept 2026 10:26 IST from 4 GraphQL points in 5.5s.
+Run #187. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 29 private repositories</b>, so their numbers are carried
-forward from 25 Sept 2026 22:39 rather than dropped.
+forward from 26 Sept 2026 03:03 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
