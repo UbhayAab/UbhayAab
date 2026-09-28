@@ -6,81 +6,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Most performance problems turn out to be **___**
+> Rate limiting protects the server more than it protects the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>design</code></summary>
+<details><summary><code>client</code></summary>
 
-**No.** `design` is rank 5 at 3.5%. The model wanted `ca` at 42.4%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
-
-</details>
-
-<details><summary><code>ca</code></summary>
-
-**Correct.** The model's top token, at **42.4%** of the visible mass, carrying 1.24 bits.
+**Correct.** The model's top token, at **38.9%** of the visible mass, carrying 1.36 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
 
 </details>
 
-<details><summary><code>simple</code></summary>
+<details><summary><code>user</code></summary>
 
-**No.** `simple` is rank 4 at 3.8%. The model wanted `ca` at 42.4%.
+**No.** `user` is rank 2 at 29.3%. The model wanted `client` at 38.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
 
 </details>
 
-<details><summary><code>due</code></summary>
+<details><summary><code>end</code></summary>
 
-**No.** `due` is rank 3 at 21.0%. The model wanted `ca` at 42.4%.
+**No.** `end` is rank 5 at 3.5%. The model wanted `client` at 38.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
 
 </details>
 
-<details><summary><code>related</code></summary>
+<details><summary><code>users</code></summary>
 
-**No.** `related` is rank 2 at 29.3%. The model wanted `ca` at 42.4%.
+**No.** `users` is rank 4 at 4.4%. The model wanted `client` at 38.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `ca` | 42.4% | 1.24 bits |
-| 2 | `related` | 29.3% | 1.77 bits |
-| 3 | `due` | 21.0% | 2.25 bits |
-| 4 | `simple` | 3.8% | 4.70 bits |
-| 5 | `design` | 3.5% | 4.83 bits |
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
 
 </details>
 
-Today's puzzle carries **1.87 bits** of entropy out of a possible
+<details><summary><code>the</code></summary>
+
+**No.** `the` is rank 3 at 23.9%. The model wanted `client` at 38.9%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `client` | 38.9% | 1.36 bits |
+| 2 | `user` | 29.3% | 1.77 bits |
+| 3 | `the` | 23.9% | 2.06 bits |
+| 4 | `users` | 4.4% | 4.52 bits |
+| 5 | `end` | 3.5% | 4.83 bits |
+
+</details>
+
+Today's puzzle carries **1.91 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
