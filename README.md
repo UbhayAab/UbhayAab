@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 129 active days in the last year, longest run 57.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 5 hours ago to [`JCF`](https://github.com/UbhayAab/JCF) - `publish from JCF-app, 2026-09-29 17:05`.
+Last push 7 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> A good commit message explains the **___**
+> The reason floating point addition is not associative is **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>problem</code></summary>
+<details><summary><code>...</code></summary>
 
-**No.** `problem` is rank 4 at 11.1%. The model wanted `reason` at 36.3%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `reason` | 36.3% | 1.46 bits |
-| 2 | `purpose` | 30.8% | 1.70 bits |
-| 3 | `changes` | 13.5% | 2.89 bits |
-| 4 | `problem` | 11.1% | 3.17 bits |
-| 5 | `change` | 8.4% | 3.58 bits |
-
-</details>
-
-<details><summary><code>change</code></summary>
-
-**No.** `change` is rank 5 at 8.4%. The model wanted `reason` at 36.3%.
+**No.** `...` is rank 5 at 1.5%. The model wanted `because` at 71.7%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `reason` | 36.3% | 1.46 bits |
-| 2 | `purpose` | 30.8% | 1.70 bits |
-| 3 | `changes` | 13.5% | 2.89 bits |
-| 4 | `problem` | 11.1% | 3.17 bits |
-| 5 | `change` | 8.4% | 3.58 bits |
+| 1 | `because` | 71.7% | 0.48 bits |
+| 2 | `due` | 20.1% | 2.32 bits |
+| 3 | `that` | 5.1% | 4.29 bits |
+| 4 | `a` | 1.6% | 5.96 bits |
+| 5 | `...` | 1.5% | 6.06 bits |
 
 </details>
 
-<details><summary><code>reason</code></summary>
+<details><summary><code>because</code></summary>
 
-**Correct.** The model's top token, at **36.3%** of the visible mass, carrying 1.46 bits.
+**Correct.** The model's top token, at **71.7%** of the visible mass, carrying 0.48 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `reason` | 36.3% | 1.46 bits |
-| 2 | `purpose` | 30.8% | 1.70 bits |
-| 3 | `changes` | 13.5% | 2.89 bits |
-| 4 | `problem` | 11.1% | 3.17 bits |
-| 5 | `change` | 8.4% | 3.58 bits |
+| 1 | `because` | 71.7% | 0.48 bits |
+| 2 | `due` | 20.1% | 2.32 bits |
+| 3 | `that` | 5.1% | 4.29 bits |
+| 4 | `a` | 1.6% | 5.96 bits |
+| 5 | `...` | 1.5% | 6.06 bits |
 
 </details>
 
-<details><summary><code>changes</code></summary>
+<details><summary><code>due</code></summary>
 
-**No.** `changes` is rank 3 at 13.5%. The model wanted `reason` at 36.3%.
+**No.** `due` is rank 2 at 20.1%. The model wanted `because` at 71.7%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `reason` | 36.3% | 1.46 bits |
-| 2 | `purpose` | 30.8% | 1.70 bits |
-| 3 | `changes` | 13.5% | 2.89 bits |
-| 4 | `problem` | 11.1% | 3.17 bits |
-| 5 | `change` | 8.4% | 3.58 bits |
+| 1 | `because` | 71.7% | 0.48 bits |
+| 2 | `due` | 20.1% | 2.32 bits |
+| 3 | `that` | 5.1% | 4.29 bits |
+| 4 | `a` | 1.6% | 5.96 bits |
+| 5 | `...` | 1.5% | 6.06 bits |
 
 </details>
 
-<details><summary><code>purpose</code></summary>
+<details><summary><code>a</code></summary>
 
-**No.** `purpose` is rank 2 at 30.8%. The model wanted `reason` at 36.3%.
+**No.** `a` is rank 4 at 1.6%. The model wanted `because` at 71.7%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `reason` | 36.3% | 1.46 bits |
-| 2 | `purpose` | 30.8% | 1.70 bits |
-| 3 | `changes` | 13.5% | 2.89 bits |
-| 4 | `problem` | 11.1% | 3.17 bits |
-| 5 | `change` | 8.4% | 3.58 bits |
+| 1 | `because` | 71.7% | 0.48 bits |
+| 2 | `due` | 20.1% | 2.32 bits |
+| 3 | `that` | 5.1% | 4.29 bits |
+| 4 | `a` | 1.6% | 5.96 bits |
+| 5 | `...` | 1.5% | 6.06 bits |
 
 </details>
 
-Today's puzzle carries **2.09 bits** of entropy out of a possible
+<details><summary><code>that</code></summary>
+
+**No.** `that` is rank 3 at 5.1%. The model wanted `because` at 71.7%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `because` | 71.7% | 0.48 bits |
+| 2 | `due` | 20.1% | 2.32 bits |
+| 3 | `that` | 5.1% | 4.29 bits |
+| 4 | `a` | 1.6% | 5.96 bits |
+| 5 | `...` | 1.5% | 6.06 bits |
+
+</details>
+
+Today's puzzle carries **1.22 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,7 +331,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 202 | 1.1 MB | 2026-09-29 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 203 | 1.1 MB | 2026-09-29 | Config files for my GitHub profile. |
 | [`dek`](https://github.com/UbhayAab/dek) | JavaScript | 192 | 41 MB | 2026-09-22 | Soop - invite-only team chat. A Redtree product. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 30 Sept 2026 03:43 IST from 4 GraphQL points in 6.0s.
-Run #200. Rebuilds every 6 hours and on every push.
+Generated 30 Sept 2026 11:00 IST from 4 GraphQL points in 4.4s.
+Run #201. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 29 private repositories</b>, so their numbers are carried
-forward from 29 Sept 2026 18:20 rather than dropped.
+forward from 30 Sept 2026 03:43 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
