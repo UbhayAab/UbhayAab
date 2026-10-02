@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 131 active days in the last year, longest run 59.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 9 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 7 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Electron applications are criticised mainly for their **___**
+> The first thing to check when a GPU is idle is the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>resource</code></summary>
+<details><summary><code>Power</code></summary>
 
-**No.** `resource` is rank 2 at 24.2%. The model wanted `lack` at 27.5%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `lack` | 27.5% | 1.86 bits |
-| 2 | `resource` | 24.2% | 2.05 bits |
-| 3 | `ste` | 21.1% | 2.25 bits |
-| 4 | `limited` | 16.6% | 2.59 bits |
-| 5 | `complex` | 10.6% | 3.24 bits |
-
-</details>
-
-<details><summary><code>ste</code></summary>
-
-**No.** `ste` is rank 3 at 21.1%. The model wanted `lack` at 27.5%.
+**No.** `Power` is rank 2 at 8.4%. The model wanted `power` at 77.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `lack` | 27.5% | 1.86 bits |
-| 2 | `resource` | 24.2% | 2.05 bits |
-| 3 | `ste` | 21.1% | 2.25 bits |
-| 4 | `limited` | 16.6% | 2.59 bits |
-| 5 | `complex` | 10.6% | 3.24 bits |
+| 1 | `power` | 77.9% | 0.36 bits |
+| 2 | `Power` | 8.4% | 3.58 bits |
+| 3 | `GPU` | 5.4% | 4.20 bits |
+| 4 | `driver` | 4.5% | 4.48 bits |
+| 5 | `system` | 3.8% | 4.71 bits |
 
 </details>
 
-<details><summary><code>complex</code></summary>
+<details><summary><code>driver</code></summary>
 
-**No.** `complex` is rank 5 at 10.6%. The model wanted `lack` at 27.5%.
+**No.** `driver` is rank 4 at 4.5%. The model wanted `power` at 77.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `lack` | 27.5% | 1.86 bits |
-| 2 | `resource` | 24.2% | 2.05 bits |
-| 3 | `ste` | 21.1% | 2.25 bits |
-| 4 | `limited` | 16.6% | 2.59 bits |
-| 5 | `complex` | 10.6% | 3.24 bits |
+| 1 | `power` | 77.9% | 0.36 bits |
+| 2 | `Power` | 8.4% | 3.58 bits |
+| 3 | `GPU` | 5.4% | 4.20 bits |
+| 4 | `driver` | 4.5% | 4.48 bits |
+| 5 | `system` | 3.8% | 4.71 bits |
 
 </details>
 
-<details><summary><code>lack</code></summary>
+<details><summary><code>power</code></summary>
 
-**Correct.** The model's top token, at **27.5%** of the visible mass, carrying 1.86 bits.
+**Correct.** The model's top token, at **77.9%** of the visible mass, carrying 0.36 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `lack` | 27.5% | 1.86 bits |
-| 2 | `resource` | 24.2% | 2.05 bits |
-| 3 | `ste` | 21.1% | 2.25 bits |
-| 4 | `limited` | 16.6% | 2.59 bits |
-| 5 | `complex` | 10.6% | 3.24 bits |
+| 1 | `power` | 77.9% | 0.36 bits |
+| 2 | `Power` | 8.4% | 3.58 bits |
+| 3 | `GPU` | 5.4% | 4.20 bits |
+| 4 | `driver` | 4.5% | 4.48 bits |
+| 5 | `system` | 3.8% | 4.71 bits |
 
 </details>
 
-<details><summary><code>limited</code></summary>
+<details><summary><code>system</code></summary>
 
-**No.** `limited` is rank 4 at 16.6%. The model wanted `lack` at 27.5%.
+**No.** `system` is rank 5 at 3.8%. The model wanted `power` at 77.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `lack` | 27.5% | 1.86 bits |
-| 2 | `resource` | 24.2% | 2.05 bits |
-| 3 | `ste` | 21.1% | 2.25 bits |
-| 4 | `limited` | 16.6% | 2.59 bits |
-| 5 | `complex` | 10.6% | 3.24 bits |
+| 1 | `power` | 77.9% | 0.36 bits |
+| 2 | `Power` | 8.4% | 3.58 bits |
+| 3 | `GPU` | 5.4% | 4.20 bits |
+| 4 | `driver` | 4.5% | 4.48 bits |
+| 5 | `system` | 3.8% | 4.71 bits |
 
 </details>
 
-Today's puzzle carries **2.25 bits** of entropy out of a possible
+<details><summary><code>GPU</code></summary>
+
+**No.** `GPU` is rank 3 at 5.4%. The model wanted `power` at 77.9%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `power` | 77.9% | 0.36 bits |
+| 2 | `Power` | 8.4% | 3.58 bits |
+| 3 | `GPU` | 5.4% | 4.20 bits |
+| 4 | `driver` | 4.5% | 4.48 bits |
+| 5 | `system` | 3.8% | 4.71 bits |
+
+</details>
+
+Today's puzzle carries **1.19 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,7 +331,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 208 | 1.2 MB | 2026-10-01 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 209 | 474 KB | 2026-10-01 | Config files for my GitHub profile. |
 | [`dek`](https://github.com/UbhayAab/dek) | JavaScript | 192 | 41 MB | 2026-09-22 | Soop - invite-only team chat. A Redtree product. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 02 Oct 2026 04:09 IST from 4 GraphQL points in 4.8s.
-Run #206. Rebuilds every 6 hours and on every push.
+Generated 02 Oct 2026 11:04 IST from 4 GraphQL points in 5.1s.
+Run #207. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 29 private repositories</b>, so their numbers are carried
-forward from 01 Oct 2026 18:41 rather than dropped.
+forward from 02 Oct 2026 04:09 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
