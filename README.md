@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 137 active days in the last year, longest run 66.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 10 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 7 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> The correct number of retries for a network call is **___**
+> Quantising a model to 4 bits mostly costs you **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>...</code></summary>
+<details><summary><code>precision</code></summary>
 
-**No.** `...` is rank 3 at 25.0%. The model wanted `typically` at 31.3%.
+**No.** `precision` is rank 3 at 14.6%. The model wanted `nothing` at 33.8%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `typically` | 31.3% | 1.68 bits |
-| 2 | `a` | 25.2% | 1.99 bits |
-| 3 | `...` | 25.0% | 2.00 bits |
-| 4 | `usually` | 11.7% | 3.09 bits |
-| 5 | `three` | 6.8% | 3.88 bits |
+| 1 | `nothing` | 33.8% | 1.57 bits |
+| 2 | `the` | 26.7% | 1.91 bits |
+| 3 | `precision` | 14.6% | 2.78 bits |
+| 4 | `a` | 12.5% | 3.00 bits |
+| 5 | `memory` | 12.5% | 3.00 bits |
 
 </details>
 
-<details><summary><code>usually</code></summary>
+<details><summary><code>nothing</code></summary>
 
-**No.** `usually` is rank 4 at 11.7%. The model wanted `typically` at 31.3%.
+**Correct.** The model's top token, at **33.8%** of the visible mass, carrying 1.57 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `typically` | 31.3% | 1.68 bits |
-| 2 | `a` | 25.2% | 1.99 bits |
-| 3 | `...` | 25.0% | 2.00 bits |
-| 4 | `usually` | 11.7% | 3.09 bits |
-| 5 | `three` | 6.8% | 3.88 bits |
+| 1 | `nothing` | 33.8% | 1.57 bits |
+| 2 | `the` | 26.7% | 1.91 bits |
+| 3 | `precision` | 14.6% | 2.78 bits |
+| 4 | `a` | 12.5% | 3.00 bits |
+| 5 | `memory` | 12.5% | 3.00 bits |
 
 </details>
 
 <details><summary><code>a</code></summary>
 
-**No.** `a` is rank 2 at 25.2%. The model wanted `typically` at 31.3%.
+**No.** `a` is rank 4 at 12.5%. The model wanted `nothing` at 33.8%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `typically` | 31.3% | 1.68 bits |
-| 2 | `a` | 25.2% | 1.99 bits |
-| 3 | `...` | 25.0% | 2.00 bits |
-| 4 | `usually` | 11.7% | 3.09 bits |
-| 5 | `three` | 6.8% | 3.88 bits |
+| 1 | `nothing` | 33.8% | 1.57 bits |
+| 2 | `the` | 26.7% | 1.91 bits |
+| 3 | `precision` | 14.6% | 2.78 bits |
+| 4 | `a` | 12.5% | 3.00 bits |
+| 5 | `memory` | 12.5% | 3.00 bits |
 
 </details>
 
-<details><summary><code>three</code></summary>
+<details><summary><code>the</code></summary>
 
-**No.** `three` is rank 5 at 6.8%. The model wanted `typically` at 31.3%.
+**No.** `the` is rank 2 at 26.7%. The model wanted `nothing` at 33.8%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `typically` | 31.3% | 1.68 bits |
-| 2 | `a` | 25.2% | 1.99 bits |
-| 3 | `...` | 25.0% | 2.00 bits |
-| 4 | `usually` | 11.7% | 3.09 bits |
-| 5 | `three` | 6.8% | 3.88 bits |
+| 1 | `nothing` | 33.8% | 1.57 bits |
+| 2 | `the` | 26.7% | 1.91 bits |
+| 3 | `precision` | 14.6% | 2.78 bits |
+| 4 | `a` | 12.5% | 3.00 bits |
+| 5 | `memory` | 12.5% | 3.00 bits |
 
 </details>
 
-<details><summary><code>typically</code></summary>
+<details><summary><code>memory</code></summary>
 
-**Correct.** The model's top token, at **31.3%** of the visible mass, carrying 1.68 bits.
+**No.** `memory` is rank 5 at 12.5%. The model wanted `nothing` at 33.8%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `typically` | 31.3% | 1.68 bits |
-| 2 | `a` | 25.2% | 1.99 bits |
-| 3 | `...` | 25.0% | 2.00 bits |
-| 4 | `usually` | 11.7% | 3.09 bits |
-| 5 | `three` | 6.8% | 3.88 bits |
+| 1 | `nothing` | 33.8% | 1.57 bits |
+| 2 | `the` | 26.7% | 1.91 bits |
+| 3 | `precision` | 14.6% | 2.78 bits |
+| 4 | `a` | 12.5% | 3.00 bits |
+| 5 | `memory` | 12.5% | 3.00 bits |
 
 </details>
 
-Today's puzzle carries **2.15 bits** of entropy out of a possible
+Today's puzzle carries **2.19 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,7 +331,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 229 | 860 KB | 2026-10-08 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 230 | 862 KB | 2026-10-08 | Config files for my GitHub profile. |
 | [`dek`](https://github.com/UbhayAab/dek) | JavaScript | 193 | 41 MB | 2026-10-03 | Soop - invite-only team chat. A Redtree product. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 09 Oct 2026 04:49 IST from 4 GraphQL points in 5.0s.
-Run #227. Rebuilds every 6 hours and on every push.
+Generated 09 Oct 2026 11:36 IST from 4 GraphQL points in 4.8s.
+Run #228. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 29 private repositories</b>, so their numbers are carried
-forward from 08 Oct 2026 18:56 rather than dropped.
+forward from 09 Oct 2026 04:49 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
