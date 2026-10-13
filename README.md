@@ -19,12 +19,12 @@
 </p>
 
 <!-- BEGIN:PROSE -->
-37 repositories, 13 of them public, 1,536 commits between them.
+37 repositories, 11 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-140 active days in the last year, longest run 70.
+141 active days in the last year, longest run 71.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 9 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 33 minutes ago to [`JCF`](https://github.com/UbhayAab/JCF) - `publish from JCF-app, 2026-10-13 00:04`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Every distributed system eventually reinvents **___**
+> The KV cache grows linearly with the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>a</code></summary>
+<details><summary><code>incre</code></summary>
 
-**No.** `a` is rank 4 at 1.0%. The model wanted `the` at 80.4%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
-
-</details>
-
-<details><summary><code>its</code></summary>
-
-**No.** `its` is rank 3 at 2.4%. The model wanted `the` at 80.4%.
+**No.** `incre` is rank 4 at 0.8%. The model wanted `number` at 89.2%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
 
 </details>
 
-<details><summary><code>it</code></summary>
+<details><summary><code>size</code></summary>
 
-**No.** `it` is rank 5 at 0.6%. The model wanted `the` at 80.4%.
+**No.** `size` is rank 2 at 7.2%. The model wanted `number` at 89.2%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
 
 </details>
 
-<details><summary><code>...</code></summary>
+<details><summary><code>number</code></summary>
 
-**No.** `...` is rank 2 at 15.6%. The model wanted `the` at 80.4%.
+**Correct.** The model's top token, at **89.2%** of the visible mass, carrying 0.16 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
 
 </details>
 
-<details><summary><code>the</code></summary>
+<details><summary><code>increase</code></summary>
 
-**Correct.** The model's top token, at **80.4%** of the visible mass, carrying 0.31 bits.
+**No.** `increase` is rank 5 at 0.8%. The model wanted `number` at 89.2%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `the` | 80.4% | 0.31 bits |
-| 2 | `...` | 15.6% | 2.68 bits |
-| 3 | `its` | 2.4% | 5.37 bits |
-| 4 | `a` | 1.0% | 6.72 bits |
-| 5 | `it` | 0.6% | 7.27 bits |
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
 
 </details>
 
-Today's puzzle carries **0.91 bits** of entropy out of a possible
+<details><summary><code>amount</code></summary>
+
+**No.** `amount` is rank 3 at 1.9%. The model wanted `number` at 89.2%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `number` | 89.2% | 0.16 bits |
+| 2 | `size` | 7.2% | 3.79 bits |
+| 3 | `amount` | 1.9% | 5.72 bits |
+| 4 | `incre` | 0.8% | 6.90 bits |
+| 5 | `increase` | 0.8% | 6.95 bits |
+
+</details>
+
+Today's puzzle carries **0.64 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,14 +331,14 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 240 | 1.0 MB | 2026-10-12 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 241 | 1.0 MB | 2026-10-12 | Config files for my GitHub profile. |
 | [`dek`](https://github.com/UbhayAab/dek) | JavaScript | 193 | 41 MB | 2026-10-03 | Soop - invite-only team chat. A Redtree product. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
-| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 58 | 1.3 MB | 2026-10-09 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
+| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 65 | 1.6 MB | 2026-10-13 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 27 | 466 KB | 2026-09-19 |  |
@@ -349,7 +349,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | `hearth` <sub>private</sub> | JavaScript | 21 | 117 MB | 2026-07-28 |  |
 | `continuity` <sub>private</sub> | Python | 21 | 207 KB | 2026-07-18 |  |
 | `carcinome_wp` <sub>private</sub> | TypeScript | 11 | 964 KB | 2026-07-25 |  |
-| [`UbhayAab.github.io`](https://github.com/UbhayAab/UbhayAab.github.io) | JavaScript | 9 | 297 KB | 2026-08-12 | Landing page. Hand-rolled WebGL2, five playable games, every number measured. |
+| [`UbhayAab.github.io`](https://github.com/UbhayAab/UbhayAab.github.io) | JavaScript | 10 | 2.9 MB | 2026-10-12 | Landing page. Hand-rolled WebGL2, five playable games, every number measured. |
 | [`EggAplha`](https://github.com/UbhayAab/EggAplha) | HTML | 8 | 46 KB | 2026-02-20 |  |
 | [`maya-bridge-demo-canva-artifact`](https://github.com/UbhayAab/maya-bridge-demo-canva-artifact) | - | 7 | 60 MB | 2026-09-10 | Public Canva import artifact for Maya and the Tiny Bridge prototype |
 | [`Nexus`](https://github.com/UbhayAab/Nexus) | Kotlin | 7 | 1.2 MB | 2025-10-05 |  |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 12 Oct 2026 20:51 IST from 4 GraphQL points in 4.5s.
-Run #238. Rebuilds every 6 hours and on every push.
+Generated 13 Oct 2026 06:08 IST from 4 GraphQL points in 4.8s.
+Run #239. Rebuilds every 6 hours and on every push.
 <br>
-<b>This run could not see 29 private repositories</b>, so their numbers are carried
-forward from 12 Oct 2026 11:24 rather than dropped.
+<b>This run could not see 31 private repositories</b>, so their numbers are carried
+forward from 12 Oct 2026 20:51 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
