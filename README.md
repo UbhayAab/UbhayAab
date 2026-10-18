@@ -21,10 +21,10 @@
 <!-- BEGIN:PROSE -->
 37 repositories, 11 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-145 active days in the last year, longest run 75.
+146 active days in the last year, longest run 76.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 2 hours ago to [`JCF`](https://github.com/UbhayAab/JCF) - `publish from JCF-app, 2026-10-17 18:41`.
+Last push 6 hours ago to [`JCF`](https://github.com/UbhayAab/JCF) - `publish from JCF-app, 2026-10-17 22:25`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> The point of a type system is to make certain states **___**
+> Row level security in Postgres is enforced by the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>of</code></summary>
+<details><summary><code>setting</code></summary>
 
-**No.** `of` is rank 3 at 14.7%. The model wanted `im` at 51.2%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `im` | 51.2% | 0.97 bits |
-| 2 | `un` | 22.9% | 2.13 bits |
-| 3 | `of` | 14.7% | 2.77 bits |
-| 4 | `...` | 6.0% | 4.06 bits |
-| 5 | `in` | 5.3% | 4.25 bits |
-
-</details>
-
-<details><summary><code>im</code></summary>
-
-**Correct.** The model's top token, at **51.2%** of the visible mass, carrying 0.97 bits.
+**No.** `setting` is rank 5 at 5.5%. The model wanted `security` at 66.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `im` | 51.2% | 0.97 bits |
-| 2 | `un` | 22.9% | 2.13 bits |
-| 3 | `of` | 14.7% | 2.77 bits |
-| 4 | `...` | 6.0% | 4.06 bits |
-| 5 | `in` | 5.3% | 4.25 bits |
+| 1 | `security` | 66.5% | 0.59 bits |
+| 2 | `row` | 14.6% | 2.78 bits |
+| 3 | `'` | 7.1% | 3.82 bits |
+| 4 | `policy` | 6.4% | 3.97 bits |
+| 5 | `setting` | 5.5% | 4.19 bits |
 
 </details>
 
-<details><summary><code>un</code></summary>
+<details><summary><code>row</code></summary>
 
-**No.** `un` is rank 2 at 22.9%. The model wanted `im` at 51.2%.
+**No.** `row` is rank 2 at 14.6%. The model wanted `security` at 66.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `im` | 51.2% | 0.97 bits |
-| 2 | `un` | 22.9% | 2.13 bits |
-| 3 | `of` | 14.7% | 2.77 bits |
-| 4 | `...` | 6.0% | 4.06 bits |
-| 5 | `in` | 5.3% | 4.25 bits |
+| 1 | `security` | 66.5% | 0.59 bits |
+| 2 | `row` | 14.6% | 2.78 bits |
+| 3 | `'` | 7.1% | 3.82 bits |
+| 4 | `policy` | 6.4% | 3.97 bits |
+| 5 | `setting` | 5.5% | 4.19 bits |
 
 </details>
 
-<details><summary><code>in</code></summary>
+<details><summary><code>security</code></summary>
 
-**No.** `in` is rank 5 at 5.3%. The model wanted `im` at 51.2%.
+**Correct.** The model's top token, at **66.5%** of the visible mass, carrying 0.59 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `im` | 51.2% | 0.97 bits |
-| 2 | `un` | 22.9% | 2.13 bits |
-| 3 | `of` | 14.7% | 2.77 bits |
-| 4 | `...` | 6.0% | 4.06 bits |
-| 5 | `in` | 5.3% | 4.25 bits |
+| 1 | `security` | 66.5% | 0.59 bits |
+| 2 | `row` | 14.6% | 2.78 bits |
+| 3 | `'` | 7.1% | 3.82 bits |
+| 4 | `policy` | 6.4% | 3.97 bits |
+| 5 | `setting` | 5.5% | 4.19 bits |
 
 </details>
 
-<details><summary><code>...</code></summary>
+<details><summary><code>'</code></summary>
 
-**No.** `...` is rank 4 at 6.0%. The model wanted `im` at 51.2%.
+**No.** `'` is rank 3 at 7.1%. The model wanted `security` at 66.5%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `im` | 51.2% | 0.97 bits |
-| 2 | `un` | 22.9% | 2.13 bits |
-| 3 | `of` | 14.7% | 2.77 bits |
-| 4 | `...` | 6.0% | 4.06 bits |
-| 5 | `in` | 5.3% | 4.25 bits |
+| 1 | `security` | 66.5% | 0.59 bits |
+| 2 | `row` | 14.6% | 2.78 bits |
+| 3 | `'` | 7.1% | 3.82 bits |
+| 4 | `policy` | 6.4% | 3.97 bits |
+| 5 | `setting` | 5.5% | 4.19 bits |
 
 </details>
 
-Today's puzzle carries **1.85 bits** of entropy out of a possible
+<details><summary><code>policy</code></summary>
+
+**No.** `policy` is rank 4 at 6.4%. The model wanted `security` at 66.5%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `security` | 66.5% | 0.59 bits |
+| 2 | `row` | 14.6% | 2.78 bits |
+| 3 | `'` | 7.1% | 3.82 bits |
+| 4 | `policy` | 6.4% | 3.97 bits |
+| 5 | `setting` | 5.5% | 4.19 bits |
+
+</details>
+
+Today's puzzle carries **1.55 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,14 +331,14 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 259 | 1.4 MB | 2026-10-17 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 260 | 574 KB | 2026-10-17 | Config files for my GitHub profile. |
 | [`dek`](https://github.com/UbhayAab/dek) | JavaScript | 193 | 41 MB | 2026-10-03 | Soop - invite-only team chat. A Redtree product. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
 | [`trackerz`](https://github.com/UbhayAab/trackerz) | JavaScript | 135 | 19 MB | 2026-09-10 |  |
 | `kdp-ads-brain` <sub>private</sub> | Python | 126 | 15 MB | 2026-08-08 | Amazon Ads automation and daily catalogue brain for KDP books |
 | `illustrated-book-content-engine` <sub>private</sub> | Python | 119 | 2.3 GB | 2026-08-03 | Illustrated book content engine for AI storybook production and Canva handoff. |
 | `public-complaint-hub` <sub>private</sub> | TypeScript | 102 | 602 KB | 2025-04-13 |  |
-| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 82 | 2.6 MB | 2026-10-17 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
+| [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 86 | 2.8 MB | 2026-10-17 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
 | [`kdp-ads-dashboard`](https://github.com/UbhayAab/kdp-ads-dashboard) | HTML | 45 | 451 KB | 2026-08-29 | KDP ads dashboard |
 | `glance` <sub>private</sub> | JavaScript | 28 | 10 MB | 2026-08-09 | An elegant, fast, offline viewer for CSV, Excel, Word, PowerPoint and Markdown on Wi |
 | [`hearth-web`](https://github.com/UbhayAab/hearth-web) | HTML | 27 | 466 KB | 2026-09-19 |  |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 18 Oct 2026 02:05 IST from 4 GraphQL points in 4.4s.
-Run #257. Rebuilds every 6 hours and on every push.
+Generated 18 Oct 2026 09:59 IST from 4 GraphQL points in 3.7s.
+Run #258. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 31 private repositories</b>, so their numbers are carried
-forward from 17 Oct 2026 21:02 rather than dropped.
+forward from 18 Oct 2026 02:05 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
