@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T04:47:56.881Z",
+  "generatedAt": "2026-10-20T11:33:30.922Z",
   "generatedBy": "scripts/gen-stats.mjs",
   "graphqlCost": 4,
-  "runId": 265,
+  "runId": 266,
   "tz": "Asia/Kolkata",
   "profile": {
     "login": "UbhayAab",
@@ -21,18 +21,18 @@
     "totalCommits": 1536
   },
   "contributions": {
-    "lastYear": 3290,
-    "commits": 634,
+    "lastYear": 3295,
+    "commits": 636,
     "repositoriesCreated": 10,
-    "activeDays": 147,
+    "activeDays": 148,
     "trackedDays": 367,
     "busiestDay": {
       "date": "2026-10-13",
       "contributionCount": 133,
       "weekday": 2
     },
-    "longestStreak": 77,
-    "currentStreak": 77
+    "longestStreak": 78,
+    "currentStreak": 78
   },
   "languages": [
     {
@@ -419,7 +419,7 @@
       "languageColor": "#f1e05a",
       "commits": 628,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "UbhayAab",
@@ -427,12 +427,12 @@
       "description": "Config files for my GitHub profile.",
       "isPrivate": false,
       "stars": 0,
-      "diskKB": 677,
-      "pushedAt": "2026-10-19T22:20:01Z",
+      "diskKB": 707,
+      "pushedAt": "2026-10-20T04:47:58Z",
       "createdAt": "2021-03-24T23:51:31Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 267,
+      "commits": 268,
       "topics": [
         "config",
         "github-config"
@@ -465,7 +465,7 @@
       "languageColor": "#f1e05a",
       "commits": 178,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "trackerz",
@@ -480,7 +480,7 @@
       "languageColor": "#f1e05a",
       "commits": 135,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "kdp-ads-brain",
@@ -495,7 +495,7 @@
       "languageColor": "#3572A5",
       "commits": 126,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "illustrated-book-content-engine",
@@ -510,7 +510,7 @@
       "languageColor": "#3572A5",
       "commits": 119,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "public-complaint-hub",
@@ -525,7 +525,7 @@
       "languageColor": "#3178c6",
       "commits": 102,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "JCF",
@@ -534,11 +534,11 @@
       "isPrivate": false,
       "stars": 0,
       "diskKB": 2986,
-      "pushedAt": "2026-10-18T06:58:43Z",
+      "pushedAt": "2026-10-20T10:45:55Z",
       "createdAt": "2026-08-29T08:55:30Z",
       "language": "JavaScript",
       "languageColor": "#f1e05a",
-      "commits": 87,
+      "commits": 88,
       "topics": []
     },
     {
@@ -568,7 +568,7 @@
       "languageColor": "#f1e05a",
       "commits": 28,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "hearth-web",
@@ -597,7 +597,7 @@
       "languageColor": "#3572A5",
       "commits": 27,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "kpicomp",
@@ -612,7 +612,7 @@
       "languageColor": "#3178c6",
       "commits": 25,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "JCF-Mailer-v2",
@@ -641,7 +641,7 @@
       "languageColor": "#f1e05a",
       "commits": 23,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "hearth",
@@ -656,7 +656,7 @@
       "languageColor": "#f1e05a",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "continuity",
@@ -671,7 +671,7 @@
       "languageColor": "#3572A5",
       "commits": 21,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "carcinome_wp",
@@ -686,7 +686,7 @@
       "languageColor": "#3178c6",
       "commits": 11,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "UbhayAab.github.io",
@@ -715,7 +715,7 @@
       "languageColor": "#e34c26",
       "commits": 8,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "maya-bridge-demo-canva-artifact",
@@ -744,7 +744,7 @@
       "languageColor": "#A97BFF",
       "commits": 7,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "Ngo_SafaltaSetu",
@@ -759,7 +759,7 @@
       "languageColor": "#e34c26",
       "commits": 6,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "robotics",
@@ -788,7 +788,7 @@
       "languageColor": "#DA5B0B",
       "commits": 5,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "Meloaa",
@@ -803,7 +803,7 @@
       "languageColor": "#e34c26",
       "commits": 4,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "JCF-Gda31885",
@@ -818,7 +818,7 @@
       "languageColor": "#663399",
       "commits": 3,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "AyuSSm",
@@ -847,7 +847,7 @@
       "languageColor": "#f1e05a",
       "commits": 2,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "ean_gen",
@@ -876,7 +876,7 @@
       "languageColor": "#e34c26",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "EmailScraper_JCF",
@@ -891,7 +891,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "Ubhay",
@@ -906,7 +906,7 @@
       "languageColor": "#f1e05a",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "Neemans",
@@ -921,7 +921,7 @@
       "languageColor": "#663399",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "llama.cpp-ubhay",
@@ -936,7 +936,7 @@
       "languageColor": "#f34b7d",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "cleanedemails",
@@ -951,7 +951,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "Ollama-gemma4",
@@ -966,7 +966,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "Midjourney-bot",
@@ -981,7 +981,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "KDP-bot",
@@ -996,7 +996,7 @@
       "languageColor": "#3572A5",
       "commits": 1,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "Patient-Navigator",
@@ -1011,7 +1011,7 @@
       "languageColor": null,
       "commits": 0,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     },
     {
       "name": "replitool",
@@ -1026,29 +1026,43 @@
       "languageColor": null,
       "commits": 0,
       "topics": [],
-      "staleSince": "2026-10-19T22:20:00.452Z"
+      "staleSince": "2026-10-20T04:47:56.881Z"
     }
   ],
   "latestCommit": {
-    "repo": "UbhayAab",
-    "message": "chore: rebuild profile [skip ci]",
-    "at": "2026-10-19T22:20:00Z",
-    "ago": "6 hours ago",
-    "oid": "b08b620"
+    "repo": "JCF",
+    "message": "publish from JCF-app, 2026-10-20 10:45",
+    "at": "2026-10-20T10:45:50Z",
+    "ago": "48 minutes ago",
+    "oid": "cd535be"
   },
   "recentCommits": [
+    {
+      "repo": "JCF",
+      "message": "publish from JCF-app, 2026-10-20 10:45",
+      "at": "2026-10-20T10:45:50Z",
+      "ago": "48 minutes ago",
+      "oid": "cd535be"
+    },
+    {
+      "repo": "UbhayAab",
+      "message": "chore: rebuild profile [skip ci]",
+      "at": "2026-10-20T04:47:57Z",
+      "ago": "7 hours ago",
+      "oid": "5730db5"
+    },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-10-19T22:20:00Z",
-      "ago": "6 hours ago",
+      "ago": "13 hours ago",
       "oid": "b08b620"
     },
     {
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-10-19T13:10:50Z",
-      "ago": "16 hours ago",
+      "ago": "22 hours ago",
       "oid": "7804eb1"
     },
     {
@@ -1062,7 +1076,7 @@
       "repo": "UbhayAab",
       "message": "chore: rebuild profile [skip ci]",
       "at": "2026-10-18T20:40:35Z",
-      "ago": "1 day ago",
+      "ago": "2 days ago",
       "oid": "b75fbd7"
     },
     {
@@ -1097,29 +1111,15 @@
       "repo": "JCF",
       "message": "publish from JCF-app, 2026-10-17 22:25",
       "at": "2026-10-17T22:25:43Z",
-      "ago": "2 days ago",
+      "ago": "3 days ago",
       "oid": "d04911e"
     },
     {
       "repo": "JCF",
       "message": "publish from JCF-app, 2026-10-17 22:10",
       "at": "2026-10-17T22:10:19Z",
-      "ago": "2 days ago",
+      "ago": "3 days ago",
       "oid": "eed6485"
-    },
-    {
-      "repo": "JCF",
-      "message": "publish from JCF-app, 2026-10-17 21:40",
-      "at": "2026-10-17T21:40:30Z",
-      "ago": "2 days ago",
-      "oid": "1607171"
-    },
-    {
-      "repo": "JCF",
-      "message": "publish from JCF-app, 2026-10-17 21:24",
-      "at": "2026-10-17T21:24:23Z",
-      "ago": "2 days ago",
-      "oid": "c7533b4"
     }
   ],
   "calendar": [
@@ -2589,10 +2589,10 @@
     },
     {
       "date": "2026-10-20",
-      "count": 0
+      "count": 5
     }
   ],
-  "elapsedMs": 3715,
+  "elapsedMs": 4030,
   "partialVisibility": {
     "missingCount": 31,
     "missingNames": [
@@ -2628,7 +2628,7 @@
       "Patient-Navigator",
       "replitool"
     ],
-    "lastFullRun": "2026-10-19T22:20:00.452Z",
+    "lastFullRun": "2026-10-20T04:47:56.881Z",
     "reason": "the token used for this run cannot see these repositories"
   }
 }
