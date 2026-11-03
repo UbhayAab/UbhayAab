@@ -24,7 +24,7 @@ Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tra
 161 active days in the last year, longest run 91.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 10 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 9 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Static site generators became popular because they **___**
+> The hardest bug I ever found turned out to be a **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>off</code></summary>
+<details><summary><code>typ</code></summary>
 
-**No.** `off` is rank 2 at 20.7%. The model wanted `allowed` at 55.5%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
-
-</details>
-
-<details><summary><code>...</code></summary>
-
-**No.** `...` is rank 4 at 6.5%. The model wanted `allowed` at 55.5%.
+**No.** `typ` is rank 5 at 11.8%. The model wanted `single` at 31.6%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
 
 </details>
 
-<details><summary><code>they</code></summary>
+<details><summary><code>simple</code></summary>
 
-**No.** `they` is rank 5 at 6.5%. The model wanted `allowed` at 55.5%.
+**No.** `simple` is rank 2 at 22.8%. The model wanted `single` at 31.6%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
 
 </details>
 
-<details><summary><code>allow</code></summary>
+<details><summary><code>mis</code></summary>
 
-**No.** `allow` is rank 3 at 10.7%. The model wanted `allowed` at 55.5%.
+**No.** `mis` is rank 3 at 20.2%. The model wanted `single` at 31.6%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
 
 </details>
 
-<details><summary><code>allowed</code></summary>
+<details><summary><code>single</code></summary>
 
-**Correct.** The model's top token, at **55.5%** of the visible mass, carrying 0.85 bits.
+**Correct.** The model's top token, at **31.6%** of the visible mass, carrying 1.66 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `allowed` | 55.5% | 0.85 bits |
-| 2 | `off` | 20.7% | 2.27 bits |
-| 3 | `allow` | 10.7% | 3.22 bits |
-| 4 | `...` | 6.5% | 3.93 bits |
-| 5 | `they` | 6.5% | 3.93 bits |
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
 
 </details>
 
-Today's puzzle carries **1.80 bits** of entropy out of a possible
+<details><summary><code>small</code></summary>
+
+**No.** `small` is rank 4 at 13.6%. The model wanted `single` at 31.6%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `single` | 31.6% | 1.66 bits |
+| 2 | `simple` | 22.8% | 2.13 bits |
+| 3 | `mis` | 20.2% | 2.31 bits |
+| 4 | `small` | 13.6% | 2.88 bits |
+| 5 | `typ` | 11.8% | 3.09 bits |
+
+</details>
+
+Today's puzzle carries **2.23 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,7 +331,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 314 | 710 KB | 2026-11-02 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 315 | 741 KB | 2026-11-02 | Config files for my GitHub profile. |
 | [`dek`](https://github.com/UbhayAab/dek) | TypeScript | 242 | 47 MB | 2026-10-29 | Soop - invite-only team chat. A Redtree product. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
 | [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 146 | 2.7 MB | 2026-11-02 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 02 Nov 2026 21:17 IST from 4 GraphQL points in 5.1s.
-Run #312. Rebuilds every 6 hours and on every push.
+Generated 03 Nov 2026 06:26 IST from 4 GraphQL points in 5.0s.
+Run #313. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 31 private repositories</b>, so their numbers are carried
-forward from 02 Nov 2026 11:28 rather than dropped.
+forward from 02 Nov 2026 21:17 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
