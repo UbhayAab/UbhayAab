@@ -6,77 +6,77 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Amazon advertising campaigns waste most of their budget on **___**
+> The hardest part of porting a model to llama.cpp is the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>ads</code></summary>
+<details><summary><code>fact</code></summary>
 
-**No.** `ads` is rank 5 at 15.2%. The model wanted `low` at 29.1%.
+**Correct.** The model's top token, at **25.4%** of the visible mass, carrying 1.98 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
-<details><summary><code>display</code></summary>
+<details><summary><code>getting</code></summary>
 
-**No.** `display` is rank 3 at 18.3%. The model wanted `low` at 29.1%.
+**No.** `getting` is rank 4 at 17.2%. The model wanted `fact` at 25.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
-<details><summary><code>un</code></summary>
+<details><summary><code>...</code></summary>
 
-**No.** `un` is rank 4 at 16.6%. The model wanted `low` at 29.1%.
+**No.** `...` is rank 3 at 19.4%. The model wanted `fact` at 25.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
-<details><summary><code>low</code></summary>
+<details><summary><code>translation</code></summary>
 
-**Correct.** The model's top token, at **29.1%** of the visible mass, carrying 1.78 bits.
+**No.** `translation` is rank 5 at 13.2%. The model wanted `fact` at 25.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
-<details><summary><code>click</code></summary>
+<details><summary><code>lack</code></summary>
 
-**No.** `click` is rank 2 at 20.7%. The model wanted `low` at 29.1%.
+**No.** `lack` is rank 2 at 24.7%. The model wanted `fact` at 25.4%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `low` | 29.1% | 1.78 bits |
-| 2 | `click` | 20.7% | 2.27 bits |
-| 3 | `display` | 18.3% | 2.45 bits |
-| 4 | `un` | 16.6% | 2.59 bits |
-| 5 | `ads` | 15.2% | 2.71 bits |
+| 1 | `fact` | 25.4% | 1.98 bits |
+| 2 | `lack` | 24.7% | 2.02 bits |
+| 3 | `...` | 19.4% | 2.37 bits |
+| 4 | `getting` | 17.2% | 2.54 bits |
+| 5 | `translation` | 13.2% | 2.92 bits |
 
 </details>
 
