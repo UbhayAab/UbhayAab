@@ -21,10 +21,10 @@
 <!-- BEGIN:PROSE -->
 37 repositories, 11 of them public, 1,536 commits between them.
 Mostly C++ 29%, JavaScript 27%, Python 10%, across 21 languages and 50 MB of tracked source.
-173 active days in the last year, longest run 103.
+174 active days in the last year, longest run 104.
 24% of commits land between 23:00 and 06:00, and the single busiest hour of the week is
 Sunday at 01:00.
-Last push 4 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
+Last push 8 hours ago to [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) - `chore: rebuild profile [skip ci]`.
 <!-- END:PROSE -->
 
 ## Work
@@ -86,81 +86,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> The hardest part of porting a model to llama.cpp is the **___**
+> Per-layer embeddings let a model store capacity without **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>fact</code></summary>
+<details><summary><code>in</code></summary>
 
-**Correct.** The model's top token, at **25.4%** of the visible mass, carrying 1.98 bits.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `fact` | 25.4% | 1.98 bits |
-| 2 | `lack` | 24.7% | 2.02 bits |
-| 3 | `...` | 19.4% | 2.37 bits |
-| 4 | `getting` | 17.2% | 2.54 bits |
-| 5 | `translation` | 13.2% | 2.92 bits |
-
-</details>
-
-<details><summary><code>getting</code></summary>
-
-**No.** `getting` is rank 4 at 17.2%. The model wanted `fact` at 25.4%.
+**No.** `in` is rank 5 at 2.9%. The model wanted `incre` at 78.0%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `fact` | 25.4% | 1.98 bits |
-| 2 | `lack` | 24.7% | 2.02 bits |
-| 3 | `...` | 19.4% | 2.37 bits |
-| 4 | `getting` | 17.2% | 2.54 bits |
-| 5 | `translation` | 13.2% | 2.92 bits |
+| 1 | `incre` | 78.0% | 0.36 bits |
+| 2 | `ne` | 7.2% | 3.79 bits |
+| 3 | `having` | 6.7% | 3.90 bits |
+| 4 | `requ` | 5.2% | 4.27 bits |
+| 5 | `in` | 2.9% | 5.11 bits |
 
 </details>
 
-<details><summary><code>...</code></summary>
+<details><summary><code>ne</code></summary>
 
-**No.** `...` is rank 3 at 19.4%. The model wanted `fact` at 25.4%.
+**No.** `ne` is rank 2 at 7.2%. The model wanted `incre` at 78.0%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `fact` | 25.4% | 1.98 bits |
-| 2 | `lack` | 24.7% | 2.02 bits |
-| 3 | `...` | 19.4% | 2.37 bits |
-| 4 | `getting` | 17.2% | 2.54 bits |
-| 5 | `translation` | 13.2% | 2.92 bits |
+| 1 | `incre` | 78.0% | 0.36 bits |
+| 2 | `ne` | 7.2% | 3.79 bits |
+| 3 | `having` | 6.7% | 3.90 bits |
+| 4 | `requ` | 5.2% | 4.27 bits |
+| 5 | `in` | 2.9% | 5.11 bits |
 
 </details>
 
-<details><summary><code>translation</code></summary>
+<details><summary><code>requ</code></summary>
 
-**No.** `translation` is rank 5 at 13.2%. The model wanted `fact` at 25.4%.
+**No.** `requ` is rank 4 at 5.2%. The model wanted `incre` at 78.0%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `fact` | 25.4% | 1.98 bits |
-| 2 | `lack` | 24.7% | 2.02 bits |
-| 3 | `...` | 19.4% | 2.37 bits |
-| 4 | `getting` | 17.2% | 2.54 bits |
-| 5 | `translation` | 13.2% | 2.92 bits |
+| 1 | `incre` | 78.0% | 0.36 bits |
+| 2 | `ne` | 7.2% | 3.79 bits |
+| 3 | `having` | 6.7% | 3.90 bits |
+| 4 | `requ` | 5.2% | 4.27 bits |
+| 5 | `in` | 2.9% | 5.11 bits |
 
 </details>
 
-<details><summary><code>lack</code></summary>
+<details><summary><code>incre</code></summary>
 
-**No.** `lack` is rank 2 at 24.7%. The model wanted `fact` at 25.4%.
+**Correct.** The model's top token, at **78.0%** of the visible mass, carrying 0.36 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `fact` | 25.4% | 1.98 bits |
-| 2 | `lack` | 24.7% | 2.02 bits |
-| 3 | `...` | 19.4% | 2.37 bits |
-| 4 | `getting` | 17.2% | 2.54 bits |
-| 5 | `translation` | 13.2% | 2.92 bits |
+| 1 | `incre` | 78.0% | 0.36 bits |
+| 2 | `ne` | 7.2% | 3.79 bits |
+| 3 | `having` | 6.7% | 3.90 bits |
+| 4 | `requ` | 5.2% | 4.27 bits |
+| 5 | `in` | 2.9% | 5.11 bits |
 
 </details>
 
-Today's puzzle carries **2.28 bits** of entropy out of a possible
+<details><summary><code>having</code></summary>
+
+**No.** `having` is rank 3 at 6.7%. The model wanted `incre` at 78.0%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `incre` | 78.0% | 0.36 bits |
+| 2 | `ne` | 7.2% | 3.79 bits |
+| 3 | `having` | 6.7% | 3.90 bits |
+| 4 | `requ` | 5.2% | 4.27 bits |
+| 5 | `in` | 2.9% | 5.11 bits |
+
+</details>
+
+Today's puzzle carries **1.19 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
@@ -331,7 +331,7 @@ work look thinner than it is; their links are omitted rather than dangled.
 | Repo | Language | Commits | Size | Last push | |
 |---|---|---|---|---|---|
 | [`Priyanka_joshi`](https://github.com/UbhayAab/Priyanka_joshi) | JavaScript | 628 | 285 MB | 2025-03-27 |  |
-| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 343 | 1.3 MB | 2026-11-14 | Config files for my GitHub profile. |
+| [`UbhayAab`](https://github.com/UbhayAab/UbhayAab) | JavaScript | 344 | 1.3 MB | 2026-11-14 | Config files for my GitHub profile. |
 | [`dek`](https://github.com/UbhayAab/dek) | TypeScript | 248 | 47 MB | 2026-11-12 | Soop - invite-only team chat. A Redtree product. |
 | [`soop`](https://github.com/UbhayAab/soop) | JavaScript | 178 | 41 MB | 2026-09-14 | Soop - invite-only team chat. A Redtree product. |
 | [`JCF`](https://github.com/UbhayAab/JCF) | JavaScript | 166 | 1.7 MB | 2026-11-14 | Jarurat Care Foundation: HOPE Circle page and the Patient Navigator portal frontend. |
@@ -379,11 +379,11 @@ work look thinner than it is; their links are omitted rather than dangled.
 
 <p align="center">
 <sub>
-Generated 15 Nov 2026 03:51 IST from 4 GraphQL points in 6.7s.
-Run #341. Rebuilds every 6 hours and on every push.
+Generated 15 Nov 2026 11:57 IST from 4 GraphQL points in 4.1s.
+Run #342. Rebuilds every 6 hours and on every push.
 <br>
 <b>This run could not see 31 private repositories</b>, so their numbers are carried
-forward from 14 Nov 2026 23:28 rather than dropped.
+forward from 15 Nov 2026 03:51 rather than dropped.
 <br>
 Every image on this page is generated by <a href="./scripts">a script in this repo</a> and committed as a file.
 Nothing is fetched from a third-party image service, so nothing here can break when one of them goes down.
