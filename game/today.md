@@ -6,81 +6,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> Row level security in Postgres is enforced by the **___**
+> The best way to debug a slow query is to read the **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>setting</code></summary>
+<details><summary><code>explain</code></summary>
 
-**No.** `setting` is rank 5 at 5.5%. The model wanted `security` at 66.5%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `security` | 66.5% | 0.59 bits |
-| 2 | `row` | 14.6% | 2.78 bits |
-| 3 | `'` | 7.1% | 3.82 bits |
-| 4 | `policy` | 6.4% | 3.97 bits |
-| 5 | `setting` | 5.5% | 4.19 bits |
-
-</details>
-
-<details><summary><code>row</code></summary>
-
-**No.** `row` is rank 2 at 14.6%. The model wanted `security` at 66.5%.
+**No.** `explain` is rank 4 at 5.8%. The model wanted `execution` at 70.3%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `security` | 66.5% | 0.59 bits |
-| 2 | `row` | 14.6% | 2.78 bits |
-| 3 | `'` | 7.1% | 3.82 bits |
-| 4 | `policy` | 6.4% | 3.97 bits |
-| 5 | `setting` | 5.5% | 4.19 bits |
+| 1 | `execution` | 70.3% | 0.51 bits |
+| 2 | `EX` | 12.3% | 3.03 bits |
+| 3 | `query` | 6.2% | 4.01 bits |
+| 4 | `explain` | 5.8% | 4.10 bits |
+| 5 | `ex` | 5.5% | 4.20 bits |
 
 </details>
 
-<details><summary><code>security</code></summary>
+<details><summary><code>execution</code></summary>
 
-**Correct.** The model's top token, at **66.5%** of the visible mass, carrying 0.59 bits.
+**Correct.** The model's top token, at **70.3%** of the visible mass, carrying 0.51 bits.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `security` | 66.5% | 0.59 bits |
-| 2 | `row` | 14.6% | 2.78 bits |
-| 3 | `'` | 7.1% | 3.82 bits |
-| 4 | `policy` | 6.4% | 3.97 bits |
-| 5 | `setting` | 5.5% | 4.19 bits |
+| 1 | `execution` | 70.3% | 0.51 bits |
+| 2 | `EX` | 12.3% | 3.03 bits |
+| 3 | `query` | 6.2% | 4.01 bits |
+| 4 | `explain` | 5.8% | 4.10 bits |
+| 5 | `ex` | 5.5% | 4.20 bits |
 
 </details>
 
-<details><summary><code>'</code></summary>
+<details><summary><code>EX</code></summary>
 
-**No.** `'` is rank 3 at 7.1%. The model wanted `security` at 66.5%.
+**No.** `EX` is rank 2 at 12.3%. The model wanted `execution` at 70.3%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `security` | 66.5% | 0.59 bits |
-| 2 | `row` | 14.6% | 2.78 bits |
-| 3 | `'` | 7.1% | 3.82 bits |
-| 4 | `policy` | 6.4% | 3.97 bits |
-| 5 | `setting` | 5.5% | 4.19 bits |
+| 1 | `execution` | 70.3% | 0.51 bits |
+| 2 | `EX` | 12.3% | 3.03 bits |
+| 3 | `query` | 6.2% | 4.01 bits |
+| 4 | `explain` | 5.8% | 4.10 bits |
+| 5 | `ex` | 5.5% | 4.20 bits |
 
 </details>
 
-<details><summary><code>policy</code></summary>
+<details><summary><code>ex</code></summary>
 
-**No.** `policy` is rank 4 at 6.4%. The model wanted `security` at 66.5%.
+**No.** `ex` is rank 5 at 5.5%. The model wanted `execution` at 70.3%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `security` | 66.5% | 0.59 bits |
-| 2 | `row` | 14.6% | 2.78 bits |
-| 3 | `'` | 7.1% | 3.82 bits |
-| 4 | `policy` | 6.4% | 3.97 bits |
-| 5 | `setting` | 5.5% | 4.19 bits |
+| 1 | `execution` | 70.3% | 0.51 bits |
+| 2 | `EX` | 12.3% | 3.03 bits |
+| 3 | `query` | 6.2% | 4.01 bits |
+| 4 | `explain` | 5.8% | 4.10 bits |
+| 5 | `ex` | 5.5% | 4.20 bits |
 
 </details>
 
-Today's puzzle carries **1.55 bits** of entropy out of a possible
+<details><summary><code>query</code></summary>
+
+**No.** `query` is rank 3 at 6.2%. The model wanted `execution` at 70.3%.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `execution` | 70.3% | 0.51 bits |
+| 2 | `EX` | 12.3% | 3.03 bits |
+| 3 | `query` | 6.2% | 4.01 bits |
+| 4 | `explain` | 5.8% | 4.10 bits |
+| 5 | `ex` | 5.5% | 4.20 bits |
+
+</details>
+
+Today's puzzle carries **1.45 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
