@@ -6,81 +6,81 @@ A real next-token distribution from `llama3.1:8b`, measured on the machine descr
 No model runs to serve this page: the probabilities were computed once and committed, so the
 game has no runtime at all.
 
-> A cache is only useful when the access pattern is **___**
+> Most scrapers fail in production because of **___**
 
 Which token does the model rank first? Open one to find out.
 
-<details><summary><code>sequential</code></summary>
+<details><summary><code>ins</code></summary>
 
-**No.** `sequential` is rank 4 at 6.9%. The model wanted `predict` at 42.5%.
-
-| rank | token | probability | surprisal |
-|---|---|---|---|
-| 1 | `predict` | 42.5% | 1.23 bits |
-| 2 | `known` | 27.0% | 1.89 bits |
-| 3 | `uniform` | 17.0% | 2.56 bits |
-| 4 | `sequential` | 6.9% | 3.85 bits |
-| 5 | `well` | 6.5% | 3.95 bits |
-
-</details>
-
-<details><summary><code>known</code></summary>
-
-**No.** `known` is rank 2 at 27.0%. The model wanted `predict` at 42.5%.
+**No.** `ins` is rank 2 at 20.2%. The model wanted `their` at 29.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `predict` | 42.5% | 1.23 bits |
-| 2 | `known` | 27.0% | 1.89 bits |
-| 3 | `uniform` | 17.0% | 2.56 bits |
-| 4 | `sequential` | 6.9% | 3.85 bits |
-| 5 | `well` | 6.5% | 3.95 bits |
+| 1 | `their` | 29.9% | 1.74 bits |
+| 2 | `ins` | 20.2% | 2.31 bits |
+| 3 | `the` | 17.8% | 2.49 bits |
+| 4 | `in` | 16.2% | 2.63 bits |
+| 5 | `a` | 15.9% | 2.66 bits |
 
 </details>
 
-<details><summary><code>uniform</code></summary>
+<details><summary><code>a</code></summary>
 
-**No.** `uniform` is rank 3 at 17.0%. The model wanted `predict` at 42.5%.
+**No.** `a` is rank 5 at 15.9%. The model wanted `their` at 29.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `predict` | 42.5% | 1.23 bits |
-| 2 | `known` | 27.0% | 1.89 bits |
-| 3 | `uniform` | 17.0% | 2.56 bits |
-| 4 | `sequential` | 6.9% | 3.85 bits |
-| 5 | `well` | 6.5% | 3.95 bits |
+| 1 | `their` | 29.9% | 1.74 bits |
+| 2 | `ins` | 20.2% | 2.31 bits |
+| 3 | `the` | 17.8% | 2.49 bits |
+| 4 | `in` | 16.2% | 2.63 bits |
+| 5 | `a` | 15.9% | 2.66 bits |
 
 </details>
 
-<details><summary><code>well</code></summary>
+<details><summary><code>in</code></summary>
 
-**No.** `well` is rank 5 at 6.5%. The model wanted `predict` at 42.5%.
+**No.** `in` is rank 4 at 16.2%. The model wanted `their` at 29.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `predict` | 42.5% | 1.23 bits |
-| 2 | `known` | 27.0% | 1.89 bits |
-| 3 | `uniform` | 17.0% | 2.56 bits |
-| 4 | `sequential` | 6.9% | 3.85 bits |
-| 5 | `well` | 6.5% | 3.95 bits |
+| 1 | `their` | 29.9% | 1.74 bits |
+| 2 | `ins` | 20.2% | 2.31 bits |
+| 3 | `the` | 17.8% | 2.49 bits |
+| 4 | `in` | 16.2% | 2.63 bits |
+| 5 | `a` | 15.9% | 2.66 bits |
 
 </details>
 
-<details><summary><code>predict</code></summary>
+<details><summary><code>the</code></summary>
 
-**Correct.** The model's top token, at **42.5%** of the visible mass, carrying 1.23 bits.
+**No.** `the` is rank 3 at 17.8%. The model wanted `their` at 29.9%.
 
 | rank | token | probability | surprisal |
 |---|---|---|---|
-| 1 | `predict` | 42.5% | 1.23 bits |
-| 2 | `known` | 27.0% | 1.89 bits |
-| 3 | `uniform` | 17.0% | 2.56 bits |
-| 4 | `sequential` | 6.9% | 3.85 bits |
-| 5 | `well` | 6.5% | 3.95 bits |
+| 1 | `their` | 29.9% | 1.74 bits |
+| 2 | `ins` | 20.2% | 2.31 bits |
+| 3 | `the` | 17.8% | 2.49 bits |
+| 4 | `in` | 16.2% | 2.63 bits |
+| 5 | `a` | 15.9% | 2.66 bits |
 
 </details>
 
-Today's puzzle carries **1.99 bits** of entropy out of a possible
+<details><summary><code>their</code></summary>
+
+**Correct.** The model's top token, at **29.9%** of the visible mass, carrying 1.74 bits.
+
+| rank | token | probability | surprisal |
+|---|---|---|---|
+| 1 | `their` | 29.9% | 1.74 bits |
+| 2 | `ins` | 20.2% | 2.31 bits |
+| 3 | `the` | 17.8% | 2.49 bits |
+| 4 | `in` | 16.2% | 2.63 bits |
+| 5 | `a` | 15.9% | 2.66 bits |
+
+</details>
+
+Today's puzzle carries **2.28 bits** of entropy out of a possible
 2.32, which is the polite way of saying the model is not confident either.
 A new one appears every day.
 
